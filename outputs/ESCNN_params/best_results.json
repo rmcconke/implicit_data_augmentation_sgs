@@ -1,0 +1,11 @@
+{
+    "model_columns": {
+        "eigenframe_model": "False",
+        "model_model_type": "sgsESCNN",
+        "model_n_reg_repr": "64",
+        "model_n_layers": "4"
+    },
+    "val_loss": 0.0010413308627903,
+    "param_count": "2955456",
+    "model_barcode": "26_05_21_12:22:42_casual_duck_nearwall_boxfilter_4x_sgs"
+}

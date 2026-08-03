@@ -1,0 +1,5 @@
+base_config: configs/sweeps/base/CNNnoaug_base_middle.yaml
+
+sweep:
+  model.hidden_channels: [[32,32,32,32],]
+  dataset.train_fraction: [0.1, 0.3, 0.5, 0.75, 1.0]

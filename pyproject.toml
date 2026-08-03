@@ -1,0 +1,27 @@
+[project]
+name = "implicit-data-augmentation"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "e3nn>=0.5.8",
+    "escnn>=1.0.11",
+    "givernylocal>=3.3.3",
+    "imageio>=2.37.2",
+    "matplotlib>=3.10.7",
+    "pandas>=2.3.3",
+    "petname>=2.6",
+    "pytest>=9.0.2",
+    "python-box>=7.3.2",
+    "python-dotenv>=1.2.1",
+    "pyvista[colormaps]>=0.46.4",
+    "pyyaml>=6.0.3",
+    "setuptools>=80.9.0",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.1.0",
+]

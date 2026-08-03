@@ -1,0 +1,1717 @@
+2026-02-18 13:47:10 - INFO - PRINT: WELCOME TO THE EXPERIMENT: 26_02_18_13:47:10_new_wahoo_nearwall_boxfilter_4x_sgs
+2026-02-18 13:47:10 - INFO - PRINT: Using seed: 42
+2026-02-18 13:47:11 - INFO - PRINT: Model param count: 13510
+2026-02-18 13:47:11 - INFO - PRINT: Train samples: 900
+2026-02-18 13:47:11 - INFO - PRINT: Val samples: 75
+2026-02-18 13:47:11 - INFO - PRINT: QC passed: all checks OK
+2026-02-18 13:47:11 - INFO - PRINT: Number of train samples: 900
+2026-02-18 13:47:11 - INFO - PRINT: Number of val samples: 75
+2026-02-18 13:47:12 - INFO - PRINT: Epoch [   0], Train Loss: 0.3511, Validation Loss: 0.2773
+2026-02-18 13:47:12 - INFO - PRINT: ----> Saving model from epoch 0 (val loss: 0.27734729647636414). Aromatic!
+2026-02-18 13:47:12 - INFO - PRINT: Epoch [   1], Train Loss: 0.2757, Validation Loss: 0.2773
+2026-02-18 13:47:12 - INFO - PRINT: Epoch [   2], Train Loss: 0.2402, Validation Loss: 0.2773
+2026-02-18 13:47:12 - INFO - PRINT: Epoch [   3], Train Loss: 0.2208, Validation Loss: 0.2773
+2026-02-18 13:47:12 - INFO - PRINT: Epoch [   4], Train Loss: 0.2110, Validation Loss: 0.2773
+2026-02-18 13:47:13 - INFO - PRINT: Epoch [   5], Train Loss: 0.2058, Validation Loss: 0.2773
+2026-02-18 13:47:13 - INFO - PRINT: Epoch [   6], Train Loss: 0.2030, Validation Loss: 0.2773
+2026-02-18 13:47:13 - INFO - PRINT: Epoch [   7], Train Loss: 0.2009, Validation Loss: 0.2773
+2026-02-18 13:47:13 - INFO - PRINT: Epoch [   8], Train Loss: 0.1994, Validation Loss: 0.2773
+2026-02-18 13:47:13 - INFO - PRINT: Epoch [   9], Train Loss: 0.1983, Validation Loss: 0.2773
+2026-02-18 13:47:13 - INFO - PRINT: Epoch [  10], Train Loss: 0.1976, Validation Loss: 0.2773
+2026-02-18 13:47:13 - INFO - PRINT: Epoch [  11], Train Loss: 0.1966, Validation Loss: 0.2773
+2026-02-18 13:47:13 - INFO - PRINT: Epoch [  12], Train Loss: 0.1961, Validation Loss: 0.2773
+2026-02-18 13:47:13 - INFO - PRINT: Epoch [  13], Train Loss: 0.1956, Validation Loss: 0.2773
+2026-02-18 13:47:13 - INFO - PRINT: Epoch [  14], Train Loss: 0.1947, Validation Loss: 0.2773
+2026-02-18 13:47:13 - INFO - PRINT: Epoch [  15], Train Loss: 0.1944, Validation Loss: 0.2773
+2026-02-18 13:47:13 - INFO - PRINT: Epoch [  16], Train Loss: 0.1940, Validation Loss: 0.2773
+2026-02-18 13:47:13 - INFO - PRINT: Epoch [  17], Train Loss: 0.1935, Validation Loss: 0.2773
+2026-02-18 13:47:14 - INFO - PRINT: Epoch [  18], Train Loss: 0.1930, Validation Loss: 0.2773
+2026-02-18 13:47:14 - INFO - PRINT: Epoch [  19], Train Loss: 0.1931, Validation Loss: 0.2773
+2026-02-18 13:47:14 - INFO - PRINT: Epoch [  20], Train Loss: 0.1928, Validation Loss: 0.1940
+2026-02-18 13:47:14 - INFO - PRINT: Epoch [  21], Train Loss: 0.1920, Validation Loss: 0.1940
+2026-02-18 13:47:14 - INFO - PRINT: Epoch [  22], Train Loss: 0.1917, Validation Loss: 0.1940
+2026-02-18 13:47:14 - INFO - PRINT: Epoch [  23], Train Loss: 0.1919, Validation Loss: 0.1940
+2026-02-18 13:47:14 - INFO - PRINT: Epoch [  24], Train Loss: 0.1919, Validation Loss: 0.1940
+2026-02-18 13:47:14 - INFO - PRINT: Epoch [  25], Train Loss: 0.1911, Validation Loss: 0.1940
+2026-02-18 13:47:14 - INFO - PRINT: Epoch [  26], Train Loss: 0.1908, Validation Loss: 0.1940
+2026-02-18 13:47:14 - INFO - PRINT: Epoch [  27], Train Loss: 0.1910, Validation Loss: 0.1940
+2026-02-18 13:47:15 - INFO - PRINT: Epoch [  28], Train Loss: 0.1906, Validation Loss: 0.1940
+2026-02-18 13:47:15 - INFO - PRINT: Epoch [  29], Train Loss: 0.1906, Validation Loss: 0.1940
+2026-02-18 13:47:15 - INFO - PRINT: Epoch [  30], Train Loss: 0.1905, Validation Loss: 0.1940
+2026-02-18 13:47:15 - INFO - PRINT: Epoch [  31], Train Loss: 0.1908, Validation Loss: 0.1940
+2026-02-18 13:47:15 - INFO - PRINT: Epoch [  32], Train Loss: 0.1905, Validation Loss: 0.1940
+2026-02-18 13:47:15 - INFO - PRINT: Epoch [  33], Train Loss: 0.1904, Validation Loss: 0.1940
+2026-02-18 13:47:15 - INFO - PRINT: Epoch [  34], Train Loss: 0.1902, Validation Loss: 0.1940
+2026-02-18 13:47:15 - INFO - PRINT: Epoch [  35], Train Loss: 0.1899, Validation Loss: 0.1940
+2026-02-18 13:47:15 - INFO - PRINT: Epoch [  36], Train Loss: 0.1898, Validation Loss: 0.1940
+2026-02-18 13:47:15 - INFO - PRINT: Epoch [  37], Train Loss: 0.1897, Validation Loss: 0.1940
+2026-02-18 13:47:15 - INFO - PRINT: Epoch [  38], Train Loss: 0.1893, Validation Loss: 0.1940
+2026-02-18 13:47:15 - INFO - PRINT: Epoch [  39], Train Loss: 0.1895, Validation Loss: 0.1940
+2026-02-18 13:47:16 - INFO - PRINT: Epoch [  40], Train Loss: 0.1894, Validation Loss: 0.1909
+2026-02-18 13:47:16 - INFO - PRINT: Epoch [  41], Train Loss: 0.1890, Validation Loss: 0.1909
+2026-02-18 13:47:16 - INFO - PRINT: Epoch [  42], Train Loss: 0.1892, Validation Loss: 0.1909
+2026-02-18 13:47:16 - INFO - PRINT: Epoch [  43], Train Loss: 0.1896, Validation Loss: 0.1909
+2026-02-18 13:47:16 - INFO - PRINT: Epoch [  44], Train Loss: 0.1893, Validation Loss: 0.1909
+2026-02-18 13:47:16 - INFO - PRINT: Epoch [  45], Train Loss: 0.1894, Validation Loss: 0.1909
+2026-02-18 13:47:16 - INFO - PRINT: Epoch [  46], Train Loss: 0.1898, Validation Loss: 0.1909
+2026-02-18 13:47:16 - INFO - PRINT: Epoch [  47], Train Loss: 0.1891, Validation Loss: 0.1909
+2026-02-18 13:47:16 - INFO - PRINT: Epoch [  48], Train Loss: 0.1890, Validation Loss: 0.1909
+2026-02-18 13:47:16 - INFO - PRINT: Epoch [  49], Train Loss: 0.1894, Validation Loss: 0.1909
+2026-02-18 13:47:16 - INFO - PRINT: Epoch [  50], Train Loss: 0.1890, Validation Loss: 0.1909
+2026-02-18 13:47:16 - INFO - PRINT: Epoch [  51], Train Loss: 0.1886, Validation Loss: 0.1909
+2026-02-18 13:47:16 - INFO - PRINT: Epoch [  52], Train Loss: 0.1885, Validation Loss: 0.1909
+2026-02-18 13:47:17 - INFO - PRINT: Epoch [  53], Train Loss: 0.1890, Validation Loss: 0.1909
+2026-02-18 13:47:17 - INFO - PRINT: Epoch [  54], Train Loss: 0.1895, Validation Loss: 0.1909
+2026-02-18 13:47:17 - INFO - PRINT: Epoch [  55], Train Loss: 0.1888, Validation Loss: 0.1909
+2026-02-18 13:47:17 - INFO - PRINT: Epoch [  56], Train Loss: 0.1882, Validation Loss: 0.1909
+2026-02-18 13:47:17 - INFO - PRINT: Epoch [  57], Train Loss: 0.1881, Validation Loss: 0.1909
+2026-02-18 13:47:17 - INFO - PRINT: Epoch [  58], Train Loss: 0.1882, Validation Loss: 0.1909
+2026-02-18 13:47:17 - INFO - PRINT: Epoch [  59], Train Loss: 0.1881, Validation Loss: 0.1909
+2026-02-18 13:47:17 - INFO - PRINT: Epoch [  60], Train Loss: 0.1881, Validation Loss: 0.1883
+2026-02-18 13:47:17 - INFO - PRINT: Epoch [  61], Train Loss: 0.1888, Validation Loss: 0.1883
+2026-02-18 13:47:17 - INFO - PRINT: Epoch [  62], Train Loss: 0.1890, Validation Loss: 0.1883
+2026-02-18 13:47:17 - INFO - PRINT: Epoch [  63], Train Loss: 0.1880, Validation Loss: 0.1883
+2026-02-18 13:47:18 - INFO - PRINT: Epoch [  64], Train Loss: 0.1882, Validation Loss: 0.1883
+2026-02-18 13:47:18 - INFO - PRINT: Epoch [  65], Train Loss: 0.1880, Validation Loss: 0.1883
+2026-02-18 13:47:18 - INFO - PRINT: Epoch [  66], Train Loss: 0.1880, Validation Loss: 0.1883
+2026-02-18 13:47:18 - INFO - PRINT: Epoch [  67], Train Loss: 0.1878, Validation Loss: 0.1883
+2026-02-18 13:47:18 - INFO - PRINT: Epoch [  68], Train Loss: 0.1880, Validation Loss: 0.1883
+2026-02-18 13:47:18 - INFO - PRINT: Epoch [  69], Train Loss: 0.1876, Validation Loss: 0.1883
+2026-02-18 13:47:18 - INFO - PRINT: Epoch [  70], Train Loss: 0.1878, Validation Loss: 0.1883
+2026-02-18 13:47:18 - INFO - PRINT: Epoch [  71], Train Loss: 0.1876, Validation Loss: 0.1883
+2026-02-18 13:47:18 - INFO - PRINT: Epoch [  72], Train Loss: 0.1876, Validation Loss: 0.1883
+2026-02-18 13:47:18 - INFO - PRINT: Epoch [  73], Train Loss: 0.1872, Validation Loss: 0.1883
+2026-02-18 13:47:18 - INFO - PRINT: Epoch [  74], Train Loss: 0.1875, Validation Loss: 0.1883
+2026-02-18 13:47:18 - INFO - PRINT: Epoch [  75], Train Loss: 0.1875, Validation Loss: 0.1883
+2026-02-18 13:47:18 - INFO - PRINT: Epoch [  76], Train Loss: 0.1877, Validation Loss: 0.1883
+2026-02-18 13:47:18 - INFO - PRINT: Epoch [  77], Train Loss: 0.1874, Validation Loss: 0.1883
+2026-02-18 13:47:19 - INFO - PRINT: Epoch [  78], Train Loss: 0.1872, Validation Loss: 0.1883
+2026-02-18 13:47:19 - INFO - PRINT: Epoch [  79], Train Loss: 0.1876, Validation Loss: 0.1883
+2026-02-18 13:47:19 - INFO - PRINT: Epoch [  80], Train Loss: 0.1874, Validation Loss: 0.1880
+2026-02-18 13:47:19 - INFO - PRINT: Epoch [  81], Train Loss: 0.1875, Validation Loss: 0.1880
+2026-02-18 13:47:19 - INFO - PRINT: Epoch [  82], Train Loss: 0.1880, Validation Loss: 0.1880
+2026-02-18 13:47:19 - INFO - PRINT: Epoch [  83], Train Loss: 0.1875, Validation Loss: 0.1880
+2026-02-18 13:47:19 - INFO - PRINT: Epoch [  84], Train Loss: 0.1874, Validation Loss: 0.1880
+2026-02-18 13:47:19 - INFO - PRINT: Epoch [  85], Train Loss: 0.1873, Validation Loss: 0.1880
+2026-02-18 13:47:19 - INFO - PRINT: Epoch [  86], Train Loss: 0.1870, Validation Loss: 0.1880
+2026-02-18 13:47:19 - INFO - PRINT: Epoch [  87], Train Loss: 0.1873, Validation Loss: 0.1880
+2026-02-18 13:47:19 - INFO - PRINT: Epoch [  88], Train Loss: 0.1873, Validation Loss: 0.1880
+2026-02-18 13:47:20 - INFO - PRINT: Epoch [  89], Train Loss: 0.1870, Validation Loss: 0.1880
+2026-02-18 13:47:20 - INFO - PRINT: Epoch [  90], Train Loss: 0.1873, Validation Loss: 0.1880
+2026-02-18 13:47:20 - INFO - PRINT: Epoch [  91], Train Loss: 0.1875, Validation Loss: 0.1880
+2026-02-18 13:47:20 - INFO - PRINT: Epoch [  92], Train Loss: 0.1870, Validation Loss: 0.1880
+2026-02-18 13:47:20 - INFO - PRINT: Epoch [  93], Train Loss: 0.1870, Validation Loss: 0.1880
+2026-02-18 13:47:20 - INFO - PRINT: Epoch [  94], Train Loss: 0.1869, Validation Loss: 0.1880
+2026-02-18 13:47:20 - INFO - PRINT: Epoch [  95], Train Loss: 0.1870, Validation Loss: 0.1880
+2026-02-18 13:47:20 - INFO - PRINT: Epoch [  96], Train Loss: 0.1869, Validation Loss: 0.1880
+2026-02-18 13:47:20 - INFO - PRINT: Epoch [  97], Train Loss: 0.1869, Validation Loss: 0.1880
+2026-02-18 13:47:20 - INFO - PRINT: Epoch [  98], Train Loss: 0.1868, Validation Loss: 0.1880
+2026-02-18 13:47:20 - INFO - PRINT: Epoch [  99], Train Loss: 0.1867, Validation Loss: 0.1880
+2026-02-18 13:47:21 - INFO - PRINT: Epoch [ 100], Train Loss: 0.1867, Validation Loss: 0.1881
+2026-02-18 13:47:21 - INFO - PRINT: ----> Saving model from epoch 80 (val loss: 0.18795770406723022). Luscious!
+2026-02-18 13:47:21 - INFO - PRINT: Epoch [ 101], Train Loss: 0.1867, Validation Loss: 0.1881
+2026-02-18 13:47:21 - INFO - PRINT: Epoch [ 102], Train Loss: 0.1867, Validation Loss: 0.1881
+2026-02-18 13:47:21 - INFO - PRINT: Epoch [ 103], Train Loss: 0.1869, Validation Loss: 0.1881
+2026-02-18 13:47:21 - INFO - PRINT: Epoch [ 104], Train Loss: 0.1870, Validation Loss: 0.1881
+2026-02-18 13:47:21 - INFO - PRINT: Epoch [ 105], Train Loss: 0.1872, Validation Loss: 0.1881
+2026-02-18 13:47:21 - INFO - PRINT: Epoch [ 106], Train Loss: 0.1868, Validation Loss: 0.1881
+2026-02-18 13:47:21 - INFO - PRINT: Epoch [ 107], Train Loss: 0.1867, Validation Loss: 0.1881
+2026-02-18 13:47:21 - INFO - PRINT: Epoch [ 108], Train Loss: 0.1864, Validation Loss: 0.1881
+2026-02-18 13:47:21 - INFO - PRINT: Epoch [ 109], Train Loss: 0.1864, Validation Loss: 0.1881
+2026-02-18 13:47:21 - INFO - PRINT: Epoch [ 110], Train Loss: 0.1864, Validation Loss: 0.1881
+2026-02-18 13:47:21 - INFO - PRINT: Epoch [ 111], Train Loss: 0.1865, Validation Loss: 0.1881
+2026-02-18 13:47:21 - INFO - PRINT: Epoch [ 112], Train Loss: 0.1865, Validation Loss: 0.1881
+2026-02-18 13:47:21 - INFO - PRINT: Epoch [ 113], Train Loss: 0.1866, Validation Loss: 0.1881
+2026-02-18 13:47:22 - INFO - PRINT: Epoch [ 114], Train Loss: 0.1865, Validation Loss: 0.1881
+2026-02-18 13:47:22 - INFO - PRINT: Epoch [ 115], Train Loss: 0.1871, Validation Loss: 0.1881
+2026-02-18 13:47:22 - INFO - PRINT: Epoch [ 116], Train Loss: 0.1870, Validation Loss: 0.1881
+2026-02-18 13:47:22 - INFO - PRINT: Epoch [ 117], Train Loss: 0.1862, Validation Loss: 0.1881
+2026-02-18 13:47:22 - INFO - PRINT: Epoch [ 118], Train Loss: 0.1865, Validation Loss: 0.1881
+2026-02-18 13:47:22 - INFO - PRINT: Epoch [ 119], Train Loss: 0.1868, Validation Loss: 0.1881
+2026-02-18 13:47:22 - INFO - PRINT: Epoch [ 120], Train Loss: 0.1864, Validation Loss: 0.1878
+2026-02-18 13:47:22 - INFO - PRINT: Epoch [ 121], Train Loss: 0.1862, Validation Loss: 0.1878
+2026-02-18 13:47:22 - INFO - PRINT: Epoch [ 122], Train Loss: 0.1866, Validation Loss: 0.1878
+2026-02-18 13:47:22 - INFO - PRINT: Epoch [ 123], Train Loss: 0.1882, Validation Loss: 0.1878
+2026-02-18 13:47:22 - INFO - PRINT: Epoch [ 124], Train Loss: 0.1868, Validation Loss: 0.1878
+2026-02-18 13:47:23 - INFO - PRINT: Epoch [ 125], Train Loss: 0.1865, Validation Loss: 0.1878
+2026-02-18 13:47:23 - INFO - PRINT: Epoch [ 126], Train Loss: 0.1865, Validation Loss: 0.1878
+2026-02-18 13:47:23 - INFO - PRINT: Epoch [ 127], Train Loss: 0.1863, Validation Loss: 0.1878
+2026-02-18 13:47:23 - INFO - PRINT: Epoch [ 128], Train Loss: 0.1861, Validation Loss: 0.1878
+2026-02-18 13:47:23 - INFO - PRINT: Epoch [ 129], Train Loss: 0.1861, Validation Loss: 0.1878
+2026-02-18 13:47:23 - INFO - PRINT: Epoch [ 130], Train Loss: 0.1863, Validation Loss: 0.1878
+2026-02-18 13:47:23 - INFO - PRINT: Epoch [ 131], Train Loss: 0.1863, Validation Loss: 0.1878
+2026-02-18 13:47:23 - INFO - PRINT: Epoch [ 132], Train Loss: 0.1864, Validation Loss: 0.1878
+2026-02-18 13:47:23 - INFO - PRINT: Epoch [ 133], Train Loss: 0.1864, Validation Loss: 0.1878
+2026-02-18 13:47:23 - INFO - PRINT: Epoch [ 134], Train Loss: 0.1860, Validation Loss: 0.1878
+2026-02-18 13:47:23 - INFO - PRINT: Epoch [ 135], Train Loss: 0.1862, Validation Loss: 0.1878
+2026-02-18 13:47:23 - INFO - PRINT: Epoch [ 136], Train Loss: 0.1862, Validation Loss: 0.1878
+2026-02-18 13:47:23 - INFO - PRINT: Epoch [ 137], Train Loss: 0.1860, Validation Loss: 0.1878
+2026-02-18 13:47:23 - INFO - PRINT: Epoch [ 138], Train Loss: 0.1861, Validation Loss: 0.1878
+2026-02-18 13:47:24 - INFO - PRINT: Epoch [ 139], Train Loss: 0.1859, Validation Loss: 0.1878
+2026-02-18 13:47:24 - INFO - PRINT: Epoch [ 140], Train Loss: 0.1861, Validation Loss: 0.1873
+2026-02-18 13:47:24 - INFO - PRINT: Epoch [ 141], Train Loss: 0.1863, Validation Loss: 0.1873
+2026-02-18 13:47:24 - INFO - PRINT: Epoch [ 142], Train Loss: 0.1860, Validation Loss: 0.1873
+2026-02-18 13:47:24 - INFO - PRINT: Epoch [ 143], Train Loss: 0.1865, Validation Loss: 0.1873
+2026-02-18 13:47:24 - INFO - PRINT: Epoch [ 144], Train Loss: 0.1860, Validation Loss: 0.1873
+2026-02-18 13:47:24 - INFO - PRINT: Epoch [ 145], Train Loss: 0.1860, Validation Loss: 0.1873
+2026-02-18 13:47:24 - INFO - PRINT: Epoch [ 146], Train Loss: 0.1860, Validation Loss: 0.1873
+2026-02-18 13:47:24 - INFO - PRINT: Epoch [ 147], Train Loss: 0.1861, Validation Loss: 0.1873
+2026-02-18 13:47:24 - INFO - PRINT: Epoch [ 148], Train Loss: 0.1859, Validation Loss: 0.1873
+2026-02-18 13:47:24 - INFO - PRINT: Epoch [ 149], Train Loss: 0.1859, Validation Loss: 0.1873
+2026-02-18 13:47:25 - INFO - PRINT: Epoch [ 150], Train Loss: 0.1857, Validation Loss: 0.1873
+2026-02-18 13:47:25 - INFO - PRINT: Epoch [ 151], Train Loss: 0.1859, Validation Loss: 0.1873
+2026-02-18 13:47:25 - INFO - PRINT: Epoch [ 152], Train Loss: 0.1860, Validation Loss: 0.1873
+2026-02-18 13:47:25 - INFO - PRINT: Epoch [ 153], Train Loss: 0.1860, Validation Loss: 0.1873
+2026-02-18 13:47:25 - INFO - PRINT: Epoch [ 154], Train Loss: 0.1863, Validation Loss: 0.1873
+2026-02-18 13:47:25 - INFO - PRINT: Epoch [ 155], Train Loss: 0.1863, Validation Loss: 0.1873
+2026-02-18 13:47:25 - INFO - PRINT: Epoch [ 156], Train Loss: 0.1860, Validation Loss: 0.1873
+2026-02-18 13:47:25 - INFO - PRINT: Epoch [ 157], Train Loss: 0.1861, Validation Loss: 0.1873
+2026-02-18 13:47:25 - INFO - PRINT: Epoch [ 158], Train Loss: 0.1858, Validation Loss: 0.1873
+2026-02-18 13:47:25 - INFO - PRINT: Epoch [ 159], Train Loss: 0.1860, Validation Loss: 0.1873
+2026-02-18 13:47:25 - INFO - PRINT: Epoch [ 160], Train Loss: 0.1858, Validation Loss: 0.1883
+2026-02-18 13:47:26 - INFO - PRINT: Epoch [ 161], Train Loss: 0.1860, Validation Loss: 0.1883
+2026-02-18 13:47:26 - INFO - PRINT: Epoch [ 162], Train Loss: 0.1857, Validation Loss: 0.1883
+2026-02-18 13:47:26 - INFO - PRINT: Epoch [ 163], Train Loss: 0.1858, Validation Loss: 0.1883
+2026-02-18 13:47:26 - INFO - PRINT: Epoch [ 164], Train Loss: 0.1859, Validation Loss: 0.1883
+2026-02-18 13:47:26 - INFO - PRINT: Epoch [ 165], Train Loss: 0.1860, Validation Loss: 0.1883
+2026-02-18 13:47:26 - INFO - PRINT: Epoch [ 166], Train Loss: 0.1857, Validation Loss: 0.1883
+2026-02-18 13:47:26 - INFO - PRINT: Epoch [ 167], Train Loss: 0.1859, Validation Loss: 0.1883
+2026-02-18 13:47:26 - INFO - PRINT: Epoch [ 168], Train Loss: 0.1859, Validation Loss: 0.1883
+2026-02-18 13:47:26 - INFO - PRINT: Epoch [ 169], Train Loss: 0.1859, Validation Loss: 0.1883
+2026-02-18 13:47:26 - INFO - PRINT: Epoch [ 170], Train Loss: 0.1860, Validation Loss: 0.1883
+2026-02-18 13:47:26 - INFO - PRINT: Epoch [ 171], Train Loss: 0.1858, Validation Loss: 0.1883
+2026-02-18 13:47:26 - INFO - PRINT: Epoch [ 172], Train Loss: 0.1857, Validation Loss: 0.1883
+2026-02-18 13:47:26 - INFO - PRINT: Epoch [ 173], Train Loss: 0.1857, Validation Loss: 0.1883
+2026-02-18 13:47:26 - INFO - PRINT: Epoch [ 174], Train Loss: 0.1857, Validation Loss: 0.1883
+2026-02-18 13:47:27 - INFO - PRINT: Epoch [ 175], Train Loss: 0.1859, Validation Loss: 0.1883
+2026-02-18 13:47:27 - INFO - PRINT: Epoch [ 176], Train Loss: 0.1857, Validation Loss: 0.1883
+2026-02-18 13:47:27 - INFO - PRINT: Epoch [ 177], Train Loss: 0.1857, Validation Loss: 0.1883
+2026-02-18 13:47:27 - INFO - PRINT: Epoch [ 178], Train Loss: 0.1856, Validation Loss: 0.1883
+2026-02-18 13:47:27 - INFO - PRINT: Epoch [ 179], Train Loss: 0.1855, Validation Loss: 0.1883
+2026-02-18 13:47:27 - INFO - PRINT: Epoch [ 180], Train Loss: 0.1857, Validation Loss: 0.1871
+2026-02-18 13:47:27 - INFO - PRINT: Epoch [ 181], Train Loss: 0.1856, Validation Loss: 0.1871
+2026-02-18 13:47:27 - INFO - PRINT: Epoch [ 182], Train Loss: 0.1859, Validation Loss: 0.1871
+2026-02-18 13:47:27 - INFO - PRINT: Epoch [ 183], Train Loss: 0.1858, Validation Loss: 0.1871
+2026-02-18 13:47:27 - INFO - PRINT: Epoch [ 184], Train Loss: 0.1856, Validation Loss: 0.1871
+2026-02-18 13:47:27 - INFO - PRINT: Epoch [ 185], Train Loss: 0.1857, Validation Loss: 0.1871
+2026-02-18 13:47:28 - INFO - PRINT: Epoch [ 186], Train Loss: 0.1858, Validation Loss: 0.1871
+2026-02-18 13:47:28 - INFO - PRINT: Epoch [ 187], Train Loss: 0.1857, Validation Loss: 0.1871
+2026-02-18 13:47:28 - INFO - PRINT: Epoch [ 188], Train Loss: 0.1856, Validation Loss: 0.1871
+2026-02-18 13:47:28 - INFO - PRINT: Epoch [ 189], Train Loss: 0.1853, Validation Loss: 0.1871
+2026-02-18 13:47:28 - INFO - PRINT: Epoch [ 190], Train Loss: 0.1855, Validation Loss: 0.1871
+2026-02-18 13:47:28 - INFO - PRINT: Epoch [ 191], Train Loss: 0.1856, Validation Loss: 0.1871
+2026-02-18 13:47:28 - INFO - PRINT: Epoch [ 192], Train Loss: 0.1861, Validation Loss: 0.1871
+2026-02-18 13:47:28 - INFO - PRINT: Epoch [ 193], Train Loss: 0.1856, Validation Loss: 0.1871
+2026-02-18 13:47:28 - INFO - PRINT: Epoch [ 194], Train Loss: 0.1855, Validation Loss: 0.1871
+2026-02-18 13:47:28 - INFO - PRINT: Epoch [ 195], Train Loss: 0.1858, Validation Loss: 0.1871
+2026-02-18 13:47:28 - INFO - PRINT: Epoch [ 196], Train Loss: 0.1856, Validation Loss: 0.1871
+2026-02-18 13:47:28 - INFO - PRINT: Epoch [ 197], Train Loss: 0.1856, Validation Loss: 0.1871
+2026-02-18 13:47:28 - INFO - PRINT: Epoch [ 198], Train Loss: 0.1859, Validation Loss: 0.1871
+2026-02-18 13:47:29 - INFO - PRINT: Epoch [ 199], Train Loss: 0.1855, Validation Loss: 0.1871
+2026-02-18 13:47:29 - INFO - PRINT: Epoch [ 200], Train Loss: 0.1856, Validation Loss: 0.1868
+2026-02-18 13:47:29 - INFO - PRINT: ----> Saving model from epoch 200 (val loss: 0.18680782616138458). Satisfying!
+2026-02-18 13:47:29 - INFO - PRINT: Epoch [ 201], Train Loss: 0.1860, Validation Loss: 0.1868
+2026-02-18 13:47:29 - INFO - PRINT: Epoch [ 202], Train Loss: 0.1858, Validation Loss: 0.1868
+2026-02-18 13:47:29 - INFO - PRINT: Epoch [ 203], Train Loss: 0.1858, Validation Loss: 0.1868
+2026-02-18 13:47:29 - INFO - PRINT: Epoch [ 204], Train Loss: 0.1856, Validation Loss: 0.1868
+2026-02-18 13:47:29 - INFO - PRINT: Epoch [ 205], Train Loss: 0.1856, Validation Loss: 0.1868
+2026-02-18 13:47:29 - INFO - PRINT: Epoch [ 206], Train Loss: 0.1854, Validation Loss: 0.1868
+2026-02-18 13:47:29 - INFO - PRINT: Epoch [ 207], Train Loss: 0.1856, Validation Loss: 0.1868
+2026-02-18 13:47:29 - INFO - PRINT: Epoch [ 208], Train Loss: 0.1857, Validation Loss: 0.1868
+2026-02-18 13:47:29 - INFO - PRINT: Epoch [ 209], Train Loss: 0.1854, Validation Loss: 0.1868
+2026-02-18 13:47:30 - INFO - PRINT: Epoch [ 210], Train Loss: 0.1852, Validation Loss: 0.1868
+2026-02-18 13:47:30 - INFO - PRINT: Epoch [ 211], Train Loss: 0.1853, Validation Loss: 0.1868
+2026-02-18 13:47:30 - INFO - PRINT: Epoch [ 212], Train Loss: 0.1854, Validation Loss: 0.1868
+2026-02-18 13:47:30 - INFO - PRINT: Epoch [ 213], Train Loss: 0.1854, Validation Loss: 0.1868
+2026-02-18 13:47:30 - INFO - PRINT: Epoch [ 214], Train Loss: 0.1853, Validation Loss: 0.1868
+2026-02-18 13:47:30 - INFO - PRINT: Epoch [ 215], Train Loss: 0.1861, Validation Loss: 0.1868
+2026-02-18 13:47:30 - INFO - PRINT: Epoch [ 216], Train Loss: 0.1857, Validation Loss: 0.1868
+2026-02-18 13:47:30 - INFO - PRINT: Epoch [ 217], Train Loss: 0.1857, Validation Loss: 0.1868
+2026-02-18 13:47:30 - INFO - PRINT: Epoch [ 218], Train Loss: 0.1858, Validation Loss: 0.1868
+2026-02-18 13:47:30 - INFO - PRINT: Epoch [ 219], Train Loss: 0.1856, Validation Loss: 0.1868
+2026-02-18 13:47:30 - INFO - PRINT: Epoch [ 220], Train Loss: 0.1852, Validation Loss: 0.1860
+2026-02-18 13:47:30 - INFO - PRINT: Epoch [ 221], Train Loss: 0.1850, Validation Loss: 0.1860
+2026-02-18 13:47:31 - INFO - PRINT: Epoch [ 222], Train Loss: 0.1852, Validation Loss: 0.1860
+2026-02-18 13:47:31 - INFO - PRINT: Epoch [ 223], Train Loss: 0.1854, Validation Loss: 0.1860
+2026-02-18 13:47:31 - INFO - PRINT: Epoch [ 224], Train Loss: 0.1852, Validation Loss: 0.1860
+2026-02-18 13:47:31 - INFO - PRINT: Epoch [ 225], Train Loss: 0.1851, Validation Loss: 0.1860
+2026-02-18 13:47:31 - INFO - PRINT: Epoch [ 226], Train Loss: 0.1852, Validation Loss: 0.1860
+2026-02-18 13:47:31 - INFO - PRINT: Epoch [ 227], Train Loss: 0.1854, Validation Loss: 0.1860
+2026-02-18 13:47:31 - INFO - PRINT: Epoch [ 228], Train Loss: 0.1851, Validation Loss: 0.1860
+2026-02-18 13:47:31 - INFO - PRINT: Epoch [ 229], Train Loss: 0.1853, Validation Loss: 0.1860
+2026-02-18 13:47:31 - INFO - PRINT: Epoch [ 230], Train Loss: 0.1852, Validation Loss: 0.1860
+2026-02-18 13:47:31 - INFO - PRINT: Epoch [ 231], Train Loss: 0.1854, Validation Loss: 0.1860
+2026-02-18 13:47:31 - INFO - PRINT: Epoch [ 232], Train Loss: 0.1850, Validation Loss: 0.1860
+2026-02-18 13:47:31 - INFO - PRINT: Epoch [ 233], Train Loss: 0.1855, Validation Loss: 0.1860
+2026-02-18 13:47:31 - INFO - PRINT: Epoch [ 234], Train Loss: 0.1852, Validation Loss: 0.1860
+2026-02-18 13:47:32 - INFO - PRINT: Epoch [ 235], Train Loss: 0.1853, Validation Loss: 0.1860
+2026-02-18 13:47:32 - INFO - PRINT: Epoch [ 236], Train Loss: 0.1852, Validation Loss: 0.1860
+2026-02-18 13:47:32 - INFO - PRINT: Epoch [ 237], Train Loss: 0.1851, Validation Loss: 0.1860
+2026-02-18 13:47:32 - INFO - PRINT: Epoch [ 238], Train Loss: 0.1850, Validation Loss: 0.1860
+2026-02-18 13:47:32 - INFO - PRINT: Epoch [ 239], Train Loss: 0.1853, Validation Loss: 0.1860
+2026-02-18 13:47:32 - INFO - PRINT: Epoch [ 240], Train Loss: 0.1851, Validation Loss: 0.1869
+2026-02-18 13:47:32 - INFO - PRINT: Epoch [ 241], Train Loss: 0.1856, Validation Loss: 0.1869
+2026-02-18 13:47:32 - INFO - PRINT: Epoch [ 242], Train Loss: 0.1852, Validation Loss: 0.1869
+2026-02-18 13:47:32 - INFO - PRINT: Epoch [ 243], Train Loss: 0.1852, Validation Loss: 0.1869
+2026-02-18 13:47:32 - INFO - PRINT: Epoch [ 244], Train Loss: 0.1854, Validation Loss: 0.1869
+2026-02-18 13:47:32 - INFO - PRINT: Epoch [ 245], Train Loss: 0.1854, Validation Loss: 0.1869
+2026-02-18 13:47:32 - INFO - PRINT: Epoch [ 246], Train Loss: 0.1850, Validation Loss: 0.1869
+2026-02-18 13:47:33 - INFO - PRINT: Epoch [ 247], Train Loss: 0.1851, Validation Loss: 0.1869
+2026-02-18 13:47:33 - INFO - PRINT: Epoch [ 248], Train Loss: 0.1852, Validation Loss: 0.1869
+2026-02-18 13:47:33 - INFO - PRINT: Epoch [ 249], Train Loss: 0.1851, Validation Loss: 0.1869
+2026-02-18 13:47:33 - INFO - PRINT: Epoch [ 250], Train Loss: 0.1854, Validation Loss: 0.1869
+2026-02-18 13:47:33 - INFO - PRINT: Epoch [ 251], Train Loss: 0.1855, Validation Loss: 0.1869
+2026-02-18 13:47:33 - INFO - PRINT: Epoch [ 252], Train Loss: 0.1852, Validation Loss: 0.1869
+2026-02-18 13:47:33 - INFO - PRINT: Epoch [ 253], Train Loss: 0.1850, Validation Loss: 0.1869
+2026-02-18 13:47:33 - INFO - PRINT: Epoch [ 254], Train Loss: 0.1853, Validation Loss: 0.1869
+2026-02-18 13:47:33 - INFO - PRINT: Epoch [ 255], Train Loss: 0.1852, Validation Loss: 0.1869
+2026-02-18 13:47:33 - INFO - PRINT: Epoch [ 256], Train Loss: 0.1851, Validation Loss: 0.1869
+2026-02-18 13:47:33 - INFO - PRINT: Epoch [ 257], Train Loss: 0.1850, Validation Loss: 0.1869
+2026-02-18 13:47:33 - INFO - PRINT: Epoch [ 258], Train Loss: 0.1853, Validation Loss: 0.1869
+2026-02-18 13:47:33 - INFO - PRINT: Epoch [ 259], Train Loss: 0.1854, Validation Loss: 0.1869
+2026-02-18 13:47:34 - INFO - PRINT: Epoch [ 260], Train Loss: 0.1858, Validation Loss: 0.1871
+2026-02-18 13:47:34 - INFO - PRINT: Epoch [ 261], Train Loss: 0.1855, Validation Loss: 0.1871
+2026-02-18 13:47:34 - INFO - PRINT: Epoch [ 262], Train Loss: 0.1852, Validation Loss: 0.1871
+2026-02-18 13:47:34 - INFO - PRINT: Epoch [ 263], Train Loss: 0.1850, Validation Loss: 0.1871
+2026-02-18 13:47:34 - INFO - PRINT: Epoch [ 264], Train Loss: 0.1850, Validation Loss: 0.1871
+2026-02-18 13:47:34 - INFO - PRINT: Epoch [ 265], Train Loss: 0.1854, Validation Loss: 0.1871
+2026-02-18 13:47:34 - INFO - PRINT: Epoch [ 266], Train Loss: 0.1853, Validation Loss: 0.1871
+2026-02-18 13:47:34 - INFO - PRINT: Epoch [ 267], Train Loss: 0.1855, Validation Loss: 0.1871
+2026-02-18 13:47:34 - INFO - PRINT: Epoch [ 268], Train Loss: 0.1852, Validation Loss: 0.1871
+2026-02-18 13:47:34 - INFO - PRINT: Epoch [ 269], Train Loss: 0.1852, Validation Loss: 0.1871
+2026-02-18 13:47:35 - INFO - PRINT: Epoch [ 270], Train Loss: 0.1850, Validation Loss: 0.1871
+2026-02-18 13:47:35 - INFO - PRINT: Epoch [ 271], Train Loss: 0.1853, Validation Loss: 0.1871
+2026-02-18 13:47:35 - INFO - PRINT: Epoch [ 272], Train Loss: 0.1852, Validation Loss: 0.1871
+2026-02-18 13:47:35 - INFO - PRINT: Epoch [ 273], Train Loss: 0.1847, Validation Loss: 0.1871
+2026-02-18 13:47:35 - INFO - PRINT: Epoch [ 274], Train Loss: 0.1851, Validation Loss: 0.1871
+2026-02-18 13:47:35 - INFO - PRINT: Epoch [ 275], Train Loss: 0.1848, Validation Loss: 0.1871
+2026-02-18 13:47:35 - INFO - PRINT: Epoch [ 276], Train Loss: 0.1849, Validation Loss: 0.1871
+2026-02-18 13:47:35 - INFO - PRINT: Epoch [ 277], Train Loss: 0.1850, Validation Loss: 0.1871
+2026-02-18 13:47:35 - INFO - PRINT: Epoch [ 278], Train Loss: 0.1850, Validation Loss: 0.1871
+2026-02-18 13:47:35 - INFO - PRINT: Epoch [ 279], Train Loss: 0.1852, Validation Loss: 0.1871
+2026-02-18 13:47:35 - INFO - PRINT: Epoch [ 280], Train Loss: 0.1854, Validation Loss: 0.1875
+2026-02-18 13:47:36 - INFO - PRINT: Epoch [ 281], Train Loss: 0.1854, Validation Loss: 0.1875
+2026-02-18 13:47:36 - INFO - PRINT: Epoch [ 282], Train Loss: 0.1854, Validation Loss: 0.1875
+2026-02-18 13:47:36 - INFO - PRINT: Epoch [ 283], Train Loss: 0.1854, Validation Loss: 0.1875
+2026-02-18 13:47:36 - INFO - PRINT: Epoch [ 284], Train Loss: 0.1854, Validation Loss: 0.1875
+2026-02-18 13:47:36 - INFO - PRINT: Epoch [ 285], Train Loss: 0.1849, Validation Loss: 0.1875
+2026-02-18 13:47:36 - INFO - PRINT: Epoch [ 286], Train Loss: 0.1847, Validation Loss: 0.1875
+2026-02-18 13:47:36 - INFO - PRINT: Epoch [ 287], Train Loss: 0.1848, Validation Loss: 0.1875
+2026-02-18 13:47:36 - INFO - PRINT: Epoch [ 288], Train Loss: 0.1850, Validation Loss: 0.1875
+2026-02-18 13:47:36 - INFO - PRINT: Epoch [ 289], Train Loss: 0.1850, Validation Loss: 0.1875
+2026-02-18 13:47:36 - INFO - PRINT: Epoch [ 290], Train Loss: 0.1849, Validation Loss: 0.1875
+2026-02-18 13:47:36 - INFO - PRINT: Epoch [ 291], Train Loss: 0.1851, Validation Loss: 0.1875
+2026-02-18 13:47:36 - INFO - PRINT: Epoch [ 292], Train Loss: 0.1850, Validation Loss: 0.1875
+2026-02-18 13:47:36 - INFO - PRINT: Epoch [ 293], Train Loss: 0.1848, Validation Loss: 0.1875
+2026-02-18 13:47:37 - INFO - PRINT: Epoch [ 294], Train Loss: 0.1852, Validation Loss: 0.1875
+2026-02-18 13:47:37 - INFO - PRINT: Epoch [ 295], Train Loss: 0.1849, Validation Loss: 0.1875
+2026-02-18 13:47:37 - INFO - PRINT: Epoch [ 296], Train Loss: 0.1850, Validation Loss: 0.1875
+2026-02-18 13:47:37 - INFO - PRINT: Epoch [ 297], Train Loss: 0.1849, Validation Loss: 0.1875
+2026-02-18 13:47:37 - INFO - PRINT: Epoch [ 298], Train Loss: 0.1850, Validation Loss: 0.1875
+2026-02-18 13:47:37 - INFO - PRINT: Epoch [ 299], Train Loss: 0.1851, Validation Loss: 0.1875
+2026-02-18 13:47:37 - INFO - PRINT: Epoch [ 300], Train Loss: 0.1847, Validation Loss: 0.1860
+2026-02-18 13:47:37 - INFO - PRINT: ----> Saving model from epoch 220 (val loss: 0.18600459396839142). Gooey!
+2026-02-18 13:47:37 - INFO - PRINT: Epoch [ 301], Train Loss: 0.1847, Validation Loss: 0.1860
+2026-02-18 13:47:37 - INFO - PRINT: Epoch [ 302], Train Loss: 0.1850, Validation Loss: 0.1860
+2026-02-18 13:47:37 - INFO - PRINT: Epoch [ 303], Train Loss: 0.1850, Validation Loss: 0.1860
+2026-02-18 13:47:37 - INFO - PRINT: Epoch [ 304], Train Loss: 0.1849, Validation Loss: 0.1860
+2026-02-18 13:47:37 - INFO - PRINT: Epoch [ 305], Train Loss: 0.1852, Validation Loss: 0.1860
+2026-02-18 13:47:38 - INFO - PRINT: Epoch [ 306], Train Loss: 0.1849, Validation Loss: 0.1860
+2026-02-18 13:47:38 - INFO - PRINT: Epoch [ 307], Train Loss: 0.1848, Validation Loss: 0.1860
+2026-02-18 13:47:38 - INFO - PRINT: Epoch [ 308], Train Loss: 0.1849, Validation Loss: 0.1860
+2026-02-18 13:47:38 - INFO - PRINT: Epoch [ 309], Train Loss: 0.1853, Validation Loss: 0.1860
+2026-02-18 13:47:38 - INFO - PRINT: Epoch [ 310], Train Loss: 0.1849, Validation Loss: 0.1860
+2026-02-18 13:47:38 - INFO - PRINT: Epoch [ 311], Train Loss: 0.1853, Validation Loss: 0.1860
+2026-02-18 13:47:38 - INFO - PRINT: Epoch [ 312], Train Loss: 0.1849, Validation Loss: 0.1860
+2026-02-18 13:47:38 - INFO - PRINT: Epoch [ 313], Train Loss: 0.1850, Validation Loss: 0.1860
+2026-02-18 13:47:38 - INFO - PRINT: Epoch [ 314], Train Loss: 0.1846, Validation Loss: 0.1860
+2026-02-18 13:47:38 - INFO - PRINT: Epoch [ 315], Train Loss: 0.1849, Validation Loss: 0.1860
+2026-02-18 13:47:38 - INFO - PRINT: Epoch [ 316], Train Loss: 0.1850, Validation Loss: 0.1860
+2026-02-18 13:47:38 - INFO - PRINT: Epoch [ 317], Train Loss: 0.1852, Validation Loss: 0.1860
+2026-02-18 13:47:38 - INFO - PRINT: Epoch [ 318], Train Loss: 0.1851, Validation Loss: 0.1860
+2026-02-18 13:47:39 - INFO - PRINT: Epoch [ 319], Train Loss: 0.1848, Validation Loss: 0.1860
+2026-02-18 13:47:39 - INFO - PRINT: Epoch [ 320], Train Loss: 0.1848, Validation Loss: 0.1853
+2026-02-18 13:47:39 - INFO - PRINT: Epoch [ 321], Train Loss: 0.1848, Validation Loss: 0.1853
+2026-02-18 13:47:39 - INFO - PRINT: Epoch [ 322], Train Loss: 0.1849, Validation Loss: 0.1853
+2026-02-18 13:47:39 - INFO - PRINT: Epoch [ 323], Train Loss: 0.1853, Validation Loss: 0.1853
+2026-02-18 13:47:39 - INFO - PRINT: Epoch [ 324], Train Loss: 0.1848, Validation Loss: 0.1853
+2026-02-18 13:47:39 - INFO - PRINT: Epoch [ 325], Train Loss: 0.1846, Validation Loss: 0.1853
+2026-02-18 13:47:39 - INFO - PRINT: Epoch [ 326], Train Loss: 0.1849, Validation Loss: 0.1853
+2026-02-18 13:47:39 - INFO - PRINT: Epoch [ 327], Train Loss: 0.1847, Validation Loss: 0.1853
+2026-02-18 13:47:39 - INFO - PRINT: Epoch [ 328], Train Loss: 0.1849, Validation Loss: 0.1853
+2026-02-18 13:47:39 - INFO - PRINT: Epoch [ 329], Train Loss: 0.1849, Validation Loss: 0.1853
+2026-02-18 13:47:40 - INFO - PRINT: Epoch [ 330], Train Loss: 0.1848, Validation Loss: 0.1853
+2026-02-18 13:47:40 - INFO - PRINT: Epoch [ 331], Train Loss: 0.1848, Validation Loss: 0.1853
+2026-02-18 13:47:40 - INFO - PRINT: Epoch [ 332], Train Loss: 0.1847, Validation Loss: 0.1853
+2026-02-18 13:47:40 - INFO - PRINT: Epoch [ 333], Train Loss: 0.1848, Validation Loss: 0.1853
+2026-02-18 13:47:40 - INFO - PRINT: Epoch [ 334], Train Loss: 0.1845, Validation Loss: 0.1853
+2026-02-18 13:47:40 - INFO - PRINT: Epoch [ 335], Train Loss: 0.1845, Validation Loss: 0.1853
+2026-02-18 13:47:40 - INFO - PRINT: Epoch [ 336], Train Loss: 0.1849, Validation Loss: 0.1853
+2026-02-18 13:47:40 - INFO - PRINT: Epoch [ 337], Train Loss: 0.1849, Validation Loss: 0.1853
+2026-02-18 13:47:40 - INFO - PRINT: Epoch [ 338], Train Loss: 0.1848, Validation Loss: 0.1853
+2026-02-18 13:47:40 - INFO - PRINT: Epoch [ 339], Train Loss: 0.1849, Validation Loss: 0.1853
+2026-02-18 13:47:40 - INFO - PRINT: Epoch [ 340], Train Loss: 0.1850, Validation Loss: 0.1860
+2026-02-18 13:47:40 - INFO - PRINT: Epoch [ 341], Train Loss: 0.1848, Validation Loss: 0.1860
+2026-02-18 13:47:41 - INFO - PRINT: Epoch [ 342], Train Loss: 0.1849, Validation Loss: 0.1860
+2026-02-18 13:47:41 - INFO - PRINT: Epoch [ 343], Train Loss: 0.1849, Validation Loss: 0.1860
+2026-02-18 13:47:41 - INFO - PRINT: Epoch [ 344], Train Loss: 0.1849, Validation Loss: 0.1860
+2026-02-18 13:47:41 - INFO - PRINT: Epoch [ 345], Train Loss: 0.1848, Validation Loss: 0.1860
+2026-02-18 13:47:41 - INFO - PRINT: Epoch [ 346], Train Loss: 0.1848, Validation Loss: 0.1860
+2026-02-18 13:47:41 - INFO - PRINT: Epoch [ 347], Train Loss: 0.1848, Validation Loss: 0.1860
+2026-02-18 13:47:41 - INFO - PRINT: Epoch [ 348], Train Loss: 0.1848, Validation Loss: 0.1860
+2026-02-18 13:47:41 - INFO - PRINT: Epoch [ 349], Train Loss: 0.1848, Validation Loss: 0.1860
+2026-02-18 13:47:41 - INFO - PRINT: Epoch [ 350], Train Loss: 0.1847, Validation Loss: 0.1860
+2026-02-18 13:47:41 - INFO - PRINT: Epoch [ 351], Train Loss: 0.1847, Validation Loss: 0.1860
+2026-02-18 13:47:41 - INFO - PRINT: Epoch [ 352], Train Loss: 0.1848, Validation Loss: 0.1860
+2026-02-18 13:47:41 - INFO - PRINT: Epoch [ 353], Train Loss: 0.1849, Validation Loss: 0.1860
+2026-02-18 13:47:41 - INFO - PRINT: Epoch [ 354], Train Loss: 0.1849, Validation Loss: 0.1860
+2026-02-18 13:47:42 - INFO - PRINT: Epoch [ 355], Train Loss: 0.1850, Validation Loss: 0.1860
+2026-02-18 13:47:42 - INFO - PRINT: Epoch [ 356], Train Loss: 0.1848, Validation Loss: 0.1860
+2026-02-18 13:47:42 - INFO - PRINT: Epoch [ 357], Train Loss: 0.1852, Validation Loss: 0.1860
+2026-02-18 13:47:42 - INFO - PRINT: Epoch [ 358], Train Loss: 0.1851, Validation Loss: 0.1860
+2026-02-18 13:47:42 - INFO - PRINT: Epoch [ 359], Train Loss: 0.1848, Validation Loss: 0.1860
+2026-02-18 13:47:42 - INFO - PRINT: Epoch [ 360], Train Loss: 0.1847, Validation Loss: 0.1856
+2026-02-18 13:47:42 - INFO - PRINT: Epoch [ 361], Train Loss: 0.1847, Validation Loss: 0.1856
+2026-02-18 13:47:42 - INFO - PRINT: Epoch [ 362], Train Loss: 0.1849, Validation Loss: 0.1856
+2026-02-18 13:47:42 - INFO - PRINT: Epoch [ 363], Train Loss: 0.1846, Validation Loss: 0.1856
+2026-02-18 13:47:42 - INFO - PRINT: Epoch [ 364], Train Loss: 0.1845, Validation Loss: 0.1856
+2026-02-18 13:47:42 - INFO - PRINT: Epoch [ 365], Train Loss: 0.1847, Validation Loss: 0.1856
+2026-02-18 13:47:43 - INFO - PRINT: Epoch [ 366], Train Loss: 0.1847, Validation Loss: 0.1856
+2026-02-18 13:47:43 - INFO - PRINT: Epoch [ 367], Train Loss: 0.1850, Validation Loss: 0.1856
+2026-02-18 13:47:43 - INFO - PRINT: Epoch [ 368], Train Loss: 0.1852, Validation Loss: 0.1856
+2026-02-18 13:47:43 - INFO - PRINT: Epoch [ 369], Train Loss: 0.1847, Validation Loss: 0.1856
+2026-02-18 13:47:43 - INFO - PRINT: Epoch [ 370], Train Loss: 0.1852, Validation Loss: 0.1856
+2026-02-18 13:47:43 - INFO - PRINT: Epoch [ 371], Train Loss: 0.1847, Validation Loss: 0.1856
+2026-02-18 13:47:43 - INFO - PRINT: Epoch [ 372], Train Loss: 0.1846, Validation Loss: 0.1856
+2026-02-18 13:47:43 - INFO - PRINT: Epoch [ 373], Train Loss: 0.1846, Validation Loss: 0.1856
+2026-02-18 13:47:43 - INFO - PRINT: Epoch [ 374], Train Loss: 0.1847, Validation Loss: 0.1856
+2026-02-18 13:47:43 - INFO - PRINT: Epoch [ 375], Train Loss: 0.1848, Validation Loss: 0.1856
+2026-02-18 13:47:43 - INFO - PRINT: Epoch [ 376], Train Loss: 0.1845, Validation Loss: 0.1856
+2026-02-18 13:47:43 - INFO - PRINT: Epoch [ 377], Train Loss: 0.1847, Validation Loss: 0.1856
+2026-02-18 13:47:43 - INFO - PRINT: Epoch [ 378], Train Loss: 0.1846, Validation Loss: 0.1856
+2026-02-18 13:47:43 - INFO - PRINT: Epoch [ 379], Train Loss: 0.1846, Validation Loss: 0.1856
+2026-02-18 13:47:44 - INFO - PRINT: Epoch [ 380], Train Loss: 0.1845, Validation Loss: 0.1851
+2026-02-18 13:47:44 - INFO - PRINT: Epoch [ 381], Train Loss: 0.1846, Validation Loss: 0.1851
+2026-02-18 13:47:44 - INFO - PRINT: Epoch [ 382], Train Loss: 0.1847, Validation Loss: 0.1851
+2026-02-18 13:47:44 - INFO - PRINT: Epoch [ 383], Train Loss: 0.1845, Validation Loss: 0.1851
+2026-02-18 13:47:44 - INFO - PRINT: Epoch [ 384], Train Loss: 0.1846, Validation Loss: 0.1851
+2026-02-18 13:47:44 - INFO - PRINT: Epoch [ 385], Train Loss: 0.1846, Validation Loss: 0.1851
+2026-02-18 13:47:44 - INFO - PRINT: Epoch [ 386], Train Loss: 0.1846, Validation Loss: 0.1851
+2026-02-18 13:47:44 - INFO - PRINT: Epoch [ 387], Train Loss: 0.1845, Validation Loss: 0.1851
+2026-02-18 13:47:44 - INFO - PRINT: Epoch [ 388], Train Loss: 0.1847, Validation Loss: 0.1851
+2026-02-18 13:47:44 - INFO - PRINT: Epoch [ 389], Train Loss: 0.1847, Validation Loss: 0.1851
+2026-02-18 13:47:44 - INFO - PRINT: Epoch [ 390], Train Loss: 0.1847, Validation Loss: 0.1851
+2026-02-18 13:47:45 - INFO - PRINT: Epoch [ 391], Train Loss: 0.1847, Validation Loss: 0.1851
+2026-02-18 13:47:45 - INFO - PRINT: Epoch [ 392], Train Loss: 0.1847, Validation Loss: 0.1851
+2026-02-18 13:47:45 - INFO - PRINT: Epoch [ 393], Train Loss: 0.1847, Validation Loss: 0.1851
+2026-02-18 13:47:45 - INFO - PRINT: Epoch [ 394], Train Loss: 0.1845, Validation Loss: 0.1851
+2026-02-18 13:47:45 - INFO - PRINT: Epoch [ 395], Train Loss: 0.1844, Validation Loss: 0.1851
+2026-02-18 13:47:45 - INFO - PRINT: Epoch [ 396], Train Loss: 0.1845, Validation Loss: 0.1851
+2026-02-18 13:47:45 - INFO - PRINT: Epoch [ 397], Train Loss: 0.1843, Validation Loss: 0.1851
+2026-02-18 13:47:45 - INFO - PRINT: Epoch [ 398], Train Loss: 0.1845, Validation Loss: 0.1851
+2026-02-18 13:47:45 - INFO - PRINT: Epoch [ 399], Train Loss: 0.1847, Validation Loss: 0.1851
+2026-02-18 13:47:45 - INFO - PRINT: Epoch [ 400], Train Loss: 0.1851, Validation Loss: 0.1856
+2026-02-18 13:47:45 - INFO - PRINT: ----> Saving model from epoch 380 (val loss: 0.18508024513721466). Chewy!
+2026-02-18 13:47:45 - INFO - PRINT: Epoch [ 401], Train Loss: 0.1847, Validation Loss: 0.1856
+2026-02-18 13:47:46 - INFO - PRINT: Epoch [ 402], Train Loss: 0.1844, Validation Loss: 0.1856
+2026-02-18 13:47:46 - INFO - PRINT: Epoch [ 403], Train Loss: 0.1846, Validation Loss: 0.1856
+2026-02-18 13:47:46 - INFO - PRINT: Epoch [ 404], Train Loss: 0.1847, Validation Loss: 0.1856
+2026-02-18 13:47:46 - INFO - PRINT: Epoch [ 405], Train Loss: 0.1852, Validation Loss: 0.1856
+2026-02-18 13:47:46 - INFO - PRINT: Epoch [ 406], Train Loss: 0.1848, Validation Loss: 0.1856
+2026-02-18 13:47:46 - INFO - PRINT: Epoch [ 407], Train Loss: 0.1847, Validation Loss: 0.1856
+2026-02-18 13:47:46 - INFO - PRINT: Epoch [ 408], Train Loss: 0.1846, Validation Loss: 0.1856
+2026-02-18 13:47:46 - INFO - PRINT: Epoch [ 409], Train Loss: 0.1846, Validation Loss: 0.1856
+2026-02-18 13:47:46 - INFO - PRINT: Epoch [ 410], Train Loss: 0.1846, Validation Loss: 0.1856
+2026-02-18 13:47:46 - INFO - PRINT: Epoch [ 411], Train Loss: 0.1846, Validation Loss: 0.1856
+2026-02-18 13:47:46 - INFO - PRINT: Epoch [ 412], Train Loss: 0.1846, Validation Loss: 0.1856
+2026-02-18 13:47:46 - INFO - PRINT: Epoch [ 413], Train Loss: 0.1844, Validation Loss: 0.1856
+2026-02-18 13:47:46 - INFO - PRINT: Epoch [ 414], Train Loss: 0.1844, Validation Loss: 0.1856
+2026-02-18 13:47:46 - INFO - PRINT: Epoch [ 415], Train Loss: 0.1845, Validation Loss: 0.1856
+2026-02-18 13:47:47 - INFO - PRINT: Epoch [ 416], Train Loss: 0.1844, Validation Loss: 0.1856
+2026-02-18 13:47:47 - INFO - PRINT: Epoch [ 417], Train Loss: 0.1844, Validation Loss: 0.1856
+2026-02-18 13:47:47 - INFO - PRINT: Epoch [ 418], Train Loss: 0.1845, Validation Loss: 0.1856
+2026-02-18 13:47:47 - INFO - PRINT: Epoch [ 419], Train Loss: 0.1847, Validation Loss: 0.1856
+2026-02-18 13:47:47 - INFO - PRINT: Epoch [ 420], Train Loss: 0.1848, Validation Loss: 0.1855
+2026-02-18 13:47:47 - INFO - PRINT: Epoch [ 421], Train Loss: 0.1849, Validation Loss: 0.1855
+2026-02-18 13:47:47 - INFO - PRINT: Epoch [ 422], Train Loss: 0.1847, Validation Loss: 0.1855
+2026-02-18 13:47:47 - INFO - PRINT: Epoch [ 423], Train Loss: 0.1847, Validation Loss: 0.1855
+2026-02-18 13:47:47 - INFO - PRINT: Epoch [ 424], Train Loss: 0.1844, Validation Loss: 0.1855
+2026-02-18 13:47:47 - INFO - PRINT: Epoch [ 425], Train Loss: 0.1846, Validation Loss: 0.1855
+2026-02-18 13:47:47 - INFO - PRINT: Epoch [ 426], Train Loss: 0.1848, Validation Loss: 0.1855
+2026-02-18 13:47:48 - INFO - PRINT: Epoch [ 427], Train Loss: 0.1845, Validation Loss: 0.1855
+2026-02-18 13:47:48 - INFO - PRINT: Epoch [ 428], Train Loss: 0.1844, Validation Loss: 0.1855
+2026-02-18 13:47:48 - INFO - PRINT: Epoch [ 429], Train Loss: 0.1847, Validation Loss: 0.1855
+2026-02-18 13:47:48 - INFO - PRINT: Epoch [ 430], Train Loss: 0.1847, Validation Loss: 0.1855
+2026-02-18 13:47:48 - INFO - PRINT: Epoch [ 431], Train Loss: 0.1846, Validation Loss: 0.1855
+2026-02-18 13:47:48 - INFO - PRINT: Epoch [ 432], Train Loss: 0.1845, Validation Loss: 0.1855
+2026-02-18 13:47:48 - INFO - PRINT: Epoch [ 433], Train Loss: 0.1843, Validation Loss: 0.1855
+2026-02-18 13:47:48 - INFO - PRINT: Epoch [ 434], Train Loss: 0.1844, Validation Loss: 0.1855
+2026-02-18 13:47:48 - INFO - PRINT: Epoch [ 435], Train Loss: 0.1843, Validation Loss: 0.1855
+2026-02-18 13:47:48 - INFO - PRINT: Epoch [ 436], Train Loss: 0.1846, Validation Loss: 0.1855
+2026-02-18 13:47:48 - INFO - PRINT: Epoch [ 437], Train Loss: 0.1845, Validation Loss: 0.1855
+2026-02-18 13:47:48 - INFO - PRINT: Epoch [ 438], Train Loss: 0.1843, Validation Loss: 0.1855
+2026-02-18 13:47:48 - INFO - PRINT: Epoch [ 439], Train Loss: 0.1843, Validation Loss: 0.1855
+2026-02-18 13:47:49 - INFO - PRINT: Epoch [ 440], Train Loss: 0.1844, Validation Loss: 0.1850
+2026-02-18 13:47:49 - INFO - PRINT: Epoch [ 441], Train Loss: 0.1845, Validation Loss: 0.1850
+2026-02-18 13:47:49 - INFO - PRINT: Epoch [ 442], Train Loss: 0.1849, Validation Loss: 0.1850
+2026-02-18 13:47:49 - INFO - PRINT: Epoch [ 443], Train Loss: 0.1848, Validation Loss: 0.1850
+2026-02-18 13:47:49 - INFO - PRINT: Epoch [ 444], Train Loss: 0.1846, Validation Loss: 0.1850
+2026-02-18 13:47:49 - INFO - PRINT: Epoch [ 445], Train Loss: 0.1846, Validation Loss: 0.1850
+2026-02-18 13:47:49 - INFO - PRINT: Epoch [ 446], Train Loss: 0.1845, Validation Loss: 0.1850
+2026-02-18 13:47:49 - INFO - PRINT: Epoch [ 447], Train Loss: 0.1846, Validation Loss: 0.1850
+2026-02-18 13:47:49 - INFO - PRINT: Epoch [ 448], Train Loss: 0.1844, Validation Loss: 0.1850
+2026-02-18 13:47:49 - INFO - PRINT: Epoch [ 449], Train Loss: 0.1844, Validation Loss: 0.1850
+2026-02-18 13:47:49 - INFO - PRINT: Epoch [ 450], Train Loss: 0.1848, Validation Loss: 0.1850
+2026-02-18 13:47:49 - INFO - PRINT: Epoch [ 451], Train Loss: 0.1847, Validation Loss: 0.1850
+2026-02-18 13:47:50 - INFO - PRINT: Epoch [ 452], Train Loss: 0.1845, Validation Loss: 0.1850
+2026-02-18 13:47:50 - INFO - PRINT: Epoch [ 453], Train Loss: 0.1842, Validation Loss: 0.1850
+2026-02-18 13:47:50 - INFO - PRINT: Epoch [ 454], Train Loss: 0.1844, Validation Loss: 0.1850
+2026-02-18 13:47:50 - INFO - PRINT: Epoch [ 455], Train Loss: 0.1846, Validation Loss: 0.1850
+2026-02-18 13:47:50 - INFO - PRINT: Epoch [ 456], Train Loss: 0.1848, Validation Loss: 0.1850
+2026-02-18 13:47:50 - INFO - PRINT: Epoch [ 457], Train Loss: 0.1846, Validation Loss: 0.1850
+2026-02-18 13:47:50 - INFO - PRINT: Epoch [ 458], Train Loss: 0.1846, Validation Loss: 0.1850
+2026-02-18 13:47:50 - INFO - PRINT: Epoch [ 459], Train Loss: 0.1846, Validation Loss: 0.1850
+2026-02-18 13:47:50 - INFO - PRINT: Epoch [ 460], Train Loss: 0.1847, Validation Loss: 0.1854
+2026-02-18 13:47:50 - INFO - PRINT: Epoch [ 461], Train Loss: 0.1844, Validation Loss: 0.1854
+2026-02-18 13:47:50 - INFO - PRINT: Epoch [ 462], Train Loss: 0.1844, Validation Loss: 0.1854
+2026-02-18 13:47:51 - INFO - PRINT: Epoch [ 463], Train Loss: 0.1843, Validation Loss: 0.1854
+2026-02-18 13:47:51 - INFO - PRINT: Epoch [ 464], Train Loss: 0.1844, Validation Loss: 0.1854
+2026-02-18 13:47:51 - INFO - PRINT: Epoch [ 465], Train Loss: 0.1844, Validation Loss: 0.1854
+2026-02-18 13:47:51 - INFO - PRINT: Epoch [ 466], Train Loss: 0.1847, Validation Loss: 0.1854
+2026-02-18 13:47:51 - INFO - PRINT: Epoch [ 467], Train Loss: 0.1847, Validation Loss: 0.1854
+2026-02-18 13:47:51 - INFO - PRINT: Epoch [ 468], Train Loss: 0.1847, Validation Loss: 0.1854
+2026-02-18 13:47:51 - INFO - PRINT: Epoch [ 469], Train Loss: 0.1845, Validation Loss: 0.1854
+2026-02-18 13:47:51 - INFO - PRINT: Epoch [ 470], Train Loss: 0.1845, Validation Loss: 0.1854
+2026-02-18 13:47:51 - INFO - PRINT: Epoch [ 471], Train Loss: 0.1845, Validation Loss: 0.1854
+2026-02-18 13:47:51 - INFO - PRINT: Epoch [ 472], Train Loss: 0.1843, Validation Loss: 0.1854
+2026-02-18 13:47:51 - INFO - PRINT: Epoch [ 473], Train Loss: 0.1843, Validation Loss: 0.1854
+2026-02-18 13:47:51 - INFO - PRINT: Epoch [ 474], Train Loss: 0.1844, Validation Loss: 0.1854
+2026-02-18 13:47:51 - INFO - PRINT: Epoch [ 475], Train Loss: 0.1841, Validation Loss: 0.1854
+2026-02-18 13:47:51 - INFO - PRINT: Epoch [ 476], Train Loss: 0.1842, Validation Loss: 0.1854
+2026-02-18 13:47:52 - INFO - PRINT: Epoch [ 477], Train Loss: 0.1842, Validation Loss: 0.1854
+2026-02-18 13:47:52 - INFO - PRINT: Epoch [ 478], Train Loss: 0.1842, Validation Loss: 0.1854
+2026-02-18 13:47:52 - INFO - PRINT: Epoch [ 479], Train Loss: 0.1842, Validation Loss: 0.1854
+2026-02-18 13:47:52 - INFO - PRINT: Epoch [ 480], Train Loss: 0.1843, Validation Loss: 0.1847
+2026-02-18 13:47:52 - INFO - PRINT: Epoch [ 481], Train Loss: 0.1844, Validation Loss: 0.1847
+2026-02-18 13:47:52 - INFO - PRINT: Epoch [ 482], Train Loss: 0.1846, Validation Loss: 0.1847
+2026-02-18 13:47:52 - INFO - PRINT: Epoch [ 483], Train Loss: 0.1845, Validation Loss: 0.1847
+2026-02-18 13:47:52 - INFO - PRINT: Epoch [ 484], Train Loss: 0.1845, Validation Loss: 0.1847
+2026-02-18 13:47:52 - INFO - PRINT: Epoch [ 485], Train Loss: 0.1843, Validation Loss: 0.1847
+2026-02-18 13:47:52 - INFO - PRINT: Epoch [ 486], Train Loss: 0.1843, Validation Loss: 0.1847
+2026-02-18 13:47:52 - INFO - PRINT: Epoch [ 487], Train Loss: 0.1844, Validation Loss: 0.1847
+2026-02-18 13:47:53 - INFO - PRINT: Epoch [ 488], Train Loss: 0.1843, Validation Loss: 0.1847
+2026-02-18 13:47:53 - INFO - PRINT: Epoch [ 489], Train Loss: 0.1844, Validation Loss: 0.1847
+2026-02-18 13:47:53 - INFO - PRINT: Epoch [ 490], Train Loss: 0.1846, Validation Loss: 0.1847
+2026-02-18 13:47:53 - INFO - PRINT: Epoch [ 491], Train Loss: 0.1846, Validation Loss: 0.1847
+2026-02-18 13:47:53 - INFO - PRINT: Epoch [ 492], Train Loss: 0.1845, Validation Loss: 0.1847
+2026-02-18 13:47:53 - INFO - PRINT: Epoch [ 493], Train Loss: 0.1845, Validation Loss: 0.1847
+2026-02-18 13:47:53 - INFO - PRINT: Epoch [ 494], Train Loss: 0.1848, Validation Loss: 0.1847
+2026-02-18 13:47:53 - INFO - PRINT: Epoch [ 495], Train Loss: 0.1846, Validation Loss: 0.1847
+2026-02-18 13:47:53 - INFO - PRINT: Epoch [ 496], Train Loss: 0.1843, Validation Loss: 0.1847
+2026-02-18 13:47:53 - INFO - PRINT: Epoch [ 497], Train Loss: 0.1842, Validation Loss: 0.1847
+2026-02-18 13:47:53 - INFO - PRINT: Epoch [ 498], Train Loss: 0.1842, Validation Loss: 0.1847
+2026-02-18 13:47:53 - INFO - PRINT: Epoch [ 499], Train Loss: 0.1845, Validation Loss: 0.1847
+2026-02-18 13:47:54 - INFO - PRINT: Epoch [ 500], Train Loss: 0.1845, Validation Loss: 0.1857
+2026-02-18 13:47:54 - INFO - PRINT: ----> Saving model from epoch 480 (val loss: 0.1847449541091919). Piquant!
+2026-02-18 13:47:54 - INFO - PRINT: Epoch [ 501], Train Loss: 0.1842, Validation Loss: 0.1857
+2026-02-18 13:47:54 - INFO - PRINT: Epoch [ 502], Train Loss: 0.1847, Validation Loss: 0.1857
+2026-02-18 13:47:54 - INFO - PRINT: Epoch [ 503], Train Loss: 0.1843, Validation Loss: 0.1857
+2026-02-18 13:47:54 - INFO - PRINT: Epoch [ 504], Train Loss: 0.1841, Validation Loss: 0.1857
+2026-02-18 13:47:54 - INFO - PRINT: Epoch [ 505], Train Loss: 0.1844, Validation Loss: 0.1857
+2026-02-18 13:47:54 - INFO - PRINT: Epoch [ 506], Train Loss: 0.1843, Validation Loss: 0.1857
+2026-02-18 13:47:54 - INFO - PRINT: Epoch [ 507], Train Loss: 0.1845, Validation Loss: 0.1857
+2026-02-18 13:47:54 - INFO - PRINT: Epoch [ 508], Train Loss: 0.1847, Validation Loss: 0.1857
+2026-02-18 13:47:54 - INFO - PRINT: Epoch [ 509], Train Loss: 0.1849, Validation Loss: 0.1857
+2026-02-18 13:47:54 - INFO - PRINT: Epoch [ 510], Train Loss: 0.1849, Validation Loss: 0.1857
+2026-02-18 13:47:55 - INFO - PRINT: Epoch [ 511], Train Loss: 0.1843, Validation Loss: 0.1857
+2026-02-18 13:47:55 - INFO - PRINT: Epoch [ 512], Train Loss: 0.1842, Validation Loss: 0.1857
+2026-02-18 13:47:55 - INFO - PRINT: Epoch [ 513], Train Loss: 0.1844, Validation Loss: 0.1857
+2026-02-18 13:47:55 - INFO - PRINT: Epoch [ 514], Train Loss: 0.1842, Validation Loss: 0.1857
+2026-02-18 13:47:55 - INFO - PRINT: Epoch [ 515], Train Loss: 0.1841, Validation Loss: 0.1857
+2026-02-18 13:47:55 - INFO - PRINT: Epoch [ 516], Train Loss: 0.1841, Validation Loss: 0.1857
+2026-02-18 13:47:55 - INFO - PRINT: Epoch [ 517], Train Loss: 0.1846, Validation Loss: 0.1857
+2026-02-18 13:47:55 - INFO - PRINT: Epoch [ 518], Train Loss: 0.1843, Validation Loss: 0.1857
+2026-02-18 13:47:55 - INFO - PRINT: Epoch [ 519], Train Loss: 0.1844, Validation Loss: 0.1857
+2026-02-18 13:47:55 - INFO - PRINT: Epoch [ 520], Train Loss: 0.1845, Validation Loss: 0.1850
+2026-02-18 13:47:55 - INFO - PRINT: Epoch [ 521], Train Loss: 0.1850, Validation Loss: 0.1850
+2026-02-18 13:47:56 - INFO - PRINT: Epoch [ 522], Train Loss: 0.1845, Validation Loss: 0.1850
+2026-02-18 13:47:56 - INFO - PRINT: Epoch [ 523], Train Loss: 0.1845, Validation Loss: 0.1850
+2026-02-18 13:47:56 - INFO - PRINT: Epoch [ 524], Train Loss: 0.1845, Validation Loss: 0.1850
+2026-02-18 13:47:56 - INFO - PRINT: Epoch [ 525], Train Loss: 0.1844, Validation Loss: 0.1850
+2026-02-18 13:47:56 - INFO - PRINT: Epoch [ 526], Train Loss: 0.1843, Validation Loss: 0.1850
+2026-02-18 13:47:56 - INFO - PRINT: Epoch [ 527], Train Loss: 0.1842, Validation Loss: 0.1850
+2026-02-18 13:47:56 - INFO - PRINT: Epoch [ 528], Train Loss: 0.1844, Validation Loss: 0.1850
+2026-02-18 13:47:56 - INFO - PRINT: Epoch [ 529], Train Loss: 0.1842, Validation Loss: 0.1850
+2026-02-18 13:47:56 - INFO - PRINT: Epoch [ 530], Train Loss: 0.1843, Validation Loss: 0.1850
+2026-02-18 13:47:56 - INFO - PRINT: Epoch [ 531], Train Loss: 0.1842, Validation Loss: 0.1850
+2026-02-18 13:47:56 - INFO - PRINT: Epoch [ 532], Train Loss: 0.1842, Validation Loss: 0.1850
+2026-02-18 13:47:56 - INFO - PRINT: Epoch [ 533], Train Loss: 0.1844, Validation Loss: 0.1850
+2026-02-18 13:47:56 - INFO - PRINT: Epoch [ 534], Train Loss: 0.1842, Validation Loss: 0.1850
+2026-02-18 13:47:56 - INFO - PRINT: Epoch [ 535], Train Loss: 0.1842, Validation Loss: 0.1850
+2026-02-18 13:47:57 - INFO - PRINT: Epoch [ 536], Train Loss: 0.1842, Validation Loss: 0.1850
+2026-02-18 13:47:57 - INFO - PRINT: Epoch [ 537], Train Loss: 0.1844, Validation Loss: 0.1850
+2026-02-18 13:47:57 - INFO - PRINT: Epoch [ 538], Train Loss: 0.1843, Validation Loss: 0.1850
+2026-02-18 13:47:57 - INFO - PRINT: Epoch [ 539], Train Loss: 0.1843, Validation Loss: 0.1850
+2026-02-18 13:47:57 - INFO - PRINT: Epoch [ 540], Train Loss: 0.1844, Validation Loss: 0.1866
+2026-02-18 13:47:57 - INFO - PRINT: Epoch [ 541], Train Loss: 0.1844, Validation Loss: 0.1866
+2026-02-18 13:47:57 - INFO - PRINT: Epoch [ 542], Train Loss: 0.1844, Validation Loss: 0.1866
+2026-02-18 13:47:57 - INFO - PRINT: Epoch [ 543], Train Loss: 0.1845, Validation Loss: 0.1866
+2026-02-18 13:47:57 - INFO - PRINT: Epoch [ 544], Train Loss: 0.1842, Validation Loss: 0.1866
+2026-02-18 13:47:57 - INFO - PRINT: Epoch [ 545], Train Loss: 0.1840, Validation Loss: 0.1866
+2026-02-18 13:47:57 - INFO - PRINT: Epoch [ 546], Train Loss: 0.1842, Validation Loss: 0.1866
+2026-02-18 13:47:58 - INFO - PRINT: Epoch [ 547], Train Loss: 0.1843, Validation Loss: 0.1866
+2026-02-18 13:47:58 - INFO - PRINT: Epoch [ 548], Train Loss: 0.1843, Validation Loss: 0.1866
+2026-02-18 13:47:58 - INFO - PRINT: Epoch [ 549], Train Loss: 0.1842, Validation Loss: 0.1866
+2026-02-18 13:47:58 - INFO - PRINT: Epoch [ 550], Train Loss: 0.1844, Validation Loss: 0.1866
+2026-02-18 13:47:58 - INFO - PRINT: Epoch [ 551], Train Loss: 0.1842, Validation Loss: 0.1866
+2026-02-18 13:47:58 - INFO - PRINT: Epoch [ 552], Train Loss: 0.1841, Validation Loss: 0.1866
+2026-02-18 13:47:58 - INFO - PRINT: Epoch [ 553], Train Loss: 0.1842, Validation Loss: 0.1866
+2026-02-18 13:47:58 - INFO - PRINT: Epoch [ 554], Train Loss: 0.1845, Validation Loss: 0.1866
+2026-02-18 13:47:58 - INFO - PRINT: Epoch [ 555], Train Loss: 0.1846, Validation Loss: 0.1866
+2026-02-18 13:47:58 - INFO - PRINT: Epoch [ 556], Train Loss: 0.1843, Validation Loss: 0.1866
+2026-02-18 13:47:58 - INFO - PRINT: Epoch [ 557], Train Loss: 0.1848, Validation Loss: 0.1866
+2026-02-18 13:47:58 - INFO - PRINT: Epoch [ 558], Train Loss: 0.1847, Validation Loss: 0.1866
+2026-02-18 13:47:58 - INFO - PRINT: Epoch [ 559], Train Loss: 0.1844, Validation Loss: 0.1866
+2026-02-18 13:47:59 - INFO - PRINT: Epoch [ 560], Train Loss: 0.1845, Validation Loss: 0.1855
+2026-02-18 13:47:59 - INFO - PRINT: Epoch [ 561], Train Loss: 0.1845, Validation Loss: 0.1855
+2026-02-18 13:47:59 - INFO - PRINT: Epoch [ 562], Train Loss: 0.1843, Validation Loss: 0.1855
+2026-02-18 13:47:59 - INFO - PRINT: Epoch [ 563], Train Loss: 0.1844, Validation Loss: 0.1855
+2026-02-18 13:47:59 - INFO - PRINT: Epoch [ 564], Train Loss: 0.1844, Validation Loss: 0.1855
+2026-02-18 13:47:59 - INFO - PRINT: Epoch [ 565], Train Loss: 0.1844, Validation Loss: 0.1855
+2026-02-18 13:47:59 - INFO - PRINT: Epoch [ 566], Train Loss: 0.1841, Validation Loss: 0.1855
+2026-02-18 13:47:59 - INFO - PRINT: Epoch [ 567], Train Loss: 0.1841, Validation Loss: 0.1855
+2026-02-18 13:47:59 - INFO - PRINT: Epoch [ 568], Train Loss: 0.1843, Validation Loss: 0.1855
+2026-02-18 13:47:59 - INFO - PRINT: Epoch [ 569], Train Loss: 0.1845, Validation Loss: 0.1855
+2026-02-18 13:47:59 - INFO - PRINT: Epoch [ 570], Train Loss: 0.1842, Validation Loss: 0.1855
+2026-02-18 13:47:59 - INFO - PRINT: Epoch [ 571], Train Loss: 0.1843, Validation Loss: 0.1855
+2026-02-18 13:48:00 - INFO - PRINT: Epoch [ 572], Train Loss: 0.1842, Validation Loss: 0.1855
+2026-02-18 13:48:00 - INFO - PRINT: Epoch [ 573], Train Loss: 0.1842, Validation Loss: 0.1855
+2026-02-18 13:48:00 - INFO - PRINT: Epoch [ 574], Train Loss: 0.1842, Validation Loss: 0.1855
+2026-02-18 13:48:00 - INFO - PRINT: Epoch [ 575], Train Loss: 0.1841, Validation Loss: 0.1855
+2026-02-18 13:48:00 - INFO - PRINT: Epoch [ 576], Train Loss: 0.1843, Validation Loss: 0.1855
+2026-02-18 13:48:00 - INFO - PRINT: Epoch [ 577], Train Loss: 0.1849, Validation Loss: 0.1855
+2026-02-18 13:48:00 - INFO - PRINT: Epoch [ 578], Train Loss: 0.1843, Validation Loss: 0.1855
+2026-02-18 13:48:00 - INFO - PRINT: Epoch [ 579], Train Loss: 0.1847, Validation Loss: 0.1855
+2026-02-18 13:48:00 - INFO - PRINT: Epoch [ 580], Train Loss: 0.1842, Validation Loss: 0.1863
+2026-02-18 13:48:00 - INFO - PRINT: Epoch [ 581], Train Loss: 0.1843, Validation Loss: 0.1863
+2026-02-18 13:48:00 - INFO - PRINT: Epoch [ 582], Train Loss: 0.1844, Validation Loss: 0.1863
+2026-02-18 13:48:01 - INFO - PRINT: Epoch [ 583], Train Loss: 0.1842, Validation Loss: 0.1863
+2026-02-18 13:48:01 - INFO - PRINT: Epoch [ 584], Train Loss: 0.1840, Validation Loss: 0.1863
+2026-02-18 13:48:01 - INFO - PRINT: Epoch [ 585], Train Loss: 0.1842, Validation Loss: 0.1863
+2026-02-18 13:48:01 - INFO - PRINT: Epoch [ 586], Train Loss: 0.1841, Validation Loss: 0.1863
+2026-02-18 13:48:01 - INFO - PRINT: Epoch [ 587], Train Loss: 0.1846, Validation Loss: 0.1863
+2026-02-18 13:48:01 - INFO - PRINT: Epoch [ 588], Train Loss: 0.1844, Validation Loss: 0.1863
+2026-02-18 13:48:01 - INFO - PRINT: Epoch [ 589], Train Loss: 0.1846, Validation Loss: 0.1863
+2026-02-18 13:48:01 - INFO - PRINT: Epoch [ 590], Train Loss: 0.1848, Validation Loss: 0.1863
+2026-02-18 13:48:01 - INFO - PRINT: Epoch [ 591], Train Loss: 0.1845, Validation Loss: 0.1863
+2026-02-18 13:48:01 - INFO - PRINT: Epoch [ 592], Train Loss: 0.1843, Validation Loss: 0.1863
+2026-02-18 13:48:01 - INFO - PRINT: Epoch [ 593], Train Loss: 0.1844, Validation Loss: 0.1863
+2026-02-18 13:48:01 - INFO - PRINT: Epoch [ 594], Train Loss: 0.1844, Validation Loss: 0.1863
+2026-02-18 13:48:01 - INFO - PRINT: Epoch [ 595], Train Loss: 0.1842, Validation Loss: 0.1863
+2026-02-18 13:48:02 - INFO - PRINT: Epoch [ 596], Train Loss: 0.1843, Validation Loss: 0.1863
+2026-02-18 13:48:02 - INFO - PRINT: Epoch [ 597], Train Loss: 0.1842, Validation Loss: 0.1863
+2026-02-18 13:48:02 - INFO - PRINT: Epoch [ 598], Train Loss: 0.1842, Validation Loss: 0.1863
+2026-02-18 13:48:02 - INFO - PRINT: Epoch [ 599], Train Loss: 0.1842, Validation Loss: 0.1863
+2026-02-18 13:48:02 - INFO - PRINT: Epoch [ 600], Train Loss: 0.1841, Validation Loss: 0.1853
+2026-02-18 13:48:02 - INFO - PRINT: ----> Saving model from epoch 480 (val loss: 0.1847449541091919). Citrusy!
+2026-02-18 13:48:02 - INFO - PRINT: Epoch [ 601], Train Loss: 0.1843, Validation Loss: 0.1853
+2026-02-18 13:48:02 - INFO - PRINT: Epoch [ 602], Train Loss: 0.1845, Validation Loss: 0.1853
+2026-02-18 13:48:02 - INFO - PRINT: Epoch [ 603], Train Loss: 0.1845, Validation Loss: 0.1853
+2026-02-18 13:48:02 - INFO - PRINT: Epoch [ 604], Train Loss: 0.1841, Validation Loss: 0.1853
+2026-02-18 13:48:02 - INFO - PRINT: Epoch [ 605], Train Loss: 0.1841, Validation Loss: 0.1853
+2026-02-18 13:48:02 - INFO - PRINT: Epoch [ 606], Train Loss: 0.1842, Validation Loss: 0.1853
+2026-02-18 13:48:02 - INFO - PRINT: Epoch [ 607], Train Loss: 0.1842, Validation Loss: 0.1853
+2026-02-18 13:48:03 - INFO - PRINT: Epoch [ 608], Train Loss: 0.1841, Validation Loss: 0.1853
+2026-02-18 13:48:03 - INFO - PRINT: Epoch [ 609], Train Loss: 0.1840, Validation Loss: 0.1853
+2026-02-18 13:48:03 - INFO - PRINT: Epoch [ 610], Train Loss: 0.1840, Validation Loss: 0.1853
+2026-02-18 13:48:03 - INFO - PRINT: Epoch [ 611], Train Loss: 0.1841, Validation Loss: 0.1853
+2026-02-18 13:48:03 - INFO - PRINT: Epoch [ 612], Train Loss: 0.1842, Validation Loss: 0.1853
+2026-02-18 13:48:03 - INFO - PRINT: Epoch [ 613], Train Loss: 0.1842, Validation Loss: 0.1853
+2026-02-18 13:48:03 - INFO - PRINT: Epoch [ 614], Train Loss: 0.1841, Validation Loss: 0.1853
+2026-02-18 13:48:03 - INFO - PRINT: Epoch [ 615], Train Loss: 0.1842, Validation Loss: 0.1853
+2026-02-18 13:48:03 - INFO - PRINT: Epoch [ 616], Train Loss: 0.1842, Validation Loss: 0.1853
+2026-02-18 13:48:03 - INFO - PRINT: Epoch [ 617], Train Loss: 0.1842, Validation Loss: 0.1853
+2026-02-18 13:48:03 - INFO - PRINT: Epoch [ 618], Train Loss: 0.1845, Validation Loss: 0.1853
+2026-02-18 13:48:03 - INFO - PRINT: Epoch [ 619], Train Loss: 0.1843, Validation Loss: 0.1853
+2026-02-18 13:48:04 - INFO - PRINT: Epoch [ 620], Train Loss: 0.1846, Validation Loss: 0.1854
+2026-02-18 13:48:04 - INFO - PRINT: Epoch [ 621], Train Loss: 0.1843, Validation Loss: 0.1854
+2026-02-18 13:48:04 - INFO - PRINT: Epoch [ 622], Train Loss: 0.1843, Validation Loss: 0.1854
+2026-02-18 13:48:04 - INFO - PRINT: Epoch [ 623], Train Loss: 0.1841, Validation Loss: 0.1854
+2026-02-18 13:48:04 - INFO - PRINT: Epoch [ 624], Train Loss: 0.1840, Validation Loss: 0.1854
+2026-02-18 13:48:04 - INFO - PRINT: Epoch [ 625], Train Loss: 0.1843, Validation Loss: 0.1854
+2026-02-18 13:48:04 - INFO - PRINT: Epoch [ 626], Train Loss: 0.1841, Validation Loss: 0.1854
+2026-02-18 13:48:04 - INFO - PRINT: Epoch [ 627], Train Loss: 0.1843, Validation Loss: 0.1854
+2026-02-18 13:48:04 - INFO - PRINT: Epoch [ 628], Train Loss: 0.1844, Validation Loss: 0.1854
+2026-02-18 13:48:04 - INFO - PRINT: Epoch [ 629], Train Loss: 0.1842, Validation Loss: 0.1854
+2026-02-18 13:48:04 - INFO - PRINT: Epoch [ 630], Train Loss: 0.1841, Validation Loss: 0.1854
+2026-02-18 13:48:04 - INFO - PRINT: Epoch [ 631], Train Loss: 0.1842, Validation Loss: 0.1854
+2026-02-18 13:48:05 - INFO - PRINT: Epoch [ 632], Train Loss: 0.1841, Validation Loss: 0.1854
+2026-02-18 13:48:05 - INFO - PRINT: Epoch [ 633], Train Loss: 0.1843, Validation Loss: 0.1854
+2026-02-18 13:48:05 - INFO - PRINT: Epoch [ 634], Train Loss: 0.1843, Validation Loss: 0.1854
+2026-02-18 13:48:05 - INFO - PRINT: Epoch [ 635], Train Loss: 0.1844, Validation Loss: 0.1854
+2026-02-18 13:48:05 - INFO - PRINT: Epoch [ 636], Train Loss: 0.1844, Validation Loss: 0.1854
+2026-02-18 13:48:05 - INFO - PRINT: Epoch [ 637], Train Loss: 0.1842, Validation Loss: 0.1854
+2026-02-18 13:48:05 - INFO - PRINT: Epoch [ 638], Train Loss: 0.1840, Validation Loss: 0.1854
+2026-02-18 13:48:05 - INFO - PRINT: Epoch [ 639], Train Loss: 0.1840, Validation Loss: 0.1854
+2026-02-18 13:48:05 - INFO - PRINT: Epoch [ 640], Train Loss: 0.1841, Validation Loss: 0.1846
+2026-02-18 13:48:05 - INFO - PRINT: Epoch [ 641], Train Loss: 0.1841, Validation Loss: 0.1846
+2026-02-18 13:48:05 - INFO - PRINT: Epoch [ 642], Train Loss: 0.1842, Validation Loss: 0.1846
+2026-02-18 13:48:05 - INFO - PRINT: Epoch [ 643], Train Loss: 0.1842, Validation Loss: 0.1846
+2026-02-18 13:48:06 - INFO - PRINT: Epoch [ 644], Train Loss: 0.1842, Validation Loss: 0.1846
+2026-02-18 13:48:06 - INFO - PRINT: Epoch [ 645], Train Loss: 0.1841, Validation Loss: 0.1846
+2026-02-18 13:48:06 - INFO - PRINT: Epoch [ 646], Train Loss: 0.1841, Validation Loss: 0.1846
+2026-02-18 13:48:06 - INFO - PRINT: Epoch [ 647], Train Loss: 0.1842, Validation Loss: 0.1846
+2026-02-18 13:48:06 - INFO - PRINT: Epoch [ 648], Train Loss: 0.1843, Validation Loss: 0.1846
+2026-02-18 13:48:06 - INFO - PRINT: Epoch [ 649], Train Loss: 0.1841, Validation Loss: 0.1846
+2026-02-18 13:48:06 - INFO - PRINT: Epoch [ 650], Train Loss: 0.1840, Validation Loss: 0.1846
+2026-02-18 13:48:06 - INFO - PRINT: Epoch [ 651], Train Loss: 0.1840, Validation Loss: 0.1846
+2026-02-18 13:48:06 - INFO - PRINT: Epoch [ 652], Train Loss: 0.1844, Validation Loss: 0.1846
+2026-02-18 13:48:06 - INFO - PRINT: Epoch [ 653], Train Loss: 0.1842, Validation Loss: 0.1846
+2026-02-18 13:48:06 - INFO - PRINT: Epoch [ 654], Train Loss: 0.1841, Validation Loss: 0.1846
+2026-02-18 13:48:06 - INFO - PRINT: Epoch [ 655], Train Loss: 0.1846, Validation Loss: 0.1846
+2026-02-18 13:48:06 - INFO - PRINT: Epoch [ 656], Train Loss: 0.1843, Validation Loss: 0.1846
+2026-02-18 13:48:07 - INFO - PRINT: Epoch [ 657], Train Loss: 0.1844, Validation Loss: 0.1846
+2026-02-18 13:48:07 - INFO - PRINT: Epoch [ 658], Train Loss: 0.1845, Validation Loss: 0.1846
+2026-02-18 13:48:07 - INFO - PRINT: Epoch [ 659], Train Loss: 0.1842, Validation Loss: 0.1846
+2026-02-18 13:48:07 - INFO - PRINT: Epoch [ 660], Train Loss: 0.1840, Validation Loss: 0.1849
+2026-02-18 13:48:07 - INFO - PRINT: Epoch [ 661], Train Loss: 0.1840, Validation Loss: 0.1849
+2026-02-18 13:48:07 - INFO - PRINT: Epoch [ 662], Train Loss: 0.1840, Validation Loss: 0.1849
+2026-02-18 13:48:07 - INFO - PRINT: Epoch [ 663], Train Loss: 0.1843, Validation Loss: 0.1849
+2026-02-18 13:48:07 - INFO - PRINT: Epoch [ 664], Train Loss: 0.1843, Validation Loss: 0.1849
+2026-02-18 13:48:07 - INFO - PRINT: Epoch [ 665], Train Loss: 0.1842, Validation Loss: 0.1849
+2026-02-18 13:48:07 - INFO - PRINT: Epoch [ 666], Train Loss: 0.1841, Validation Loss: 0.1849
+2026-02-18 13:48:07 - INFO - PRINT: Epoch [ 667], Train Loss: 0.1841, Validation Loss: 0.1849
+2026-02-18 13:48:08 - INFO - PRINT: Epoch [ 668], Train Loss: 0.1843, Validation Loss: 0.1849
+2026-02-18 13:48:08 - INFO - PRINT: Epoch [ 669], Train Loss: 0.1841, Validation Loss: 0.1849
+2026-02-18 13:48:08 - INFO - PRINT: Epoch [ 670], Train Loss: 0.1840, Validation Loss: 0.1849
+2026-02-18 13:48:08 - INFO - PRINT: Epoch [ 671], Train Loss: 0.1841, Validation Loss: 0.1849
+2026-02-18 13:48:08 - INFO - PRINT: Epoch [ 672], Train Loss: 0.1844, Validation Loss: 0.1849
+2026-02-18 13:48:08 - INFO - PRINT: Epoch [ 673], Train Loss: 0.1840, Validation Loss: 0.1849
+2026-02-18 13:48:08 - INFO - PRINT: Epoch [ 674], Train Loss: 0.1840, Validation Loss: 0.1849
+2026-02-18 13:48:08 - INFO - PRINT: Epoch [ 675], Train Loss: 0.1839, Validation Loss: 0.1849
+2026-02-18 13:48:08 - INFO - PRINT: Epoch [ 676], Train Loss: 0.1840, Validation Loss: 0.1849
+2026-02-18 13:48:08 - INFO - PRINT: Epoch [ 677], Train Loss: 0.1839, Validation Loss: 0.1849
+2026-02-18 13:48:08 - INFO - PRINT: Epoch [ 678], Train Loss: 0.1842, Validation Loss: 0.1849
+2026-02-18 13:48:08 - INFO - PRINT: Epoch [ 679], Train Loss: 0.1843, Validation Loss: 0.1849
+2026-02-18 13:48:09 - INFO - PRINT: Epoch [ 680], Train Loss: 0.1843, Validation Loss: 0.1858
+2026-02-18 13:48:09 - INFO - PRINT: Epoch [ 681], Train Loss: 0.1842, Validation Loss: 0.1858
+2026-02-18 13:48:09 - INFO - PRINT: Epoch [ 682], Train Loss: 0.1844, Validation Loss: 0.1858
+2026-02-18 13:48:09 - INFO - PRINT: Epoch [ 683], Train Loss: 0.1843, Validation Loss: 0.1858
+2026-02-18 13:48:09 - INFO - PRINT: Epoch [ 684], Train Loss: 0.1841, Validation Loss: 0.1858
+2026-02-18 13:48:09 - INFO - PRINT: Epoch [ 685], Train Loss: 0.1840, Validation Loss: 0.1858
+2026-02-18 13:48:09 - INFO - PRINT: Epoch [ 686], Train Loss: 0.1841, Validation Loss: 0.1858
+2026-02-18 13:48:09 - INFO - PRINT: Epoch [ 687], Train Loss: 0.1840, Validation Loss: 0.1858
+2026-02-18 13:48:09 - INFO - PRINT: Epoch [ 688], Train Loss: 0.1841, Validation Loss: 0.1858
+2026-02-18 13:48:09 - INFO - PRINT: Epoch [ 689], Train Loss: 0.1844, Validation Loss: 0.1858
+2026-02-18 13:48:09 - INFO - PRINT: Epoch [ 690], Train Loss: 0.1843, Validation Loss: 0.1858
+2026-02-18 13:48:09 - INFO - PRINT: Epoch [ 691], Train Loss: 0.1840, Validation Loss: 0.1858
+2026-02-18 13:48:09 - INFO - PRINT: Epoch [ 692], Train Loss: 0.1842, Validation Loss: 0.1858
+2026-02-18 13:48:10 - INFO - PRINT: Epoch [ 693], Train Loss: 0.1841, Validation Loss: 0.1858
+2026-02-18 13:48:10 - INFO - PRINT: Epoch [ 694], Train Loss: 0.1842, Validation Loss: 0.1858
+2026-02-18 13:48:10 - INFO - PRINT: Epoch [ 695], Train Loss: 0.1841, Validation Loss: 0.1858
+2026-02-18 13:48:10 - INFO - PRINT: Epoch [ 696], Train Loss: 0.1841, Validation Loss: 0.1858
+2026-02-18 13:48:10 - INFO - PRINT: Epoch [ 697], Train Loss: 0.1841, Validation Loss: 0.1858
+2026-02-18 13:48:10 - INFO - PRINT: Epoch [ 698], Train Loss: 0.1843, Validation Loss: 0.1858
+2026-02-18 13:48:10 - INFO - PRINT: Epoch [ 699], Train Loss: 0.1841, Validation Loss: 0.1858
+2026-02-18 13:48:10 - INFO - PRINT: Epoch [ 700], Train Loss: 0.1841, Validation Loss: 0.1851
+2026-02-18 13:48:10 - INFO - PRINT: ----> Saving model from epoch 640 (val loss: 0.18464216589927673). Refreshing!
+2026-02-18 13:48:10 - INFO - PRINT: Epoch [ 701], Train Loss: 0.1841, Validation Loss: 0.1851
+2026-02-18 13:48:10 - INFO - PRINT: Epoch [ 702], Train Loss: 0.1841, Validation Loss: 0.1851
+2026-02-18 13:48:10 - INFO - PRINT: Epoch [ 703], Train Loss: 0.1841, Validation Loss: 0.1851
+2026-02-18 13:48:11 - INFO - PRINT: Epoch [ 704], Train Loss: 0.1839, Validation Loss: 0.1851
+2026-02-18 13:48:11 - INFO - PRINT: Epoch [ 705], Train Loss: 0.1843, Validation Loss: 0.1851
+2026-02-18 13:48:11 - INFO - PRINT: Epoch [ 706], Train Loss: 0.1845, Validation Loss: 0.1851
+2026-02-18 13:48:11 - INFO - PRINT: Epoch [ 707], Train Loss: 0.1841, Validation Loss: 0.1851
+2026-02-18 13:48:11 - INFO - PRINT: Epoch [ 708], Train Loss: 0.1842, Validation Loss: 0.1851
+2026-02-18 13:48:11 - INFO - PRINT: Epoch [ 709], Train Loss: 0.1843, Validation Loss: 0.1851
+2026-02-18 13:48:11 - INFO - PRINT: Epoch [ 710], Train Loss: 0.1844, Validation Loss: 0.1851
+2026-02-18 13:48:11 - INFO - PRINT: Epoch [ 711], Train Loss: 0.1844, Validation Loss: 0.1851
+2026-02-18 13:48:11 - INFO - PRINT: Epoch [ 712], Train Loss: 0.1840, Validation Loss: 0.1851
+2026-02-18 13:48:11 - INFO - PRINT: Epoch [ 713], Train Loss: 0.1844, Validation Loss: 0.1851
+2026-02-18 13:48:11 - INFO - PRINT: Epoch [ 714], Train Loss: 0.1843, Validation Loss: 0.1851
+2026-02-18 13:48:11 - INFO - PRINT: Epoch [ 715], Train Loss: 0.1841, Validation Loss: 0.1851
+2026-02-18 13:48:11 - INFO - PRINT: Epoch [ 716], Train Loss: 0.1841, Validation Loss: 0.1851
+2026-02-18 13:48:11 - INFO - PRINT: Epoch [ 717], Train Loss: 0.1841, Validation Loss: 0.1851
+2026-02-18 13:48:12 - INFO - PRINT: Epoch [ 718], Train Loss: 0.1840, Validation Loss: 0.1851
+2026-02-18 13:48:12 - INFO - PRINT: Epoch [ 719], Train Loss: 0.1841, Validation Loss: 0.1851
+2026-02-18 13:48:12 - INFO - PRINT: Epoch [ 720], Train Loss: 0.1840, Validation Loss: 0.1853
+2026-02-18 13:48:12 - INFO - PRINT: Epoch [ 721], Train Loss: 0.1841, Validation Loss: 0.1853
+2026-02-18 13:48:12 - INFO - PRINT: Epoch [ 722], Train Loss: 0.1840, Validation Loss: 0.1853
+2026-02-18 13:48:12 - INFO - PRINT: Epoch [ 723], Train Loss: 0.1839, Validation Loss: 0.1853
+2026-02-18 13:48:12 - INFO - PRINT: Epoch [ 724], Train Loss: 0.1839, Validation Loss: 0.1853
+2026-02-18 13:48:12 - INFO - PRINT: Epoch [ 725], Train Loss: 0.1839, Validation Loss: 0.1853
+2026-02-18 13:48:12 - INFO - PRINT: Epoch [ 726], Train Loss: 0.1841, Validation Loss: 0.1853
+2026-02-18 13:48:12 - INFO - PRINT: Epoch [ 727], Train Loss: 0.1840, Validation Loss: 0.1853
+2026-02-18 13:48:12 - INFO - PRINT: Epoch [ 728], Train Loss: 0.1838, Validation Loss: 0.1853
+2026-02-18 13:48:13 - INFO - PRINT: Epoch [ 729], Train Loss: 0.1840, Validation Loss: 0.1853
+2026-02-18 13:48:13 - INFO - PRINT: Epoch [ 730], Train Loss: 0.1841, Validation Loss: 0.1853
+2026-02-18 13:48:13 - INFO - PRINT: Epoch [ 731], Train Loss: 0.1841, Validation Loss: 0.1853
+2026-02-18 13:48:13 - INFO - PRINT: Epoch [ 732], Train Loss: 0.1840, Validation Loss: 0.1853
+2026-02-18 13:48:13 - INFO - PRINT: Epoch [ 733], Train Loss: 0.1839, Validation Loss: 0.1853
+2026-02-18 13:48:13 - INFO - PRINT: Epoch [ 734], Train Loss: 0.1840, Validation Loss: 0.1853
+2026-02-18 13:48:13 - INFO - PRINT: Epoch [ 735], Train Loss: 0.1838, Validation Loss: 0.1853
+2026-02-18 13:48:13 - INFO - PRINT: Epoch [ 736], Train Loss: 0.1841, Validation Loss: 0.1853
+2026-02-18 13:48:13 - INFO - PRINT: Epoch [ 737], Train Loss: 0.1844, Validation Loss: 0.1853
+2026-02-18 13:48:13 - INFO - PRINT: Epoch [ 738], Train Loss: 0.1839, Validation Loss: 0.1853
+2026-02-18 13:48:13 - INFO - PRINT: Epoch [ 739], Train Loss: 0.1840, Validation Loss: 0.1853
+2026-02-18 13:48:14 - INFO - PRINT: Epoch [ 740], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:14 - INFO - PRINT: Epoch [ 741], Train Loss: 0.1842, Validation Loss: 0.1848
+2026-02-18 13:48:14 - INFO - PRINT: Epoch [ 742], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:14 - INFO - PRINT: Epoch [ 743], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:14 - INFO - PRINT: Epoch [ 744], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:14 - INFO - PRINT: Epoch [ 745], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:14 - INFO - PRINT: Epoch [ 746], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:14 - INFO - PRINT: Epoch [ 747], Train Loss: 0.1843, Validation Loss: 0.1848
+2026-02-18 13:48:14 - INFO - PRINT: Epoch [ 748], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:14 - INFO - PRINT: Epoch [ 749], Train Loss: 0.1843, Validation Loss: 0.1848
+2026-02-18 13:48:14 - INFO - PRINT: Epoch [ 750], Train Loss: 0.1843, Validation Loss: 0.1848
+2026-02-18 13:48:14 - INFO - PRINT: Epoch [ 751], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:15 - INFO - PRINT: Epoch [ 752], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:15 - INFO - PRINT: Epoch [ 753], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:15 - INFO - PRINT: Epoch [ 754], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:15 - INFO - PRINT: Epoch [ 755], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:15 - INFO - PRINT: Epoch [ 756], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:15 - INFO - PRINT: Epoch [ 757], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:15 - INFO - PRINT: Epoch [ 758], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:15 - INFO - PRINT: Epoch [ 759], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:15 - INFO - PRINT: Epoch [ 760], Train Loss: 0.1842, Validation Loss: 0.1848
+2026-02-18 13:48:15 - INFO - PRINT: Epoch [ 761], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:15 - INFO - PRINT: Epoch [ 762], Train Loss: 0.1843, Validation Loss: 0.1848
+2026-02-18 13:48:16 - INFO - PRINT: Epoch [ 763], Train Loss: 0.1847, Validation Loss: 0.1848
+2026-02-18 13:48:16 - INFO - PRINT: Epoch [ 764], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:16 - INFO - PRINT: Epoch [ 765], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:16 - INFO - PRINT: Epoch [ 766], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:16 - INFO - PRINT: Epoch [ 767], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:16 - INFO - PRINT: Epoch [ 768], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:16 - INFO - PRINT: Epoch [ 769], Train Loss: 0.1842, Validation Loss: 0.1848
+2026-02-18 13:48:16 - INFO - PRINT: Epoch [ 770], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:16 - INFO - PRINT: Epoch [ 771], Train Loss: 0.1842, Validation Loss: 0.1848
+2026-02-18 13:48:16 - INFO - PRINT: Epoch [ 772], Train Loss: 0.1842, Validation Loss: 0.1848
+2026-02-18 13:48:16 - INFO - PRINT: Epoch [ 773], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:16 - INFO - PRINT: Epoch [ 774], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:16 - INFO - PRINT: Epoch [ 775], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:16 - INFO - PRINT: Epoch [ 776], Train Loss: 0.1842, Validation Loss: 0.1848
+2026-02-18 13:48:17 - INFO - PRINT: Epoch [ 777], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:17 - INFO - PRINT: Epoch [ 778], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:17 - INFO - PRINT: Epoch [ 779], Train Loss: 0.1842, Validation Loss: 0.1848
+2026-02-18 13:48:17 - INFO - PRINT: Epoch [ 780], Train Loss: 0.1842, Validation Loss: 0.1844
+2026-02-18 13:48:17 - INFO - PRINT: Epoch [ 781], Train Loss: 0.1844, Validation Loss: 0.1844
+2026-02-18 13:48:17 - INFO - PRINT: Epoch [ 782], Train Loss: 0.1841, Validation Loss: 0.1844
+2026-02-18 13:48:17 - INFO - PRINT: Epoch [ 783], Train Loss: 0.1842, Validation Loss: 0.1844
+2026-02-18 13:48:17 - INFO - PRINT: Epoch [ 784], Train Loss: 0.1842, Validation Loss: 0.1844
+2026-02-18 13:48:17 - INFO - PRINT: Epoch [ 785], Train Loss: 0.1843, Validation Loss: 0.1844
+2026-02-18 13:48:17 - INFO - PRINT: Epoch [ 786], Train Loss: 0.1839, Validation Loss: 0.1844
+2026-02-18 13:48:17 - INFO - PRINT: Epoch [ 787], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:18 - INFO - PRINT: Epoch [ 788], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:18 - INFO - PRINT: Epoch [ 789], Train Loss: 0.1841, Validation Loss: 0.1844
+2026-02-18 13:48:18 - INFO - PRINT: Epoch [ 790], Train Loss: 0.1841, Validation Loss: 0.1844
+2026-02-18 13:48:18 - INFO - PRINT: Epoch [ 791], Train Loss: 0.1839, Validation Loss: 0.1844
+2026-02-18 13:48:18 - INFO - PRINT: Epoch [ 792], Train Loss: 0.1839, Validation Loss: 0.1844
+2026-02-18 13:48:18 - INFO - PRINT: Epoch [ 793], Train Loss: 0.1842, Validation Loss: 0.1844
+2026-02-18 13:48:18 - INFO - PRINT: Epoch [ 794], Train Loss: 0.1843, Validation Loss: 0.1844
+2026-02-18 13:48:18 - INFO - PRINT: Epoch [ 795], Train Loss: 0.1844, Validation Loss: 0.1844
+2026-02-18 13:48:18 - INFO - PRINT: Epoch [ 796], Train Loss: 0.1841, Validation Loss: 0.1844
+2026-02-18 13:48:18 - INFO - PRINT: Epoch [ 797], Train Loss: 0.1841, Validation Loss: 0.1844
+2026-02-18 13:48:18 - INFO - PRINT: Epoch [ 798], Train Loss: 0.1841, Validation Loss: 0.1844
+2026-02-18 13:48:18 - INFO - PRINT: Epoch [ 799], Train Loss: 0.1837, Validation Loss: 0.1844
+2026-02-18 13:48:19 - INFO - PRINT: Epoch [ 800], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:19 - INFO - PRINT: ----> Saving model from epoch 780 (val loss: 0.18438085913658142). Multidimensional!
+2026-02-18 13:48:19 - INFO - PRINT: Epoch [ 801], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:48:19 - INFO - PRINT: Epoch [ 802], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:48:19 - INFO - PRINT: Epoch [ 803], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:19 - INFO - PRINT: Epoch [ 804], Train Loss: 0.1841, Validation Loss: 0.1846
+2026-02-18 13:48:19 - INFO - PRINT: Epoch [ 805], Train Loss: 0.1842, Validation Loss: 0.1846
+2026-02-18 13:48:19 - INFO - PRINT: Epoch [ 806], Train Loss: 0.1840, Validation Loss: 0.1846
+2026-02-18 13:48:19 - INFO - PRINT: Epoch [ 807], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:19 - INFO - PRINT: Epoch [ 808], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:19 - INFO - PRINT: Epoch [ 809], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:19 - INFO - PRINT: Epoch [ 810], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:48:19 - INFO - PRINT: Epoch [ 811], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:48:20 - INFO - PRINT: Epoch [ 812], Train Loss: 0.1840, Validation Loss: 0.1846
+2026-02-18 13:48:20 - INFO - PRINT: Epoch [ 813], Train Loss: 0.1840, Validation Loss: 0.1846
+2026-02-18 13:48:20 - INFO - PRINT: Epoch [ 814], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:20 - INFO - PRINT: Epoch [ 815], Train Loss: 0.1844, Validation Loss: 0.1846
+2026-02-18 13:48:20 - INFO - PRINT: Epoch [ 816], Train Loss: 0.1841, Validation Loss: 0.1846
+2026-02-18 13:48:20 - INFO - PRINT: Epoch [ 817], Train Loss: 0.1840, Validation Loss: 0.1846
+2026-02-18 13:48:20 - INFO - PRINT: Epoch [ 818], Train Loss: 0.1841, Validation Loss: 0.1846
+2026-02-18 13:48:20 - INFO - PRINT: Epoch [ 819], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:20 - INFO - PRINT: Epoch [ 820], Train Loss: 0.1843, Validation Loss: 0.1848
+2026-02-18 13:48:20 - INFO - PRINT: Epoch [ 821], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:20 - INFO - PRINT: Epoch [ 822], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:20 - INFO - PRINT: Epoch [ 823], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:21 - INFO - PRINT: Epoch [ 824], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:21 - INFO - PRINT: Epoch [ 825], Train Loss: 0.1842, Validation Loss: 0.1848
+2026-02-18 13:48:21 - INFO - PRINT: Epoch [ 826], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:21 - INFO - PRINT: Epoch [ 827], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:21 - INFO - PRINT: Epoch [ 828], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:21 - INFO - PRINT: Epoch [ 829], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:21 - INFO - PRINT: Epoch [ 830], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:21 - INFO - PRINT: Epoch [ 831], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:21 - INFO - PRINT: Epoch [ 832], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:21 - INFO - PRINT: Epoch [ 833], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:21 - INFO - PRINT: Epoch [ 834], Train Loss: 0.1838, Validation Loss: 0.1848
+2026-02-18 13:48:21 - INFO - PRINT: Epoch [ 835], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:21 - INFO - PRINT: Epoch [ 836], Train Loss: 0.1846, Validation Loss: 0.1848
+2026-02-18 13:48:22 - INFO - PRINT: Epoch [ 837], Train Loss: 0.1843, Validation Loss: 0.1848
+2026-02-18 13:48:22 - INFO - PRINT: Epoch [ 838], Train Loss: 0.1844, Validation Loss: 0.1848
+2026-02-18 13:48:22 - INFO - PRINT: Epoch [ 839], Train Loss: 0.1843, Validation Loss: 0.1848
+2026-02-18 13:48:22 - INFO - PRINT: Epoch [ 840], Train Loss: 0.1839, Validation Loss: 0.1852
+2026-02-18 13:48:22 - INFO - PRINT: Epoch [ 841], Train Loss: 0.1844, Validation Loss: 0.1852
+2026-02-18 13:48:22 - INFO - PRINT: Epoch [ 842], Train Loss: 0.1842, Validation Loss: 0.1852
+2026-02-18 13:48:22 - INFO - PRINT: Epoch [ 843], Train Loss: 0.1840, Validation Loss: 0.1852
+2026-02-18 13:48:22 - INFO - PRINT: Epoch [ 844], Train Loss: 0.1838, Validation Loss: 0.1852
+2026-02-18 13:48:22 - INFO - PRINT: Epoch [ 845], Train Loss: 0.1839, Validation Loss: 0.1852
+2026-02-18 13:48:22 - INFO - PRINT: Epoch [ 846], Train Loss: 0.1842, Validation Loss: 0.1852
+2026-02-18 13:48:22 - INFO - PRINT: Epoch [ 847], Train Loss: 0.1841, Validation Loss: 0.1852
+2026-02-18 13:48:22 - INFO - PRINT: Epoch [ 848], Train Loss: 0.1840, Validation Loss: 0.1852
+2026-02-18 13:48:23 - INFO - PRINT: Epoch [ 849], Train Loss: 0.1841, Validation Loss: 0.1852
+2026-02-18 13:48:23 - INFO - PRINT: Epoch [ 850], Train Loss: 0.1840, Validation Loss: 0.1852
+2026-02-18 13:48:23 - INFO - PRINT: Epoch [ 851], Train Loss: 0.1839, Validation Loss: 0.1852
+2026-02-18 13:48:23 - INFO - PRINT: Epoch [ 852], Train Loss: 0.1839, Validation Loss: 0.1852
+2026-02-18 13:48:23 - INFO - PRINT: Epoch [ 853], Train Loss: 0.1839, Validation Loss: 0.1852
+2026-02-18 13:48:23 - INFO - PRINT: Epoch [ 854], Train Loss: 0.1840, Validation Loss: 0.1852
+2026-02-18 13:48:23 - INFO - PRINT: Epoch [ 855], Train Loss: 0.1840, Validation Loss: 0.1852
+2026-02-18 13:48:23 - INFO - PRINT: Epoch [ 856], Train Loss: 0.1839, Validation Loss: 0.1852
+2026-02-18 13:48:23 - INFO - PRINT: Epoch [ 857], Train Loss: 0.1839, Validation Loss: 0.1852
+2026-02-18 13:48:23 - INFO - PRINT: Epoch [ 858], Train Loss: 0.1841, Validation Loss: 0.1852
+2026-02-18 13:48:23 - INFO - PRINT: Epoch [ 859], Train Loss: 0.1843, Validation Loss: 0.1852
+2026-02-18 13:48:24 - INFO - PRINT: Epoch [ 860], Train Loss: 0.1843, Validation Loss: 0.1846
+2026-02-18 13:48:24 - INFO - PRINT: Epoch [ 861], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:24 - INFO - PRINT: Epoch [ 862], Train Loss: 0.1842, Validation Loss: 0.1846
+2026-02-18 13:48:24 - INFO - PRINT: Epoch [ 863], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:24 - INFO - PRINT: Epoch [ 864], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:48:24 - INFO - PRINT: Epoch [ 865], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:24 - INFO - PRINT: Epoch [ 866], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:24 - INFO - PRINT: Epoch [ 867], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:48:24 - INFO - PRINT: Epoch [ 868], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:48:24 - INFO - PRINT: Epoch [ 869], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:24 - INFO - PRINT: Epoch [ 870], Train Loss: 0.1841, Validation Loss: 0.1846
+2026-02-18 13:48:24 - INFO - PRINT: Epoch [ 871], Train Loss: 0.1840, Validation Loss: 0.1846
+2026-02-18 13:48:24 - INFO - PRINT: Epoch [ 872], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:48:25 - INFO - PRINT: Epoch [ 873], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:25 - INFO - PRINT: Epoch [ 874], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:25 - INFO - PRINT: Epoch [ 875], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:48:25 - INFO - PRINT: Epoch [ 876], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:48:25 - INFO - PRINT: Epoch [ 877], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:48:25 - INFO - PRINT: Epoch [ 878], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:25 - INFO - PRINT: Epoch [ 879], Train Loss: 0.1842, Validation Loss: 0.1846
+2026-02-18 13:48:25 - INFO - PRINT: Epoch [ 880], Train Loss: 0.1841, Validation Loss: 0.1846
+2026-02-18 13:48:25 - INFO - PRINT: Epoch [ 881], Train Loss: 0.1844, Validation Loss: 0.1846
+2026-02-18 13:48:25 - INFO - PRINT: Epoch [ 882], Train Loss: 0.1842, Validation Loss: 0.1846
+2026-02-18 13:48:25 - INFO - PRINT: Epoch [ 883], Train Loss: 0.1843, Validation Loss: 0.1846
+2026-02-18 13:48:25 - INFO - PRINT: Epoch [ 884], Train Loss: 0.1842, Validation Loss: 0.1846
+2026-02-18 13:48:26 - INFO - PRINT: Epoch [ 885], Train Loss: 0.1841, Validation Loss: 0.1846
+2026-02-18 13:48:26 - INFO - PRINT: Epoch [ 886], Train Loss: 0.1841, Validation Loss: 0.1846
+2026-02-18 13:48:26 - INFO - PRINT: Epoch [ 887], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:48:26 - INFO - PRINT: Epoch [ 888], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:26 - INFO - PRINT: Epoch [ 889], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:48:26 - INFO - PRINT: Epoch [ 890], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:26 - INFO - PRINT: Epoch [ 891], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:48:26 - INFO - PRINT: Epoch [ 892], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:48:26 - INFO - PRINT: Epoch [ 893], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:26 - INFO - PRINT: Epoch [ 894], Train Loss: 0.1841, Validation Loss: 0.1846
+2026-02-18 13:48:26 - INFO - PRINT: Epoch [ 895], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:26 - INFO - PRINT: Epoch [ 896], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:26 - INFO - PRINT: Epoch [ 897], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:48:27 - INFO - PRINT: Epoch [ 898], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:48:27 - INFO - PRINT: Epoch [ 899], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:27 - INFO - PRINT: Epoch [ 900], Train Loss: 0.1838, Validation Loss: 0.1858
+2026-02-18 13:48:27 - INFO - PRINT: ----> Saving model from epoch 780 (val loss: 0.18438085913658142). Sumptuous!
+2026-02-18 13:48:27 - INFO - PRINT: Epoch [ 901], Train Loss: 0.1841, Validation Loss: 0.1858
+2026-02-18 13:48:27 - INFO - PRINT: Epoch [ 902], Train Loss: 0.1842, Validation Loss: 0.1858
+2026-02-18 13:48:27 - INFO - PRINT: Epoch [ 903], Train Loss: 0.1843, Validation Loss: 0.1858
+2026-02-18 13:48:27 - INFO - PRINT: Epoch [ 904], Train Loss: 0.1840, Validation Loss: 0.1858
+2026-02-18 13:48:27 - INFO - PRINT: Epoch [ 905], Train Loss: 0.1838, Validation Loss: 0.1858
+2026-02-18 13:48:27 - INFO - PRINT: Epoch [ 906], Train Loss: 0.1838, Validation Loss: 0.1858
+2026-02-18 13:48:27 - INFO - PRINT: Epoch [ 907], Train Loss: 0.1839, Validation Loss: 0.1858
+2026-02-18 13:48:27 - INFO - PRINT: Epoch [ 908], Train Loss: 0.1838, Validation Loss: 0.1858
+2026-02-18 13:48:28 - INFO - PRINT: Epoch [ 909], Train Loss: 0.1838, Validation Loss: 0.1858
+2026-02-18 13:48:28 - INFO - PRINT: Epoch [ 910], Train Loss: 0.1838, Validation Loss: 0.1858
+2026-02-18 13:48:28 - INFO - PRINT: Epoch [ 911], Train Loss: 0.1843, Validation Loss: 0.1858
+2026-02-18 13:48:28 - INFO - PRINT: Epoch [ 912], Train Loss: 0.1839, Validation Loss: 0.1858
+2026-02-18 13:48:28 - INFO - PRINT: Epoch [ 913], Train Loss: 0.1838, Validation Loss: 0.1858
+2026-02-18 13:48:28 - INFO - PRINT: Epoch [ 914], Train Loss: 0.1841, Validation Loss: 0.1858
+2026-02-18 13:48:28 - INFO - PRINT: Epoch [ 915], Train Loss: 0.1843, Validation Loss: 0.1858
+2026-02-18 13:48:28 - INFO - PRINT: Epoch [ 916], Train Loss: 0.1841, Validation Loss: 0.1858
+2026-02-18 13:48:28 - INFO - PRINT: Epoch [ 917], Train Loss: 0.1839, Validation Loss: 0.1858
+2026-02-18 13:48:28 - INFO - PRINT: Epoch [ 918], Train Loss: 0.1840, Validation Loss: 0.1858
+2026-02-18 13:48:28 - INFO - PRINT: Epoch [ 919], Train Loss: 0.1839, Validation Loss: 0.1858
+2026-02-18 13:48:28 - INFO - PRINT: Epoch [ 920], Train Loss: 0.1838, Validation Loss: 0.1848
+2026-02-18 13:48:29 - INFO - PRINT: Epoch [ 921], Train Loss: 0.1837, Validation Loss: 0.1848
+2026-02-18 13:48:29 - INFO - PRINT: Epoch [ 922], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:29 - INFO - PRINT: Epoch [ 923], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:29 - INFO - PRINT: Epoch [ 924], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:29 - INFO - PRINT: Epoch [ 925], Train Loss: 0.1842, Validation Loss: 0.1848
+2026-02-18 13:48:29 - INFO - PRINT: Epoch [ 926], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:29 - INFO - PRINT: Epoch [ 927], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:29 - INFO - PRINT: Epoch [ 928], Train Loss: 0.1838, Validation Loss: 0.1848
+2026-02-18 13:48:29 - INFO - PRINT: Epoch [ 929], Train Loss: 0.1838, Validation Loss: 0.1848
+2026-02-18 13:48:29 - INFO - PRINT: Epoch [ 930], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:29 - INFO - PRINT: Epoch [ 931], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:29 - INFO - PRINT: Epoch [ 932], Train Loss: 0.1838, Validation Loss: 0.1848
+2026-02-18 13:48:29 - INFO - PRINT: Epoch [ 933], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:30 - INFO - PRINT: Epoch [ 934], Train Loss: 0.1838, Validation Loss: 0.1848
+2026-02-18 13:48:30 - INFO - PRINT: Epoch [ 935], Train Loss: 0.1838, Validation Loss: 0.1848
+2026-02-18 13:48:30 - INFO - PRINT: Epoch [ 936], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:30 - INFO - PRINT: Epoch [ 937], Train Loss: 0.1843, Validation Loss: 0.1848
+2026-02-18 13:48:30 - INFO - PRINT: Epoch [ 938], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:30 - INFO - PRINT: Epoch [ 939], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:30 - INFO - PRINT: Epoch [ 940], Train Loss: 0.1840, Validation Loss: 0.1850
+2026-02-18 13:48:30 - INFO - PRINT: Epoch [ 941], Train Loss: 0.1839, Validation Loss: 0.1850
+2026-02-18 13:48:30 - INFO - PRINT: Epoch [ 942], Train Loss: 0.1839, Validation Loss: 0.1850
+2026-02-18 13:48:30 - INFO - PRINT: Epoch [ 943], Train Loss: 0.1838, Validation Loss: 0.1850
+2026-02-18 13:48:30 - INFO - PRINT: Epoch [ 944], Train Loss: 0.1840, Validation Loss: 0.1850
+2026-02-18 13:48:30 - INFO - PRINT: Epoch [ 945], Train Loss: 0.1839, Validation Loss: 0.1850
+2026-02-18 13:48:31 - INFO - PRINT: Epoch [ 946], Train Loss: 0.1841, Validation Loss: 0.1850
+2026-02-18 13:48:31 - INFO - PRINT: Epoch [ 947], Train Loss: 0.1843, Validation Loss: 0.1850
+2026-02-18 13:48:31 - INFO - PRINT: Epoch [ 948], Train Loss: 0.1841, Validation Loss: 0.1850
+2026-02-18 13:48:31 - INFO - PRINT: Epoch [ 949], Train Loss: 0.1838, Validation Loss: 0.1850
+2026-02-18 13:48:31 - INFO - PRINT: Epoch [ 950], Train Loss: 0.1838, Validation Loss: 0.1850
+2026-02-18 13:48:31 - INFO - PRINT: Epoch [ 951], Train Loss: 0.1839, Validation Loss: 0.1850
+2026-02-18 13:48:31 - INFO - PRINT: Epoch [ 952], Train Loss: 0.1840, Validation Loss: 0.1850
+2026-02-18 13:48:31 - INFO - PRINT: Epoch [ 953], Train Loss: 0.1840, Validation Loss: 0.1850
+2026-02-18 13:48:31 - INFO - PRINT: Epoch [ 954], Train Loss: 0.1838, Validation Loss: 0.1850
+2026-02-18 13:48:31 - INFO - PRINT: Epoch [ 955], Train Loss: 0.1837, Validation Loss: 0.1850
+2026-02-18 13:48:31 - INFO - PRINT: Epoch [ 956], Train Loss: 0.1838, Validation Loss: 0.1850
+2026-02-18 13:48:31 - INFO - PRINT: Epoch [ 957], Train Loss: 0.1837, Validation Loss: 0.1850
+2026-02-18 13:48:31 - INFO - PRINT: Epoch [ 958], Train Loss: 0.1838, Validation Loss: 0.1850
+2026-02-18 13:48:32 - INFO - PRINT: Epoch [ 959], Train Loss: 0.1839, Validation Loss: 0.1850
+2026-02-18 13:48:32 - INFO - PRINT: Epoch [ 960], Train Loss: 0.1840, Validation Loss: 0.1842
+2026-02-18 13:48:32 - INFO - PRINT: Epoch [ 961], Train Loss: 0.1837, Validation Loss: 0.1842
+2026-02-18 13:48:32 - INFO - PRINT: Epoch [ 962], Train Loss: 0.1837, Validation Loss: 0.1842
+2026-02-18 13:48:32 - INFO - PRINT: Epoch [ 963], Train Loss: 0.1840, Validation Loss: 0.1842
+2026-02-18 13:48:32 - INFO - PRINT: Epoch [ 964], Train Loss: 0.1840, Validation Loss: 0.1842
+2026-02-18 13:48:32 - INFO - PRINT: Epoch [ 965], Train Loss: 0.1839, Validation Loss: 0.1842
+2026-02-18 13:48:32 - INFO - PRINT: Epoch [ 966], Train Loss: 0.1840, Validation Loss: 0.1842
+2026-02-18 13:48:32 - INFO - PRINT: Epoch [ 967], Train Loss: 0.1839, Validation Loss: 0.1842
+2026-02-18 13:48:32 - INFO - PRINT: Epoch [ 968], Train Loss: 0.1838, Validation Loss: 0.1842
+2026-02-18 13:48:32 - INFO - PRINT: Epoch [ 969], Train Loss: 0.1841, Validation Loss: 0.1842
+2026-02-18 13:48:33 - INFO - PRINT: Epoch [ 970], Train Loss: 0.1842, Validation Loss: 0.1842
+2026-02-18 13:48:33 - INFO - PRINT: Epoch [ 971], Train Loss: 0.1838, Validation Loss: 0.1842
+2026-02-18 13:48:33 - INFO - PRINT: Epoch [ 972], Train Loss: 0.1839, Validation Loss: 0.1842
+2026-02-18 13:48:33 - INFO - PRINT: Epoch [ 973], Train Loss: 0.1838, Validation Loss: 0.1842
+2026-02-18 13:48:33 - INFO - PRINT: Epoch [ 974], Train Loss: 0.1840, Validation Loss: 0.1842
+2026-02-18 13:48:33 - INFO - PRINT: Epoch [ 975], Train Loss: 0.1839, Validation Loss: 0.1842
+2026-02-18 13:48:33 - INFO - PRINT: Epoch [ 976], Train Loss: 0.1837, Validation Loss: 0.1842
+2026-02-18 13:48:33 - INFO - PRINT: Epoch [ 977], Train Loss: 0.1836, Validation Loss: 0.1842
+2026-02-18 13:48:33 - INFO - PRINT: Epoch [ 978], Train Loss: 0.1840, Validation Loss: 0.1842
+2026-02-18 13:48:33 - INFO - PRINT: Epoch [ 979], Train Loss: 0.1839, Validation Loss: 0.1842
+2026-02-18 13:48:33 - INFO - PRINT: Epoch [ 980], Train Loss: 0.1840, Validation Loss: 0.1851
+2026-02-18 13:48:33 - INFO - PRINT: Epoch [ 981], Train Loss: 0.1842, Validation Loss: 0.1851
+2026-02-18 13:48:34 - INFO - PRINT: Epoch [ 982], Train Loss: 0.1842, Validation Loss: 0.1851
+2026-02-18 13:48:34 - INFO - PRINT: Epoch [ 983], Train Loss: 0.1842, Validation Loss: 0.1851
+2026-02-18 13:48:34 - INFO - PRINT: Epoch [ 984], Train Loss: 0.1838, Validation Loss: 0.1851
+2026-02-18 13:48:34 - INFO - PRINT: Epoch [ 985], Train Loss: 0.1838, Validation Loss: 0.1851
+2026-02-18 13:48:34 - INFO - PRINT: Epoch [ 986], Train Loss: 0.1837, Validation Loss: 0.1851
+2026-02-18 13:48:34 - INFO - PRINT: Epoch [ 987], Train Loss: 0.1840, Validation Loss: 0.1851
+2026-02-18 13:48:34 - INFO - PRINT: Epoch [ 988], Train Loss: 0.1841, Validation Loss: 0.1851
+2026-02-18 13:48:34 - INFO - PRINT: Epoch [ 989], Train Loss: 0.1843, Validation Loss: 0.1851
+2026-02-18 13:48:34 - INFO - PRINT: Epoch [ 990], Train Loss: 0.1839, Validation Loss: 0.1851
+2026-02-18 13:48:34 - INFO - PRINT: Epoch [ 991], Train Loss: 0.1839, Validation Loss: 0.1851
+2026-02-18 13:48:34 - INFO - PRINT: Epoch [ 992], Train Loss: 0.1839, Validation Loss: 0.1851
+2026-02-18 13:48:34 - INFO - PRINT: Epoch [ 993], Train Loss: 0.1839, Validation Loss: 0.1851
+2026-02-18 13:48:35 - INFO - PRINT: Epoch [ 994], Train Loss: 0.1839, Validation Loss: 0.1851
+2026-02-18 13:48:35 - INFO - PRINT: Epoch [ 995], Train Loss: 0.1840, Validation Loss: 0.1851
+2026-02-18 13:48:35 - INFO - PRINT: Epoch [ 996], Train Loss: 0.1837, Validation Loss: 0.1851
+2026-02-18 13:48:35 - INFO - PRINT: Epoch [ 997], Train Loss: 0.1840, Validation Loss: 0.1851
+2026-02-18 13:48:35 - INFO - PRINT: Epoch [ 998], Train Loss: 0.1841, Validation Loss: 0.1851
+2026-02-18 13:48:35 - INFO - PRINT: Epoch [ 999], Train Loss: 0.1841, Validation Loss: 0.1851
+2026-02-18 13:48:35 - INFO - PRINT: Epoch [1000], Train Loss: 0.1841, Validation Loss: 0.1847
+2026-02-18 13:48:35 - INFO - PRINT: ----> Saving model from epoch 960 (val loss: 0.18423788249492645). Decadent!
+2026-02-18 13:48:35 - INFO - PRINT: Epoch [1001], Train Loss: 0.1841, Validation Loss: 0.1847
+2026-02-18 13:48:35 - INFO - PRINT: Epoch [1002], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:48:35 - INFO - PRINT: Epoch [1003], Train Loss: 0.1842, Validation Loss: 0.1847
+2026-02-18 13:48:35 - INFO - PRINT: Epoch [1004], Train Loss: 0.1843, Validation Loss: 0.1847
+2026-02-18 13:48:36 - INFO - PRINT: Epoch [1005], Train Loss: 0.1841, Validation Loss: 0.1847
+2026-02-18 13:48:36 - INFO - PRINT: Epoch [1006], Train Loss: 0.1841, Validation Loss: 0.1847
+2026-02-18 13:48:36 - INFO - PRINT: Epoch [1007], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:48:36 - INFO - PRINT: Epoch [1008], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:48:36 - INFO - PRINT: Epoch [1009], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:48:36 - INFO - PRINT: Epoch [1010], Train Loss: 0.1841, Validation Loss: 0.1847
+2026-02-18 13:48:36 - INFO - PRINT: Epoch [1011], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:48:36 - INFO - PRINT: Epoch [1012], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:48:36 - INFO - PRINT: Epoch [1013], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:48:36 - INFO - PRINT: Epoch [1014], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:48:36 - INFO - PRINT: Epoch [1015], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:48:36 - INFO - PRINT: Epoch [1016], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:48:36 - INFO - PRINT: Epoch [1017], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:48:37 - INFO - PRINT: Epoch [1018], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:48:37 - INFO - PRINT: Epoch [1019], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:48:37 - INFO - PRINT: Epoch [1020], Train Loss: 0.1839, Validation Loss: 0.1858
+2026-02-18 13:48:37 - INFO - PRINT: Epoch [1021], Train Loss: 0.1841, Validation Loss: 0.1858
+2026-02-18 13:48:37 - INFO - PRINT: Epoch [1022], Train Loss: 0.1838, Validation Loss: 0.1858
+2026-02-18 13:48:37 - INFO - PRINT: Epoch [1023], Train Loss: 0.1840, Validation Loss: 0.1858
+2026-02-18 13:48:37 - INFO - PRINT: Epoch [1024], Train Loss: 0.1839, Validation Loss: 0.1858
+2026-02-18 13:48:37 - INFO - PRINT: Epoch [1025], Train Loss: 0.1840, Validation Loss: 0.1858
+2026-02-18 13:48:37 - INFO - PRINT: Epoch [1026], Train Loss: 0.1840, Validation Loss: 0.1858
+2026-02-18 13:48:37 - INFO - PRINT: Epoch [1027], Train Loss: 0.1838, Validation Loss: 0.1858
+2026-02-18 13:48:37 - INFO - PRINT: Epoch [1028], Train Loss: 0.1836, Validation Loss: 0.1858
+2026-02-18 13:48:37 - INFO - PRINT: Epoch [1029], Train Loss: 0.1839, Validation Loss: 0.1858
+2026-02-18 13:48:38 - INFO - PRINT: Epoch [1030], Train Loss: 0.1838, Validation Loss: 0.1858
+2026-02-18 13:48:38 - INFO - PRINT: Epoch [1031], Train Loss: 0.1837, Validation Loss: 0.1858
+2026-02-18 13:48:38 - INFO - PRINT: Epoch [1032], Train Loss: 0.1836, Validation Loss: 0.1858
+2026-02-18 13:48:38 - INFO - PRINT: Epoch [1033], Train Loss: 0.1838, Validation Loss: 0.1858
+2026-02-18 13:48:38 - INFO - PRINT: Epoch [1034], Train Loss: 0.1838, Validation Loss: 0.1858
+2026-02-18 13:48:38 - INFO - PRINT: Epoch [1035], Train Loss: 0.1838, Validation Loss: 0.1858
+2026-02-18 13:48:38 - INFO - PRINT: Epoch [1036], Train Loss: 0.1840, Validation Loss: 0.1858
+2026-02-18 13:48:38 - INFO - PRINT: Epoch [1037], Train Loss: 0.1840, Validation Loss: 0.1858
+2026-02-18 13:48:38 - INFO - PRINT: Epoch [1038], Train Loss: 0.1840, Validation Loss: 0.1858
+2026-02-18 13:48:38 - INFO - PRINT: Epoch [1039], Train Loss: 0.1837, Validation Loss: 0.1858
+2026-02-18 13:48:38 - INFO - PRINT: Epoch [1040], Train Loss: 0.1838, Validation Loss: 0.1855
+2026-02-18 13:48:39 - INFO - PRINT: Epoch [1041], Train Loss: 0.1838, Validation Loss: 0.1855
+2026-02-18 13:48:39 - INFO - PRINT: Epoch [1042], Train Loss: 0.1837, Validation Loss: 0.1855
+2026-02-18 13:48:39 - INFO - PRINT: Epoch [1043], Train Loss: 0.1839, Validation Loss: 0.1855
+2026-02-18 13:48:39 - INFO - PRINT: Epoch [1044], Train Loss: 0.1841, Validation Loss: 0.1855
+2026-02-18 13:48:39 - INFO - PRINT: Epoch [1045], Train Loss: 0.1836, Validation Loss: 0.1855
+2026-02-18 13:48:39 - INFO - PRINT: Epoch [1046], Train Loss: 0.1838, Validation Loss: 0.1855
+2026-02-18 13:48:39 - INFO - PRINT: Epoch [1047], Train Loss: 0.1838, Validation Loss: 0.1855
+2026-02-18 13:48:39 - INFO - PRINT: Epoch [1048], Train Loss: 0.1838, Validation Loss: 0.1855
+2026-02-18 13:48:39 - INFO - PRINT: Epoch [1049], Train Loss: 0.1841, Validation Loss: 0.1855
+2026-02-18 13:48:39 - INFO - PRINT: Epoch [1050], Train Loss: 0.1838, Validation Loss: 0.1855
+2026-02-18 13:48:39 - INFO - PRINT: Epoch [1051], Train Loss: 0.1837, Validation Loss: 0.1855
+2026-02-18 13:48:39 - INFO - PRINT: Epoch [1052], Train Loss: 0.1838, Validation Loss: 0.1855
+2026-02-18 13:48:39 - INFO - PRINT: Epoch [1053], Train Loss: 0.1841, Validation Loss: 0.1855
+2026-02-18 13:48:40 - INFO - PRINT: Epoch [1054], Train Loss: 0.1837, Validation Loss: 0.1855
+2026-02-18 13:48:40 - INFO - PRINT: Epoch [1055], Train Loss: 0.1842, Validation Loss: 0.1855
+2026-02-18 13:48:40 - INFO - PRINT: Epoch [1056], Train Loss: 0.1837, Validation Loss: 0.1855
+2026-02-18 13:48:40 - INFO - PRINT: Epoch [1057], Train Loss: 0.1838, Validation Loss: 0.1855
+2026-02-18 13:48:40 - INFO - PRINT: Epoch [1058], Train Loss: 0.1838, Validation Loss: 0.1855
+2026-02-18 13:48:40 - INFO - PRINT: Epoch [1059], Train Loss: 0.1840, Validation Loss: 0.1855
+2026-02-18 13:48:40 - INFO - PRINT: Epoch [1060], Train Loss: 0.1837, Validation Loss: 0.1848
+2026-02-18 13:48:40 - INFO - PRINT: Epoch [1061], Train Loss: 0.1838, Validation Loss: 0.1848
+2026-02-18 13:48:40 - INFO - PRINT: Epoch [1062], Train Loss: 0.1842, Validation Loss: 0.1848
+2026-02-18 13:48:40 - INFO - PRINT: Epoch [1063], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:40 - INFO - PRINT: Epoch [1064], Train Loss: 0.1838, Validation Loss: 0.1848
+2026-02-18 13:48:40 - INFO - PRINT: Epoch [1065], Train Loss: 0.1838, Validation Loss: 0.1848
+2026-02-18 13:48:41 - INFO - PRINT: Epoch [1066], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:41 - INFO - PRINT: Epoch [1067], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:41 - INFO - PRINT: Epoch [1068], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:41 - INFO - PRINT: Epoch [1069], Train Loss: 0.1837, Validation Loss: 0.1848
+2026-02-18 13:48:41 - INFO - PRINT: Epoch [1070], Train Loss: 0.1841, Validation Loss: 0.1848
+2026-02-18 13:48:41 - INFO - PRINT: Epoch [1071], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:41 - INFO - PRINT: Epoch [1072], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:41 - INFO - PRINT: Epoch [1073], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:41 - INFO - PRINT: Epoch [1074], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:41 - INFO - PRINT: Epoch [1075], Train Loss: 0.1837, Validation Loss: 0.1848
+2026-02-18 13:48:41 - INFO - PRINT: Epoch [1076], Train Loss: 0.1839, Validation Loss: 0.1848
+2026-02-18 13:48:41 - INFO - PRINT: Epoch [1077], Train Loss: 0.1840, Validation Loss: 0.1848
+2026-02-18 13:48:41 - INFO - PRINT: Epoch [1078], Train Loss: 0.1836, Validation Loss: 0.1848
+2026-02-18 13:48:42 - INFO - PRINT: Epoch [1079], Train Loss: 0.1837, Validation Loss: 0.1848
+2026-02-18 13:48:42 - INFO - PRINT: Epoch [1080], Train Loss: 0.1835, Validation Loss: 0.1850
+2026-02-18 13:48:42 - INFO - PRINT: Epoch [1081], Train Loss: 0.1837, Validation Loss: 0.1850
+2026-02-18 13:48:42 - INFO - PRINT: Epoch [1082], Train Loss: 0.1840, Validation Loss: 0.1850
+2026-02-18 13:48:42 - INFO - PRINT: Epoch [1083], Train Loss: 0.1838, Validation Loss: 0.1850
+2026-02-18 13:48:42 - INFO - PRINT: Epoch [1084], Train Loss: 0.1838, Validation Loss: 0.1850
+2026-02-18 13:48:42 - INFO - PRINT: Epoch [1085], Train Loss: 0.1837, Validation Loss: 0.1850
+2026-02-18 13:48:42 - INFO - PRINT: Epoch [1086], Train Loss: 0.1840, Validation Loss: 0.1850
+2026-02-18 13:48:42 - INFO - PRINT: Epoch [1087], Train Loss: 0.1838, Validation Loss: 0.1850
+2026-02-18 13:48:42 - INFO - PRINT: Epoch [1088], Train Loss: 0.1835, Validation Loss: 0.1850
+2026-02-18 13:48:42 - INFO - PRINT: Epoch [1089], Train Loss: 0.1838, Validation Loss: 0.1850
+2026-02-18 13:48:43 - INFO - PRINT: Epoch [1090], Train Loss: 0.1837, Validation Loss: 0.1850
+2026-02-18 13:48:43 - INFO - PRINT: Epoch [1091], Train Loss: 0.1837, Validation Loss: 0.1850
+2026-02-18 13:48:43 - INFO - PRINT: Epoch [1092], Train Loss: 0.1838, Validation Loss: 0.1850
+2026-02-18 13:48:43 - INFO - PRINT: Epoch [1093], Train Loss: 0.1838, Validation Loss: 0.1850
+2026-02-18 13:48:43 - INFO - PRINT: Epoch [1094], Train Loss: 0.1839, Validation Loss: 0.1850
+2026-02-18 13:48:43 - INFO - PRINT: Epoch [1095], Train Loss: 0.1837, Validation Loss: 0.1850
+2026-02-18 13:48:43 - INFO - PRINT: Epoch [1096], Train Loss: 0.1839, Validation Loss: 0.1850
+2026-02-18 13:48:43 - INFO - PRINT: Epoch [1097], Train Loss: 0.1836, Validation Loss: 0.1850
+2026-02-18 13:48:43 - INFO - PRINT: Epoch [1098], Train Loss: 0.1838, Validation Loss: 0.1850
+2026-02-18 13:48:43 - INFO - PRINT: Epoch [1099], Train Loss: 0.1839, Validation Loss: 0.1850
+2026-02-18 13:48:43 - INFO - PRINT: Epoch [1100], Train Loss: 0.1837, Validation Loss: 0.1849
+2026-02-18 13:48:43 - INFO - PRINT: ----> Saving model from epoch 960 (val loss: 0.18423788249492645). Vibrant!
+2026-02-18 13:48:43 - INFO - PRINT: Epoch [1101], Train Loss: 0.1839, Validation Loss: 0.1849
+2026-02-18 13:48:44 - INFO - PRINT: Epoch [1102], Train Loss: 0.1840, Validation Loss: 0.1849
+2026-02-18 13:48:44 - INFO - PRINT: Epoch [1103], Train Loss: 0.1838, Validation Loss: 0.1849
+2026-02-18 13:48:44 - INFO - PRINT: Epoch [1104], Train Loss: 0.1839, Validation Loss: 0.1849
+2026-02-18 13:48:44 - INFO - PRINT: Epoch [1105], Train Loss: 0.1843, Validation Loss: 0.1849
+2026-02-18 13:48:44 - INFO - PRINT: Epoch [1106], Train Loss: 0.1842, Validation Loss: 0.1849
+2026-02-18 13:48:44 - INFO - PRINT: Epoch [1107], Train Loss: 0.1840, Validation Loss: 0.1849
+2026-02-18 13:48:44 - INFO - PRINT: Epoch [1108], Train Loss: 0.1839, Validation Loss: 0.1849
+2026-02-18 13:48:44 - INFO - PRINT: Epoch [1109], Train Loss: 0.1839, Validation Loss: 0.1849
+2026-02-18 13:48:44 - INFO - PRINT: Epoch [1110], Train Loss: 0.1839, Validation Loss: 0.1849
+2026-02-18 13:48:44 - INFO - PRINT: Epoch [1111], Train Loss: 0.1836, Validation Loss: 0.1849
+2026-02-18 13:48:44 - INFO - PRINT: Epoch [1112], Train Loss: 0.1838, Validation Loss: 0.1849
+2026-02-18 13:48:44 - INFO - PRINT: Epoch [1113], Train Loss: 0.1839, Validation Loss: 0.1849
+2026-02-18 13:48:44 - INFO - PRINT: Epoch [1114], Train Loss: 0.1836, Validation Loss: 0.1849
+2026-02-18 13:48:45 - INFO - PRINT: Epoch [1115], Train Loss: 0.1838, Validation Loss: 0.1849
+2026-02-18 13:48:45 - INFO - PRINT: Epoch [1116], Train Loss: 0.1837, Validation Loss: 0.1849
+2026-02-18 13:48:45 - INFO - PRINT: Epoch [1117], Train Loss: 0.1838, Validation Loss: 0.1849
+2026-02-18 13:48:45 - INFO - PRINT: Epoch [1118], Train Loss: 0.1836, Validation Loss: 0.1849
+2026-02-18 13:48:45 - INFO - PRINT: Epoch [1119], Train Loss: 0.1839, Validation Loss: 0.1849
+2026-02-18 13:48:45 - INFO - PRINT: Epoch [1120], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:48:45 - INFO - PRINT: Epoch [1121], Train Loss: 0.1839, Validation Loss: 0.1843
+2026-02-18 13:48:45 - INFO - PRINT: Epoch [1122], Train Loss: 0.1839, Validation Loss: 0.1843
+2026-02-18 13:48:45 - INFO - PRINT: Epoch [1123], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:48:45 - INFO - PRINT: Epoch [1124], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:48:45 - INFO - PRINT: Epoch [1125], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:48:46 - INFO - PRINT: Epoch [1126], Train Loss: 0.1840, Validation Loss: 0.1843
+2026-02-18 13:48:46 - INFO - PRINT: Epoch [1127], Train Loss: 0.1838, Validation Loss: 0.1843
+2026-02-18 13:48:46 - INFO - PRINT: Epoch [1128], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:48:46 - INFO - PRINT: Epoch [1129], Train Loss: 0.1839, Validation Loss: 0.1843
+2026-02-18 13:48:46 - INFO - PRINT: Epoch [1130], Train Loss: 0.1839, Validation Loss: 0.1843
+2026-02-18 13:48:46 - INFO - PRINT: Epoch [1131], Train Loss: 0.1840, Validation Loss: 0.1843
+2026-02-18 13:48:46 - INFO - PRINT: Epoch [1132], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:48:46 - INFO - PRINT: Epoch [1133], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:48:46 - INFO - PRINT: Epoch [1134], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:48:46 - INFO - PRINT: Epoch [1135], Train Loss: 0.1842, Validation Loss: 0.1843
+2026-02-18 13:48:46 - INFO - PRINT: Epoch [1136], Train Loss: 0.1843, Validation Loss: 0.1843
+2026-02-18 13:48:46 - INFO - PRINT: Epoch [1137], Train Loss: 0.1838, Validation Loss: 0.1843
+2026-02-18 13:48:46 - INFO - PRINT: Epoch [1138], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:48:46 - INFO - PRINT: Epoch [1139], Train Loss: 0.1839, Validation Loss: 0.1843
+2026-02-18 13:48:47 - INFO - PRINT: Epoch [1140], Train Loss: 0.1840, Validation Loss: 0.1844
+2026-02-18 13:48:47 - INFO - PRINT: Epoch [1141], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:47 - INFO - PRINT: Epoch [1142], Train Loss: 0.1837, Validation Loss: 0.1844
+2026-02-18 13:48:47 - INFO - PRINT: Epoch [1143], Train Loss: 0.1835, Validation Loss: 0.1844
+2026-02-18 13:48:47 - INFO - PRINT: Epoch [1144], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:47 - INFO - PRINT: Epoch [1145], Train Loss: 0.1841, Validation Loss: 0.1844
+2026-02-18 13:48:47 - INFO - PRINT: Epoch [1146], Train Loss: 0.1839, Validation Loss: 0.1844
+2026-02-18 13:48:47 - INFO - PRINT: Epoch [1147], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:47 - INFO - PRINT: Epoch [1148], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:47 - INFO - PRINT: Epoch [1149], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:47 - INFO - PRINT: Epoch [1150], Train Loss: 0.1837, Validation Loss: 0.1844
+2026-02-18 13:48:48 - INFO - PRINT: Epoch [1151], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:48 - INFO - PRINT: Epoch [1152], Train Loss: 0.1841, Validation Loss: 0.1844
+2026-02-18 13:48:48 - INFO - PRINT: Epoch [1153], Train Loss: 0.1841, Validation Loss: 0.1844
+2026-02-18 13:48:48 - INFO - PRINT: Epoch [1154], Train Loss: 0.1840, Validation Loss: 0.1844
+2026-02-18 13:48:48 - INFO - PRINT: Epoch [1155], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:48 - INFO - PRINT: Epoch [1156], Train Loss: 0.1840, Validation Loss: 0.1844
+2026-02-18 13:48:48 - INFO - PRINT: Epoch [1157], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:48 - INFO - PRINT: Epoch [1158], Train Loss: 0.1837, Validation Loss: 0.1844
+2026-02-18 13:48:48 - INFO - PRINT: Epoch [1159], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:48 - INFO - PRINT: Epoch [1160], Train Loss: 0.1838, Validation Loss: 0.1841
+2026-02-18 13:48:48 - INFO - PRINT: Epoch [1161], Train Loss: 0.1836, Validation Loss: 0.1841
+2026-02-18 13:48:48 - INFO - PRINT: Epoch [1162], Train Loss: 0.1837, Validation Loss: 0.1841
+2026-02-18 13:48:49 - INFO - PRINT: Epoch [1163], Train Loss: 0.1837, Validation Loss: 0.1841
+2026-02-18 13:48:49 - INFO - PRINT: Epoch [1164], Train Loss: 0.1837, Validation Loss: 0.1841
+2026-02-18 13:48:49 - INFO - PRINT: Epoch [1165], Train Loss: 0.1843, Validation Loss: 0.1841
+2026-02-18 13:48:49 - INFO - PRINT: Epoch [1166], Train Loss: 0.1837, Validation Loss: 0.1841
+2026-02-18 13:48:49 - INFO - PRINT: Epoch [1167], Train Loss: 0.1838, Validation Loss: 0.1841
+2026-02-18 13:48:49 - INFO - PRINT: Epoch [1168], Train Loss: 0.1838, Validation Loss: 0.1841
+2026-02-18 13:48:49 - INFO - PRINT: Epoch [1169], Train Loss: 0.1836, Validation Loss: 0.1841
+2026-02-18 13:48:49 - INFO - PRINT: Epoch [1170], Train Loss: 0.1838, Validation Loss: 0.1841
+2026-02-18 13:48:49 - INFO - PRINT: Epoch [1171], Train Loss: 0.1837, Validation Loss: 0.1841
+2026-02-18 13:48:49 - INFO - PRINT: Epoch [1172], Train Loss: 0.1838, Validation Loss: 0.1841
+2026-02-18 13:48:49 - INFO - PRINT: Epoch [1173], Train Loss: 0.1841, Validation Loss: 0.1841
+2026-02-18 13:48:49 - INFO - PRINT: Epoch [1174], Train Loss: 0.1840, Validation Loss: 0.1841
+2026-02-18 13:48:49 - INFO - PRINT: Epoch [1175], Train Loss: 0.1839, Validation Loss: 0.1841
+2026-02-18 13:48:50 - INFO - PRINT: Epoch [1176], Train Loss: 0.1840, Validation Loss: 0.1841
+2026-02-18 13:48:50 - INFO - PRINT: Epoch [1177], Train Loss: 0.1837, Validation Loss: 0.1841
+2026-02-18 13:48:50 - INFO - PRINT: Epoch [1178], Train Loss: 0.1839, Validation Loss: 0.1841
+2026-02-18 13:48:50 - INFO - PRINT: Epoch [1179], Train Loss: 0.1837, Validation Loss: 0.1841
+2026-02-18 13:48:50 - INFO - PRINT: Epoch [1180], Train Loss: 0.1838, Validation Loss: 0.1854
+2026-02-18 13:48:50 - INFO - PRINT: Epoch [1181], Train Loss: 0.1836, Validation Loss: 0.1854
+2026-02-18 13:48:50 - INFO - PRINT: Epoch [1182], Train Loss: 0.1838, Validation Loss: 0.1854
+2026-02-18 13:48:50 - INFO - PRINT: Epoch [1183], Train Loss: 0.1838, Validation Loss: 0.1854
+2026-02-18 13:48:50 - INFO - PRINT: Epoch [1184], Train Loss: 0.1837, Validation Loss: 0.1854
+2026-02-18 13:48:50 - INFO - PRINT: Epoch [1185], Train Loss: 0.1840, Validation Loss: 0.1854
+2026-02-18 13:48:50 - INFO - PRINT: Epoch [1186], Train Loss: 0.1838, Validation Loss: 0.1854
+2026-02-18 13:48:51 - INFO - PRINT: Epoch [1187], Train Loss: 0.1836, Validation Loss: 0.1854
+2026-02-18 13:48:51 - INFO - PRINT: Epoch [1188], Train Loss: 0.1836, Validation Loss: 0.1854
+2026-02-18 13:48:51 - INFO - PRINT: Epoch [1189], Train Loss: 0.1838, Validation Loss: 0.1854
+2026-02-18 13:48:51 - INFO - PRINT: Epoch [1190], Train Loss: 0.1837, Validation Loss: 0.1854
+2026-02-18 13:48:51 - INFO - PRINT: Epoch [1191], Train Loss: 0.1837, Validation Loss: 0.1854
+2026-02-18 13:48:51 - INFO - PRINT: Epoch [1192], Train Loss: 0.1838, Validation Loss: 0.1854
+2026-02-18 13:48:51 - INFO - PRINT: Epoch [1193], Train Loss: 0.1840, Validation Loss: 0.1854
+2026-02-18 13:48:51 - INFO - PRINT: Epoch [1194], Train Loss: 0.1840, Validation Loss: 0.1854
+2026-02-18 13:48:51 - INFO - PRINT: Epoch [1195], Train Loss: 0.1839, Validation Loss: 0.1854
+2026-02-18 13:48:51 - INFO - PRINT: Epoch [1196], Train Loss: 0.1843, Validation Loss: 0.1854
+2026-02-18 13:48:51 - INFO - PRINT: Epoch [1197], Train Loss: 0.1841, Validation Loss: 0.1854
+2026-02-18 13:48:51 - INFO - PRINT: Epoch [1198], Train Loss: 0.1837, Validation Loss: 0.1854
+2026-02-18 13:48:51 - INFO - PRINT: Epoch [1199], Train Loss: 0.1836, Validation Loss: 0.1854
+2026-02-18 13:48:52 - INFO - PRINT: Epoch [1200], Train Loss: 0.1836, Validation Loss: 0.1851
+2026-02-18 13:48:52 - INFO - PRINT: ----> Saving model from epoch 1160 (val loss: 0.18411566317081451). Smooth!
+2026-02-18 13:48:52 - INFO - PRINT: Epoch [1201], Train Loss: 0.1836, Validation Loss: 0.1851
+2026-02-18 13:48:52 - INFO - PRINT: Epoch [1202], Train Loss: 0.1838, Validation Loss: 0.1851
+2026-02-18 13:48:52 - INFO - PRINT: Epoch [1203], Train Loss: 0.1839, Validation Loss: 0.1851
+2026-02-18 13:48:52 - INFO - PRINT: Epoch [1204], Train Loss: 0.1838, Validation Loss: 0.1851
+2026-02-18 13:48:52 - INFO - PRINT: Epoch [1205], Train Loss: 0.1843, Validation Loss: 0.1851
+2026-02-18 13:48:52 - INFO - PRINT: Epoch [1206], Train Loss: 0.1839, Validation Loss: 0.1851
+2026-02-18 13:48:52 - INFO - PRINT: Epoch [1207], Train Loss: 0.1837, Validation Loss: 0.1851
+2026-02-18 13:48:52 - INFO - PRINT: Epoch [1208], Train Loss: 0.1837, Validation Loss: 0.1851
+2026-02-18 13:48:52 - INFO - PRINT: Epoch [1209], Train Loss: 0.1838, Validation Loss: 0.1851
+2026-02-18 13:48:52 - INFO - PRINT: Epoch [1210], Train Loss: 0.1836, Validation Loss: 0.1851
+2026-02-18 13:48:52 - INFO - PRINT: Epoch [1211], Train Loss: 0.1838, Validation Loss: 0.1851
+2026-02-18 13:48:53 - INFO - PRINT: Epoch [1212], Train Loss: 0.1837, Validation Loss: 0.1851
+2026-02-18 13:48:53 - INFO - PRINT: Epoch [1213], Train Loss: 0.1838, Validation Loss: 0.1851
+2026-02-18 13:48:53 - INFO - PRINT: Epoch [1214], Train Loss: 0.1837, Validation Loss: 0.1851
+2026-02-18 13:48:53 - INFO - PRINT: Epoch [1215], Train Loss: 0.1841, Validation Loss: 0.1851
+2026-02-18 13:48:53 - INFO - PRINT: Epoch [1216], Train Loss: 0.1839, Validation Loss: 0.1851
+2026-02-18 13:48:53 - INFO - PRINT: Epoch [1217], Train Loss: 0.1839, Validation Loss: 0.1851
+2026-02-18 13:48:53 - INFO - PRINT: Epoch [1218], Train Loss: 0.1841, Validation Loss: 0.1851
+2026-02-18 13:48:53 - INFO - PRINT: Epoch [1219], Train Loss: 0.1842, Validation Loss: 0.1851
+2026-02-18 13:48:53 - INFO - PRINT: Epoch [1220], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:54 - INFO - PRINT: Epoch [1221], Train Loss: 0.1836, Validation Loss: 0.1844
+2026-02-18 13:48:54 - INFO - PRINT: Epoch [1222], Train Loss: 0.1837, Validation Loss: 0.1844
+2026-02-18 13:48:54 - INFO - PRINT: Epoch [1223], Train Loss: 0.1836, Validation Loss: 0.1844
+2026-02-18 13:48:54 - INFO - PRINT: Epoch [1224], Train Loss: 0.1836, Validation Loss: 0.1844
+2026-02-18 13:48:54 - INFO - PRINT: Epoch [1225], Train Loss: 0.1836, Validation Loss: 0.1844
+2026-02-18 13:48:54 - INFO - PRINT: Epoch [1226], Train Loss: 0.1841, Validation Loss: 0.1844
+2026-02-18 13:48:54 - INFO - PRINT: Epoch [1227], Train Loss: 0.1840, Validation Loss: 0.1844
+2026-02-18 13:48:54 - INFO - PRINT: Epoch [1228], Train Loss: 0.1836, Validation Loss: 0.1844
+2026-02-18 13:48:54 - INFO - PRINT: Epoch [1229], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:54 - INFO - PRINT: Epoch [1230], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:54 - INFO - PRINT: Epoch [1231], Train Loss: 0.1840, Validation Loss: 0.1844
+2026-02-18 13:48:54 - INFO - PRINT: Epoch [1232], Train Loss: 0.1837, Validation Loss: 0.1844
+2026-02-18 13:48:54 - INFO - PRINT: Epoch [1233], Train Loss: 0.1836, Validation Loss: 0.1844
+2026-02-18 13:48:54 - INFO - PRINT: Epoch [1234], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:55 - INFO - PRINT: Epoch [1235], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:55 - INFO - PRINT: Epoch [1236], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:55 - INFO - PRINT: Epoch [1237], Train Loss: 0.1838, Validation Loss: 0.1844
+2026-02-18 13:48:55 - INFO - PRINT: Epoch [1238], Train Loss: 0.1836, Validation Loss: 0.1844
+2026-02-18 13:48:55 - INFO - PRINT: Epoch [1239], Train Loss: 0.1836, Validation Loss: 0.1844
+2026-02-18 13:48:55 - INFO - PRINT: Epoch [1240], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:48:55 - INFO - PRINT: Epoch [1241], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:48:55 - INFO - PRINT: Epoch [1242], Train Loss: 0.1835, Validation Loss: 0.1846
+2026-02-18 13:48:55 - INFO - PRINT: Epoch [1243], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:48:55 - INFO - PRINT: Epoch [1244], Train Loss: 0.1840, Validation Loss: 0.1846
+2026-02-18 13:48:55 - INFO - PRINT: Epoch [1245], Train Loss: 0.1835, Validation Loss: 0.1846
+2026-02-18 13:48:56 - INFO - PRINT: Epoch [1246], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:48:56 - INFO - PRINT: Epoch [1247], Train Loss: 0.1840, Validation Loss: 0.1846
+2026-02-18 13:48:56 - INFO - PRINT: Epoch [1248], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:48:56 - INFO - PRINT: Epoch [1249], Train Loss: 0.1840, Validation Loss: 0.1846
+2026-02-18 13:48:56 - INFO - PRINT: Epoch [1250], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:48:56 - INFO - PRINT: Epoch [1251], Train Loss: 0.1840, Validation Loss: 0.1846
+2026-02-18 13:48:56 - INFO - PRINT: Epoch [1252], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:48:56 - INFO - PRINT: Epoch [1253], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:48:56 - INFO - PRINT: Epoch [1254], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:48:56 - INFO - PRINT: Epoch [1255], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:48:56 - INFO - PRINT: Epoch [1256], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:48:56 - INFO - PRINT: Epoch [1257], Train Loss: 0.1841, Validation Loss: 0.1846
+2026-02-18 13:48:56 - INFO - PRINT: Epoch [1258], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:48:56 - INFO - PRINT: Epoch [1259], Train Loss: 0.1840, Validation Loss: 0.1846
+2026-02-18 13:48:57 - INFO - PRINT: Epoch [1260], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:48:57 - INFO - PRINT: Epoch [1261], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:48:57 - INFO - PRINT: Epoch [1262], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:48:57 - INFO - PRINT: Epoch [1263], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:48:57 - INFO - PRINT: Epoch [1264], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:48:57 - INFO - PRINT: Epoch [1265], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:48:57 - INFO - PRINT: Epoch [1266], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:48:57 - INFO - PRINT: Epoch [1267], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:48:57 - INFO - PRINT: Epoch [1268], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:48:57 - INFO - PRINT: Epoch [1269], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:48:57 - INFO - PRINT: Epoch [1270], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:48:58 - INFO - PRINT: Epoch [1271], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:48:58 - INFO - PRINT: Epoch [1272], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:48:58 - INFO - PRINT: Epoch [1273], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:48:58 - INFO - PRINT: Epoch [1274], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:48:58 - INFO - PRINT: Epoch [1275], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:48:58 - INFO - PRINT: Epoch [1276], Train Loss: 0.1835, Validation Loss: 0.1847
+2026-02-18 13:48:58 - INFO - PRINT: Epoch [1277], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:48:58 - INFO - PRINT: Epoch [1278], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:48:58 - INFO - PRINT: Epoch [1279], Train Loss: 0.1835, Validation Loss: 0.1847
+2026-02-18 13:48:58 - INFO - PRINT: Epoch [1280], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:48:58 - INFO - PRINT: Epoch [1281], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:48:59 - INFO - PRINT: Epoch [1282], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:48:59 - INFO - PRINT: Epoch [1283], Train Loss: 0.1841, Validation Loss: 0.1843
+2026-02-18 13:48:59 - INFO - PRINT: Epoch [1284], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:48:59 - INFO - PRINT: Epoch [1285], Train Loss: 0.1835, Validation Loss: 0.1843
+2026-02-18 13:48:59 - INFO - PRINT: Epoch [1286], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:48:59 - INFO - PRINT: Epoch [1287], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:48:59 - INFO - PRINT: Epoch [1288], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:48:59 - INFO - PRINT: Epoch [1289], Train Loss: 0.1838, Validation Loss: 0.1843
+2026-02-18 13:48:59 - INFO - PRINT: Epoch [1290], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:48:59 - INFO - PRINT: Epoch [1291], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:48:59 - INFO - PRINT: Epoch [1292], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:48:59 - INFO - PRINT: Epoch [1293], Train Loss: 0.1835, Validation Loss: 0.1843
+2026-02-18 13:48:59 - INFO - PRINT: Epoch [1294], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:48:59 - INFO - PRINT: Epoch [1295], Train Loss: 0.1835, Validation Loss: 0.1843
+2026-02-18 13:49:00 - INFO - PRINT: Epoch [1296], Train Loss: 0.1838, Validation Loss: 0.1843
+2026-02-18 13:49:00 - INFO - PRINT: Epoch [1297], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:00 - INFO - PRINT: Epoch [1298], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:00 - INFO - PRINT: Epoch [1299], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:00 - INFO - PRINT: Epoch [1300], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:00 - INFO - PRINT: ----> Saving model from epoch 1160 (val loss: 0.18411566317081451). Al-dente!
+2026-02-18 13:49:00 - INFO - PRINT: Epoch [1301], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:00 - INFO - PRINT: Epoch [1302], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:49:00 - INFO - PRINT: Epoch [1303], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:00 - INFO - PRINT: Epoch [1304], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:00 - INFO - PRINT: Epoch [1305], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:00 - INFO - PRINT: Epoch [1306], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:01 - INFO - PRINT: Epoch [1307], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:01 - INFO - PRINT: Epoch [1308], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:49:01 - INFO - PRINT: Epoch [1309], Train Loss: 0.1840, Validation Loss: 0.1846
+2026-02-18 13:49:01 - INFO - PRINT: Epoch [1310], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:01 - INFO - PRINT: Epoch [1311], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:01 - INFO - PRINT: Epoch [1312], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:01 - INFO - PRINT: Epoch [1313], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:01 - INFO - PRINT: Epoch [1314], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:49:01 - INFO - PRINT: Epoch [1315], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:49:01 - INFO - PRINT: Epoch [1316], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:49:01 - INFO - PRINT: Epoch [1317], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:49:01 - INFO - PRINT: Epoch [1318], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:01 - INFO - PRINT: Epoch [1319], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:02 - INFO - PRINT: Epoch [1320], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:49:02 - INFO - PRINT: Epoch [1321], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:49:02 - INFO - PRINT: Epoch [1322], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:49:02 - INFO - PRINT: Epoch [1323], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:49:02 - INFO - PRINT: Epoch [1324], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:49:02 - INFO - PRINT: Epoch [1325], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:49:02 - INFO - PRINT: Epoch [1326], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:49:02 - INFO - PRINT: Epoch [1327], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:49:02 - INFO - PRINT: Epoch [1328], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:49:02 - INFO - PRINT: Epoch [1329], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:49:02 - INFO - PRINT: Epoch [1330], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:49:02 - INFO - PRINT: Epoch [1331], Train Loss: 0.1840, Validation Loss: 0.1847
+2026-02-18 13:49:03 - INFO - PRINT: Epoch [1332], Train Loss: 0.1835, Validation Loss: 0.1847
+2026-02-18 13:49:03 - INFO - PRINT: Epoch [1333], Train Loss: 0.1835, Validation Loss: 0.1847
+2026-02-18 13:49:03 - INFO - PRINT: Epoch [1334], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:49:03 - INFO - PRINT: Epoch [1335], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:49:03 - INFO - PRINT: Epoch [1336], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:49:03 - INFO - PRINT: Epoch [1337], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:49:03 - INFO - PRINT: Epoch [1338], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:49:03 - INFO - PRINT: Epoch [1339], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:49:03 - INFO - PRINT: Epoch [1340], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:03 - INFO - PRINT: Epoch [1341], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:03 - INFO - PRINT: Epoch [1342], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:04 - INFO - PRINT: Epoch [1343], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:49:04 - INFO - PRINT: Epoch [1344], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:04 - INFO - PRINT: Epoch [1345], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:04 - INFO - PRINT: Epoch [1346], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:04 - INFO - PRINT: Epoch [1347], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:49:04 - INFO - PRINT: Epoch [1348], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:49:04 - INFO - PRINT: Epoch [1349], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:04 - INFO - PRINT: Epoch [1350], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:04 - INFO - PRINT: Epoch [1351], Train Loss: 0.1834, Validation Loss: 0.1846
+2026-02-18 13:49:04 - INFO - PRINT: Epoch [1352], Train Loss: 0.1834, Validation Loss: 0.1846
+2026-02-18 13:49:04 - INFO - PRINT: Epoch [1353], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:49:04 - INFO - PRINT: Epoch [1354], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:49:04 - INFO - PRINT: Epoch [1355], Train Loss: 0.1841, Validation Loss: 0.1846
+2026-02-18 13:49:05 - INFO - PRINT: Epoch [1356], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:05 - INFO - PRINT: Epoch [1357], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:05 - INFO - PRINT: Epoch [1358], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:05 - INFO - PRINT: Epoch [1359], Train Loss: 0.1835, Validation Loss: 0.1846
+2026-02-18 13:49:05 - INFO - PRINT: Epoch [1360], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:49:05 - INFO - PRINT: Epoch [1361], Train Loss: 0.1838, Validation Loss: 0.1843
+2026-02-18 13:49:05 - INFO - PRINT: Epoch [1362], Train Loss: 0.1840, Validation Loss: 0.1843
+2026-02-18 13:49:05 - INFO - PRINT: Epoch [1363], Train Loss: 0.1838, Validation Loss: 0.1843
+2026-02-18 13:49:05 - INFO - PRINT: Epoch [1364], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:05 - INFO - PRINT: Epoch [1365], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:05 - INFO - PRINT: Epoch [1366], Train Loss: 0.1838, Validation Loss: 0.1843
+2026-02-18 13:49:06 - INFO - PRINT: Epoch [1367], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:06 - INFO - PRINT: Epoch [1368], Train Loss: 0.1843, Validation Loss: 0.1843
+2026-02-18 13:49:06 - INFO - PRINT: Epoch [1369], Train Loss: 0.1838, Validation Loss: 0.1843
+2026-02-18 13:49:06 - INFO - PRINT: Epoch [1370], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:49:06 - INFO - PRINT: Epoch [1371], Train Loss: 0.1835, Validation Loss: 0.1843
+2026-02-18 13:49:06 - INFO - PRINT: Epoch [1372], Train Loss: 0.1835, Validation Loss: 0.1843
+2026-02-18 13:49:06 - INFO - PRINT: Epoch [1373], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:06 - INFO - PRINT: Epoch [1374], Train Loss: 0.1835, Validation Loss: 0.1843
+2026-02-18 13:49:06 - INFO - PRINT: Epoch [1375], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:49:06 - INFO - PRINT: Epoch [1376], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:49:06 - INFO - PRINT: Epoch [1377], Train Loss: 0.1835, Validation Loss: 0.1843
+2026-02-18 13:49:06 - INFO - PRINT: Epoch [1378], Train Loss: 0.1835, Validation Loss: 0.1843
+2026-02-18 13:49:06 - INFO - PRINT: Epoch [1379], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:07 - INFO - PRINT: Epoch [1380], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:07 - INFO - PRINT: Epoch [1381], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:07 - INFO - PRINT: Epoch [1382], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:49:07 - INFO - PRINT: Epoch [1383], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:49:07 - INFO - PRINT: Epoch [1384], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:49:07 - INFO - PRINT: Epoch [1385], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:07 - INFO - PRINT: Epoch [1386], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:07 - INFO - PRINT: Epoch [1387], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:49:07 - INFO - PRINT: Epoch [1388], Train Loss: 0.1835, Validation Loss: 0.1846
+2026-02-18 13:49:07 - INFO - PRINT: Epoch [1389], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:07 - INFO - PRINT: Epoch [1390], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:07 - INFO - PRINT: Epoch [1391], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:08 - INFO - PRINT: Epoch [1392], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:49:08 - INFO - PRINT: Epoch [1393], Train Loss: 0.1839, Validation Loss: 0.1846
+2026-02-18 13:49:08 - INFO - PRINT: Epoch [1394], Train Loss: 0.1840, Validation Loss: 0.1846
+2026-02-18 13:49:08 - INFO - PRINT: Epoch [1395], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:08 - INFO - PRINT: Epoch [1396], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:08 - INFO - PRINT: Epoch [1397], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:08 - INFO - PRINT: Epoch [1398], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:08 - INFO - PRINT: Epoch [1399], Train Loss: 0.1835, Validation Loss: 0.1846
+2026-02-18 13:49:08 - INFO - PRINT: Epoch [1400], Train Loss: 0.1835, Validation Loss: 0.1847
+2026-02-18 13:49:08 - INFO - PRINT: ----> Saving model from epoch 1160 (val loss: 0.18411566317081451). Soul-warming!
+2026-02-18 13:49:08 - INFO - PRINT: Epoch [1401], Train Loss: 0.1834, Validation Loss: 0.1847
+2026-02-18 13:49:08 - INFO - PRINT: Epoch [1402], Train Loss: 0.1835, Validation Loss: 0.1847
+2026-02-18 13:49:09 - INFO - PRINT: Epoch [1403], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:49:09 - INFO - PRINT: Epoch [1404], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:49:09 - INFO - PRINT: Epoch [1405], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:49:09 - INFO - PRINT: Epoch [1406], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:49:09 - INFO - PRINT: Epoch [1407], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:49:09 - INFO - PRINT: Epoch [1408], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:49:09 - INFO - PRINT: Epoch [1409], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:49:09 - INFO - PRINT: Epoch [1410], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:49:09 - INFO - PRINT: Epoch [1411], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:49:09 - INFO - PRINT: Epoch [1412], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:49:09 - INFO - PRINT: Epoch [1413], Train Loss: 0.1840, Validation Loss: 0.1847
+2026-02-18 13:49:09 - INFO - PRINT: Epoch [1414], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:49:09 - INFO - PRINT: Epoch [1415], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:49:09 - INFO - PRINT: Epoch [1416], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:49:10 - INFO - PRINT: Epoch [1417], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:49:10 - INFO - PRINT: Epoch [1418], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:49:10 - INFO - PRINT: Epoch [1419], Train Loss: 0.1834, Validation Loss: 0.1847
+2026-02-18 13:49:10 - INFO - PRINT: Epoch [1420], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:49:10 - INFO - PRINT: Epoch [1421], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:49:10 - INFO - PRINT: Epoch [1422], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:49:10 - INFO - PRINT: Epoch [1423], Train Loss: 0.1835, Validation Loss: 0.1847
+2026-02-18 13:49:10 - INFO - PRINT: Epoch [1424], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:49:10 - INFO - PRINT: Epoch [1425], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:49:10 - INFO - PRINT: Epoch [1426], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:49:10 - INFO - PRINT: Epoch [1427], Train Loss: 0.1835, Validation Loss: 0.1847
+2026-02-18 13:49:11 - INFO - PRINT: Epoch [1428], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:49:11 - INFO - PRINT: Epoch [1429], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:49:11 - INFO - PRINT: Epoch [1430], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:49:11 - INFO - PRINT: Epoch [1431], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:49:11 - INFO - PRINT: Epoch [1432], Train Loss: 0.1836, Validation Loss: 0.1847
+2026-02-18 13:49:11 - INFO - PRINT: Epoch [1433], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:49:11 - INFO - PRINT: Epoch [1434], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:49:11 - INFO - PRINT: Epoch [1435], Train Loss: 0.1837, Validation Loss: 0.1847
+2026-02-18 13:49:11 - INFO - PRINT: Epoch [1436], Train Loss: 0.1835, Validation Loss: 0.1847
+2026-02-18 13:49:11 - INFO - PRINT: Epoch [1437], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:49:11 - INFO - PRINT: Epoch [1438], Train Loss: 0.1838, Validation Loss: 0.1847
+2026-02-18 13:49:11 - INFO - PRINT: Epoch [1439], Train Loss: 0.1839, Validation Loss: 0.1847
+2026-02-18 13:49:12 - INFO - PRINT: Epoch [1440], Train Loss: 0.1837, Validation Loss: 0.1852
+2026-02-18 13:49:12 - INFO - PRINT: Epoch [1441], Train Loss: 0.1837, Validation Loss: 0.1852
+2026-02-18 13:49:12 - INFO - PRINT: Epoch [1442], Train Loss: 0.1835, Validation Loss: 0.1852
+2026-02-18 13:49:12 - INFO - PRINT: Epoch [1443], Train Loss: 0.1836, Validation Loss: 0.1852
+2026-02-18 13:49:12 - INFO - PRINT: Epoch [1444], Train Loss: 0.1837, Validation Loss: 0.1852
+2026-02-18 13:49:12 - INFO - PRINT: Epoch [1445], Train Loss: 0.1837, Validation Loss: 0.1852
+2026-02-18 13:49:12 - INFO - PRINT: Epoch [1446], Train Loss: 0.1836, Validation Loss: 0.1852
+2026-02-18 13:49:12 - INFO - PRINT: Epoch [1447], Train Loss: 0.1838, Validation Loss: 0.1852
+2026-02-18 13:49:12 - INFO - PRINT: Epoch [1448], Train Loss: 0.1835, Validation Loss: 0.1852
+2026-02-18 13:49:12 - INFO - PRINT: Epoch [1449], Train Loss: 0.1835, Validation Loss: 0.1852
+2026-02-18 13:49:12 - INFO - PRINT: Epoch [1450], Train Loss: 0.1837, Validation Loss: 0.1852
+2026-02-18 13:49:12 - INFO - PRINT: Epoch [1451], Train Loss: 0.1836, Validation Loss: 0.1852
+2026-02-18 13:49:12 - INFO - PRINT: Epoch [1452], Train Loss: 0.1836, Validation Loss: 0.1852
+2026-02-18 13:49:13 - INFO - PRINT: Epoch [1453], Train Loss: 0.1838, Validation Loss: 0.1852
+2026-02-18 13:49:13 - INFO - PRINT: Epoch [1454], Train Loss: 0.1836, Validation Loss: 0.1852
+2026-02-18 13:49:13 - INFO - PRINT: Epoch [1455], Train Loss: 0.1836, Validation Loss: 0.1852
+2026-02-18 13:49:13 - INFO - PRINT: Epoch [1456], Train Loss: 0.1837, Validation Loss: 0.1852
+2026-02-18 13:49:13 - INFO - PRINT: Epoch [1457], Train Loss: 0.1838, Validation Loss: 0.1852
+2026-02-18 13:49:13 - INFO - PRINT: Epoch [1458], Train Loss: 0.1836, Validation Loss: 0.1852
+2026-02-18 13:49:13 - INFO - PRINT: Epoch [1459], Train Loss: 0.1838, Validation Loss: 0.1852
+2026-02-18 13:49:13 - INFO - PRINT: Epoch [1460], Train Loss: 0.1840, Validation Loss: 0.1853
+2026-02-18 13:49:13 - INFO - PRINT: Epoch [1461], Train Loss: 0.1839, Validation Loss: 0.1853
+2026-02-18 13:49:14 - INFO - PRINT: Epoch [1462], Train Loss: 0.1839, Validation Loss: 0.1853
+2026-02-18 13:49:14 - INFO - PRINT: Epoch [1463], Train Loss: 0.1838, Validation Loss: 0.1853
+2026-02-18 13:49:14 - INFO - PRINT: Epoch [1464], Train Loss: 0.1837, Validation Loss: 0.1853
+2026-02-18 13:49:14 - INFO - PRINT: Epoch [1465], Train Loss: 0.1840, Validation Loss: 0.1853
+2026-02-18 13:49:14 - INFO - PRINT: Epoch [1466], Train Loss: 0.1840, Validation Loss: 0.1853
+2026-02-18 13:49:14 - INFO - PRINT: Epoch [1467], Train Loss: 0.1837, Validation Loss: 0.1853
+2026-02-18 13:49:14 - INFO - PRINT: Epoch [1468], Train Loss: 0.1837, Validation Loss: 0.1853
+2026-02-18 13:49:14 - INFO - PRINT: Epoch [1469], Train Loss: 0.1837, Validation Loss: 0.1853
+2026-02-18 13:49:14 - INFO - PRINT: Epoch [1470], Train Loss: 0.1835, Validation Loss: 0.1853
+2026-02-18 13:49:14 - INFO - PRINT: Epoch [1471], Train Loss: 0.1836, Validation Loss: 0.1853
+2026-02-18 13:49:14 - INFO - PRINT: Epoch [1472], Train Loss: 0.1835, Validation Loss: 0.1853
+2026-02-18 13:49:14 - INFO - PRINT: Epoch [1473], Train Loss: 0.1835, Validation Loss: 0.1853
+2026-02-18 13:49:14 - INFO - PRINT: Epoch [1474], Train Loss: 0.1837, Validation Loss: 0.1853
+2026-02-18 13:49:14 - INFO - PRINT: Epoch [1475], Train Loss: 0.1838, Validation Loss: 0.1853
+2026-02-18 13:49:15 - INFO - PRINT: Epoch [1476], Train Loss: 0.1839, Validation Loss: 0.1853
+2026-02-18 13:49:15 - INFO - PRINT: Epoch [1477], Train Loss: 0.1836, Validation Loss: 0.1853
+2026-02-18 13:49:15 - INFO - PRINT: Epoch [1478], Train Loss: 0.1836, Validation Loss: 0.1853
+2026-02-18 13:49:15 - INFO - PRINT: Epoch [1479], Train Loss: 0.1837, Validation Loss: 0.1853
+2026-02-18 13:49:15 - INFO - PRINT: Epoch [1480], Train Loss: 0.1836, Validation Loss: 0.1852
+2026-02-18 13:49:15 - INFO - PRINT: Epoch [1481], Train Loss: 0.1837, Validation Loss: 0.1852
+2026-02-18 13:49:15 - INFO - PRINT: Epoch [1482], Train Loss: 0.1839, Validation Loss: 0.1852
+2026-02-18 13:49:15 - INFO - PRINT: Epoch [1483], Train Loss: 0.1838, Validation Loss: 0.1852
+2026-02-18 13:49:15 - INFO - PRINT: Epoch [1484], Train Loss: 0.1836, Validation Loss: 0.1852
+2026-02-18 13:49:15 - INFO - PRINT: Epoch [1485], Train Loss: 0.1835, Validation Loss: 0.1852
+2026-02-18 13:49:15 - INFO - PRINT: Epoch [1486], Train Loss: 0.1835, Validation Loss: 0.1852
+2026-02-18 13:49:16 - INFO - PRINT: Epoch [1487], Train Loss: 0.1837, Validation Loss: 0.1852
+2026-02-18 13:49:16 - INFO - PRINT: Epoch [1488], Train Loss: 0.1836, Validation Loss: 0.1852
+2026-02-18 13:49:16 - INFO - PRINT: Epoch [1489], Train Loss: 0.1837, Validation Loss: 0.1852
+2026-02-18 13:49:16 - INFO - PRINT: Epoch [1490], Train Loss: 0.1836, Validation Loss: 0.1852
+2026-02-18 13:49:16 - INFO - PRINT: Epoch [1491], Train Loss: 0.1835, Validation Loss: 0.1852
+2026-02-18 13:49:16 - INFO - PRINT: Epoch [1492], Train Loss: 0.1839, Validation Loss: 0.1852
+2026-02-18 13:49:16 - INFO - PRINT: Epoch [1493], Train Loss: 0.1838, Validation Loss: 0.1852
+2026-02-18 13:49:16 - INFO - PRINT: Epoch [1494], Train Loss: 0.1836, Validation Loss: 0.1852
+2026-02-18 13:49:16 - INFO - PRINT: Epoch [1495], Train Loss: 0.1838, Validation Loss: 0.1852
+2026-02-18 13:49:16 - INFO - PRINT: Epoch [1496], Train Loss: 0.1839, Validation Loss: 0.1852
+2026-02-18 13:49:16 - INFO - PRINT: Epoch [1497], Train Loss: 0.1837, Validation Loss: 0.1852
+2026-02-18 13:49:16 - INFO - PRINT: Epoch [1498], Train Loss: 0.1838, Validation Loss: 0.1852
+2026-02-18 13:49:16 - INFO - PRINT: Epoch [1499], Train Loss: 0.1837, Validation Loss: 0.1852
+2026-02-18 13:49:17 - INFO - PRINT: Epoch [1500], Train Loss: 0.1838, Validation Loss: 0.1843
+2026-02-18 13:49:17 - INFO - PRINT: ----> Saving model from epoch 1160 (val loss: 0.18411566317081451). Luscious!
+2026-02-18 13:49:17 - INFO - PRINT: Epoch [1501], Train Loss: 0.1838, Validation Loss: 0.1843
+2026-02-18 13:49:17 - INFO - PRINT: Epoch [1502], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:17 - INFO - PRINT: Epoch [1503], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:49:17 - INFO - PRINT: Epoch [1504], Train Loss: 0.1839, Validation Loss: 0.1843
+2026-02-18 13:49:17 - INFO - PRINT: Epoch [1505], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:49:17 - INFO - PRINT: Epoch [1506], Train Loss: 0.1834, Validation Loss: 0.1843
+2026-02-18 13:49:17 - INFO - PRINT: Epoch [1507], Train Loss: 0.1839, Validation Loss: 0.1843
+2026-02-18 13:49:17 - INFO - PRINT: Epoch [1508], Train Loss: 0.1838, Validation Loss: 0.1843
+2026-02-18 13:49:17 - INFO - PRINT: Epoch [1509], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:49:17 - INFO - PRINT: Epoch [1510], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:17 - INFO - PRINT: Epoch [1511], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:49:18 - INFO - PRINT: Epoch [1512], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:18 - INFO - PRINT: Epoch [1513], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:49:18 - INFO - PRINT: Epoch [1514], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:18 - INFO - PRINT: Epoch [1515], Train Loss: 0.1835, Validation Loss: 0.1843
+2026-02-18 13:49:18 - INFO - PRINT: Epoch [1516], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:49:18 - INFO - PRINT: Epoch [1517], Train Loss: 0.1835, Validation Loss: 0.1843
+2026-02-18 13:49:18 - INFO - PRINT: Epoch [1518], Train Loss: 0.1835, Validation Loss: 0.1843
+2026-02-18 13:49:18 - INFO - PRINT: Epoch [1519], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:18 - INFO - PRINT: Epoch [1520], Train Loss: 0.1838, Validation Loss: 0.1860
+2026-02-18 13:49:18 - INFO - PRINT: Epoch [1521], Train Loss: 0.1837, Validation Loss: 0.1860
+2026-02-18 13:49:18 - INFO - PRINT: Epoch [1522], Train Loss: 0.1835, Validation Loss: 0.1860
+2026-02-18 13:49:19 - INFO - PRINT: Epoch [1523], Train Loss: 0.1836, Validation Loss: 0.1860
+2026-02-18 13:49:19 - INFO - PRINT: Epoch [1524], Train Loss: 0.1835, Validation Loss: 0.1860
+2026-02-18 13:49:19 - INFO - PRINT: Epoch [1525], Train Loss: 0.1835, Validation Loss: 0.1860
+2026-02-18 13:49:19 - INFO - PRINT: Epoch [1526], Train Loss: 0.1836, Validation Loss: 0.1860
+2026-02-18 13:49:19 - INFO - PRINT: Epoch [1527], Train Loss: 0.1837, Validation Loss: 0.1860
+2026-02-18 13:49:19 - INFO - PRINT: Epoch [1528], Train Loss: 0.1836, Validation Loss: 0.1860
+2026-02-18 13:49:19 - INFO - PRINT: Epoch [1529], Train Loss: 0.1836, Validation Loss: 0.1860
+2026-02-18 13:49:19 - INFO - PRINT: Epoch [1530], Train Loss: 0.1836, Validation Loss: 0.1860
+2026-02-18 13:49:19 - INFO - PRINT: Epoch [1531], Train Loss: 0.1836, Validation Loss: 0.1860
+2026-02-18 13:49:19 - INFO - PRINT: Epoch [1532], Train Loss: 0.1835, Validation Loss: 0.1860
+2026-02-18 13:49:19 - INFO - PRINT: Epoch [1533], Train Loss: 0.1838, Validation Loss: 0.1860
+2026-02-18 13:49:19 - INFO - PRINT: Epoch [1534], Train Loss: 0.1836, Validation Loss: 0.1860
+2026-02-18 13:49:19 - INFO - PRINT: Epoch [1535], Train Loss: 0.1836, Validation Loss: 0.1860
+2026-02-18 13:49:20 - INFO - PRINT: Epoch [1536], Train Loss: 0.1838, Validation Loss: 0.1860
+2026-02-18 13:49:20 - INFO - PRINT: Epoch [1537], Train Loss: 0.1834, Validation Loss: 0.1860
+2026-02-18 13:49:20 - INFO - PRINT: Epoch [1538], Train Loss: 0.1835, Validation Loss: 0.1860
+2026-02-18 13:49:20 - INFO - PRINT: Epoch [1539], Train Loss: 0.1837, Validation Loss: 0.1860
+2026-02-18 13:49:20 - INFO - PRINT: Epoch [1540], Train Loss: 0.1836, Validation Loss: 0.1851
+2026-02-18 13:49:20 - INFO - PRINT: Epoch [1541], Train Loss: 0.1837, Validation Loss: 0.1851
+2026-02-18 13:49:20 - INFO - PRINT: Epoch [1542], Train Loss: 0.1835, Validation Loss: 0.1851
+2026-02-18 13:49:20 - INFO - PRINT: Epoch [1543], Train Loss: 0.1836, Validation Loss: 0.1851
+2026-02-18 13:49:20 - INFO - PRINT: Epoch [1544], Train Loss: 0.1837, Validation Loss: 0.1851
+2026-02-18 13:49:20 - INFO - PRINT: Epoch [1545], Train Loss: 0.1838, Validation Loss: 0.1851
+2026-02-18 13:49:20 - INFO - PRINT: Epoch [1546], Train Loss: 0.1836, Validation Loss: 0.1851
+2026-02-18 13:49:21 - INFO - PRINT: Epoch [1547], Train Loss: 0.1835, Validation Loss: 0.1851
+2026-02-18 13:49:21 - INFO - PRINT: Epoch [1548], Train Loss: 0.1834, Validation Loss: 0.1851
+2026-02-18 13:49:21 - INFO - PRINT: Epoch [1549], Train Loss: 0.1835, Validation Loss: 0.1851
+2026-02-18 13:49:21 - INFO - PRINT: Epoch [1550], Train Loss: 0.1836, Validation Loss: 0.1851
+2026-02-18 13:49:21 - INFO - PRINT: Epoch [1551], Train Loss: 0.1835, Validation Loss: 0.1851
+2026-02-18 13:49:21 - INFO - PRINT: Epoch [1552], Train Loss: 0.1836, Validation Loss: 0.1851
+2026-02-18 13:49:21 - INFO - PRINT: Epoch [1553], Train Loss: 0.1837, Validation Loss: 0.1851
+2026-02-18 13:49:21 - INFO - PRINT: Epoch [1554], Train Loss: 0.1837, Validation Loss: 0.1851
+2026-02-18 13:49:21 - INFO - PRINT: Epoch [1555], Train Loss: 0.1836, Validation Loss: 0.1851
+2026-02-18 13:49:21 - INFO - PRINT: Epoch [1556], Train Loss: 0.1836, Validation Loss: 0.1851
+2026-02-18 13:49:21 - INFO - PRINT: Epoch [1557], Train Loss: 0.1837, Validation Loss: 0.1851
+2026-02-18 13:49:21 - INFO - PRINT: Epoch [1558], Train Loss: 0.1836, Validation Loss: 0.1851
+2026-02-18 13:49:21 - INFO - PRINT: Epoch [1559], Train Loss: 0.1838, Validation Loss: 0.1851
+2026-02-18 13:49:22 - INFO - PRINT: Epoch [1560], Train Loss: 0.1839, Validation Loss: 0.1860
+2026-02-18 13:49:22 - INFO - PRINT: Epoch [1561], Train Loss: 0.1840, Validation Loss: 0.1860
+2026-02-18 13:49:22 - INFO - PRINT: Epoch [1562], Train Loss: 0.1840, Validation Loss: 0.1860
+2026-02-18 13:49:22 - INFO - PRINT: Epoch [1563], Train Loss: 0.1837, Validation Loss: 0.1860
+2026-02-18 13:49:22 - INFO - PRINT: Epoch [1564], Train Loss: 0.1835, Validation Loss: 0.1860
+2026-02-18 13:49:22 - INFO - PRINT: Epoch [1565], Train Loss: 0.1838, Validation Loss: 0.1860
+2026-02-18 13:49:22 - INFO - PRINT: Epoch [1566], Train Loss: 0.1839, Validation Loss: 0.1860
+2026-02-18 13:49:22 - INFO - PRINT: Epoch [1567], Train Loss: 0.1839, Validation Loss: 0.1860
+2026-02-18 13:49:22 - INFO - PRINT: Epoch [1568], Train Loss: 0.1839, Validation Loss: 0.1860
+2026-02-18 13:49:22 - INFO - PRINT: Epoch [1569], Train Loss: 0.1835, Validation Loss: 0.1860
+2026-02-18 13:49:22 - INFO - PRINT: Epoch [1570], Train Loss: 0.1835, Validation Loss: 0.1860
+2026-02-18 13:49:22 - INFO - PRINT: Epoch [1571], Train Loss: 0.1837, Validation Loss: 0.1860
+2026-02-18 13:49:23 - INFO - PRINT: Epoch [1572], Train Loss: 0.1839, Validation Loss: 0.1860
+2026-02-18 13:49:23 - INFO - PRINT: Epoch [1573], Train Loss: 0.1837, Validation Loss: 0.1860
+2026-02-18 13:49:23 - INFO - PRINT: Epoch [1574], Train Loss: 0.1835, Validation Loss: 0.1860
+2026-02-18 13:49:23 - INFO - PRINT: Epoch [1575], Train Loss: 0.1836, Validation Loss: 0.1860
+2026-02-18 13:49:23 - INFO - PRINT: Epoch [1576], Train Loss: 0.1836, Validation Loss: 0.1860
+2026-02-18 13:49:23 - INFO - PRINT: Epoch [1577], Train Loss: 0.1836, Validation Loss: 0.1860
+2026-02-18 13:49:23 - INFO - PRINT: Epoch [1578], Train Loss: 0.1837, Validation Loss: 0.1860
+2026-02-18 13:49:23 - INFO - PRINT: Epoch [1579], Train Loss: 0.1838, Validation Loss: 0.1860
+2026-02-18 13:49:23 - INFO - PRINT: Epoch [1580], Train Loss: 0.1837, Validation Loss: 0.1849
+2026-02-18 13:49:23 - INFO - PRINT: Epoch [1581], Train Loss: 0.1838, Validation Loss: 0.1849
+2026-02-18 13:49:23 - INFO - PRINT: Epoch [1582], Train Loss: 0.1834, Validation Loss: 0.1849
+2026-02-18 13:49:24 - INFO - PRINT: Epoch [1583], Train Loss: 0.1836, Validation Loss: 0.1849
+2026-02-18 13:49:24 - INFO - PRINT: Epoch [1584], Train Loss: 0.1838, Validation Loss: 0.1849
+2026-02-18 13:49:24 - INFO - PRINT: Epoch [1585], Train Loss: 0.1835, Validation Loss: 0.1849
+2026-02-18 13:49:24 - INFO - PRINT: Epoch [1586], Train Loss: 0.1837, Validation Loss: 0.1849
+2026-02-18 13:49:24 - INFO - PRINT: Epoch [1587], Train Loss: 0.1837, Validation Loss: 0.1849
+2026-02-18 13:49:24 - INFO - PRINT: Epoch [1588], Train Loss: 0.1835, Validation Loss: 0.1849
+2026-02-18 13:49:24 - INFO - PRINT: Epoch [1589], Train Loss: 0.1837, Validation Loss: 0.1849
+2026-02-18 13:49:24 - INFO - PRINT: Epoch [1590], Train Loss: 0.1838, Validation Loss: 0.1849
+2026-02-18 13:49:24 - INFO - PRINT: Epoch [1591], Train Loss: 0.1836, Validation Loss: 0.1849
+2026-02-18 13:49:24 - INFO - PRINT: Epoch [1592], Train Loss: 0.1836, Validation Loss: 0.1849
+2026-02-18 13:49:24 - INFO - PRINT: Epoch [1593], Train Loss: 0.1838, Validation Loss: 0.1849
+2026-02-18 13:49:24 - INFO - PRINT: Epoch [1594], Train Loss: 0.1837, Validation Loss: 0.1849
+2026-02-18 13:49:24 - INFO - PRINT: Epoch [1595], Train Loss: 0.1836, Validation Loss: 0.1849
+2026-02-18 13:49:24 - INFO - PRINT: Epoch [1596], Train Loss: 0.1835, Validation Loss: 0.1849
+2026-02-18 13:49:25 - INFO - PRINT: Epoch [1597], Train Loss: 0.1835, Validation Loss: 0.1849
+2026-02-18 13:49:25 - INFO - PRINT: Epoch [1598], Train Loss: 0.1836, Validation Loss: 0.1849
+2026-02-18 13:49:25 - INFO - PRINT: Epoch [1599], Train Loss: 0.1834, Validation Loss: 0.1849
+2026-02-18 13:49:25 - INFO - PRINT: Epoch [1600], Train Loss: 0.1835, Validation Loss: 0.1846
+2026-02-18 13:49:25 - INFO - PRINT: ----> Saving model from epoch 1160 (val loss: 0.18411566317081451). Succulent!
+2026-02-18 13:49:25 - INFO - PRINT: Epoch [1601], Train Loss: 0.1835, Validation Loss: 0.1846
+2026-02-18 13:49:25 - INFO - PRINT: Epoch [1602], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:25 - INFO - PRINT: Epoch [1603], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:25 - INFO - PRINT: Epoch [1604], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:49:25 - INFO - PRINT: Epoch [1605], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:25 - INFO - PRINT: Epoch [1606], Train Loss: 0.1838, Validation Loss: 0.1846
+2026-02-18 13:49:25 - INFO - PRINT: Epoch [1607], Train Loss: 0.1840, Validation Loss: 0.1846
+2026-02-18 13:49:26 - INFO - PRINT: Epoch [1608], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:26 - INFO - PRINT: Epoch [1609], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:26 - INFO - PRINT: Epoch [1610], Train Loss: 0.1835, Validation Loss: 0.1846
+2026-02-18 13:49:26 - INFO - PRINT: Epoch [1611], Train Loss: 0.1835, Validation Loss: 0.1846
+2026-02-18 13:49:26 - INFO - PRINT: Epoch [1612], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:26 - INFO - PRINT: Epoch [1613], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:26 - INFO - PRINT: Epoch [1614], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:26 - INFO - PRINT: Epoch [1615], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:26 - INFO - PRINT: Epoch [1616], Train Loss: 0.1835, Validation Loss: 0.1846
+2026-02-18 13:49:26 - INFO - PRINT: Epoch [1617], Train Loss: 0.1835, Validation Loss: 0.1846
+2026-02-18 13:49:26 - INFO - PRINT: Epoch [1618], Train Loss: 0.1835, Validation Loss: 0.1846
+2026-02-18 13:49:26 - INFO - PRINT: Epoch [1619], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:27 - INFO - PRINT: Epoch [1620], Train Loss: 0.1838, Validation Loss: 0.1843
+2026-02-18 13:49:27 - INFO - PRINT: Epoch [1621], Train Loss: 0.1838, Validation Loss: 0.1843
+2026-02-18 13:49:27 - INFO - PRINT: Epoch [1622], Train Loss: 0.1839, Validation Loss: 0.1843
+2026-02-18 13:49:27 - INFO - PRINT: Epoch [1623], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:49:27 - INFO - PRINT: Epoch [1624], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:49:27 - INFO - PRINT: Epoch [1625], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:27 - INFO - PRINT: Epoch [1626], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:27 - INFO - PRINT: Epoch [1627], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:27 - INFO - PRINT: Epoch [1628], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:49:27 - INFO - PRINT: Epoch [1629], Train Loss: 0.1835, Validation Loss: 0.1843
+2026-02-18 13:49:27 - INFO - PRINT: Epoch [1630], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:49:27 - INFO - PRINT: Epoch [1631], Train Loss: 0.1839, Validation Loss: 0.1843
+2026-02-18 13:49:28 - INFO - PRINT: Epoch [1632], Train Loss: 0.1840, Validation Loss: 0.1843
+2026-02-18 13:49:28 - INFO - PRINT: Epoch [1633], Train Loss: 0.1839, Validation Loss: 0.1843
+2026-02-18 13:49:28 - INFO - PRINT: Epoch [1634], Train Loss: 0.1837, Validation Loss: 0.1843
+2026-02-18 13:49:28 - INFO - PRINT: Epoch [1635], Train Loss: 0.1834, Validation Loss: 0.1843
+2026-02-18 13:49:28 - INFO - PRINT: Epoch [1636], Train Loss: 0.1834, Validation Loss: 0.1843
+2026-02-18 13:49:28 - INFO - PRINT: Epoch [1637], Train Loss: 0.1836, Validation Loss: 0.1843
+2026-02-18 13:49:28 - INFO - PRINT: Epoch [1638], Train Loss: 0.1834, Validation Loss: 0.1843
+2026-02-18 13:49:28 - INFO - PRINT: Epoch [1639], Train Loss: 0.1835, Validation Loss: 0.1843
+2026-02-18 13:49:28 - INFO - PRINT: Epoch [1640], Train Loss: 0.1834, Validation Loss: 0.1845
+2026-02-18 13:49:28 - INFO - PRINT: Epoch [1641], Train Loss: 0.1837, Validation Loss: 0.1845
+2026-02-18 13:49:28 - INFO - PRINT: Epoch [1642], Train Loss: 0.1837, Validation Loss: 0.1845
+2026-02-18 13:49:28 - INFO - PRINT: Epoch [1643], Train Loss: 0.1836, Validation Loss: 0.1845
+2026-02-18 13:49:29 - INFO - PRINT: Epoch [1644], Train Loss: 0.1836, Validation Loss: 0.1845
+2026-02-18 13:49:29 - INFO - PRINT: Epoch [1645], Train Loss: 0.1835, Validation Loss: 0.1845
+2026-02-18 13:49:29 - INFO - PRINT: Epoch [1646], Train Loss: 0.1835, Validation Loss: 0.1845
+2026-02-18 13:49:29 - INFO - PRINT: Epoch [1647], Train Loss: 0.1834, Validation Loss: 0.1845
+2026-02-18 13:49:29 - INFO - PRINT: Epoch [1648], Train Loss: 0.1835, Validation Loss: 0.1845
+2026-02-18 13:49:29 - INFO - PRINT: Epoch [1649], Train Loss: 0.1838, Validation Loss: 0.1845
+2026-02-18 13:49:29 - INFO - PRINT: Epoch [1650], Train Loss: 0.1836, Validation Loss: 0.1845
+2026-02-18 13:49:29 - INFO - PRINT: Epoch [1651], Train Loss: 0.1835, Validation Loss: 0.1845
+2026-02-18 13:49:29 - INFO - PRINT: Epoch [1652], Train Loss: 0.1837, Validation Loss: 0.1845
+2026-02-18 13:49:29 - INFO - PRINT: Epoch [1653], Train Loss: 0.1835, Validation Loss: 0.1845
+2026-02-18 13:49:29 - INFO - PRINT: Epoch [1654], Train Loss: 0.1835, Validation Loss: 0.1845
+2026-02-18 13:49:29 - INFO - PRINT: Epoch [1655], Train Loss: 0.1835, Validation Loss: 0.1845
+2026-02-18 13:49:29 - INFO - PRINT: Epoch [1656], Train Loss: 0.1835, Validation Loss: 0.1845
+2026-02-18 13:49:30 - INFO - PRINT: Epoch [1657], Train Loss: 0.1835, Validation Loss: 0.1845
+2026-02-18 13:49:30 - INFO - PRINT: Epoch [1658], Train Loss: 0.1837, Validation Loss: 0.1845
+2026-02-18 13:49:30 - INFO - PRINT: Epoch [1659], Train Loss: 0.1833, Validation Loss: 0.1845
+2026-02-18 13:49:30 - INFO - PRINT: Epoch [1660], Train Loss: 0.1837, Validation Loss: 0.1846
+2026-02-18 13:49:30 - INFO - PRINT: Epoch [1661], Train Loss: 0.1836, Validation Loss: 0.1846
+2026-02-18 13:49:30 - INFO - PRINT: ----> Saving model from epoch 1160 (val loss: 0.18411566317081451). Layered!
+2026-02-18 13:49:30 - INFO - PRINT: 
+
+=== Silky! Phenomenal! Enticing! EARLY STOPPING at epoch 1661 (no improvement since 1160) ===
+
+2026-02-18 13:49:30 - INFO - PRINT: ----> Running test eval on model from Epoch 1160
+2026-02-18 13:49:30 - INFO - PRINT: WELCOME TO THE TEST OF EXPERIMENT: 26_02_18_13:47:10_new_wahoo_nearwall_boxfilter_4x_sgs
+2026-02-18 13:49:30 - INFO - PRINT: default dtype: torch.float32
+2026-02-18 13:49:30 - INFO - PRINT: Train samples: 900
+2026-02-18 13:49:30 - INFO - PRINT: Val samples: 75
+2026-02-18 13:49:30 - INFO - PRINT: QC passed: all checks OK
+2026-02-18 13:49:32 - INFO - PRINT: Test Re1000_middle_test Loss: 0.0035202534657978136
+2026-02-18 13:49:34 - INFO - PRINT: Test Re1000_middle_train Loss: 0.0044358433871154014
+2026-02-18 13:49:36 - INFO - PRINT: Test Re1000_middle_val Loss: 0.004721910472139282
+2026-02-18 13:49:38 - INFO - PRINT: Test Re1000_nearwall_test Loss: 0.18577665416388053
+2026-02-18 13:49:40 - INFO - PRINT: Test Re1000_nearwall_train Loss: 0.1832765546438182
+2026-02-18 13:49:42 - INFO - PRINT: Test Re1000_nearwall_val Loss: 0.18411567555224584
+2026-02-18 13:49:44 - INFO - PRINT: mult=     1  points=   205,800  per_point=0.0021 µs
+2026-02-18 13:49:45 - INFO - PRINT: mult=     2  points=   411,600  per_point=0.0020 µs
+2026-02-18 13:49:45 - INFO - PRINT: mult=     4  points=   823,200  per_point=0.0019 µs
+2026-02-18 13:49:45 - INFO - PRINT: mult=     8  points= 1,646,400  per_point=0.0018 µs
+2026-02-18 13:49:45 - INFO - PRINT: mult=    16  points= 3,292,800  per_point=0.0018 µs
+2026-02-18 13:49:46 - INFO - PRINT: mult=    32  points= 6,585,600  per_point=0.0018 µs
+2026-02-18 13:49:47 - INFO - PRINT: mult=    64  points=13,171,200  per_point=0.0018 µs
+2026-02-18 13:49:50 - INFO - PRINT: mult=   128  points=26,342,400  per_point=0.0018 µs
+2026-02-18 13:49:56 - INFO - PRINT: mult=   256  points=52,684,800  per_point=0.0017 µs
+2026-02-18 13:49:56 - INFO - PRINT: OOM, stopping search.
+2026-02-18 13:49:56 - INFO - PRINT: 
+Best multiplier from search: 256
+2026-02-18 13:50:19 - INFO - PRINT: Final: multiplier=256, points=52,684,800, per_point=0.0018 µs, per_10M=0.0175 s

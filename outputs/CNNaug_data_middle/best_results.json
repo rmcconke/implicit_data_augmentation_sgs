@@ -1,0 +1,11 @@
+{
+    "model_columns": {
+        "eigenframe_model": "False",
+        "model_model_type": "sgsCNN",
+        "model_hidden_channels": "[32, 32, 32, 32]",
+        "model_kernel_size": "3"
+    },
+    "val_loss": 0.0013707762118428,
+    "param_count": "95429",
+    "model_barcode": "26_06_26_11:20:06_merry_caiman_middle_boxfilter_4x_sgs"
+}

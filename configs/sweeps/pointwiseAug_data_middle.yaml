@@ -1,0 +1,5 @@
+base_config: configs/sweeps/base/pointwiseAug_base_middle.yaml
+
+sweep:
+  model.layers: [[64,64,64,64,64,64],]
+  dataset.train_fraction: [0.1, 0.3, 0.5, 0.75, 1.0]

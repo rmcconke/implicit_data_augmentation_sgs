@@ -1,0 +1,10 @@
+base_config: configs/sweeps/base/pointwiseAug_base.yaml
+
+sweep:
+  model.layers: [[64],
+                [64,64],
+                [64,64,64],
+                [64,64,64,64],
+                [64,64,64,64,64],
+                [64,64,64,64,64,64],
+                [64,64,64,64,64,64,64,64]]

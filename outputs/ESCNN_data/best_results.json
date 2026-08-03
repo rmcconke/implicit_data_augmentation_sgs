@@ -1,0 +1,11 @@
+{
+    "model_columns": {
+        "eigenframe_model": "False",
+        "model_model_type": "sgsESCNN",
+        "model_n_reg_repr": "8",
+        "model_n_layers": "4"
+    },
+    "val_loss": 0.0010671281488612,
+    "param_count": "46872",
+    "model_barcode": "26_06_05_10:40:49_better_beetle_nearwall_boxfilter_4x_sgs"
+}

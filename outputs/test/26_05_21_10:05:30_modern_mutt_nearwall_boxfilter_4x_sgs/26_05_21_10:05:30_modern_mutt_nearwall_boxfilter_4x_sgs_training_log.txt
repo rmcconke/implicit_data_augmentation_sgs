@@ -1,0 +1,137 @@
+2026-05-21 10:05:30 - INFO - PRINT: WELCOME TO THE EXPERIMENT: 26_05_21_10:05:30_modern_mutt_nearwall_boxfilter_4x_sgs
+2026-05-21 10:05:30 - INFO - PRINT: Using seed: 42
+2026-05-21 10:05:33 - INFO - PRINT: Model param count: 819
+2026-05-21 10:05:33 - INFO - PRINT: Train samples: 900
+2026-05-21 10:05:33 - INFO - PRINT: Val samples: 75
+2026-05-21 10:05:33 - INFO - PRINT: QC passed: all checks OK
+2026-05-21 10:05:33 - INFO - PRINT: Number of train samples: 900
+2026-05-21 10:05:33 - INFO - PRINT: Number of val samples: 75
+2026-05-21 10:05:33 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-05-21 10:05:34 - INFO - PRINT: After loading - inputs: torch.Size([900, 9, 14, 14, 14]), targets: torch.Size([900, 5, 14, 14, 14])
+2026-05-21 10:05:34 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-05-21 10:05:34 - INFO - PRINT: After loading - inputs: torch.Size([75, 9, 14, 14, 14]), targets: torch.Size([75, 5, 14, 14, 14])
+2026-05-21 10:05:35 - INFO - PRINT: ----> Saving model from epoch 0 (val loss: 0.32579487562179565). Aromatic!
+2026-05-21 10:05:35 - INFO - PRINT: Epoch [   0], Train Loss: 0.3227, Validation Loss: 0.3258, Time: 0.87s, Avg(1): 0.87s
+2026-05-21 10:05:35 - INFO - PRINT: Epoch [   1], Train Loss: 0.3220, Validation Loss: 0.3258, Time: 0.06s, Avg(2): 0.47s
+2026-05-21 10:05:35 - INFO - PRINT: Epoch [   2], Train Loss: 0.3214, Validation Loss: 0.3258, Time: 0.06s, Avg(3): 0.33s
+2026-05-21 10:05:35 - INFO - PRINT: Epoch [   3], Train Loss: 0.3209, Validation Loss: 0.3258, Time: 0.06s, Avg(4): 0.26s
+2026-05-21 10:05:35 - INFO - PRINT: Epoch [   4], Train Loss: 0.3204, Validation Loss: 0.3258, Time: 0.06s, Avg(5): 0.22s
+2026-05-21 10:05:35 - INFO - PRINT: Epoch [   5], Train Loss: 0.3199, Validation Loss: 0.3258, Time: 0.06s, Avg(6): 0.20s
+2026-05-21 10:05:35 - INFO - PRINT: Epoch [   6], Train Loss: 0.3195, Validation Loss: 0.3258, Time: 0.06s, Avg(7): 0.18s
+2026-05-21 10:05:35 - INFO - PRINT: Epoch [   7], Train Loss: 0.3190, Validation Loss: 0.3258, Time: 0.06s, Avg(8): 0.16s
+2026-05-21 10:05:35 - INFO - PRINT: Epoch [   8], Train Loss: 0.3186, Validation Loss: 0.3258, Time: 0.06s, Avg(9): 0.15s
+2026-05-21 10:05:35 - INFO - PRINT: Epoch [   9], Train Loss: 0.3180, Validation Loss: 0.3258, Time: 0.06s, Avg(10): 0.14s
+2026-05-21 10:05:35 - INFO - PRINT: Epoch [  10], Train Loss: 0.3173, Validation Loss: 0.3258, Time: 0.06s, Avg(11): 0.13s
+2026-05-21 10:05:35 - INFO - PRINT: Epoch [  11], Train Loss: 0.3166, Validation Loss: 0.3258, Time: 0.06s, Avg(12): 0.13s
+2026-05-21 10:05:35 - INFO - PRINT: Epoch [  12], Train Loss: 0.3156, Validation Loss: 0.3258, Time: 0.06s, Avg(13): 0.12s
+2026-05-21 10:05:36 - INFO - PRINT: Epoch [  13], Train Loss: 0.3145, Validation Loss: 0.3258, Time: 0.06s, Avg(14): 0.12s
+2026-05-21 10:05:36 - INFO - PRINT: Epoch [  14], Train Loss: 0.3132, Validation Loss: 0.3258, Time: 0.06s, Avg(15): 0.11s
+2026-05-21 10:05:36 - INFO - PRINT: Epoch [  15], Train Loss: 0.3117, Validation Loss: 0.3258, Time: 0.06s, Avg(16): 0.11s
+2026-05-21 10:05:36 - INFO - PRINT: Epoch [  16], Train Loss: 0.3100, Validation Loss: 0.3258, Time: 0.06s, Avg(17): 0.11s
+2026-05-21 10:05:36 - INFO - PRINT: Epoch [  17], Train Loss: 0.3082, Validation Loss: 0.3258, Time: 0.06s, Avg(18): 0.11s
+2026-05-21 10:05:36 - INFO - PRINT: Epoch [  18], Train Loss: 0.3063, Validation Loss: 0.3258, Time: 0.06s, Avg(19): 0.10s
+2026-05-21 10:05:36 - INFO - PRINT: Epoch [  19], Train Loss: 0.3046, Validation Loss: 0.3258, Time: 0.06s, Avg(20): 0.10s
+2026-05-21 10:05:36 - INFO - PRINT: Epoch [  20], Train Loss: 0.3030, Validation Loss: 0.3059, Time: 0.27s, Avg(21): 0.11s
+2026-05-21 10:05:36 - INFO - PRINT: Epoch [  21], Train Loss: 0.3016, Validation Loss: 0.3059, Time: 0.06s, Avg(22): 0.11s
+2026-05-21 10:05:36 - INFO - PRINT: Epoch [  22], Train Loss: 0.3005, Validation Loss: 0.3059, Time: 0.06s, Avg(23): 0.11s
+2026-05-21 10:05:36 - INFO - PRINT: Epoch [  23], Train Loss: 0.2994, Validation Loss: 0.3059, Time: 0.06s, Avg(24): 0.10s
+2026-05-21 10:05:36 - INFO - PRINT: Epoch [  24], Train Loss: 0.2983, Validation Loss: 0.3059, Time: 0.06s, Avg(25): 0.10s
+2026-05-21 10:05:36 - INFO - PRINT: Epoch [  25], Train Loss: 0.2973, Validation Loss: 0.3059, Time: 0.06s, Avg(26): 0.10s
+2026-05-21 10:05:37 - INFO - PRINT: Epoch [  26], Train Loss: 0.2964, Validation Loss: 0.3059, Time: 0.06s, Avg(27): 0.10s
+2026-05-21 10:05:37 - INFO - PRINT: Epoch [  27], Train Loss: 0.2954, Validation Loss: 0.3059, Time: 0.06s, Avg(28): 0.10s
+2026-05-21 10:05:37 - INFO - PRINT: Epoch [  28], Train Loss: 0.2945, Validation Loss: 0.3059, Time: 0.06s, Avg(29): 0.10s
+2026-05-21 10:05:37 - INFO - PRINT: Epoch [  29], Train Loss: 0.2936, Validation Loss: 0.3059, Time: 0.06s, Avg(30): 0.09s
+2026-05-21 10:05:37 - INFO - PRINT: Epoch [  30], Train Loss: 0.2926, Validation Loss: 0.3059, Time: 0.06s, Avg(31): 0.09s
+2026-05-21 10:05:37 - INFO - PRINT: Epoch [  31], Train Loss: 0.2917, Validation Loss: 0.3059, Time: 0.06s, Avg(32): 0.09s
+2026-05-21 10:05:37 - INFO - PRINT: Epoch [  32], Train Loss: 0.2907, Validation Loss: 0.3059, Time: 0.06s, Avg(33): 0.09s
+2026-05-21 10:05:37 - INFO - PRINT: Epoch [  33], Train Loss: 0.2897, Validation Loss: 0.3059, Time: 0.06s, Avg(34): 0.09s
+2026-05-21 10:05:37 - INFO - PRINT: Epoch [  34], Train Loss: 0.2887, Validation Loss: 0.3059, Time: 0.06s, Avg(35): 0.09s
+2026-05-21 10:05:37 - INFO - PRINT: Epoch [  35], Train Loss: 0.2877, Validation Loss: 0.3059, Time: 0.06s, Avg(36): 0.09s
+2026-05-21 10:05:37 - INFO - PRINT: Epoch [  36], Train Loss: 0.2866, Validation Loss: 0.3059, Time: 0.06s, Avg(37): 0.09s
+2026-05-21 10:05:37 - INFO - PRINT: Epoch [  37], Train Loss: 0.2855, Validation Loss: 0.3059, Time: 0.06s, Avg(38): 0.09s
+2026-05-21 10:05:37 - INFO - PRINT: Epoch [  38], Train Loss: 0.2844, Validation Loss: 0.3059, Time: 0.06s, Avg(39): 0.09s
+2026-05-21 10:05:37 - INFO - PRINT: Epoch [  39], Train Loss: 0.2833, Validation Loss: 0.3059, Time: 0.06s, Avg(40): 0.09s
+2026-05-21 10:05:38 - INFO - PRINT: Epoch [  40], Train Loss: 0.2822, Validation Loss: 0.2848, Time: 0.26s, Avg(41): 0.09s
+2026-05-21 10:05:38 - INFO - PRINT: Epoch [  41], Train Loss: 0.2811, Validation Loss: 0.2848, Time: 0.06s, Avg(42): 0.09s
+2026-05-21 10:05:38 - INFO - PRINT: Epoch [  42], Train Loss: 0.2800, Validation Loss: 0.2848, Time: 0.06s, Avg(43): 0.09s
+2026-05-21 10:05:38 - INFO - PRINT: Epoch [  43], Train Loss: 0.2789, Validation Loss: 0.2848, Time: 0.06s, Avg(44): 0.09s
+2026-05-21 10:05:38 - INFO - PRINT: Epoch [  44], Train Loss: 0.2778, Validation Loss: 0.2848, Time: 0.06s, Avg(45): 0.09s
+2026-05-21 10:05:38 - INFO - PRINT: Epoch [  45], Train Loss: 0.2767, Validation Loss: 0.2848, Time: 0.06s, Avg(46): 0.09s
+2026-05-21 10:05:38 - INFO - PRINT: Epoch [  46], Train Loss: 0.2756, Validation Loss: 0.2848, Time: 0.06s, Avg(47): 0.09s
+2026-05-21 10:05:38 - INFO - PRINT: Epoch [  47], Train Loss: 0.2745, Validation Loss: 0.2848, Time: 0.06s, Avg(48): 0.09s
+2026-05-21 10:05:38 - INFO - PRINT: Epoch [  48], Train Loss: 0.2735, Validation Loss: 0.2848, Time: 0.06s, Avg(49): 0.09s
+2026-05-21 10:05:38 - INFO - PRINT: Epoch [  49], Train Loss: 0.2725, Validation Loss: 0.2848, Time: 0.06s, Avg(50): 0.09s
+2026-05-21 10:05:38 - INFO - PRINT: Epoch [  50], Train Loss: 0.2715, Validation Loss: 0.2848, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:38 - INFO - PRINT: Epoch [  51], Train Loss: 0.2706, Validation Loss: 0.2848, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:38 - INFO - PRINT: Epoch [  52], Train Loss: 0.2697, Validation Loss: 0.2848, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:38 - INFO - PRINT: Epoch [  53], Train Loss: 0.2688, Validation Loss: 0.2848, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:38 - INFO - PRINT: Epoch [  54], Train Loss: 0.2680, Validation Loss: 0.2848, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:39 - INFO - PRINT: Epoch [  55], Train Loss: 0.2672, Validation Loss: 0.2848, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:39 - INFO - PRINT: Epoch [  56], Train Loss: 0.2664, Validation Loss: 0.2848, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:39 - INFO - PRINT: Epoch [  57], Train Loss: 0.2656, Validation Loss: 0.2848, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:39 - INFO - PRINT: Epoch [  58], Train Loss: 0.2649, Validation Loss: 0.2848, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:39 - INFO - PRINT: Epoch [  59], Train Loss: 0.2642, Validation Loss: 0.2848, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:39 - INFO - PRINT: Epoch [  60], Train Loss: 0.2635, Validation Loss: 0.2663, Time: 0.27s, Avg(50): 0.07s
+2026-05-21 10:05:39 - INFO - PRINT: Epoch [  61], Train Loss: 0.2629, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:39 - INFO - PRINT: Epoch [  62], Train Loss: 0.2622, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:39 - INFO - PRINT: Epoch [  63], Train Loss: 0.2616, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:39 - INFO - PRINT: Epoch [  64], Train Loss: 0.2610, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:39 - INFO - PRINT: Epoch [  65], Train Loss: 0.2604, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:39 - INFO - PRINT: Epoch [  66], Train Loss: 0.2598, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:39 - INFO - PRINT: Epoch [  67], Train Loss: 0.2592, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:40 - INFO - PRINT: Epoch [  68], Train Loss: 0.2587, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:40 - INFO - PRINT: Epoch [  69], Train Loss: 0.2581, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:40 - INFO - PRINT: Epoch [  70], Train Loss: 0.2576, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:40 - INFO - PRINT: Epoch [  71], Train Loss: 0.2571, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:40 - INFO - PRINT: Epoch [  72], Train Loss: 0.2565, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:40 - INFO - PRINT: Epoch [  73], Train Loss: 0.2560, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:40 - INFO - PRINT: Epoch [  74], Train Loss: 0.2555, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:40 - INFO - PRINT: Epoch [  75], Train Loss: 0.2551, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:40 - INFO - PRINT: Epoch [  76], Train Loss: 0.2546, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:40 - INFO - PRINT: Epoch [  77], Train Loss: 0.2541, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:40 - INFO - PRINT: Epoch [  78], Train Loss: 0.2536, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:40 - INFO - PRINT: Epoch [  79], Train Loss: 0.2532, Validation Loss: 0.2663, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:40 - INFO - PRINT: Epoch [  80], Train Loss: 0.2527, Validation Loss: 0.2558, Time: 0.29s, Avg(50): 0.07s
+2026-05-21 10:05:41 - INFO - PRINT: Epoch [  81], Train Loss: 0.2522, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:41 - INFO - PRINT: Epoch [  82], Train Loss: 0.2518, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:41 - INFO - PRINT: Epoch [  83], Train Loss: 0.2514, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:41 - INFO - PRINT: Epoch [  84], Train Loss: 0.2509, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:41 - INFO - PRINT: Epoch [  85], Train Loss: 0.2505, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:41 - INFO - PRINT: Epoch [  86], Train Loss: 0.2501, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:41 - INFO - PRINT: Epoch [  87], Train Loss: 0.2496, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:41 - INFO - PRINT: Epoch [  88], Train Loss: 0.2492, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:41 - INFO - PRINT: Epoch [  89], Train Loss: 0.2488, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:41 - INFO - PRINT: Epoch [  90], Train Loss: 0.2484, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:41 - INFO - PRINT: Epoch [  91], Train Loss: 0.2480, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:41 - INFO - PRINT: Epoch [  92], Train Loss: 0.2476, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:41 - INFO - PRINT: Epoch [  93], Train Loss: 0.2472, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:41 - INFO - PRINT: Epoch [  94], Train Loss: 0.2468, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:41 - INFO - PRINT: Epoch [  95], Train Loss: 0.2464, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:41 - INFO - PRINT: Epoch [  96], Train Loss: 0.2460, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:42 - INFO - PRINT: Epoch [  97], Train Loss: 0.2457, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:42 - INFO - PRINT: Epoch [  98], Train Loss: 0.2453, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:42 - INFO - PRINT: Epoch [  99], Train Loss: 0.2449, Validation Loss: 0.2558, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:42 - INFO - PRINT: ----> Saving model from epoch 100 (val loss: 0.24791623651981354). Luscious!
+2026-05-21 10:05:42 - INFO - PRINT: Epoch [ 100], Train Loss: 0.2446, Validation Loss: 0.2479, Time: 0.38s, Avg(50): 0.08s
+2026-05-21 10:05:42 - INFO - PRINT: Epoch [ 101], Train Loss: 0.2442, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.08s
+2026-05-21 10:05:42 - INFO - PRINT: Epoch [ 102], Train Loss: 0.2438, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.08s
+2026-05-21 10:05:42 - INFO - PRINT: Epoch [ 103], Train Loss: 0.2435, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.08s
+2026-05-21 10:05:42 - INFO - PRINT: Epoch [ 104], Train Loss: 0.2431, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.08s
+2026-05-21 10:05:42 - INFO - PRINT: Epoch [ 105], Train Loss: 0.2428, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.08s
+2026-05-21 10:05:42 - INFO - PRINT: Epoch [ 106], Train Loss: 0.2425, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.08s
+2026-05-21 10:05:42 - INFO - PRINT: Epoch [ 107], Train Loss: 0.2421, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.08s
+2026-05-21 10:05:43 - INFO - PRINT: Epoch [ 108], Train Loss: 0.2418, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.08s
+2026-05-21 10:05:43 - INFO - PRINT: Epoch [ 109], Train Loss: 0.2415, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.08s
+2026-05-21 10:05:43 - INFO - PRINT: Epoch [ 110], Train Loss: 0.2412, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:43 - INFO - PRINT: Epoch [ 111], Train Loss: 0.2409, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:43 - INFO - PRINT: Epoch [ 112], Train Loss: 0.2405, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:43 - INFO - PRINT: Epoch [ 113], Train Loss: 0.2402, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:43 - INFO - PRINT: Epoch [ 114], Train Loss: 0.2399, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:43 - INFO - PRINT: Epoch [ 115], Train Loss: 0.2396, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:43 - INFO - PRINT: Epoch [ 116], Train Loss: 0.2393, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:43 - INFO - PRINT: Epoch [ 117], Train Loss: 0.2390, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:43 - INFO - PRINT: Epoch [ 118], Train Loss: 0.2387, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:43 - INFO - PRINT: Epoch [ 119], Train Loss: 0.2384, Validation Loss: 0.2479, Time: 0.06s, Avg(50): 0.07s
+2026-05-21 10:05:43 - INFO - PRINT: Epoch [ 120], Train Loss: 0.2382, Validation Loss: 0.2417, Time: 0.26s, Avg(50): 0.08s
+2026-05-21 10:05:43 - INFO - PRINT: Epoch [ 121], Train Loss: 0.2379, Validation Loss: 0.2417, Time: 0.06s, Avg(50): 0.08s
+2026-05-21 10:05:44 - INFO - PRINT: Epoch [ 122], Train Loss: 0.2376, Validation Loss: 0.2417, Time: 0.06s, Avg(50): 0.08s

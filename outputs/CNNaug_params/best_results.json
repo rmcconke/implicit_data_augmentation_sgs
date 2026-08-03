@@ -1,0 +1,11 @@
+{
+    "model_columns": {
+        "eigenframe_model": "False",
+        "model_model_type": "sgsCNN",
+        "model_hidden_channels": "[128, 128, 128, 128]",
+        "model_kernel_size": "3"
+    },
+    "val_loss": 0.000998301198706,
+    "param_count": "1377029",
+    "model_barcode": "26_05_21_13:02:25_close_snipe_nearwall_boxfilter_4x_sgs"
+}

@@ -1,0 +1,11 @@
+torch
+numpy
+matplotlib
+tqdm
+h5py
+pyyaml
+python-box
+petname
+pandas
+seaborn
+ipywidgets

@@ -1,0 +1,42 @@
+#!/bin/bash
+
+# Re-eval the selected models (4 nearwall + 4 middle)
+sbatch sbatch_eval_barcode.sh outputs/pointwiseEigenFrame_params/26_05_23_16:39:46_live_kitten_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/pointwiseAug_params/26_05_21_11:13:54_ace_burro_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/ESCNN_params/26_05_21_11:07:09_nice_flea_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/CNNaug_params/26_05_21_12:26:23_well_pony_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/26_06_05_13:53:03_main_tiger_middle_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/26_06_05_13:52:57_vocal_skunk_middle_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/26_06_05_14:16:00_whole_rat_middle_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/26_06_05_13:59:35_grown_jay_middle_boxfilter_4x_sgs
+
+# ---- Data sweeps: nearwall ----
+
+# CNN augmented
+sbatch sbatch_eval_barcode.sh outputs/CNNaug_data/26_06_04_16:14:05_clean_turtle_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/CNNaug_data/26_06_04_16:29:40_apt_tick_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/CNNaug_data/26_06_04_16:41:13_funny_cougar_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/CNNaug_data/26_06_04_17:04:06_huge_muskox_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/CNNaug_data/26_06_04_17:18:58_strong_minnow_nearwall_boxfilter_4x_sgs
+
+# CNN non-augmented
+sbatch sbatch_eval_barcode.sh outputs/CNNnoaug_data/26_06_04_16:14:06_finer_wasp_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/CNNnoaug_data/26_06_04_16:45:48_flying_gnu_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/CNNnoaug_data/26_06_04_17:06:06_aware_whale_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/CNNnoaug_data/26_06_04_17:26:39_easy_bison_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/CNNnoaug_data/26_06_04_17:55:22_caring_guinea_nearwall_boxfilter_4x_sgs
+
+# Pointwise augmented
+sbatch sbatch_eval_barcode.sh outputs/pointwiseAug_data/26_06_04_20:37:34_united_macaw_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/pointwiseAug_data/26_06_04_22:18:54_robust_macaw_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/pointwiseAug_data/26_06_05_02:59:44_on_sloth_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/pointwiseAug_data/26_06_05_03:36:22_sought_buck_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/pointwiseAug_data/26_06_05_05:12:43_golden_tetra_nearwall_boxfilter_4x_sgs
+
+# Pointwise non-augmented
+sbatch sbatch_eval_barcode.sh outputs/pointwiseNoAug_data/26_06_04_17:48:17_full_turkey_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/pointwiseNoAug_data/26_06_04_17:54:36_deep_mantis_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/pointwiseNoAug_data/26_06_04_20:29:01_novel_wasp_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/pointwiseNoAug_data/26_06_04_23:47:57_chief_bug_nearwall_boxfilter_4x_sgs
+sbatch sbatch_eval_barcode.sh outputs/pointwiseNoAug_data/26_06_05_03:56:17_moral_tiger_nearwall_boxfilter_4x_sgs
+

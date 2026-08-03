@@ -1,0 +1,13 @@
+{
+    "model_columns": {
+        "eigenframe_model": "False",
+        "model_model_type": "sgsESCNN",
+        "model_kernel_size": "3",
+        "model_batchnorm": "False",
+        "model_n_reg_repr": "64",
+        "model_n_layers": "4"
+    },
+    "val_loss": 0.1172374710440635,
+    "param_count": "2955521",
+    "model_barcode": "26_03_11_16:09:39_full_kiwi_nearwall_boxfilter_4x_sgs"
+}

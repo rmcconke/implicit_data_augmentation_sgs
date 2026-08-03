@@ -1,0 +1,210 @@
+task_name: middle_boxfilter_4x_sgs
+task_type: sgs
+batch_size: 256
+eval_batch_size: 128
+rotation_batch_size: 1
+epochs: 10000
+loss_type: L2
+learning_rate: 0.0001
+save_interval: 100
+early_stopping_patience: 700
+validation_interval: 20
+memorization_test: false
+train_aug_group: null
+val_aug_group: null
+test_aug_group: null
+seed: 42
+test_after_training: true
+dataset:
+  input_prefix: channel_middle_grad_fs4
+  target_prefix: channel_middle_sgs_fs4
+  train_pattern:
+  - z0
+  - z1
+  - z2
+  train_times:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  train_fraction: 0.1
+  val_pattern:
+  - z3
+  val_times:
+  - 20
+  - 21
+  - 22
+  - 23
+  - 24
+  sampling_method: random
+  eval_datasets:
+    Re1000_middle_train:
+      input_prefix: channel_middle_grad_fs4
+      target_prefix: channel_middle_sgs_fs4
+      pattern:
+      - z0
+      - z1
+      - z2
+      times:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+    Re1000_nearwall_train:
+      input_prefix: channel_nearwall_grad_fs4
+      target_prefix: channel_nearwall_sgs_fs4
+      pattern:
+      - z0
+      - z1
+      - z2
+      times:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+    Re1000_middle_val:
+      input_prefix: channel_middle_grad_fs4
+      target_prefix: channel_middle_sgs_fs4
+      pattern:
+      - z3
+      times:
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+    Re1000_nearwall_val:
+      input_prefix: channel_nearwall_grad_fs4
+      target_prefix: channel_nearwall_sgs_fs4
+      pattern:
+      - z3
+      times:
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+    Re1000_middle_test:
+      input_prefix: channel_middle_grad_fs4
+      target_prefix: channel_middle_sgs_fs4
+      pattern:
+      - z4
+      times:
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+    Re1000_nearwall_test:
+      input_prefix: channel_nearwall_grad_fs4
+      target_prefix: channel_nearwall_sgs_fs4
+      pattern:
+      - z4
+      times:
+      - 25
+      - 26
+      - 27
+      - 28
+      - 29
+    Re5200_middle:
+      input_prefix: channel5200_middle_grad_fs4
+      target_prefix: channel5200_middle_sgs_fs4
+      pattern:
+      - z0
+      - z1
+      - z2
+      - z3
+      - z4
+      times:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+    Re5200_nearwall:
+      input_prefix: channel5200_nearwall_grad_fs4
+      target_prefix: channel5200_nearwall_sgs_fs4
+      pattern:
+      - z0
+      - z1
+      - z2
+      - z3
+      - z4
+      times:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+model:
+  model_type: sgsCNN
+  hidden_channels:
+  - 32
+  - 32
+  - 32
+  - 32
+  kernel_size: 3
+eigenframe_model: false
+pointwise: false
+barcode: 26_06_26_10:48:01_caring_tapir_middle_boxfilter_4x_sgs
+directory: ./outputs/CNNnoaug_data_middle/26_06_26_10:48:01_caring_tapir_middle_boxfilter_4x_sgs

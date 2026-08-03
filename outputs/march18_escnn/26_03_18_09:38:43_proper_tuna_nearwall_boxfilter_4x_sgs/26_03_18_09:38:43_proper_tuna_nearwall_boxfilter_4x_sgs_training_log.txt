@@ -1,0 +1,12 @@
+2026-03-18 09:38:43 - INFO - PRINT: WELCOME TO THE EXPERIMENT: 26_03_18_09:38:43_proper_tuna_nearwall_boxfilter_4x_sgs
+2026-03-18 09:38:43 - INFO - PRINT: Using seed: 42
+2026-03-18 09:38:46 - INFO - PRINT: Model param count: 819
+2026-03-18 09:38:46 - INFO - PRINT: Train samples: 900
+2026-03-18 09:38:46 - INFO - PRINT: Val samples: 75
+2026-03-18 09:38:46 - INFO - PRINT: QC passed: all checks OK
+2026-03-18 09:38:46 - INFO - PRINT: Number of train samples: 900
+2026-03-18 09:38:46 - INFO - PRINT: Number of val samples: 75
+2026-03-18 09:38:46 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-03-18 09:40:26 - INFO - PRINT: After loading - inputs: torch.Size([900, 9, 14, 14, 14]), targets: torch.Size([900, 6, 14, 14, 14])
+2026-03-18 09:40:26 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-03-18 09:40:35 - INFO - PRINT: After loading - inputs: torch.Size([75, 9, 14, 14, 14]), targets: torch.Size([75, 6, 14, 14, 14])

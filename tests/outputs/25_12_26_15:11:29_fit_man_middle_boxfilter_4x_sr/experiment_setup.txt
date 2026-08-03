@@ -1,0 +1,51 @@
+Experiment config:
+barcode: 25_12_26_15:11:29_fit_man_middle_boxfilter_4x_sr
+batch_size: 16
+dataset:
+  additional_test_datasets:
+    Re5200_middle:
+      input_prefix: channel5200_middle_filtered_fs4
+      target_prefix: channel5200_middle
+    Re5200_nearwall:
+      input_prefix: channel5200_nearwall_filtered_fs4
+      target_prefix: channel5200_nearwall
+  boxes:
+  - 0
+  input_prefix: channel_middle_filtered_fs4
+  sampling_method: sequential
+  target_prefix: channel_middle
+  test_samples: 1
+  test_split: 0.13
+  train_samples: 1
+  train_split: 0.67
+  val_samples: 1
+  val_split: 0.2
+early_stopping_patience: 10000000
+epochs: 1
+eval_batch_size: 32
+learning_rate: 0.0003
+loss_type: L1
+memorization_test: false
+model:
+  hidden_channels: 128
+  input_channels: 3
+  is_3d: true
+  model_type: srCNN
+  output_channels: 3
+  upscale_factor: 4
+rotation_batch_size: 1
+save_interval: 100
+scalar_predictor: false
+seed: 42
+task_name: middle_boxfilter_4x_sr
+task_type: sr
+test_after_training: false
+test_aug_group: null
+track_oct_equivariance_error: false
+track_so3_equivariance_error: false
+train_aug_group: null
+val_aug_group: null
+validation_interval: 20
+
+Contents of global_config.py:
+==================================================

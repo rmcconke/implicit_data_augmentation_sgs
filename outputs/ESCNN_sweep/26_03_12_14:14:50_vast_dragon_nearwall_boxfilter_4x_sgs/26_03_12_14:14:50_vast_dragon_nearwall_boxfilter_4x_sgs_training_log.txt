@@ -1,0 +1,8 @@
+2026-03-12 14:14:50 - INFO - PRINT: WELCOME TO THE EXPERIMENT: 26_03_12_14:14:50_vast_dragon_nearwall_boxfilter_4x_sgs
+2026-03-12 14:14:50 - INFO - PRINT: Using seed: 42
+2026-03-12 14:14:56 - INFO - PRINT: Model param count: 819
+2026-03-12 14:14:56 - INFO - PRINT: Train samples: 900
+2026-03-12 14:14:56 - INFO - PRINT: Val samples: 75
+2026-03-12 14:14:56 - INFO - PRINT: QC passed: all checks OK
+2026-03-12 14:14:56 - INFO - PRINT: Number of train samples: 900
+2026-03-12 14:14:56 - INFO - PRINT: Number of val samples: 75

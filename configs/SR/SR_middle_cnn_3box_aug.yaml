@@ -1,0 +1,46 @@
+task_name: middle_boxfilter_4x_sr
+task_type: sr # 'sr' or 'sgs'
+batch_size: 32
+eval_batch_size: 16
+rotation_batch_size: 1
+epochs: 3000
+loss_type: 'L1' # 'L1' or 'L2'
+learning_rate: 0.0006
+save_interval: 100
+validation_interval: 20
+memorization_test: False
+early_stopping_patience: 100000000
+track_oct_equivariance_error: False
+track_so3_equivariance_error: False
+train_aug_group: 'oct'
+val_aug_group: null
+test_aug_group: null
+seed: 42
+test_after_training: True
+
+dataset:
+  input_prefix: channel_middle_filtered_fs4
+  target_prefix: channel_middle
+  boxes: [0,1,2] # e.g. [0] or [0,1,2,3,4,5,6,7,8,9], or 'all'. Only applicable for 3D HIT data.
+  train_split: 0.67 # time series will be split sequentially into train, val, test sets (I decided not to do separate T/V/T boxes)
+  val_split: 0.2
+  test_split: 0.13
+  train_samples: 893 # e.g. 1, 10, 20, or 'all'. Subsamples the training portion of the time series.
+  val_samples: 'all'
+  test_samples: 'all'
+  sampling_method: 'random' # 'random' or 'sequential', only applies if time_samples is not 'all'. Sequential starts from 0
+  additional_test_datasets:
+    Re5200_middle:
+      input_prefix: channel5200_middle_filtered_fs4
+      target_prefix: channel5200_middle #channel5200_middle_sgs_fs4
+    Re5200_nearwall:
+      input_prefix: channel5200_nearwall_filtered_fs4
+      target_prefix: channel5200_nearwall #channel5200_nearwall_sgs_fs4
+
+model:
+  model_type: srCNN
+  is_3d: True
+  hidden_channels: 128
+  upscale_factor: 4
+  input_channels: 3
+  output_channels: 3

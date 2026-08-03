@@ -1,0 +1,5 @@
+base_config: configs/sweeps/base/ESCNN_params_base.yaml
+
+sweep:
+  model.n_reg_repr: [1,2,4,8,16,32,64]
+  model.n_layers:   [4]

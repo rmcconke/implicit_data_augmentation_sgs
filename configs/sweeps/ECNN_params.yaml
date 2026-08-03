@@ -1,0 +1,5 @@
+base_config: configs/sweeps/base/ECNN_params_base.yaml
+
+sweep:
+  model.n_layers: [2, 4, 8, 16]
+  model.hidden_irreps: ["8x0e + 8x1o + 8x2e", "16x0e + 16x1o + 16x2e", "32x0e + 32x1o + 32x2e", "64x0e + 64x1o + 64x2e"]
