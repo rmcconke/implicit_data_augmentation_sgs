@@ -59,4 +59,8 @@ Thumbs.db
 # Local databases / logs
 *.db
 *.sqlite3
-*.log
+*.logoutputs/ESCNN4layer/26_03_11_18:59:25_smart_sheep_nearwall_boxfilter_4x_sgs/
+outputs/ESCNN4layer/26_03_11_16:09:39_full_kiwi_nearwall_boxfilter_4x_sgs/
+outputs/ESCNN_params/26_05_21_12:22:42_casual_duck_nearwall_boxfilter_4x_sgs/
+outputs/ESCNN4layer/26_03_11_15:32:12_loved_sole_nearwall_boxfilter_4x_sgs/
+outputs/ESCNN_params/26_05_21_11:38:41_ace_fox_nearwall_boxfilter_4x_sgs/
