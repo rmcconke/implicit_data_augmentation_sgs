@@ -4,9 +4,9 @@
         "model_model_type": "sgsPointwiseMLP",
         "model_input_channels": "9",
         "model_output_channels": "6",
-        "model_layers": "[64, 64, 64, 64, 64, 64]"
+        "model_layers": "[64, 64, 64, 64]"
     },
-    "val_loss": 0.0018128884365226,
-    "param_count": "21765",
-    "model_barcode": "26_05_21_11:13:54_ace_burro_nearwall_boxfilter_4x_sgs"
+    "val_loss": 0.0031637164492131,
+    "param_count": "13445",
+    "model_barcode": "26_09_25_19:50:40_cosmic_mite_nearwall_boxfilter_4x_sgs"
 }

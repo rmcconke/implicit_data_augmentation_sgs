@@ -1,0 +1,4 @@
+base_config: configs/sweeps/base/CNNaug_nearwall_fs8_base.yaml
+
+sweep:
+  model.hidden_channels: [[32,32,32,32]]

@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import tqdm
 from transformations import unstandardize, rand_so3_angles, get_all_octahedral_angles, rotate_3d, rotate_octahedral_exact, euler_angles_to_matrix
+from deviatoric import frobenius_norm
 
 def eval_test_set(config, loader, model, criterion, scaling_factors):
     device = next(model.parameters()).device
@@ -67,22 +68,31 @@ def eval_equivariance(config, loader, model, compute_spectra, scaling_factors):
         return abs_equiv_error
 
 
-def octahedral_equivariance_error(x, model, batch_size=None):
+def chunked_forward(model, x, batch_size=None):
+    """model(x) evaluated in chunks of batch_size samples along dim 0 (all at once if None)."""
+    num_samples = x.shape[0]
+    if batch_size is None or batch_size >= num_samples:
+        return model(x)
+    return torch.cat([model(x[i:i + batch_size]) for i in range(0, num_samples, batch_size)], dim=0)
+
+
+def octahedral_equivariance_error(x, model, batch_size=None, signed=False):
     """
     Compute |f(g·x) - g·f(x)| for the 24 rotations in the octahedral group.
 
-    Returns tensor shaped [N, 24, C, D, H, W]
+    Returns tensor shaped [N, 24, C, D, H, W]. signed=True leaves the difference
+    unreduced, so a component norm can be taken by the caller. batch_size bounds
+    every model call (f(x) as well as the 24x-expanded f(g.x)) to that many samples.
     """
     num_samples = x.shape[0]
     batch_size = num_samples if batch_size is None else min(num_samples, batch_size)
 
-    fx = model(x)
     abs_errors = []
 
     for start in range(0, num_samples, batch_size):
         end = min(start + batch_size, num_samples)
         x_batch = x[start:end]
-        fx_batch = fx[start:end]
+        fx_batch = model(x_batch)
         B = x_batch.shape[0]
 
         gx = rotate_octahedral_exact(x_batch, mode="whole_group_flat")   # [B*24, C, D, H, W]
@@ -90,7 +100,7 @@ def octahedral_equivariance_error(x, model, batch_size=None):
 
         fgx = model(gx)  # [B*24, C, D, H, W]
         
-        diff = torch.abs(fgx - gfx)
+        diff = fgx - gfx if signed else torch.abs(fgx - gfx)
         # Reshape [B*24, ...] -> [B, 24, ...]
         diff = diff.view(B, 24, *diff.shape[1:])
         abs_errors.append(diff)
@@ -99,10 +109,33 @@ def octahedral_equivariance_error(x, model, batch_size=None):
     return error
 
 
-def mean_octahedral_equivariance_error(model, inputs, batch_size=None):
-    """Scalar equivariance error: |f(g.x) - g.f(x)| averaged over group, batch, components, space."""
-    error = octahedral_equivariance_error(inputs, model, batch_size=batch_size)
-    return torch.mean(torch.abs(error))
+def mean_octahedral_equivariance_error(model, inputs, batch_size=None, deviatoric=False):
+    """Scalar equivariance error: |f(g.x) - g.f(x)| averaged over group, batch, components, space.
+
+    deviatoric=True averages the Frobenius norm of the stress difference instead,
+    which is rotationally invariant where the raw component mean is not.
+    """
+    error = octahedral_equivariance_error(inputs, model, batch_size=batch_size, signed=deviatoric)
+    if not deviatoric:
+        return torch.mean(torch.abs(error))
+    return frobenius_norm(error, dim=2).mean()
+
+
+def mean_prediction_norm(model, inputs, batch_size=None):
+    """Mean Frobenius norm of the predicted deviatoric stress, with model calls chunked by batch_size."""
+    return frobenius_norm(chunked_forward(model, inputs, batch_size)).mean()
+
+
+def relative_octahedral_equivariance_error(model, inputs, batch_size=None, error=None):
+    """Deviatoric equivariance error normalized by the mean Frobenius norm of the prediction.
+
+    Note this normalizes by the prediction on this batch, not by the training-target
+    scale tau_ref used in the paper (see analysis/equiv_error_frob.py for that).
+    Pass a precomputed `error` to avoid evaluating the group a second time.
+    """
+    if error is None:
+        error = mean_octahedral_equivariance_error(model, inputs, batch_size=batch_size, deviatoric=True)
+    return error / mean_prediction_norm(model, inputs, batch_size=batch_size)
     
 
 def visualize_predictions(model, val_loader, output_path):

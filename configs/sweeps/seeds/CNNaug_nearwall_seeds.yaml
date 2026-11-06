@@ -1,0 +1,5 @@
+base_config: configs/sweeps/base/CNNaug_params_base.yaml
+
+sweep:
+  model.hidden_channels: [[32,32,32,32]]
+  seed: [1, 2, 3]

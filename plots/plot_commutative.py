@@ -16,18 +16,18 @@ from transformations import rotate_octahedral_exact
 torch.set_default_dtype(torch.float32)
 
 # -------- config --------
-DEVICE = 'cuda:0'
+DEVICE = 'cuda:0' if torch.cuda.is_available() else 'cpu'
 OUT_DIR = 'outputs/plots_final/commutative'
 SLICE_Z = 7
 
 MODELS = {
     'nearwall': {
-        'aug':   'outputs/CNNaug_data/26_06_04_17:18:58_strong_minnow_nearwall_boxfilter_4x_sgs',
-        'noaug': 'outputs/CNNnoaug_data/26_06_04_17:55:22_caring_guinea_nearwall_boxfilter_4x_sgs',
+        'aug':   'outputs/CNNaug_data/26_09_25_21:24:58_humane_cod_nearwall_boxfilter_4x_sgs',
+        'noaug': 'outputs/CNNnoaug_data/26_09_25_21:50:25_daring_burro_nearwall_boxfilter_4x_sgs',
     },
     'middle': {
-        'aug':   'outputs/CNNaug_data_middle/26_06_26_11:33:34_cosmic_weasel_middle_boxfilter_4x_sgs',
-        'noaug': 'outputs/CNNnoaug_data_middle/26_06_26_11:23:23_just_ghost_middle_boxfilter_4x_sgs',
+        'aug':   'outputs/CNNaug_data_middle/26_09_25_23:05:10_witty_krill_middle_boxfilter_4x_sgs',
+        'noaug': 'outputs/CNNnoaug_data_middle/26_09_25_23:08:26_proud_maggot_middle_boxfilter_4x_sgs',
     },
 }
 

@@ -1,0 +1,10 @@
+base_config: configs/sweeps/base/CNNaug_params_base_nobn.yaml
+
+sweep:
+  model.hidden_channels: [[4,4,4,4],
+                          [8,8,8,8],
+                          [16,16,16,16],
+                          [32,32,32,32],
+                          [64,64,64,64],
+                          [128,128,128,128],
+                          [256,256,256,256]]

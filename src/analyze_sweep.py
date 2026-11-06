@@ -11,10 +11,12 @@ import matplotlib.pyplot as plt
 import json
 import datetime
 
-def find_run_dirs(exp_dir: str):
+def find_run_dirs(exp_dir: str, prefix: str = None):
     subdirs = [os.path.join(exp_dir, d) for d in os.listdir(exp_dir) if os.path.isdir(os.path.join(exp_dir, d))]
     run_dirs = []
     for d in subdirs:
+        if prefix is not None and not os.path.basename(d).startswith(prefix):
+            continue
         files = os.listdir(d)
         if any(f.endswith('_eval_results.npy') for f in files):
             run_dirs.append(d)
@@ -69,8 +71,8 @@ def add_wall_clock_times(results: pd.DataFrame, results_dir: str) -> pd.DataFram
     results['wall_clock_time_s'] = results['barcode'].apply(_get_time)
     return results
 
-def analyze_sweep(results_dir):
-    run_dirs = find_run_dirs(results_dir)
+def analyze_sweep(results_dir, prefix=None):
+    run_dirs = find_run_dirs(results_dir, prefix)
     print(f"Found {len(run_dirs)} runs in {results_dir}")
 
     results_list = []
@@ -141,7 +143,8 @@ def analyze_sweep(results_dir):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('results_dir', type=str)
+    parser.add_argument('--prefix', type=str, default=None, help='Only aggregate runs whose barcode starts with this, e.g. 26_09 for the invariant-loss runs')
     args = parser.parse_args()
 
     FINAL_RESULTS_DIR = args.results_dir
-    analyze_sweep(FINAL_RESULTS_DIR)
+    analyze_sweep(FINAL_RESULTS_DIR, args.prefix)

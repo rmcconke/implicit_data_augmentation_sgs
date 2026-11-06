@@ -5,7 +5,7 @@
         "model_n_reg_repr": "8",
         "model_n_layers": "4"
     },
-    "val_loss": 0.0010671281488612,
+    "val_loss": 0.0018325464334338,
     "param_count": "46872",
-    "model_barcode": "26_06_05_10:40:49_better_beetle_nearwall_boxfilter_4x_sgs"
+    "model_barcode": "26_09_25_20:25:43_lucky_monkey_nearwall_boxfilter_4x_sgs"
 }

@@ -1,5 +1,6 @@
 import pytest
 import os
+import torch
 import sys
 sys.path.append("./src/")
 from utils import load_config, new_experiment
@@ -18,6 +19,7 @@ TEST_CONFIG_FILES = [
 def config_path(request):
     return os.path.join(TEST_CONFIGS_DIR, request.param)
 
+@pytest.mark.skipif(not torch.cuda.is_available(), reason="needs a GPU")
 def test_training_loop(config_path, device="cuda:0"):
     """Test that training completes without error for each config."""
     cfg = load_config(config_path)

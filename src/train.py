@@ -9,6 +9,7 @@ from tqdm import tqdm
 from models import get_model
 import argparse
 from transformations import precompute_octahedral_augmentations
+from deviatoric import invariant_criterion
 from eval_model import eval_model_after_training
 import e3nn
 e3nn.set_optimization_defaults(jit_script_fx=False,specialized_code=False,optimize_einsums=False,)
@@ -33,6 +34,8 @@ def train_model(config,device):
         criterion = F.l1_loss
     elif config.loss_type == 'L2':
         criterion = F.mse_loss
+    if config.task_type == 'sgs':
+        criterion = invariant_criterion(criterion)
 
     # Train and val data loaders
     train_input_files, train_target_files, val_input_files, val_target_files, = get_tv_file_lists(config.dataset)

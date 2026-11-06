@@ -6,7 +6,7 @@
         "model_output_channels": "6",
         "model_layers": "[64, 64, 64, 64, 64, 64]"
     },
-    "val_loss": 0.0017920897027298,
+    "val_loss": 0.003125489980844,
     "param_count": "21765",
-    "model_barcode": "26_06_05_03:56:17_moral_tiger_nearwall_boxfilter_4x_sgs"
+    "model_barcode": "26_09_25_22:15:36_first_mammal_nearwall_boxfilter_4x_sgs"
 }

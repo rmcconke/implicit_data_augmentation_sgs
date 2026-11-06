@@ -5,7 +5,7 @@
         "model_filter_width": 0.04,
         "model_layers": "[64, 64, 64, 64, 64, 64]"
     },
-    "val_loss": 0.0018514434630965,
+    "val_loss": 0.0032275912708958,
     "param_count": "21445",
-    "model_barcode": "26_06_05_10:39:26_on_koi_nearwall_boxfilter_4x_sgs"
+    "model_barcode": "26_09_25_22:15:38_trusty_impala_nearwall_boxfilter_4x_sgs"
 }

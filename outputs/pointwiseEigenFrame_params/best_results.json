@@ -3,9 +3,9 @@
         "eigenframe_model": "True",
         "model_model_type": "sgsPointwiseEigenframeMLP",
         "model_filter_width": 0.04,
-        "model_layers": "[64, 64, 64]"
+        "model_layers": "[64, 64, 64, 64, 64, 64]"
     },
-    "val_loss": 0.0018513542165539,
-    "param_count": "8965",
-    "model_barcode": "26_05_23_16:28:19_tough_ferret_nearwall_boxfilter_4x_sgs"
+    "val_loss": 0.0032275912708958,
+    "param_count": "21445",
+    "model_barcode": "26_09_25_19:38:23_meet_collie_nearwall_boxfilter_4x_sgs"
 }

@@ -70,7 +70,8 @@ def get_model(model_config):
     elif model_config.model_type == 'sgsCNN':
         return sgsCNN(
             hidden_channels=model_config.hidden_channels,
-            kernel_size=model_config.kernel_size
+            kernel_size=model_config.kernel_size,
+            batchnorm=model_config.get('batchnorm', True)
         )
     elif model_config.model_type == 'sgsECNN':
         return sgsECNN(
@@ -89,6 +90,7 @@ def get_model(model_config):
         return sgsESCNN(
             n_reg_repr=model_config.n_reg_repr,
             n_layers=model_config.n_layers,
+            batchnorm=model_config.get('batchnorm', False)
         )
     elif model_config.model_type == 'sgsPointwiseMLP':
         return sgsPointwiseMLP(
@@ -428,18 +430,17 @@ class sgsPointwiseMLP(nn.Module):
 
 
 class sgsCNN(nn.Module):
-    def __init__(self, in_channels=9, out_channels=5, hidden_channels: Sequence[int] = (32, 32, 32), kernel_size=3):
+    def __init__(self, in_channels=9, out_channels=5, hidden_channels: Sequence[int] = (32, 32, 32), kernel_size=3, batchnorm=True):
         super().__init__()
         padding = kernel_size // 2
 
         layers: List[nn.Module] = []
         prev_ch = in_channels
         for ch in hidden_channels:
-            layers += [
-                nn.Conv3d(prev_ch, ch, kernel_size, padding=padding),
-                nn.BatchNorm3d(ch),
-                nn.ReLU(inplace=True)
-            ]
+            layers.append(nn.Conv3d(prev_ch, ch, kernel_size, padding=padding))
+            if batchnorm:
+                layers.append(nn.BatchNorm3d(ch))
+            layers.append(nn.ReLU(inplace=True))
             prev_ch = ch
 
         layers.append(nn.Conv3d(prev_ch, out_channels, kernel_size, padding=padding))

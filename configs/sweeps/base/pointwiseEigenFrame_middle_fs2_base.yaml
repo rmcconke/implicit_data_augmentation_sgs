@@ -1,0 +1,74 @@
+task_name: middle_boxfilter_2x_sgs
+task_type: sgs # 'sr' or 'sgs'
+batch_size: 200000
+eval_batch_size: 2000
+rotation_batch_size: 1
+epochs: 50000
+loss_type: 'L2' # 'L1' or 'L2'
+learning_rate: 0.001
+save_interval: 100
+early_stopping_patience: 3000
+validation_interval: 20
+memorization_test: False
+train_aug_group: null
+val_aug_group: null
+test_aug_group: null
+seed: 42
+test_after_training: True
+interior_size: 30
+
+dataset:
+  input_prefix: channel_middle_grad_fs2
+  target_prefix: channel_middle_sgs_fs2
+  train_pattern: ['z0', 'z1', 'z2'] # e.g. [0]
+  train_times: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+  train_fraction: 1.0 # e.g. 1, 10, 20, or 'all'. Subsamples the training portion of the time series.
+  val_pattern: ['z3'] # e.g. [0]
+  val_times: [20, 21, 22, 23, 24]
+  sampling_method: 'random' # 'random' or 'sequential', only applies if time_samples is not 'all'. Sequential starts from 0
+  eval_datasets:
+    Re1000_middle_train:
+      input_prefix: channel_middle_grad_fs2
+      target_prefix: channel_middle_sgs_fs2
+      pattern: ['z0', 'z1', 'z2']
+      times: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+    Re1000_nearwall_train:
+      input_prefix: channel_nearwall_grad_fs2
+      target_prefix: channel_nearwall_sgs_fs2
+      pattern: ['z0', 'z1', 'z2']
+      times: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
+    Re1000_middle_val:
+      input_prefix: channel_middle_grad_fs2
+      target_prefix: channel_middle_sgs_fs2
+      pattern: ['z3']
+      times: [20, 21, 22, 23, 24]
+    Re1000_nearwall_val:
+      input_prefix: channel_nearwall_grad_fs2
+      target_prefix: channel_nearwall_sgs_fs2
+      pattern: ['z3']
+      times: [20, 21, 22, 23, 24]
+    Re1000_middle_test:
+      input_prefix: channel_middle_grad_fs2
+      target_prefix: channel_middle_sgs_fs2
+      pattern: ['z4']
+      times: [25, 26, 27, 28, 29]
+    Re1000_nearwall_test:
+      input_prefix: channel_nearwall_grad_fs2
+      target_prefix: channel_nearwall_sgs_fs2
+      pattern: ['z4']
+      times: [25, 26, 27, 28, 29]
+    Re5200_middle:
+      input_prefix: channel5200_middle_grad_fs2
+      target_prefix: channel5200_middle_sgs_fs2
+      pattern: ['z0', 'z1', 'z2', 'z3', 'z4']
+      times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    Re5200_nearwall:
+      input_prefix: channel5200_nearwall_grad_fs2
+      target_prefix: channel5200_nearwall_sgs_fs2
+      pattern: ['z0', 'z1', 'z2', 'z3', 'z4']
+      times: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+model:
+  model_type: sgsPointwiseEigenframeMLP
+  filter_width: 0.04 # Fine grid is 0.64/64, taking filter size of 4 (equal to coarse grid spacing)
+  layers: [64, 64, 64]

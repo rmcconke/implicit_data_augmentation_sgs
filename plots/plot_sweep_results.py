@@ -44,14 +44,14 @@ DATA_SWEEP_DIRS = {
 }
 
 SELECTED_MODELS = {
-    'Eigenframe (nearwall)': 'outputs/pointwiseEigenFrame_params/26_05_23_16:39:46_live_kitten_nearwall_boxfilter_4x_sgs',
-    'Pointwise (nearwall)':  'outputs/pointwiseAug_params/26_05_21_11:13:54_ace_burro_nearwall_boxfilter_4x_sgs',
-    'ESCNN (nearwall)':      'outputs/ESCNN_params/26_05_21_11:07:09_nice_flea_nearwall_boxfilter_4x_sgs',
-    'CNN (nearwall)':        'outputs/CNNaug_params/26_05_21_12:26:23_well_pony_nearwall_boxfilter_4x_sgs',
-    'Eigenframe (middle)':   'outputs/26_06_05_13:53:03_main_tiger_middle_boxfilter_4x_sgs',
-    'Pointwise (middle)':    'outputs/26_06_05_13:52:57_vocal_skunk_middle_boxfilter_4x_sgs',
-    'ESCNN (middle)':        'outputs/26_06_05_14:16:00_whole_rat_middle_boxfilter_4x_sgs',
-    'CNN (middle)':          'outputs/26_06_05_13:59:35_grown_jay_middle_boxfilter_4x_sgs',
+    'Eigenframe (nearwall)': 'outputs/pointwiseEigenFrame_params/26_09_25_19:38:23_meet_collie_nearwall_boxfilter_4x_sgs',
+    'Pointwise (nearwall)':  'outputs/pointwiseAug_params/26_09_25_20:39:15_intent_sole_nearwall_boxfilter_4x_sgs',
+    'ESCNN (nearwall)':      'outputs/ESCNN_params/26_09_25_20:01:27_holy_osprey_nearwall_boxfilter_4x_sgs',
+    'CNN (nearwall)':        'outputs/CNNaug_params/26_09_25_19:40:40_secure_fish_nearwall_boxfilter_4x_sgs',
+    'Eigenframe (middle)':   'outputs/table3_middle/26_09_26_00:22:33_merry_condor_middle_boxfilter_4x_sgs',
+    'Pointwise (middle)':    'outputs/table3_middle/26_09_26_00:01:33_comic_possum_middle_boxfilter_4x_sgs',
+    'ESCNN (middle)':        'outputs/table3_middle/26_09_25_23:41:02_choice_lynx_middle_boxfilter_4x_sgs',
+    'CNN (middle)':          'outputs/table3_middle/26_09_25_23:23:16_moral_kiwi_middle_boxfilter_4x_sgs',
 }
 
 # Total training set size in points: 900 boxes (15 streamwise * 3 spanwise * 20 times) * 14^3 voxels

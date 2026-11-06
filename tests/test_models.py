@@ -131,6 +131,7 @@ def test_equivariance(spec):
         else:
             assert err > 1e-5, f"{spec.name} unexpectedly equivariant"
 
+@pytest.mark.skipif(not torch.cuda.is_available(), reason="needs a GPU")
 @pytest.mark.parametrize("spec", MODEL_SPECS, ids=lambda s: s.name)
 def test_memorization(spec):
     model = spec.build(device=DEVICE)

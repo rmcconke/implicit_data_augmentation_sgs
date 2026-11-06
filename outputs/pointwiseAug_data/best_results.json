@@ -6,7 +6,7 @@
         "model_output_channels": "6",
         "model_layers": "[64, 64, 64, 64, 64, 64]"
     },
-    "val_loss": 0.0018128884365226,
+    "val_loss": 0.003165557289286,
     "param_count": "21765",
-    "model_barcode": "26_06_05_05:12:43_golden_tetra_nearwall_boxfilter_4x_sgs"
+    "model_barcode": "26_09_25_22:15:17_sweet_stork_nearwall_boxfilter_4x_sgs"
 }

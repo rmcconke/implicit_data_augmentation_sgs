@@ -28,15 +28,15 @@ plt.rcParams['axes.linewidth'] = linewidth
 plt.rcParams['xtick.major.width'] = linewidth
 plt.rcParams['ytick.major.width'] = linewidth
 # -------- config --------
-DEVICE = 'cuda:0'
+DEVICE = 'cuda:0' if torch.cuda.is_available() else 'cpu'
 OUT_DIR = 'outputs/plots_final'
 SLICE_Z = 7   # middle of the 14^3 interior
 
 MODEL_DIRS = {
-    'Eigenframe': 'outputs/pointwiseEigenFrame_params/26_05_23_16:39:46_live_kitten_nearwall_boxfilter_4x_sgs',
-    'MLP (aug)':  'outputs/pointwiseAug_params/26_05_21_11:13:54_ace_burro_nearwall_boxfilter_4x_sgs',
-    'ESCNN':      'outputs/ESCNN_params/26_05_21_11:07:09_nice_flea_nearwall_boxfilter_4x_sgs',
-    'CNN (aug)':  'outputs/CNNaug_params/26_05_21_12:26:23_well_pony_nearwall_boxfilter_4x_sgs',
+    'Eigenframe': 'outputs/pointwiseEigenFrame_params/26_09_25_19:38:23_meet_collie_nearwall_boxfilter_4x_sgs',
+    'MLP (aug)':  'outputs/pointwiseAug_params/26_09_25_20:39:15_intent_sole_nearwall_boxfilter_4x_sgs',
+    'ESCNN':      'outputs/ESCNN_params/26_09_25_20:01:27_holy_osprey_nearwall_boxfilter_4x_sgs',
+    'CNN (aug)':  'outputs/CNNaug_params/26_09_25_19:40:40_secure_fish_nearwall_boxfilter_4x_sgs',
 }
 
 EVAL_SETS = {

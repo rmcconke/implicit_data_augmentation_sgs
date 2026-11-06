@@ -59,8 +59,22 @@ Thumbs.db
 # Local databases / logs
 *.db
 *.sqlite3
-*.logoutputs/ESCNN4layer/26_03_11_18:59:25_smart_sheep_nearwall_boxfilter_4x_sgs/
+*.log
+outputs/ESCNN4layer/26_03_11_18:59:25_smart_sheep_nearwall_boxfilter_4x_sgs/
 outputs/ESCNN4layer/26_03_11_16:09:39_full_kiwi_nearwall_boxfilter_4x_sgs/
 outputs/ESCNN_params/26_05_21_12:22:42_casual_duck_nearwall_boxfilter_4x_sgs/
 outputs/ESCNN4layer/26_03_11_15:32:12_loved_sole_nearwall_boxfilter_4x_sgs/
 outputs/ESCNN_params/26_05_21_11:38:41_ace_fox_nearwall_boxfilter_4x_sgs/
+
+# Checkpoints over GitHub's 100 MB file size limit (ESCNN, 2,955,456 and 740,448
+# parameters); not included, available on request.
+outputs/ESCNN_params/26_09_25_21:29:22_moved_bison_nearwall_boxfilter_4x_sgs/26_09_25_21:29:22_moved_bison_nearwall_boxfilter_4x_sgs_checkpoint.pt
+outputs/ESCNN_params/26_09_25_20:39:59_tops_bison_nearwall_boxfilter_4x_sgs/26_09_25_20:39:59_tops_bison_nearwall_boxfilter_4x_sgs_checkpoint.pt
+
+# Outputs of the scripts in analysis/ (regenerated on demand) and downloaded data
+analysis/results/
+analysis/data/
+
+# Slurm logs (large, machine-specific)
+logs/
+outputs/test_runs/

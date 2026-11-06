@@ -1,0 +1,12 @@
+{
+    "model_columns": {
+        "eigenframe_model": "False",
+        "model_input_channels": "9",
+        "model_layers": "[64, 64, 64, 64, 64, 64]",
+        "model_model_type": "sgsPointwiseNN",
+        "model_output_channels": "6"
+    },
+    "val_loss": 0.1834383831079777,
+    "param_count": "21830",
+    "model_barcode": "26_02_18_13:53:21_famous_hound_nearwall_boxfilter_4x_sgs"
+}

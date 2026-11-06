@@ -5,7 +5,7 @@
         "model_hidden_channels": "[32, 32, 32, 32]",
         "model_kernel_size": "3"
     },
-    "val_loss": 0.0013707762118428,
+    "val_loss": 0.0023504782002419,
     "param_count": "95429",
-    "model_barcode": "26_06_26_11:20:06_merry_caiman_middle_boxfilter_4x_sgs"
+    "model_barcode": "26_09_25_23:05:10_witty_krill_middle_boxfilter_4x_sgs"
 }

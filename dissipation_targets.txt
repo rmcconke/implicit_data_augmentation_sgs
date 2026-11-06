@@ -1,0 +1,2 @@
+outputs/pointwiseEigenFrame_params/26_09_25_19:38:23_meet_collie_nearwall_boxfilter_4x_sgs/
+outputs/table3_middle/26_09_26_00:22:33_merry_condor_middle_boxfilter_4x_sgs/

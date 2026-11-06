@@ -17,12 +17,14 @@ from eval import (
     plot_spectrum,
     visualize_predictions_3D,
     mean_octahedral_equivariance_error,
+    relative_octahedral_equivariance_error,
     plot_equivariance,
     eval_equivariance
 )
 import argparse
 import global_config as global_config
 from transformations import apply_octahedral_augmentation, apply_so3_augmentation
+from deviatoric import to_orthonormal, invariant_criterion
 import yaml
 from box import Box
 import time
@@ -56,6 +58,8 @@ def eval_model_after_training(experiment_dir, device, compute_spectra=False):
         criterion = F.l1_loss
     elif config.loss_type == 'L2':
         criterion = F.mse_loss
+    if config.task_type == 'sgs':
+        criterion = invariant_criterion(criterion)
 
     print(f"default dtype: {torch.get_default_dtype()}")
     train_input_files, train_target_files, _, _ = get_tv_file_lists(config.dataset)
@@ -101,12 +105,18 @@ def eval_model_after_training(experiment_dir, device, compute_spectra=False):
                 pred_unstd = pred * train_dataset.get_scaling_factors()['target_mean_magnitude']
                 total_loss += criterion(pred_unstd, batch_targets_unstd).item() * batch_inputs.shape[0]
 
-                dot_sum     += (pred * batch_targets).sum().item()
-                true_sq_sum += (batch_targets ** 2).sum().item()
-                pred_sq_sum += (pred ** 2).sum().item()
+                if config.task_type == 'sgs':
+                    pred_inv, targets_inv = to_orthonormal(pred), to_orthonormal(batch_targets)
+                else:
+                    pred_inv, targets_inv = pred, batch_targets
+                dot_sum     += (pred_inv * targets_inv).sum().item()
+                true_sq_sum += (targets_inv ** 2).sum().item()
+                pred_sq_sum += (pred_inv ** 2).sum().item()
 
             target_mean_mag = train_dataset.get_scaling_factors()['target_mean_magnitude']
             targets_unstd = targets * target_mean_mag
+            if config.task_type == 'sgs':
+                targets_unstd = to_orthonormal(targets_unstd)
             eval_results[name]['target_variance'] = targets_unstd.var().item()
             eval_results[name]['target_second_moment'] = (targets_unstd ** 2).mean().item()
             eval_results[name]['loss'] = total_loss / n_samples
@@ -116,25 +126,38 @@ def eval_model_after_training(experiment_dir, device, compute_spectra=False):
 
             # Equivariance error: averaged over octahedral group, batch, components, space
             equiv_err_sum = 0.0
+            equiv_rel_err_sum = 0.0
             equiv_err_count = 0
+            deviatoric = config.task_type == 'sgs'
+            # The group expands the batch 24x. For the pointwise models that is a
+            # large batched eigendecomposition, which cusolver fails to allocate
+            # for while the evaluation datasets are resident on the GPU, so every
+            # model call (f(x), f(g.x) and the normalizing prediction) is chunked.
+            # A failure raises: skipping a batch would give a partial average.
+            # Large nonlocal models can set equiv_batch_size (boxes) in the config.
+            equiv_batch = config.get("equiv_batch_size", 500 if config.pointwise else None)
             for i in range(0, n_samples, config.eval_batch_size):
                 batch_inputs = inputs[i:i + config.eval_batch_size]
                 try:
-                    err = mean_octahedral_equivariance_error(model, batch_inputs)
+                    err = mean_octahedral_equivariance_error(model, batch_inputs, batch_size=equiv_batch, deviatoric=deviatoric)
+                    rel_err = (relative_octahedral_equivariance_error(model, batch_inputs, batch_size=equiv_batch, error=err)
+                               if deviatoric else err)
                 except Exception as e:
-                    print(f"Error in equivariance error calculation: {e}")
-                    continue
+                    raise RuntimeError(f"Equivariance error failed on {name}, samples {i}:{i + batch_inputs.shape[0]}") from e
                 equiv_err_sum += err.item() * batch_inputs.shape[0]
+                equiv_rel_err_sum += rel_err.item() * batch_inputs.shape[0]
                 equiv_err_count += batch_inputs.shape[0]
                 print(f"Equivariance error: {err.item()}")
                 print(f"Batch inputs: {batch_inputs.shape}")
                 print(f"equivariance error count: {equiv_err_count}")
                 print(f"equivariance error sum: {equiv_err_sum}")
-            eval_results[name]['equiv_error'] = equiv_err_sum / equiv_err_count if equiv_err_count else 0.0
-            print(f"Test {name} Equivariance Error: {eval_results[name]['equiv_error']}")
+            assert equiv_err_count == n_samples, (equiv_err_count, n_samples)
+            eval_results[name]['equiv_error'] = equiv_err_sum / equiv_err_count
+            eval_results[name]['equiv_error_rel'] = equiv_rel_err_sum / equiv_err_count
+            print(f"Test {name} Equivariance Error: {eval_results[name]['equiv_error']} (relative: {eval_results[name]['equiv_error_rel']})")
 
-            G = 14
-            n_voxels = G ** 3  # 2744
+            G = config.get('interior_size', 14)
+            n_voxels = G ** 3  # 2744 at filter ratio 4
             if config.pointwise:
                 input0 = inputs[:n_voxels, :]
                 output0 = model(input0).reshape(G, G, G, 5).permute(3, 0, 1, 2)

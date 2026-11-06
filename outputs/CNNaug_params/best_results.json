@@ -2,10 +2,10 @@
     "model_columns": {
         "eigenframe_model": "False",
         "model_model_type": "sgsCNN",
-        "model_hidden_channels": "[128, 128, 128, 128]",
+        "model_hidden_channels": "[256, 256, 256, 256]",
         "model_kernel_size": "3"
     },
-    "val_loss": 0.000998301198706,
-    "param_count": "1377029",
-    "model_barcode": "26_05_21_13:02:25_close_snipe_nearwall_boxfilter_4x_sgs"
+    "val_loss": 0.0017026144778355,
+    "param_count": "5408261",
+    "model_barcode": "26_09_25_20:44:19_equal_puma_nearwall_boxfilter_4x_sgs"
 }

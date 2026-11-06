@@ -6,7 +6,7 @@
         "model_output_channels": "6",
         "model_layers": "[64, 64, 64, 64, 64, 64]"
     },
-    "val_loss": 0.0018438542559489,
+    "val_loss": 0.0032089693558676,
     "param_count": "21765",
-    "model_barcode": "26_06_26_12:25:54_eager_snake_middle_boxfilter_4x_sgs"
+    "model_barcode": "26_09_25_23:51:36_one_maggot_middle_boxfilter_4x_sgs"
 }

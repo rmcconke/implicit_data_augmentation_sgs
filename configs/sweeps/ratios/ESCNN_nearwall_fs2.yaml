@@ -1,0 +1,5 @@
+base_config: configs/sweeps/base/ESCNN_nearwall_fs2_base.yaml
+
+sweep:
+  model.n_reg_repr: [8]
+  model.n_layers:   [4]

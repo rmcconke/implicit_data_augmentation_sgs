@@ -1,0 +1,12 @@
+2026-09-26 00:31:15 - INFO - PRINT: WELCOME TO THE EXPERIMENT: 26_09_26_00:31:15_noted_lark_nearwall_boxfilter_4x_sgs
+2026-09-26 00:31:15 - INFO - PRINT: Using seed: 42
+2026-09-26 00:31:19 - INFO - PRINT: Model param count: 827
+2026-09-26 00:31:19 - INFO - PRINT: Train samples: 900
+2026-09-26 00:31:19 - INFO - PRINT: Val samples: 75
+2026-09-26 00:31:19 - INFO - PRINT: QC passed: all checks OK
+2026-09-26 00:31:19 - INFO - PRINT: Number of train samples: 900
+2026-09-26 00:31:19 - INFO - PRINT: Number of val samples: 75
+2026-09-26 00:31:19 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-09-26 00:31:20 - INFO - PRINT: After loading - inputs: torch.Size([900, 9, 14, 14, 14]), targets: torch.Size([900, 5, 14, 14, 14])
+2026-09-26 00:31:20 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-09-26 00:31:20 - INFO - PRINT: After loading - inputs: torch.Size([75, 9, 14, 14, 14]), targets: torch.Size([75, 5, 14, 14, 14])

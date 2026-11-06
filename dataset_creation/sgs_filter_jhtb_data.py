@@ -15,7 +15,7 @@ def box_filter_downsample(arr, factor):
     return reshaped.mean(axis=(2, 4, 6))
 
 
-def process_sgs_data(input_prefix, numpy_dir, delta, fs=4, eps=1e-8):
+def process_sgs_data(input_prefix, numpy_dir, delta, fs=4, eps=1e-8, box_mean_norm=False, suffix=None):
     """
     Process velocity data to compute normalized SGS tensor and velocity gradients.
     
@@ -31,6 +31,11 @@ def process_sgs_data(input_prefix, numpy_dir, delta, fs=4, eps=1e-8):
         Filter/downsampling factor
     eps : float
         Regularization for |S| -> 0
+    box_mean_norm : bool
+        Normalize by a single box-averaged G instead of the local G at each voxel,
+        which keeps the relative amplitude of the gradient field across the box.
+    suffix : str
+        Overrides the fs tag in the output filenames.
     S_mag_warn : float
         Warn if strain rate magnitude falls below this value
     """
@@ -79,7 +84,7 @@ def process_sgs_data(input_prefix, numpy_dir, delta, fs=4, eps=1e-8):
             np.gradient(w, dx, axis=2)[1:-1,1:-1,1:-1],  # dw/dz
         ])
         
-        # Compute strain rate magnitude: |S| = sqrt(2 * S_ij * S_ij)
+        # Velocity gradient magnitude: G = sqrt(S_ij S_ij + R_ij R_ij), the Frobenius norm of grad u
         S11 = grad[0]
         S22 = grad[4]
         S33 = grad[8]
@@ -100,15 +105,18 @@ def process_sgs_data(input_prefix, numpy_dir, delta, fs=4, eps=1e-8):
             print(f"  Warning: {file} has {n_small} points with G < 1e-6 (min: {G.min():.2e})")
         
         G = G + eps
+        if box_mean_norm:
+            G = np.full_like(G, G.mean())
         
         # Normalize
         grad_normalized = grad / G
         sgs_normalized = sgs / (delta**2 * G**2)
         
         # Save
-        np.save(file.replace(f'{input_prefix}_box', f'{input_prefix}_sgs_fs{fs}_box'), sgs_normalized)
-        np.save(file.replace(f'{input_prefix}_box', f'{input_prefix}_grad_fs{fs}_box'), grad_normalized)
-        np.save(file.replace(f'{input_prefix}_box', f'{input_prefix}_G_fs{fs}_box'), G)
+        tag = suffix if suffix is not None else f'fs{fs}'
+        np.save(file.replace(f'{input_prefix}_box', f'{input_prefix}_sgs_{tag}_box'), sgs_normalized)
+        np.save(file.replace(f'{input_prefix}_box', f'{input_prefix}_grad_{tag}_box'), grad_normalized)
+        np.save(file.replace(f'{input_prefix}_box', f'{input_prefix}_G_{tag}_box'), G)
 
 
 if __name__ == '__main__':

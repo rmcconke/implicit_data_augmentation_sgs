@@ -1,0 +1,5 @@
+base_config: configs/sweeps/base/pointwiseEigenFrame_base_middle.yaml
+
+sweep:
+  model.layers: [[64,64,64,64,64,64]]
+  seed: [1, 2, 3]

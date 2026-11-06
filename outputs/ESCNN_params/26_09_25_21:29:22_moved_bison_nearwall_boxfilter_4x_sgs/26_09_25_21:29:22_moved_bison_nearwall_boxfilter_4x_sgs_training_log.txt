@@ -1,0 +1,950 @@
+2026-09-25 21:29:22 - INFO - PRINT: WELCOME TO THE EXPERIMENT: 26_09_25_21:29:22_moved_bison_nearwall_boxfilter_4x_sgs
+2026-09-25 21:29:22 - INFO - PRINT: Using seed: 42
+2026-09-25 21:29:32 - INFO - PRINT: Model param count: 2955456
+2026-09-25 21:29:33 - INFO - PRINT: Train samples: 900
+2026-09-25 21:29:33 - INFO - PRINT: Val samples: 75
+2026-09-25 21:29:33 - INFO - PRINT: QC passed: all checks OK
+2026-09-25 21:29:33 - INFO - PRINT: Number of train samples: 900
+2026-09-25 21:29:33 - INFO - PRINT: Number of val samples: 75
+2026-09-25 21:29:33 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-09-25 21:29:33 - INFO - PRINT: After loading - inputs: torch.Size([900, 9, 14, 14, 14]), targets: torch.Size([900, 5, 14, 14, 14])
+2026-09-25 21:29:33 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-09-25 21:29:33 - INFO - PRINT: After loading - inputs: torch.Size([75, 9, 14, 14, 14]), targets: torch.Size([75, 5, 14, 14, 14])
+2026-09-25 21:29:46 - INFO - PRINT: ----> Saving model from epoch 0 (val loss: 0.5426546335220337). Tangy!
+2026-09-25 21:29:47 - INFO - PRINT: Epoch [   0], Train Loss: 0.6351, Validation Loss: 0.5427, Time: 13.97s, Avg(1): 13.97s
+2026-09-25 21:29:59 - INFO - PRINT: Epoch [   1], Train Loss: 0.5132, Validation Loss: 0.5427, Time: 12.31s, Avg(2): 13.14s
+2026-09-25 21:30:12 - INFO - PRINT: Epoch [   2], Train Loss: 0.4738, Validation Loss: 0.5427, Time: 12.50s, Avg(3): 12.93s
+2026-09-25 21:30:24 - INFO - PRINT: Epoch [   3], Train Loss: 0.4502, Validation Loss: 0.5427, Time: 12.52s, Avg(4): 12.83s
+2026-09-25 21:30:37 - INFO - PRINT: Epoch [   4], Train Loss: 0.4321, Validation Loss: 0.5427, Time: 12.46s, Avg(5): 12.75s
+2026-09-25 21:30:49 - INFO - PRINT: Epoch [   5], Train Loss: 0.4175, Validation Loss: 0.5427, Time: 12.49s, Avg(6): 12.71s
+2026-09-25 21:31:02 - INFO - PRINT: Epoch [   6], Train Loss: 0.4044, Validation Loss: 0.5427, Time: 12.45s, Avg(7): 12.67s
+2026-09-25 21:31:14 - INFO - PRINT: Epoch [   7], Train Loss: 0.3930, Validation Loss: 0.5427, Time: 12.47s, Avg(8): 12.65s
+2026-09-25 21:31:27 - INFO - PRINT: Epoch [   8], Train Loss: 0.3822, Validation Loss: 0.5427, Time: 12.44s, Avg(9): 12.62s
+2026-09-25 21:31:39 - INFO - PRINT: Epoch [   9], Train Loss: 0.3718, Validation Loss: 0.5427, Time: 12.48s, Avg(10): 12.61s
+2026-09-25 21:31:52 - INFO - PRINT: Epoch [  10], Train Loss: 0.3621, Validation Loss: 0.5427, Time: 12.53s, Avg(11): 12.60s
+2026-09-25 21:32:04 - INFO - PRINT: Epoch [  11], Train Loss: 0.3524, Validation Loss: 0.5427, Time: 12.50s, Avg(12): 12.59s
+2026-09-25 21:32:17 - INFO - PRINT: Epoch [  12], Train Loss: 0.3432, Validation Loss: 0.5427, Time: 12.47s, Avg(13): 12.58s
+2026-09-25 21:32:29 - INFO - PRINT: Epoch [  13], Train Loss: 0.3343, Validation Loss: 0.5427, Time: 12.43s, Avg(14): 12.57s
+2026-09-25 21:32:42 - INFO - PRINT: Epoch [  14], Train Loss: 0.3268, Validation Loss: 0.5427, Time: 12.57s, Avg(15): 12.57s
+2026-09-25 21:32:54 - INFO - PRINT: Epoch [  15], Train Loss: 0.3193, Validation Loss: 0.5427, Time: 12.49s, Avg(16): 12.57s
+2026-09-25 21:33:07 - INFO - PRINT: Epoch [  16], Train Loss: 0.3124, Validation Loss: 0.5427, Time: 12.41s, Avg(17): 12.56s
+2026-09-25 21:33:19 - INFO - PRINT: Epoch [  17], Train Loss: 0.3062, Validation Loss: 0.5427, Time: 12.49s, Avg(18): 12.55s
+2026-09-25 21:33:32 - INFO - PRINT: Epoch [  18], Train Loss: 0.3006, Validation Loss: 0.5427, Time: 12.49s, Avg(19): 12.55s
+2026-09-25 21:33:44 - INFO - PRINT: Epoch [  19], Train Loss: 0.2952, Validation Loss: 0.5427, Time: 12.41s, Avg(20): 12.54s
+2026-09-25 21:33:57 - INFO - PRINT: Epoch [  20], Train Loss: 0.2902, Validation Loss: 0.2948, Time: 13.00s, Avg(21): 12.57s
+2026-09-25 21:34:09 - INFO - PRINT: Epoch [  21], Train Loss: 0.2855, Validation Loss: 0.2948, Time: 12.44s, Avg(22): 12.56s
+2026-09-25 21:34:22 - INFO - PRINT: Epoch [  22], Train Loss: 0.2812, Validation Loss: 0.2948, Time: 12.51s, Avg(23): 12.56s
+2026-09-25 21:34:34 - INFO - PRINT: Epoch [  23], Train Loss: 0.2774, Validation Loss: 0.2948, Time: 12.53s, Avg(24): 12.56s
+2026-09-25 21:34:47 - INFO - PRINT: Epoch [  24], Train Loss: 0.2755, Validation Loss: 0.2948, Time: 12.49s, Avg(25): 12.55s
+2026-09-25 21:34:59 - INFO - PRINT: Epoch [  25], Train Loss: 0.2737, Validation Loss: 0.2948, Time: 12.45s, Avg(26): 12.55s
+2026-09-25 21:35:12 - INFO - PRINT: Epoch [  26], Train Loss: 0.2699, Validation Loss: 0.2948, Time: 12.45s, Avg(27): 12.55s
+2026-09-25 21:35:24 - INFO - PRINT: Epoch [  27], Train Loss: 0.2685, Validation Loss: 0.2948, Time: 12.49s, Avg(28): 12.54s
+2026-09-25 21:35:37 - INFO - PRINT: Epoch [  28], Train Loss: 0.2657, Validation Loss: 0.2948, Time: 12.47s, Avg(29): 12.54s
+2026-09-25 21:35:49 - INFO - PRINT: Epoch [  29], Train Loss: 0.2620, Validation Loss: 0.2948, Time: 12.45s, Avg(30): 12.54s
+2026-09-25 21:36:02 - INFO - PRINT: Epoch [  30], Train Loss: 0.2592, Validation Loss: 0.2948, Time: 12.45s, Avg(31): 12.54s
+2026-09-25 21:36:14 - INFO - PRINT: Epoch [  31], Train Loss: 0.2566, Validation Loss: 0.2948, Time: 12.49s, Avg(32): 12.53s
+2026-09-25 21:36:27 - INFO - PRINT: Epoch [  32], Train Loss: 0.2544, Validation Loss: 0.2948, Time: 12.46s, Avg(33): 12.53s
+2026-09-25 21:36:39 - INFO - PRINT: Epoch [  33], Train Loss: 0.2525, Validation Loss: 0.2948, Time: 12.42s, Avg(34): 12.53s
+2026-09-25 21:36:52 - INFO - PRINT: Epoch [  34], Train Loss: 0.2506, Validation Loss: 0.2948, Time: 12.50s, Avg(35): 12.53s
+2026-09-25 21:37:04 - INFO - PRINT: Epoch [  35], Train Loss: 0.2488, Validation Loss: 0.2948, Time: 12.38s, Avg(36): 12.52s
+2026-09-25 21:37:16 - INFO - PRINT: Epoch [  36], Train Loss: 0.2468, Validation Loss: 0.2948, Time: 12.49s, Avg(37): 12.52s
+2026-09-25 21:37:29 - INFO - PRINT: Epoch [  37], Train Loss: 0.2450, Validation Loss: 0.2948, Time: 12.54s, Avg(38): 12.52s
+2026-09-25 21:37:41 - INFO - PRINT: Epoch [  38], Train Loss: 0.2435, Validation Loss: 0.2948, Time: 12.43s, Avg(39): 12.52s
+2026-09-25 21:37:54 - INFO - PRINT: Epoch [  39], Train Loss: 0.2421, Validation Loss: 0.2948, Time: 12.40s, Avg(40): 12.52s
+2026-09-25 21:38:07 - INFO - PRINT: Epoch [  40], Train Loss: 0.2405, Validation Loss: 0.2550, Time: 12.93s, Avg(41): 12.53s
+2026-09-25 21:38:19 - INFO - PRINT: Epoch [  41], Train Loss: 0.2416, Validation Loss: 0.2550, Time: 12.50s, Avg(42): 12.53s
+2026-09-25 21:38:32 - INFO - PRINT: Epoch [  42], Train Loss: 0.2383, Validation Loss: 0.2550, Time: 12.53s, Avg(43): 12.53s
+2026-09-25 21:38:44 - INFO - PRINT: Epoch [  43], Train Loss: 0.2369, Validation Loss: 0.2550, Time: 12.39s, Avg(44): 12.52s
+2026-09-25 21:38:57 - INFO - PRINT: Epoch [  44], Train Loss: 0.2354, Validation Loss: 0.2550, Time: 12.47s, Avg(45): 12.52s
+2026-09-25 21:39:09 - INFO - PRINT: Epoch [  45], Train Loss: 0.2336, Validation Loss: 0.2550, Time: 12.52s, Avg(46): 12.52s
+2026-09-25 21:39:22 - INFO - PRINT: Epoch [  46], Train Loss: 0.2329, Validation Loss: 0.2550, Time: 12.55s, Avg(47): 12.52s
+2026-09-25 21:39:34 - INFO - PRINT: Epoch [  47], Train Loss: 0.2308, Validation Loss: 0.2550, Time: 12.48s, Avg(48): 12.52s
+2026-09-25 21:39:47 - INFO - PRINT: Epoch [  48], Train Loss: 0.2295, Validation Loss: 0.2550, Time: 12.42s, Avg(49): 12.52s
+2026-09-25 21:39:59 - INFO - PRINT: Epoch [  49], Train Loss: 0.2313, Validation Loss: 0.2550, Time: 12.47s, Avg(50): 12.52s
+2026-09-25 21:40:12 - INFO - PRINT: Epoch [  50], Train Loss: 0.2287, Validation Loss: 0.2550, Time: 12.53s, Avg(50): 12.49s
+2026-09-25 21:40:24 - INFO - PRINT: Epoch [  51], Train Loss: 0.2278, Validation Loss: 0.2550, Time: 12.36s, Avg(50): 12.49s
+2026-09-25 21:40:36 - INFO - PRINT: Epoch [  52], Train Loss: 0.2262, Validation Loss: 0.2550, Time: 12.48s, Avg(50): 12.49s
+2026-09-25 21:40:49 - INFO - PRINT: Epoch [  53], Train Loss: 0.2246, Validation Loss: 0.2550, Time: 12.54s, Avg(50): 12.49s
+2026-09-25 21:41:01 - INFO - PRINT: Epoch [  54], Train Loss: 0.2231, Validation Loss: 0.2550, Time: 12.48s, Avg(50): 12.49s
+2026-09-25 21:41:14 - INFO - PRINT: Epoch [  55], Train Loss: 0.2221, Validation Loss: 0.2550, Time: 12.49s, Avg(50): 12.49s
+2026-09-25 21:41:26 - INFO - PRINT: Epoch [  56], Train Loss: 0.2205, Validation Loss: 0.2550, Time: 12.42s, Avg(50): 12.49s
+2026-09-25 21:41:39 - INFO - PRINT: Epoch [  57], Train Loss: 0.2228, Validation Loss: 0.2550, Time: 12.43s, Avg(50): 12.49s
+2026-09-25 21:41:51 - INFO - PRINT: Epoch [  58], Train Loss: 0.2209, Validation Loss: 0.2550, Time: 12.51s, Avg(50): 12.49s
+2026-09-25 21:42:04 - INFO - PRINT: Epoch [  59], Train Loss: 0.2191, Validation Loss: 0.2550, Time: 12.49s, Avg(50): 12.49s
+2026-09-25 21:42:17 - INFO - PRINT: Epoch [  60], Train Loss: 0.2181, Validation Loss: 0.2408, Time: 13.09s, Avg(50): 12.50s
+2026-09-25 21:42:29 - INFO - PRINT: Epoch [  61], Train Loss: 0.2162, Validation Loss: 0.2408, Time: 12.49s, Avg(50): 12.50s
+2026-09-25 21:42:42 - INFO - PRINT: Epoch [  62], Train Loss: 0.2153, Validation Loss: 0.2408, Time: 12.48s, Avg(50): 12.50s
+2026-09-25 21:42:54 - INFO - PRINT: Epoch [  63], Train Loss: 0.2136, Validation Loss: 0.2408, Time: 12.51s, Avg(50): 12.50s
+2026-09-25 21:43:07 - INFO - PRINT: Epoch [  64], Train Loss: 0.2127, Validation Loss: 0.2408, Time: 12.47s, Avg(50): 12.50s
+2026-09-25 21:43:19 - INFO - PRINT: Epoch [  65], Train Loss: 0.2125, Validation Loss: 0.2408, Time: 12.47s, Avg(50): 12.50s
+2026-09-25 21:43:32 - INFO - PRINT: Epoch [  66], Train Loss: 0.2137, Validation Loss: 0.2408, Time: 12.49s, Avg(50): 12.50s
+2026-09-25 21:43:44 - INFO - PRINT: Epoch [  67], Train Loss: 0.2103, Validation Loss: 0.2408, Time: 12.50s, Avg(50): 12.50s
+2026-09-25 21:43:57 - INFO - PRINT: Epoch [  68], Train Loss: 0.2091, Validation Loss: 0.2408, Time: 12.48s, Avg(50): 12.50s
+2026-09-25 21:44:09 - INFO - PRINT: Epoch [  69], Train Loss: 0.2081, Validation Loss: 0.2408, Time: 12.61s, Avg(50): 12.51s
+2026-09-25 21:44:22 - INFO - PRINT: Epoch [  70], Train Loss: 0.2071, Validation Loss: 0.2408, Time: 12.45s, Avg(50): 12.50s
+2026-09-25 21:44:34 - INFO - PRINT: Epoch [  71], Train Loss: 0.2138, Validation Loss: 0.2408, Time: 12.46s, Avg(50): 12.50s
+2026-09-25 21:44:47 - INFO - PRINT: Epoch [  72], Train Loss: 0.2134, Validation Loss: 0.2408, Time: 12.42s, Avg(50): 12.50s
+2026-09-25 21:44:59 - INFO - PRINT: Epoch [  73], Train Loss: 0.2319, Validation Loss: 0.2408, Time: 12.44s, Avg(50): 12.49s
+2026-09-25 21:45:12 - INFO - PRINT: Epoch [  74], Train Loss: 0.2313, Validation Loss: 0.2408, Time: 12.47s, Avg(50): 12.49s
+2026-09-25 21:45:24 - INFO - PRINT: Epoch [  75], Train Loss: 0.2231, Validation Loss: 0.2408, Time: 12.47s, Avg(50): 12.49s
+2026-09-25 21:45:37 - INFO - PRINT: Epoch [  76], Train Loss: 0.2175, Validation Loss: 0.2408, Time: 12.53s, Avg(50): 12.50s
+2026-09-25 21:45:49 - INFO - PRINT: Epoch [  77], Train Loss: 0.2124, Validation Loss: 0.2408, Time: 12.49s, Avg(50): 12.50s
+2026-09-25 21:46:02 - INFO - PRINT: Epoch [  78], Train Loss: 0.2090, Validation Loss: 0.2408, Time: 12.48s, Avg(50): 12.50s
+2026-09-25 21:46:14 - INFO - PRINT: Epoch [  79], Train Loss: 0.2062, Validation Loss: 0.2408, Time: 12.45s, Avg(50): 12.50s
+2026-09-25 21:46:27 - INFO - PRINT: Epoch [  80], Train Loss: 0.2042, Validation Loss: 0.2350, Time: 12.97s, Avg(50): 12.51s
+2026-09-25 21:46:39 - INFO - PRINT: Epoch [  81], Train Loss: 0.2024, Validation Loss: 0.2350, Time: 12.42s, Avg(50): 12.50s
+2026-09-25 21:46:52 - INFO - PRINT: Epoch [  82], Train Loss: 0.2009, Validation Loss: 0.2350, Time: 12.55s, Avg(50): 12.51s
+2026-09-25 21:47:05 - INFO - PRINT: Epoch [  83], Train Loss: 0.1997, Validation Loss: 0.2350, Time: 12.55s, Avg(50): 12.51s
+2026-09-25 21:47:17 - INFO - PRINT: Epoch [  84], Train Loss: 0.1986, Validation Loss: 0.2350, Time: 12.45s, Avg(50): 12.51s
+2026-09-25 21:47:30 - INFO - PRINT: Epoch [  85], Train Loss: 0.1977, Validation Loss: 0.2350, Time: 12.50s, Avg(50): 12.51s
+2026-09-25 21:47:42 - INFO - PRINT: Epoch [  86], Train Loss: 0.1967, Validation Loss: 0.2350, Time: 12.37s, Avg(50): 12.51s
+2026-09-25 21:47:54 - INFO - PRINT: Epoch [  87], Train Loss: 0.1958, Validation Loss: 0.2350, Time: 12.43s, Avg(50): 12.51s
+2026-09-25 21:48:07 - INFO - PRINT: Epoch [  88], Train Loss: 0.1950, Validation Loss: 0.2350, Time: 12.49s, Avg(50): 12.51s
+2026-09-25 21:48:19 - INFO - PRINT: Epoch [  89], Train Loss: 0.1942, Validation Loss: 0.2350, Time: 12.49s, Avg(50): 12.51s
+2026-09-25 21:48:32 - INFO - PRINT: Epoch [  90], Train Loss: 0.1934, Validation Loss: 0.2350, Time: 12.41s, Avg(50): 12.50s
+2026-09-25 21:48:44 - INFO - PRINT: Epoch [  91], Train Loss: 0.1926, Validation Loss: 0.2350, Time: 12.47s, Avg(50): 12.50s
+2026-09-25 21:48:57 - INFO - PRINT: Epoch [  92], Train Loss: 0.1920, Validation Loss: 0.2350, Time: 12.49s, Avg(50): 12.50s
+2026-09-25 21:49:09 - INFO - PRINT: Epoch [  93], Train Loss: 0.1911, Validation Loss: 0.2350, Time: 12.39s, Avg(50): 12.50s
+2026-09-25 21:49:22 - INFO - PRINT: Epoch [  94], Train Loss: 0.1905, Validation Loss: 0.2350, Time: 12.51s, Avg(50): 12.50s
+2026-09-25 21:49:34 - INFO - PRINT: Epoch [  95], Train Loss: 0.1905, Validation Loss: 0.2350, Time: 12.46s, Avg(50): 12.50s
+2026-09-25 21:49:47 - INFO - PRINT: Epoch [  96], Train Loss: 0.1899, Validation Loss: 0.2350, Time: 12.49s, Avg(50): 12.50s
+2026-09-25 21:49:59 - INFO - PRINT: Epoch [  97], Train Loss: 0.1881, Validation Loss: 0.2350, Time: 12.46s, Avg(50): 12.50s
+2026-09-25 21:50:12 - INFO - PRINT: Epoch [  98], Train Loss: 0.1873, Validation Loss: 0.2350, Time: 12.52s, Avg(50): 12.50s
+2026-09-25 21:50:24 - INFO - PRINT: Epoch [  99], Train Loss: 0.1870, Validation Loss: 0.2350, Time: 12.47s, Avg(50): 12.50s
+2026-09-25 21:50:37 - INFO - PRINT: ----> Saving model from epoch 100 (val loss: 0.23301908373832703). Enticing!
+2026-09-25 21:50:38 - INFO - PRINT: Epoch [ 100], Train Loss: 0.1909, Validation Loss: 0.2330, Time: 14.09s, Avg(50): 12.53s
+2026-09-25 21:50:51 - INFO - PRINT: Epoch [ 101], Train Loss: 0.1888, Validation Loss: 0.2330, Time: 12.53s, Avg(50): 12.53s
+2026-09-25 21:51:03 - INFO - PRINT: Epoch [ 102], Train Loss: 0.1866, Validation Loss: 0.2330, Time: 12.50s, Avg(50): 12.53s
+2026-09-25 21:51:16 - INFO - PRINT: Epoch [ 103], Train Loss: 0.1853, Validation Loss: 0.2330, Time: 12.46s, Avg(50): 12.53s
+2026-09-25 21:51:28 - INFO - PRINT: Epoch [ 104], Train Loss: 0.1841, Validation Loss: 0.2330, Time: 12.56s, Avg(50): 12.53s
+2026-09-25 21:51:41 - INFO - PRINT: Epoch [ 105], Train Loss: 0.1837, Validation Loss: 0.2330, Time: 12.52s, Avg(50): 12.53s
+2026-09-25 21:51:53 - INFO - PRINT: Epoch [ 106], Train Loss: 0.1841, Validation Loss: 0.2330, Time: 12.42s, Avg(50): 12.53s
+2026-09-25 21:52:06 - INFO - PRINT: Epoch [ 107], Train Loss: 0.1828, Validation Loss: 0.2330, Time: 12.47s, Avg(50): 12.53s
+2026-09-25 21:52:18 - INFO - PRINT: Epoch [ 108], Train Loss: 0.1825, Validation Loss: 0.2330, Time: 12.49s, Avg(50): 12.53s
+2026-09-25 21:52:30 - INFO - PRINT: Epoch [ 109], Train Loss: 0.1813, Validation Loss: 0.2330, Time: 12.48s, Avg(50): 12.53s
+2026-09-25 21:52:43 - INFO - PRINT: Epoch [ 110], Train Loss: 0.1808, Validation Loss: 0.2330, Time: 12.47s, Avg(50): 12.52s
+2026-09-25 21:52:55 - INFO - PRINT: Epoch [ 111], Train Loss: 0.1799, Validation Loss: 0.2330, Time: 12.47s, Avg(50): 12.52s
+2026-09-25 21:53:08 - INFO - PRINT: Epoch [ 112], Train Loss: 0.1788, Validation Loss: 0.2330, Time: 12.41s, Avg(50): 12.52s
+2026-09-25 21:53:20 - INFO - PRINT: Epoch [ 113], Train Loss: 0.1793, Validation Loss: 0.2330, Time: 12.46s, Avg(50): 12.52s
+2026-09-25 21:53:33 - INFO - PRINT: Epoch [ 114], Train Loss: 0.1802, Validation Loss: 0.2330, Time: 12.38s, Avg(50): 12.52s
+2026-09-25 21:53:45 - INFO - PRINT: Epoch [ 115], Train Loss: 0.1773, Validation Loss: 0.2330, Time: 12.38s, Avg(50): 12.51s
+2026-09-25 21:53:58 - INFO - PRINT: Epoch [ 116], Train Loss: 0.1764, Validation Loss: 0.2330, Time: 12.46s, Avg(50): 12.51s
+2026-09-25 21:54:10 - INFO - PRINT: Epoch [ 117], Train Loss: 0.1755, Validation Loss: 0.2330, Time: 12.49s, Avg(50): 12.51s
+2026-09-25 21:54:22 - INFO - PRINT: Epoch [ 118], Train Loss: 0.1754, Validation Loss: 0.2330, Time: 12.50s, Avg(50): 12.51s
+2026-09-25 21:54:35 - INFO - PRINT: Epoch [ 119], Train Loss: 0.1774, Validation Loss: 0.2330, Time: 12.44s, Avg(50): 12.51s
+2026-09-25 21:54:48 - INFO - PRINT: Epoch [ 120], Train Loss: 0.1765, Validation Loss: 0.2315, Time: 12.98s, Avg(50): 12.52s
+2026-09-25 21:55:00 - INFO - PRINT: Epoch [ 121], Train Loss: 0.1745, Validation Loss: 0.2315, Time: 12.39s, Avg(50): 12.52s
+2026-09-25 21:55:13 - INFO - PRINT: Epoch [ 122], Train Loss: 0.1727, Validation Loss: 0.2315, Time: 12.42s, Avg(50): 12.52s
+2026-09-25 21:55:25 - INFO - PRINT: Epoch [ 123], Train Loss: 0.1719, Validation Loss: 0.2315, Time: 12.51s, Avg(50): 12.52s
+2026-09-25 21:55:38 - INFO - PRINT: Epoch [ 124], Train Loss: 0.1717, Validation Loss: 0.2315, Time: 12.44s, Avg(50): 12.52s
+2026-09-25 21:55:50 - INFO - PRINT: Epoch [ 125], Train Loss: 0.1724, Validation Loss: 0.2315, Time: 12.53s, Avg(50): 12.52s
+2026-09-25 21:56:03 - INFO - PRINT: Epoch [ 126], Train Loss: 0.1702, Validation Loss: 0.2315, Time: 12.40s, Avg(50): 12.52s
+2026-09-25 21:56:15 - INFO - PRINT: Epoch [ 127], Train Loss: 0.1693, Validation Loss: 0.2315, Time: 12.51s, Avg(50): 12.52s
+2026-09-25 21:56:28 - INFO - PRINT: Epoch [ 128], Train Loss: 0.1710, Validation Loss: 0.2315, Time: 12.48s, Avg(50): 12.52s
+2026-09-25 21:56:40 - INFO - PRINT: Epoch [ 129], Train Loss: 0.1685, Validation Loss: 0.2315, Time: 12.46s, Avg(50): 12.52s
+2026-09-25 21:56:52 - INFO - PRINT: Epoch [ 130], Train Loss: 0.1690, Validation Loss: 0.2315, Time: 12.44s, Avg(50): 12.51s
+2026-09-25 21:57:05 - INFO - PRINT: Epoch [ 131], Train Loss: 0.1671, Validation Loss: 0.2315, Time: 12.38s, Avg(50): 12.51s
+2026-09-25 21:57:17 - INFO - PRINT: Epoch [ 132], Train Loss: 0.1657, Validation Loss: 0.2315, Time: 12.43s, Avg(50): 12.51s
+2026-09-25 21:57:30 - INFO - PRINT: Epoch [ 133], Train Loss: 0.1690, Validation Loss: 0.2315, Time: 12.45s, Avg(50): 12.50s
+2026-09-25 21:57:42 - INFO - PRINT: Epoch [ 134], Train Loss: 0.1661, Validation Loss: 0.2315, Time: 12.54s, Avg(50): 12.51s
+2026-09-25 21:57:55 - INFO - PRINT: Epoch [ 135], Train Loss: 0.1679, Validation Loss: 0.2315, Time: 12.49s, Avg(50): 12.51s
+2026-09-25 21:58:07 - INFO - PRINT: Epoch [ 136], Train Loss: 0.1667, Validation Loss: 0.2315, Time: 12.45s, Avg(50): 12.51s
+2026-09-25 21:58:20 - INFO - PRINT: Epoch [ 137], Train Loss: 0.1650, Validation Loss: 0.2315, Time: 12.50s, Avg(50): 12.51s
+2026-09-25 21:58:32 - INFO - PRINT: Epoch [ 138], Train Loss: 0.1646, Validation Loss: 0.2315, Time: 12.52s, Avg(50): 12.51s
+2026-09-25 21:58:45 - INFO - PRINT: Epoch [ 139], Train Loss: 0.1637, Validation Loss: 0.2315, Time: 12.54s, Avg(50): 12.51s
+2026-09-25 21:58:58 - INFO - PRINT: Epoch [ 140], Train Loss: 0.1625, Validation Loss: 0.2315, Time: 12.89s, Avg(50): 12.52s
+2026-09-25 21:59:10 - INFO - PRINT: Epoch [ 141], Train Loss: 0.1612, Validation Loss: 0.2315, Time: 12.43s, Avg(50): 12.52s
+2026-09-25 21:59:23 - INFO - PRINT: Epoch [ 142], Train Loss: 0.1623, Validation Loss: 0.2315, Time: 12.53s, Avg(50): 12.52s
+2026-09-25 21:59:35 - INFO - PRINT: Epoch [ 143], Train Loss: 0.1652, Validation Loss: 0.2315, Time: 12.48s, Avg(50): 12.52s
+2026-09-25 21:59:48 - INFO - PRINT: Epoch [ 144], Train Loss: 0.1640, Validation Loss: 0.2315, Time: 12.51s, Avg(50): 12.52s
+2026-09-25 22:00:00 - INFO - PRINT: Epoch [ 145], Train Loss: 0.1624, Validation Loss: 0.2315, Time: 12.47s, Avg(50): 12.52s
+2026-09-25 22:00:13 - INFO - PRINT: Epoch [ 146], Train Loss: 0.1608, Validation Loss: 0.2315, Time: 12.44s, Avg(50): 12.52s
+2026-09-25 22:00:25 - INFO - PRINT: Epoch [ 147], Train Loss: 0.1594, Validation Loss: 0.2315, Time: 12.47s, Avg(50): 12.52s
+2026-09-25 22:00:38 - INFO - PRINT: Epoch [ 148], Train Loss: 0.1586, Validation Loss: 0.2315, Time: 12.50s, Avg(50): 12.52s
+2026-09-25 22:00:50 - INFO - PRINT: Epoch [ 149], Train Loss: 0.1587, Validation Loss: 0.2315, Time: 12.49s, Avg(50): 12.52s
+2026-09-25 22:01:02 - INFO - PRINT: Epoch [ 150], Train Loss: 0.1582, Validation Loss: 0.2315, Time: 12.46s, Avg(50): 12.49s
+2026-09-25 22:01:15 - INFO - PRINT: Epoch [ 151], Train Loss: 0.1565, Validation Loss: 0.2315, Time: 12.48s, Avg(50): 12.49s
+2026-09-25 22:01:27 - INFO - PRINT: Epoch [ 152], Train Loss: 0.1590, Validation Loss: 0.2315, Time: 12.46s, Avg(50): 12.49s
+2026-09-25 22:01:40 - INFO - PRINT: Epoch [ 153], Train Loss: 0.1566, Validation Loss: 0.2315, Time: 12.49s, Avg(50): 12.49s
+2026-09-25 22:01:52 - INFO - PRINT: Epoch [ 154], Train Loss: 0.1560, Validation Loss: 0.2315, Time: 12.57s, Avg(50): 12.49s
+2026-09-25 22:02:05 - INFO - PRINT: Epoch [ 155], Train Loss: 0.1577, Validation Loss: 0.2315, Time: 12.47s, Avg(50): 12.49s
+2026-09-25 22:02:17 - INFO - PRINT: Epoch [ 156], Train Loss: 0.1552, Validation Loss: 0.2315, Time: 12.44s, Avg(50): 12.49s
+2026-09-25 22:02:30 - INFO - PRINT: Epoch [ 157], Train Loss: 0.1546, Validation Loss: 0.2315, Time: 12.50s, Avg(50): 12.49s
+2026-09-25 22:02:42 - INFO - PRINT: Epoch [ 158], Train Loss: 0.1534, Validation Loss: 0.2315, Time: 12.47s, Avg(50): 12.49s
+2026-09-25 22:02:55 - INFO - PRINT: Epoch [ 159], Train Loss: 0.1540, Validation Loss: 0.2315, Time: 12.44s, Avg(50): 12.49s
+2026-09-25 22:03:08 - INFO - PRINT: Epoch [ 160], Train Loss: 0.1537, Validation Loss: 0.2325, Time: 12.82s, Avg(50): 12.49s
+2026-09-25 22:03:20 - INFO - PRINT: Epoch [ 161], Train Loss: 0.1515, Validation Loss: 0.2325, Time: 12.34s, Avg(50): 12.49s
+2026-09-25 22:03:32 - INFO - PRINT: Epoch [ 162], Train Loss: 0.1509, Validation Loss: 0.2325, Time: 12.43s, Avg(50): 12.49s
+2026-09-25 22:03:45 - INFO - PRINT: Epoch [ 163], Train Loss: 0.1514, Validation Loss: 0.2325, Time: 12.53s, Avg(50): 12.49s
+2026-09-25 22:03:57 - INFO - PRINT: Epoch [ 164], Train Loss: 0.1537, Validation Loss: 0.2325, Time: 12.49s, Avg(50): 12.49s
+2026-09-25 22:04:10 - INFO - PRINT: Epoch [ 165], Train Loss: 0.1503, Validation Loss: 0.2325, Time: 12.53s, Avg(50): 12.50s
+2026-09-25 22:04:22 - INFO - PRINT: Epoch [ 166], Train Loss: 0.1527, Validation Loss: 0.2325, Time: 12.47s, Avg(50): 12.50s
+2026-09-25 22:04:35 - INFO - PRINT: Epoch [ 167], Train Loss: 0.1507, Validation Loss: 0.2325, Time: 12.44s, Avg(50): 12.50s
+2026-09-25 22:04:47 - INFO - PRINT: Epoch [ 168], Train Loss: 0.1528, Validation Loss: 0.2325, Time: 12.55s, Avg(50): 12.50s
+2026-09-25 22:05:00 - INFO - PRINT: Epoch [ 169], Train Loss: 0.1513, Validation Loss: 0.2325, Time: 12.49s, Avg(50): 12.50s
+2026-09-25 22:05:12 - INFO - PRINT: Epoch [ 170], Train Loss: 0.1493, Validation Loss: 0.2325, Time: 12.45s, Avg(50): 12.49s
+2026-09-25 22:05:25 - INFO - PRINT: Epoch [ 171], Train Loss: 0.1474, Validation Loss: 0.2325, Time: 12.59s, Avg(50): 12.49s
+2026-09-25 22:05:37 - INFO - PRINT: Epoch [ 172], Train Loss: 0.1463, Validation Loss: 0.2325, Time: 12.38s, Avg(50): 12.49s
+2026-09-25 22:05:50 - INFO - PRINT: Epoch [ 173], Train Loss: 0.1474, Validation Loss: 0.2325, Time: 12.52s, Avg(50): 12.49s
+2026-09-25 22:06:02 - INFO - PRINT: Epoch [ 174], Train Loss: 0.1475, Validation Loss: 0.2325, Time: 12.42s, Avg(50): 12.49s
+2026-09-25 22:06:15 - INFO - PRINT: Epoch [ 175], Train Loss: 0.1461, Validation Loss: 0.2325, Time: 12.52s, Avg(50): 12.49s
+2026-09-25 22:06:27 - INFO - PRINT: Epoch [ 176], Train Loss: 0.1464, Validation Loss: 0.2325, Time: 12.45s, Avg(50): 12.49s
+2026-09-25 22:06:40 - INFO - PRINT: Epoch [ 177], Train Loss: 0.1448, Validation Loss: 0.2325, Time: 12.49s, Avg(50): 12.49s
+2026-09-25 22:06:52 - INFO - PRINT: Epoch [ 178], Train Loss: 0.1454, Validation Loss: 0.2325, Time: 12.50s, Avg(50): 12.49s
+2026-09-25 22:07:05 - INFO - PRINT: Epoch [ 179], Train Loss: 0.1451, Validation Loss: 0.2325, Time: 12.60s, Avg(50): 12.49s
+2026-09-25 22:07:18 - INFO - PRINT: Epoch [ 180], Train Loss: 0.1471, Validation Loss: 0.2376, Time: 12.82s, Avg(50): 12.50s
+2026-09-25 22:07:30 - INFO - PRINT: Epoch [ 181], Train Loss: 0.1453, Validation Loss: 0.2376, Time: 12.50s, Avg(50): 12.50s
+2026-09-25 22:07:43 - INFO - PRINT: Epoch [ 182], Train Loss: 0.1448, Validation Loss: 0.2376, Time: 12.55s, Avg(50): 12.51s
+2026-09-25 22:07:55 - INFO - PRINT: Epoch [ 183], Train Loss: 0.1443, Validation Loss: 0.2376, Time: 12.47s, Avg(50): 12.51s
+2026-09-25 22:08:08 - INFO - PRINT: Epoch [ 184], Train Loss: 0.1427, Validation Loss: 0.2376, Time: 12.59s, Avg(50): 12.51s
+2026-09-25 22:08:20 - INFO - PRINT: Epoch [ 185], Train Loss: 0.1423, Validation Loss: 0.2376, Time: 12.52s, Avg(50): 12.51s
+2026-09-25 22:08:33 - INFO - PRINT: Epoch [ 186], Train Loss: 0.1451, Validation Loss: 0.2376, Time: 12.47s, Avg(50): 12.51s
+2026-09-25 22:08:45 - INFO - PRINT: Epoch [ 187], Train Loss: 0.1477, Validation Loss: 0.2376, Time: 12.50s, Avg(50): 12.51s
+2026-09-25 22:08:58 - INFO - PRINT: Epoch [ 188], Train Loss: 0.1495, Validation Loss: 0.2376, Time: 12.45s, Avg(50): 12.51s
+2026-09-25 22:09:10 - INFO - PRINT: Epoch [ 189], Train Loss: 0.1546, Validation Loss: 0.2376, Time: 12.44s, Avg(50): 12.51s
+2026-09-25 22:09:22 - INFO - PRINT: Epoch [ 190], Train Loss: 0.1532, Validation Loss: 0.2376, Time: 12.39s, Avg(50): 12.50s
+2026-09-25 22:09:35 - INFO - PRINT: Epoch [ 191], Train Loss: 0.1523, Validation Loss: 0.2376, Time: 12.42s, Avg(50): 12.50s
+2026-09-25 22:09:47 - INFO - PRINT: Epoch [ 192], Train Loss: 0.1469, Validation Loss: 0.2376, Time: 12.49s, Avg(50): 12.49s
+2026-09-25 22:10:00 - INFO - PRINT: Epoch [ 193], Train Loss: 0.1445, Validation Loss: 0.2376, Time: 12.54s, Avg(50): 12.50s
+2026-09-25 22:10:12 - INFO - PRINT: Epoch [ 194], Train Loss: 0.1427, Validation Loss: 0.2376, Time: 12.44s, Avg(50): 12.49s
+2026-09-25 22:10:25 - INFO - PRINT: Epoch [ 195], Train Loss: 0.1415, Validation Loss: 0.2376, Time: 12.48s, Avg(50): 12.49s
+2026-09-25 22:10:37 - INFO - PRINT: Epoch [ 196], Train Loss: 0.1397, Validation Loss: 0.2376, Time: 12.40s, Avg(50): 12.49s
+2026-09-25 22:10:50 - INFO - PRINT: Epoch [ 197], Train Loss: 0.1388, Validation Loss: 0.2376, Time: 12.46s, Avg(50): 12.49s
+2026-09-25 22:11:02 - INFO - PRINT: Epoch [ 198], Train Loss: 0.1392, Validation Loss: 0.2376, Time: 12.48s, Avg(50): 12.49s
+2026-09-25 22:11:15 - INFO - PRINT: Epoch [ 199], Train Loss: 0.1383, Validation Loss: 0.2376, Time: 12.49s, Avg(50): 12.49s
+2026-09-25 22:11:28 - INFO - PRINT: ----> Saving model from epoch 120 (val loss: 0.23149435222148895). Lip-smacking!
+2026-09-25 22:11:29 - INFO - PRINT: Epoch [ 200], Train Loss: 0.1374, Validation Loss: 0.2392, Time: 13.96s, Avg(50): 12.52s
+2026-09-25 22:11:41 - INFO - PRINT: Epoch [ 201], Train Loss: 0.1367, Validation Loss: 0.2392, Time: 12.42s, Avg(50): 12.52s
+2026-09-25 22:11:54 - INFO - PRINT: Epoch [ 202], Train Loss: 0.1360, Validation Loss: 0.2392, Time: 12.53s, Avg(50): 12.52s
+2026-09-25 22:12:06 - INFO - PRINT: Epoch [ 203], Train Loss: 0.1369, Validation Loss: 0.2392, Time: 12.46s, Avg(50): 12.52s
+2026-09-25 22:12:19 - INFO - PRINT: Epoch [ 204], Train Loss: 0.1350, Validation Loss: 0.2392, Time: 12.45s, Avg(50): 12.52s
+2026-09-25 22:12:31 - INFO - PRINT: Epoch [ 205], Train Loss: 0.1348, Validation Loss: 0.2392, Time: 12.44s, Avg(50): 12.52s
+2026-09-25 22:12:43 - INFO - PRINT: Epoch [ 206], Train Loss: 0.1349, Validation Loss: 0.2392, Time: 12.51s, Avg(50): 12.52s
+2026-09-25 22:12:56 - INFO - PRINT: Epoch [ 207], Train Loss: 0.1371, Validation Loss: 0.2392, Time: 12.52s, Avg(50): 12.52s
+2026-09-25 22:13:09 - INFO - PRINT: Epoch [ 208], Train Loss: 0.1342, Validation Loss: 0.2392, Time: 12.52s, Avg(50): 12.52s
+2026-09-25 22:13:21 - INFO - PRINT: Epoch [ 209], Train Loss: 0.1371, Validation Loss: 0.2392, Time: 12.44s, Avg(50): 12.52s
+2026-09-25 22:13:33 - INFO - PRINT: Epoch [ 210], Train Loss: 0.1338, Validation Loss: 0.2392, Time: 12.43s, Avg(50): 12.52s
+2026-09-25 22:13:46 - INFO - PRINT: Epoch [ 211], Train Loss: 0.1364, Validation Loss: 0.2392, Time: 12.49s, Avg(50): 12.52s
+2026-09-25 22:13:58 - INFO - PRINT: Epoch [ 212], Train Loss: 0.1335, Validation Loss: 0.2392, Time: 12.50s, Avg(50): 12.52s
+2026-09-25 22:14:11 - INFO - PRINT: Epoch [ 213], Train Loss: 0.1342, Validation Loss: 0.2392, Time: 12.41s, Avg(50): 12.52s
+2026-09-25 22:14:23 - INFO - PRINT: Epoch [ 214], Train Loss: 0.1335, Validation Loss: 0.2392, Time: 12.42s, Avg(50): 12.52s
+2026-09-25 22:14:36 - INFO - PRINT: Epoch [ 215], Train Loss: 0.1348, Validation Loss: 0.2392, Time: 12.40s, Avg(50): 12.51s
+2026-09-25 22:14:48 - INFO - PRINT: Epoch [ 216], Train Loss: 0.1352, Validation Loss: 0.2392, Time: 12.42s, Avg(50): 12.51s
+2026-09-25 22:15:01 - INFO - PRINT: Epoch [ 217], Train Loss: 0.1366, Validation Loss: 0.2392, Time: 12.48s, Avg(50): 12.51s
+2026-09-25 22:15:13 - INFO - PRINT: Epoch [ 218], Train Loss: 0.1451, Validation Loss: 0.2392, Time: 12.46s, Avg(50): 12.51s
+2026-09-25 22:15:25 - INFO - PRINT: Epoch [ 219], Train Loss: 0.1629, Validation Loss: 0.2392, Time: 12.46s, Avg(50): 12.51s
+2026-09-25 22:15:38 - INFO - PRINT: Epoch [ 220], Train Loss: 0.1671, Validation Loss: 0.2473, Time: 12.85s, Avg(50): 12.52s
+2026-09-25 22:15:51 - INFO - PRINT: Epoch [ 221], Train Loss: 0.1625, Validation Loss: 0.2473, Time: 12.52s, Avg(50): 12.52s
+2026-09-25 22:16:03 - INFO - PRINT: Epoch [ 222], Train Loss: 0.1558, Validation Loss: 0.2473, Time: 12.43s, Avg(50): 12.52s
+2026-09-25 22:16:16 - INFO - PRINT: Epoch [ 223], Train Loss: 0.1482, Validation Loss: 0.2473, Time: 12.46s, Avg(50): 12.52s
+2026-09-25 22:16:28 - INFO - PRINT: Epoch [ 224], Train Loss: 0.1430, Validation Loss: 0.2473, Time: 12.45s, Avg(50): 12.52s
+2026-09-25 22:16:41 - INFO - PRINT: Epoch [ 225], Train Loss: 0.1386, Validation Loss: 0.2473, Time: 12.47s, Avg(50): 12.52s
+2026-09-25 22:16:53 - INFO - PRINT: Epoch [ 226], Train Loss: 0.1357, Validation Loss: 0.2473, Time: 12.44s, Avg(50): 12.52s
+2026-09-25 22:17:06 - INFO - PRINT: Epoch [ 227], Train Loss: 0.1336, Validation Loss: 0.2473, Time: 12.47s, Avg(50): 12.52s
+2026-09-25 22:17:18 - INFO - PRINT: Epoch [ 228], Train Loss: 0.1319, Validation Loss: 0.2473, Time: 12.48s, Avg(50): 12.52s
+2026-09-25 22:17:31 - INFO - PRINT: Epoch [ 229], Train Loss: 0.1307, Validation Loss: 0.2473, Time: 12.56s, Avg(50): 12.52s
+2026-09-25 22:17:43 - INFO - PRINT: Epoch [ 230], Train Loss: 0.1297, Validation Loss: 0.2473, Time: 12.53s, Avg(50): 12.51s
+2026-09-25 22:17:56 - INFO - PRINT: Epoch [ 231], Train Loss: 0.1289, Validation Loss: 0.2473, Time: 12.45s, Avg(50): 12.51s
+2026-09-25 22:18:08 - INFO - PRINT: Epoch [ 232], Train Loss: 0.1283, Validation Loss: 0.2473, Time: 12.45s, Avg(50): 12.51s
+2026-09-25 22:18:20 - INFO - PRINT: Epoch [ 233], Train Loss: 0.1277, Validation Loss: 0.2473, Time: 12.36s, Avg(50): 12.50s
+2026-09-25 22:18:33 - INFO - PRINT: Epoch [ 234], Train Loss: 0.1273, Validation Loss: 0.2473, Time: 12.44s, Avg(50): 12.50s
+2026-09-25 22:18:45 - INFO - PRINT: Epoch [ 235], Train Loss: 0.1269, Validation Loss: 0.2473, Time: 12.48s, Avg(50): 12.50s
+2026-09-25 22:18:58 - INFO - PRINT: Epoch [ 236], Train Loss: 0.1265, Validation Loss: 0.2473, Time: 12.52s, Avg(50): 12.50s
+2026-09-25 22:19:10 - INFO - PRINT: Epoch [ 237], Train Loss: 0.1262, Validation Loss: 0.2473, Time: 12.58s, Avg(50): 12.50s
+2026-09-25 22:19:23 - INFO - PRINT: Epoch [ 238], Train Loss: 0.1259, Validation Loss: 0.2473, Time: 12.50s, Avg(50): 12.50s
+2026-09-25 22:19:35 - INFO - PRINT: Epoch [ 239], Train Loss: 0.1262, Validation Loss: 0.2473, Time: 12.46s, Avg(50): 12.50s
+2026-09-25 22:19:48 - INFO - PRINT: Epoch [ 240], Train Loss: 0.1255, Validation Loss: 0.2380, Time: 12.83s, Avg(50): 12.51s
+2026-09-25 22:20:01 - INFO - PRINT: Epoch [ 241], Train Loss: 0.1255, Validation Loss: 0.2380, Time: 12.53s, Avg(50): 12.52s
+2026-09-25 22:20:13 - INFO - PRINT: Epoch [ 242], Train Loss: 0.1254, Validation Loss: 0.2380, Time: 12.47s, Avg(50): 12.52s
+2026-09-25 22:20:26 - INFO - PRINT: Epoch [ 243], Train Loss: 0.1245, Validation Loss: 0.2380, Time: 12.52s, Avg(50): 12.52s
+2026-09-25 22:20:38 - INFO - PRINT: Epoch [ 244], Train Loss: 0.1244, Validation Loss: 0.2380, Time: 12.49s, Avg(50): 12.52s
+2026-09-25 22:20:51 - INFO - PRINT: Epoch [ 245], Train Loss: 0.1257, Validation Loss: 0.2380, Time: 12.50s, Avg(50): 12.52s
+2026-09-25 22:21:03 - INFO - PRINT: Epoch [ 246], Train Loss: 0.1244, Validation Loss: 0.2380, Time: 12.51s, Avg(50): 12.52s
+2026-09-25 22:21:16 - INFO - PRINT: Epoch [ 247], Train Loss: 0.1251, Validation Loss: 0.2380, Time: 12.58s, Avg(50): 12.52s
+2026-09-25 22:21:28 - INFO - PRINT: Epoch [ 248], Train Loss: 0.1262, Validation Loss: 0.2380, Time: 12.47s, Avg(50): 12.52s
+2026-09-25 22:21:41 - INFO - PRINT: Epoch [ 249], Train Loss: 0.1254, Validation Loss: 0.2380, Time: 12.43s, Avg(50): 12.52s
+2026-09-25 22:21:53 - INFO - PRINT: Epoch [ 250], Train Loss: 0.1240, Validation Loss: 0.2380, Time: 12.53s, Avg(50): 12.49s
+2026-09-25 22:22:06 - INFO - PRINT: Epoch [ 251], Train Loss: 0.1264, Validation Loss: 0.2380, Time: 12.46s, Avg(50): 12.49s
+2026-09-25 22:22:18 - INFO - PRINT: Epoch [ 252], Train Loss: 0.1253, Validation Loss: 0.2380, Time: 12.55s, Avg(50): 12.49s
+2026-09-25 22:22:31 - INFO - PRINT: Epoch [ 253], Train Loss: 0.1249, Validation Loss: 0.2380, Time: 12.47s, Avg(50): 12.49s
+2026-09-25 22:22:43 - INFO - PRINT: Epoch [ 254], Train Loss: 0.1243, Validation Loss: 0.2380, Time: 12.44s, Avg(50): 12.49s
+2026-09-25 22:22:56 - INFO - PRINT: Epoch [ 255], Train Loss: 0.1228, Validation Loss: 0.2380, Time: 12.52s, Avg(50): 12.49s
+2026-09-25 22:23:08 - INFO - PRINT: Epoch [ 256], Train Loss: 0.1222, Validation Loss: 0.2380, Time: 12.53s, Avg(50): 12.49s
+2026-09-25 22:23:21 - INFO - PRINT: Epoch [ 257], Train Loss: 0.1217, Validation Loss: 0.2380, Time: 12.56s, Avg(50): 12.49s
+2026-09-25 22:23:33 - INFO - PRINT: Epoch [ 258], Train Loss: 0.1213, Validation Loss: 0.2380, Time: 12.45s, Avg(50): 12.49s
+2026-09-25 22:23:46 - INFO - PRINT: Epoch [ 259], Train Loss: 0.1209, Validation Loss: 0.2380, Time: 12.40s, Avg(50): 12.49s
+2026-09-25 22:23:58 - INFO - PRINT: Epoch [ 260], Train Loss: 0.1220, Validation Loss: 0.2394, Time: 12.81s, Avg(50): 12.50s
+2026-09-25 22:24:11 - INFO - PRINT: Epoch [ 261], Train Loss: 0.1248, Validation Loss: 0.2394, Time: 12.37s, Avg(50): 12.50s
+2026-09-25 22:24:23 - INFO - PRINT: Epoch [ 262], Train Loss: 0.1229, Validation Loss: 0.2394, Time: 12.47s, Avg(50): 12.50s
+2026-09-25 22:24:36 - INFO - PRINT: Epoch [ 263], Train Loss: 0.1229, Validation Loss: 0.2394, Time: 12.43s, Avg(50): 12.50s
+2026-09-25 22:24:48 - INFO - PRINT: Epoch [ 264], Train Loss: 0.1248, Validation Loss: 0.2394, Time: 12.50s, Avg(50): 12.50s
+2026-09-25 22:25:01 - INFO - PRINT: Epoch [ 265], Train Loss: 0.1260, Validation Loss: 0.2394, Time: 12.41s, Avg(50): 12.50s
+2026-09-25 22:25:13 - INFO - PRINT: Epoch [ 266], Train Loss: 0.1352, Validation Loss: 0.2394, Time: 12.44s, Avg(50): 12.50s
+2026-09-25 22:25:25 - INFO - PRINT: Epoch [ 267], Train Loss: 0.1334, Validation Loss: 0.2394, Time: 12.47s, Avg(50): 12.50s
+2026-09-25 22:25:38 - INFO - PRINT: Epoch [ 268], Train Loss: 0.1327, Validation Loss: 0.2394, Time: 12.44s, Avg(50): 12.50s
+2026-09-25 22:25:50 - INFO - PRINT: Epoch [ 269], Train Loss: 0.1381, Validation Loss: 0.2394, Time: 12.43s, Avg(50): 12.50s
+2026-09-25 22:26:03 - INFO - PRINT: Epoch [ 270], Train Loss: 0.1354, Validation Loss: 0.2394, Time: 12.50s, Avg(50): 12.49s
+2026-09-25 22:26:15 - INFO - PRINT: Epoch [ 271], Train Loss: 0.1296, Validation Loss: 0.2394, Time: 12.49s, Avg(50): 12.49s
+2026-09-25 22:26:28 - INFO - PRINT: Epoch [ 272], Train Loss: 0.1257, Validation Loss: 0.2394, Time: 12.46s, Avg(50): 12.49s
+2026-09-25 22:26:40 - INFO - PRINT: Epoch [ 273], Train Loss: 0.1233, Validation Loss: 0.2394, Time: 12.45s, Avg(50): 12.49s
+2026-09-25 22:26:53 - INFO - PRINT: Epoch [ 274], Train Loss: 0.1215, Validation Loss: 0.2394, Time: 12.50s, Avg(50): 12.49s
+2026-09-25 22:27:05 - INFO - PRINT: Epoch [ 275], Train Loss: 0.1205, Validation Loss: 0.2394, Time: 12.55s, Avg(50): 12.49s
+2026-09-25 22:27:18 - INFO - PRINT: Epoch [ 276], Train Loss: 0.1196, Validation Loss: 0.2394, Time: 12.45s, Avg(50): 12.49s
+2026-09-25 22:27:30 - INFO - PRINT: Epoch [ 277], Train Loss: 0.1188, Validation Loss: 0.2394, Time: 12.51s, Avg(50): 12.49s
+2026-09-25 22:27:43 - INFO - PRINT: Epoch [ 278], Train Loss: 0.1184, Validation Loss: 0.2394, Time: 12.48s, Avg(50): 12.49s
+2026-09-25 22:27:55 - INFO - PRINT: Epoch [ 279], Train Loss: 0.1184, Validation Loss: 0.2394, Time: 12.54s, Avg(50): 12.49s
+2026-09-25 22:28:08 - INFO - PRINT: Epoch [ 280], Train Loss: 0.1172, Validation Loss: 0.2404, Time: 12.78s, Avg(50): 12.50s
+2026-09-25 22:28:21 - INFO - PRINT: Epoch [ 281], Train Loss: 0.1176, Validation Loss: 0.2404, Time: 12.49s, Avg(50): 12.50s
+2026-09-25 22:28:33 - INFO - PRINT: Epoch [ 282], Train Loss: 0.1181, Validation Loss: 0.2404, Time: 12.52s, Avg(50): 12.50s
+2026-09-25 22:28:46 - INFO - PRINT: Epoch [ 283], Train Loss: 0.1172, Validation Loss: 0.2404, Time: 12.51s, Avg(50): 12.50s
+2026-09-25 22:28:58 - INFO - PRINT: Epoch [ 284], Train Loss: 0.1172, Validation Loss: 0.2404, Time: 12.51s, Avg(50): 12.51s
+2026-09-25 22:29:11 - INFO - PRINT: Epoch [ 285], Train Loss: 0.1176, Validation Loss: 0.2404, Time: 12.56s, Avg(50): 12.51s
+2026-09-25 22:29:23 - INFO - PRINT: Epoch [ 286], Train Loss: 0.1178, Validation Loss: 0.2404, Time: 12.41s, Avg(50): 12.51s
+2026-09-25 22:29:36 - INFO - PRINT: Epoch [ 287], Train Loss: 0.1169, Validation Loss: 0.2404, Time: 12.55s, Avg(50): 12.50s
+2026-09-25 22:29:48 - INFO - PRINT: Epoch [ 288], Train Loss: 0.1169, Validation Loss: 0.2404, Time: 12.48s, Avg(50): 12.50s
+2026-09-25 22:30:01 - INFO - PRINT: Epoch [ 289], Train Loss: 0.1166, Validation Loss: 0.2404, Time: 12.48s, Avg(50): 12.50s
+2026-09-25 22:30:13 - INFO - PRINT: Epoch [ 290], Train Loss: 0.1167, Validation Loss: 0.2404, Time: 12.51s, Avg(50): 12.50s
+2026-09-25 22:30:26 - INFO - PRINT: Epoch [ 291], Train Loss: 0.1159, Validation Loss: 0.2404, Time: 12.47s, Avg(50): 12.50s
+2026-09-25 22:30:38 - INFO - PRINT: Epoch [ 292], Train Loss: 0.1170, Validation Loss: 0.2404, Time: 12.45s, Avg(50): 12.50s
+2026-09-25 22:30:50 - INFO - PRINT: Epoch [ 293], Train Loss: 0.1173, Validation Loss: 0.2404, Time: 12.41s, Avg(50): 12.49s
+2026-09-25 22:31:03 - INFO - PRINT: Epoch [ 294], Train Loss: 0.1170, Validation Loss: 0.2404, Time: 12.46s, Avg(50): 12.49s
+2026-09-25 22:31:15 - INFO - PRINT: Epoch [ 295], Train Loss: 0.1160, Validation Loss: 0.2404, Time: 12.48s, Avg(50): 12.49s
+2026-09-25 22:31:28 - INFO - PRINT: Epoch [ 296], Train Loss: 0.1168, Validation Loss: 0.2404, Time: 12.44s, Avg(50): 12.49s
+2026-09-25 22:31:40 - INFO - PRINT: Epoch [ 297], Train Loss: 0.1178, Validation Loss: 0.2404, Time: 12.47s, Avg(50): 12.49s
+2026-09-25 22:31:53 - INFO - PRINT: Epoch [ 298], Train Loss: 0.1152, Validation Loss: 0.2404, Time: 12.50s, Avg(50): 12.49s
+2026-09-25 22:32:05 - INFO - PRINT: Epoch [ 299], Train Loss: 0.1148, Validation Loss: 0.2404, Time: 12.52s, Avg(50): 12.49s
+2026-09-25 22:32:18 - INFO - PRINT: ----> Saving model from epoch 120 (val loss: 0.23149435222148895). Blissful!
+2026-09-25 22:32:19 - INFO - PRINT: Epoch [ 300], Train Loss: 0.1174, Validation Loss: 0.2432, Time: 14.09s, Avg(50): 12.52s
+2026-09-25 22:32:32 - INFO - PRINT: Epoch [ 301], Train Loss: 0.1143, Validation Loss: 0.2432, Time: 12.36s, Avg(50): 12.52s
+2026-09-25 22:32:44 - INFO - PRINT: Epoch [ 302], Train Loss: 0.1162, Validation Loss: 0.2432, Time: 12.44s, Avg(50): 12.52s
+2026-09-25 22:32:57 - INFO - PRINT: Epoch [ 303], Train Loss: 0.1137, Validation Loss: 0.2432, Time: 12.47s, Avg(50): 12.52s
+2026-09-25 22:33:09 - INFO - PRINT: Epoch [ 304], Train Loss: 0.1165, Validation Loss: 0.2432, Time: 12.46s, Avg(50): 12.52s
+2026-09-25 22:33:22 - INFO - PRINT: Epoch [ 305], Train Loss: 0.1136, Validation Loss: 0.2432, Time: 12.48s, Avg(50): 12.52s
+2026-09-25 22:33:34 - INFO - PRINT: Epoch [ 306], Train Loss: 0.1148, Validation Loss: 0.2432, Time: 12.46s, Avg(50): 12.52s
+2026-09-25 22:33:47 - INFO - PRINT: Epoch [ 307], Train Loss: 0.1131, Validation Loss: 0.2432, Time: 12.49s, Avg(50): 12.52s
+2026-09-25 22:33:59 - INFO - PRINT: Epoch [ 308], Train Loss: 0.1152, Validation Loss: 0.2432, Time: 12.54s, Avg(50): 12.52s
+2026-09-25 22:34:12 - INFO - PRINT: Epoch [ 309], Train Loss: 0.1148, Validation Loss: 0.2432, Time: 12.51s, Avg(50): 12.52s
+2026-09-25 22:34:24 - INFO - PRINT: Epoch [ 310], Train Loss: 0.1155, Validation Loss: 0.2432, Time: 12.34s, Avg(50): 12.51s
+2026-09-25 22:34:36 - INFO - PRINT: Epoch [ 311], Train Loss: 0.1152, Validation Loss: 0.2432, Time: 12.53s, Avg(50): 12.51s
+2026-09-25 22:34:49 - INFO - PRINT: Epoch [ 312], Train Loss: 0.1137, Validation Loss: 0.2432, Time: 12.37s, Avg(50): 12.51s
+2026-09-25 22:35:01 - INFO - PRINT: Epoch [ 313], Train Loss: 0.1157, Validation Loss: 0.2432, Time: 12.51s, Avg(50): 12.51s
+2026-09-25 22:35:14 - INFO - PRINT: Epoch [ 314], Train Loss: 0.1154, Validation Loss: 0.2432, Time: 12.44s, Avg(50): 12.51s
+2026-09-25 22:35:26 - INFO - PRINT: Epoch [ 315], Train Loss: 0.1133, Validation Loss: 0.2432, Time: 12.51s, Avg(50): 12.51s
+2026-09-25 22:35:39 - INFO - PRINT: Epoch [ 316], Train Loss: 0.1135, Validation Loss: 0.2432, Time: 12.55s, Avg(50): 12.52s
+2026-09-25 22:35:51 - INFO - PRINT: Epoch [ 317], Train Loss: 0.1118, Validation Loss: 0.2432, Time: 12.52s, Avg(50): 12.52s
+2026-09-25 22:36:04 - INFO - PRINT: Epoch [ 318], Train Loss: 0.1121, Validation Loss: 0.2432, Time: 12.51s, Avg(50): 12.52s
+2026-09-25 22:36:16 - INFO - PRINT: Epoch [ 319], Train Loss: 0.1115, Validation Loss: 0.2432, Time: 12.45s, Avg(50): 12.52s
+2026-09-25 22:36:29 - INFO - PRINT: Epoch [ 320], Train Loss: 0.1126, Validation Loss: 0.2475, Time: 12.80s, Avg(50): 12.53s
+2026-09-25 22:36:42 - INFO - PRINT: Epoch [ 321], Train Loss: 0.1118, Validation Loss: 0.2475, Time: 12.41s, Avg(50): 12.52s
+2026-09-25 22:36:54 - INFO - PRINT: Epoch [ 322], Train Loss: 0.1127, Validation Loss: 0.2475, Time: 12.45s, Avg(50): 12.52s
+2026-09-25 22:37:07 - INFO - PRINT: Epoch [ 323], Train Loss: 0.1131, Validation Loss: 0.2475, Time: 12.55s, Avg(50): 12.53s
+2026-09-25 22:37:19 - INFO - PRINT: Epoch [ 324], Train Loss: 0.1112, Validation Loss: 0.2475, Time: 12.56s, Avg(50): 12.53s
+2026-09-25 22:37:32 - INFO - PRINT: Epoch [ 325], Train Loss: 0.1128, Validation Loss: 0.2475, Time: 12.46s, Avg(50): 12.53s
+2026-09-25 22:37:44 - INFO - PRINT: Epoch [ 326], Train Loss: 0.1122, Validation Loss: 0.2475, Time: 12.49s, Avg(50): 12.53s
+2026-09-25 22:37:57 - INFO - PRINT: Epoch [ 327], Train Loss: 0.1126, Validation Loss: 0.2475, Time: 12.46s, Avg(50): 12.53s
+2026-09-25 22:38:09 - INFO - PRINT: Epoch [ 328], Train Loss: 0.1124, Validation Loss: 0.2475, Time: 12.41s, Avg(50): 12.52s
+2026-09-25 22:38:21 - INFO - PRINT: Epoch [ 329], Train Loss: 0.1107, Validation Loss: 0.2475, Time: 12.41s, Avg(50): 12.52s
+2026-09-25 22:38:34 - INFO - PRINT: Epoch [ 330], Train Loss: 0.1108, Validation Loss: 0.2475, Time: 12.44s, Avg(50): 12.51s
+2026-09-25 22:38:46 - INFO - PRINT: Epoch [ 331], Train Loss: 0.1103, Validation Loss: 0.2475, Time: 12.43s, Avg(50): 12.51s
+2026-09-25 22:38:59 - INFO - PRINT: Epoch [ 332], Train Loss: 0.1097, Validation Loss: 0.2475, Time: 12.48s, Avg(50): 12.51s
+2026-09-25 22:39:11 - INFO - PRINT: Epoch [ 333], Train Loss: 0.1104, Validation Loss: 0.2475, Time: 12.40s, Avg(50): 12.51s
+2026-09-25 22:39:24 - INFO - PRINT: Epoch [ 334], Train Loss: 0.1098, Validation Loss: 0.2475, Time: 12.46s, Avg(50): 12.51s
+2026-09-25 22:39:36 - INFO - PRINT: Epoch [ 335], Train Loss: 0.1103, Validation Loss: 0.2475, Time: 12.39s, Avg(50): 12.51s
+2026-09-25 22:39:49 - INFO - PRINT: Epoch [ 336], Train Loss: 0.1117, Validation Loss: 0.2475, Time: 12.54s, Avg(50): 12.51s
+2026-09-25 22:40:01 - INFO - PRINT: Epoch [ 337], Train Loss: 0.1128, Validation Loss: 0.2475, Time: 12.48s, Avg(50): 12.51s
+2026-09-25 22:40:13 - INFO - PRINT: Epoch [ 338], Train Loss: 0.1102, Validation Loss: 0.2475, Time: 12.45s, Avg(50): 12.51s
+2026-09-25 22:40:26 - INFO - PRINT: Epoch [ 339], Train Loss: 0.1106, Validation Loss: 0.2475, Time: 12.47s, Avg(50): 12.51s
+2026-09-25 22:40:39 - INFO - PRINT: Epoch [ 340], Train Loss: 0.1113, Validation Loss: 0.2478, Time: 12.79s, Avg(50): 12.51s
+2026-09-25 22:40:51 - INFO - PRINT: Epoch [ 341], Train Loss: 0.1107, Validation Loss: 0.2478, Time: 12.50s, Avg(50): 12.51s
+2026-09-25 22:41:04 - INFO - PRINT: Epoch [ 342], Train Loss: 0.1102, Validation Loss: 0.2478, Time: 12.51s, Avg(50): 12.51s
+2026-09-25 22:41:16 - INFO - PRINT: Epoch [ 343], Train Loss: 0.1096, Validation Loss: 0.2478, Time: 12.51s, Avg(50): 12.52s
+2026-09-25 22:41:29 - INFO - PRINT: Epoch [ 344], Train Loss: 0.1091, Validation Loss: 0.2478, Time: 12.53s, Avg(50): 12.52s
+2026-09-25 22:41:41 - INFO - PRINT: Epoch [ 345], Train Loss: 0.1090, Validation Loss: 0.2478, Time: 12.49s, Avg(50): 12.52s
+2026-09-25 22:41:54 - INFO - PRINT: Epoch [ 346], Train Loss: 0.1079, Validation Loss: 0.2478, Time: 12.43s, Avg(50): 12.52s
+2026-09-25 22:42:06 - INFO - PRINT: Epoch [ 347], Train Loss: 0.1083, Validation Loss: 0.2478, Time: 12.44s, Avg(50): 12.52s
+2026-09-25 22:42:18 - INFO - PRINT: Epoch [ 348], Train Loss: 0.1081, Validation Loss: 0.2478, Time: 12.40s, Avg(50): 12.51s
+2026-09-25 22:42:31 - INFO - PRINT: Epoch [ 349], Train Loss: 0.1068, Validation Loss: 0.2478, Time: 12.37s, Avg(50): 12.51s
+2026-09-25 22:42:43 - INFO - PRINT: Epoch [ 350], Train Loss: 0.1076, Validation Loss: 0.2478, Time: 12.50s, Avg(50): 12.48s
+2026-09-25 22:42:56 - INFO - PRINT: Epoch [ 351], Train Loss: 0.1071, Validation Loss: 0.2478, Time: 12.58s, Avg(50): 12.48s
+2026-09-25 22:43:08 - INFO - PRINT: Epoch [ 352], Train Loss: 0.1065, Validation Loss: 0.2478, Time: 12.43s, Avg(50): 12.48s
+2026-09-25 22:43:21 - INFO - PRINT: Epoch [ 353], Train Loss: 0.1086, Validation Loss: 0.2478, Time: 12.47s, Avg(50): 12.48s
+2026-09-25 22:43:33 - INFO - PRINT: Epoch [ 354], Train Loss: 0.1074, Validation Loss: 0.2478, Time: 12.42s, Avg(50): 12.48s
+2026-09-25 22:43:46 - INFO - PRINT: Epoch [ 355], Train Loss: 0.1118, Validation Loss: 0.2478, Time: 12.49s, Avg(50): 12.48s
+2026-09-25 22:43:58 - INFO - PRINT: Epoch [ 356], Train Loss: 0.1105, Validation Loss: 0.2478, Time: 12.45s, Avg(50): 12.48s
+2026-09-25 22:44:11 - INFO - PRINT: Epoch [ 357], Train Loss: 0.1078, Validation Loss: 0.2478, Time: 12.47s, Avg(50): 12.48s
+2026-09-25 22:44:23 - INFO - PRINT: Epoch [ 358], Train Loss: 0.1070, Validation Loss: 0.2478, Time: 12.45s, Avg(50): 12.48s
+2026-09-25 22:44:36 - INFO - PRINT: Epoch [ 359], Train Loss: 0.1075, Validation Loss: 0.2478, Time: 12.42s, Avg(50): 12.48s
+2026-09-25 22:44:48 - INFO - PRINT: Epoch [ 360], Train Loss: 0.1057, Validation Loss: 0.2457, Time: 12.78s, Avg(50): 12.49s
+2026-09-25 22:45:01 - INFO - PRINT: Epoch [ 361], Train Loss: 0.1050, Validation Loss: 0.2457, Time: 12.49s, Avg(50): 12.49s
+2026-09-25 22:45:13 - INFO - PRINT: Epoch [ 362], Train Loss: 0.1043, Validation Loss: 0.2457, Time: 12.42s, Avg(50): 12.49s
+2026-09-25 22:45:26 - INFO - PRINT: Epoch [ 363], Train Loss: 0.1047, Validation Loss: 0.2457, Time: 12.45s, Avg(50): 12.49s
+2026-09-25 22:45:38 - INFO - PRINT: Epoch [ 364], Train Loss: 0.1048, Validation Loss: 0.2457, Time: 12.44s, Avg(50): 12.49s
+2026-09-25 22:45:51 - INFO - PRINT: Epoch [ 365], Train Loss: 0.1042, Validation Loss: 0.2457, Time: 12.46s, Avg(50): 12.49s
+2026-09-25 22:46:03 - INFO - PRINT: Epoch [ 366], Train Loss: 0.1055, Validation Loss: 0.2457, Time: 12.38s, Avg(50): 12.48s
+2026-09-25 22:46:15 - INFO - PRINT: Epoch [ 367], Train Loss: 0.1062, Validation Loss: 0.2457, Time: 12.49s, Avg(50): 12.48s
+2026-09-25 22:46:28 - INFO - PRINT: Epoch [ 368], Train Loss: 0.1047, Validation Loss: 0.2457, Time: 12.50s, Avg(50): 12.48s
+2026-09-25 22:46:40 - INFO - PRINT: Epoch [ 369], Train Loss: 0.1046, Validation Loss: 0.2457, Time: 12.51s, Avg(50): 12.48s
+2026-09-25 22:46:53 - INFO - PRINT: Epoch [ 370], Train Loss: 0.1060, Validation Loss: 0.2457, Time: 12.46s, Avg(50): 12.48s
+2026-09-25 22:47:05 - INFO - PRINT: Epoch [ 371], Train Loss: 0.1043, Validation Loss: 0.2457, Time: 12.56s, Avg(50): 12.48s
+2026-09-25 22:47:18 - INFO - PRINT: Epoch [ 372], Train Loss: 0.1036, Validation Loss: 0.2457, Time: 12.52s, Avg(50): 12.48s
+2026-09-25 22:47:30 - INFO - PRINT: Epoch [ 373], Train Loss: 0.1037, Validation Loss: 0.2457, Time: 12.42s, Avg(50): 12.48s
+2026-09-25 22:47:43 - INFO - PRINT: Epoch [ 374], Train Loss: 0.1079, Validation Loss: 0.2457, Time: 12.44s, Avg(50): 12.47s
+2026-09-25 22:47:55 - INFO - PRINT: Epoch [ 375], Train Loss: 0.1042, Validation Loss: 0.2457, Time: 12.52s, Avg(50): 12.48s
+2026-09-25 22:48:08 - INFO - PRINT: Epoch [ 376], Train Loss: 0.1066, Validation Loss: 0.2457, Time: 12.41s, Avg(50): 12.47s
+2026-09-25 22:48:20 - INFO - PRINT: Epoch [ 377], Train Loss: 0.1053, Validation Loss: 0.2457, Time: 12.49s, Avg(50): 12.47s
+2026-09-25 22:48:33 - INFO - PRINT: Epoch [ 378], Train Loss: 0.1054, Validation Loss: 0.2457, Time: 12.54s, Avg(50): 12.48s
+2026-09-25 22:48:45 - INFO - PRINT: Epoch [ 379], Train Loss: 0.1067, Validation Loss: 0.2457, Time: 12.52s, Avg(50): 12.48s
+2026-09-25 22:48:58 - INFO - PRINT: Epoch [ 380], Train Loss: 0.1064, Validation Loss: 0.2540, Time: 12.76s, Avg(50): 12.49s
+2026-09-25 22:49:11 - INFO - PRINT: Epoch [ 381], Train Loss: 0.1070, Validation Loss: 0.2540, Time: 12.57s, Avg(50): 12.49s
+2026-09-25 22:49:23 - INFO - PRINT: Epoch [ 382], Train Loss: 0.1055, Validation Loss: 0.2540, Time: 12.52s, Avg(50): 12.49s
+2026-09-25 22:49:36 - INFO - PRINT: Epoch [ 383], Train Loss: 0.1047, Validation Loss: 0.2540, Time: 12.42s, Avg(50): 12.49s
+2026-09-25 22:49:48 - INFO - PRINT: Epoch [ 384], Train Loss: 0.1046, Validation Loss: 0.2540, Time: 12.48s, Avg(50): 12.49s
+2026-09-25 22:50:01 - INFO - PRINT: Epoch [ 385], Train Loss: 0.1040, Validation Loss: 0.2540, Time: 12.45s, Avg(50): 12.49s
+2026-09-25 22:50:13 - INFO - PRINT: Epoch [ 386], Train Loss: 0.1046, Validation Loss: 0.2540, Time: 12.44s, Avg(50): 12.49s
+2026-09-25 22:50:25 - INFO - PRINT: Epoch [ 387], Train Loss: 0.1044, Validation Loss: 0.2540, Time: 12.43s, Avg(50): 12.49s
+2026-09-25 22:50:38 - INFO - PRINT: Epoch [ 388], Train Loss: 0.1056, Validation Loss: 0.2540, Time: 12.57s, Avg(50): 12.49s
+2026-09-25 22:50:51 - INFO - PRINT: Epoch [ 389], Train Loss: 0.1074, Validation Loss: 0.2540, Time: 12.52s, Avg(50): 12.49s
+2026-09-25 22:51:03 - INFO - PRINT: Epoch [ 390], Train Loss: 0.1138, Validation Loss: 0.2540, Time: 12.43s, Avg(50): 12.49s
+2026-09-25 22:51:15 - INFO - PRINT: Epoch [ 391], Train Loss: 0.1183, Validation Loss: 0.2540, Time: 12.38s, Avg(50): 12.48s
+2026-09-25 22:51:28 - INFO - PRINT: Epoch [ 392], Train Loss: 0.1193, Validation Loss: 0.2540, Time: 12.42s, Avg(50): 12.48s
+2026-09-25 22:51:40 - INFO - PRINT: Epoch [ 393], Train Loss: 0.1211, Validation Loss: 0.2540, Time: 12.40s, Avg(50): 12.48s
+2026-09-25 22:51:53 - INFO - PRINT: Epoch [ 394], Train Loss: 0.1317, Validation Loss: 0.2540, Time: 12.38s, Avg(50): 12.48s
+2026-09-25 22:52:05 - INFO - PRINT: Epoch [ 395], Train Loss: 0.1178, Validation Loss: 0.2540, Time: 12.51s, Avg(50): 12.48s
+2026-09-25 22:52:18 - INFO - PRINT: Epoch [ 396], Train Loss: 0.1121, Validation Loss: 0.2540, Time: 12.47s, Avg(50): 12.48s
+2026-09-25 22:52:30 - INFO - PRINT: Epoch [ 397], Train Loss: 0.1084, Validation Loss: 0.2540, Time: 12.44s, Avg(50): 12.48s
+2026-09-25 22:52:42 - INFO - PRINT: Epoch [ 398], Train Loss: 0.1058, Validation Loss: 0.2540, Time: 12.45s, Avg(50): 12.48s
+2026-09-25 22:52:55 - INFO - PRINT: Epoch [ 399], Train Loss: 0.1042, Validation Loss: 0.2540, Time: 12.43s, Avg(50): 12.48s
+2026-09-25 22:53:08 - INFO - PRINT: ----> Saving model from epoch 120 (val loss: 0.23149435222148895). Explosive!
+2026-09-25 22:53:09 - INFO - PRINT: Epoch [ 400], Train Loss: 0.1028, Validation Loss: 0.2495, Time: 14.02s, Avg(50): 12.51s
+2026-09-25 22:53:21 - INFO - PRINT: Epoch [ 401], Train Loss: 0.1019, Validation Loss: 0.2495, Time: 12.48s, Avg(50): 12.51s
+2026-09-25 22:53:34 - INFO - PRINT: Epoch [ 402], Train Loss: 0.1012, Validation Loss: 0.2495, Time: 12.52s, Avg(50): 12.51s
+2026-09-25 22:53:46 - INFO - PRINT: Epoch [ 403], Train Loss: 0.1006, Validation Loss: 0.2495, Time: 12.45s, Avg(50): 12.51s
+2026-09-25 22:53:59 - INFO - PRINT: Epoch [ 404], Train Loss: 0.1000, Validation Loss: 0.2495, Time: 12.45s, Avg(50): 12.51s
+2026-09-25 22:54:11 - INFO - PRINT: Epoch [ 405], Train Loss: 0.0997, Validation Loss: 0.2495, Time: 12.47s, Avg(50): 12.51s
+2026-09-25 22:54:24 - INFO - PRINT: Epoch [ 406], Train Loss: 0.0994, Validation Loss: 0.2495, Time: 12.44s, Avg(50): 12.51s
+2026-09-25 22:54:36 - INFO - PRINT: Epoch [ 407], Train Loss: 0.0993, Validation Loss: 0.2495, Time: 12.41s, Avg(50): 12.51s
+2026-09-25 22:54:49 - INFO - PRINT: Epoch [ 408], Train Loss: 0.0990, Validation Loss: 0.2495, Time: 12.53s, Avg(50): 12.51s
+2026-09-25 22:55:01 - INFO - PRINT: Epoch [ 409], Train Loss: 0.0990, Validation Loss: 0.2495, Time: 12.53s, Avg(50): 12.51s
+2026-09-25 22:55:14 - INFO - PRINT: Epoch [ 410], Train Loss: 0.0986, Validation Loss: 0.2495, Time: 12.45s, Avg(50): 12.50s
+2026-09-25 22:55:26 - INFO - PRINT: Epoch [ 411], Train Loss: 0.0985, Validation Loss: 0.2495, Time: 12.48s, Avg(50): 12.50s
+2026-09-25 22:55:39 - INFO - PRINT: Epoch [ 412], Train Loss: 0.0991, Validation Loss: 0.2495, Time: 12.44s, Avg(50): 12.50s
+2026-09-25 22:55:51 - INFO - PRINT: Epoch [ 413], Train Loss: 0.0989, Validation Loss: 0.2495, Time: 12.50s, Avg(50): 12.51s
+2026-09-25 22:56:03 - INFO - PRINT: Epoch [ 414], Train Loss: 0.0981, Validation Loss: 0.2495, Time: 12.48s, Avg(50): 12.51s
+2026-09-25 22:56:16 - INFO - PRINT: Epoch [ 415], Train Loss: 0.0984, Validation Loss: 0.2495, Time: 12.44s, Avg(50): 12.51s
+2026-09-25 22:56:28 - INFO - PRINT: Epoch [ 416], Train Loss: 0.0995, Validation Loss: 0.2495, Time: 12.46s, Avg(50): 12.51s
+2026-09-25 22:56:41 - INFO - PRINT: Epoch [ 417], Train Loss: 0.0984, Validation Loss: 0.2495, Time: 12.33s, Avg(50): 12.51s
+2026-09-25 22:56:53 - INFO - PRINT: Epoch [ 418], Train Loss: 0.0993, Validation Loss: 0.2495, Time: 12.48s, Avg(50): 12.50s
+2026-09-25 22:57:06 - INFO - PRINT: Epoch [ 419], Train Loss: 0.0983, Validation Loss: 0.2495, Time: 12.37s, Avg(50): 12.50s
+2026-09-25 22:57:18 - INFO - PRINT: Epoch [ 420], Train Loss: 0.0987, Validation Loss: 0.2506, Time: 12.90s, Avg(50): 12.51s
+2026-09-25 22:57:31 - INFO - PRINT: Epoch [ 421], Train Loss: 0.0985, Validation Loss: 0.2506, Time: 12.46s, Avg(50): 12.51s
+2026-09-25 22:57:43 - INFO - PRINT: Epoch [ 422], Train Loss: 0.0984, Validation Loss: 0.2506, Time: 12.46s, Avg(50): 12.51s
+2026-09-25 22:57:56 - INFO - PRINT: Epoch [ 423], Train Loss: 0.1004, Validation Loss: 0.2506, Time: 12.46s, Avg(50): 12.51s
+2026-09-25 22:58:08 - INFO - PRINT: Epoch [ 424], Train Loss: 0.0995, Validation Loss: 0.2506, Time: 12.46s, Avg(50): 12.51s
+2026-09-25 22:58:21 - INFO - PRINT: Epoch [ 425], Train Loss: 0.1014, Validation Loss: 0.2506, Time: 12.43s, Avg(50): 12.51s
+2026-09-25 22:58:33 - INFO - PRINT: Epoch [ 426], Train Loss: 0.1002, Validation Loss: 0.2506, Time: 12.49s, Avg(50): 12.51s
+2026-09-25 22:58:46 - INFO - PRINT: Epoch [ 427], Train Loss: 0.0990, Validation Loss: 0.2506, Time: 12.43s, Avg(50): 12.51s
+2026-09-25 22:58:58 - INFO - PRINT: Epoch [ 428], Train Loss: 0.0988, Validation Loss: 0.2506, Time: 12.49s, Avg(50): 12.51s
+2026-09-25 22:59:11 - INFO - PRINT: Epoch [ 429], Train Loss: 0.0984, Validation Loss: 0.2506, Time: 12.50s, Avg(50): 12.51s
+2026-09-25 22:59:23 - INFO - PRINT: Epoch [ 430], Train Loss: 0.0981, Validation Loss: 0.2506, Time: 12.45s, Avg(50): 12.50s
+2026-09-25 22:59:36 - INFO - PRINT: Epoch [ 431], Train Loss: 0.0975, Validation Loss: 0.2506, Time: 12.45s, Avg(50): 12.50s
+2026-09-25 22:59:48 - INFO - PRINT: Epoch [ 432], Train Loss: 0.0982, Validation Loss: 0.2506, Time: 12.45s, Avg(50): 12.50s
+2026-09-25 23:00:00 - INFO - PRINT: Epoch [ 433], Train Loss: 0.1001, Validation Loss: 0.2506, Time: 12.47s, Avg(50): 12.50s
+2026-09-25 23:00:13 - INFO - PRINT: Epoch [ 434], Train Loss: 0.0978, Validation Loss: 0.2506, Time: 12.58s, Avg(50): 12.50s
+2026-09-25 23:00:26 - INFO - PRINT: Epoch [ 435], Train Loss: 0.0975, Validation Loss: 0.2506, Time: 12.48s, Avg(50): 12.50s
+2026-09-25 23:00:38 - INFO - PRINT: Epoch [ 436], Train Loss: 0.0982, Validation Loss: 0.2506, Time: 12.48s, Avg(50): 12.50s
+2026-09-25 23:00:51 - INFO - PRINT: Epoch [ 437], Train Loss: 0.0987, Validation Loss: 0.2506, Time: 12.50s, Avg(50): 12.50s
+2026-09-25 23:01:03 - INFO - PRINT: Epoch [ 438], Train Loss: 0.0985, Validation Loss: 0.2506, Time: 12.54s, Avg(50): 12.50s
+2026-09-25 23:01:16 - INFO - PRINT: Epoch [ 439], Train Loss: 0.0981, Validation Loss: 0.2506, Time: 12.47s, Avg(50): 12.50s
+2026-09-25 23:01:28 - INFO - PRINT: Epoch [ 440], Train Loss: 0.0997, Validation Loss: 0.2549, Time: 12.74s, Avg(50): 12.51s
+2026-09-25 23:01:41 - INFO - PRINT: Epoch [ 441], Train Loss: 0.0982, Validation Loss: 0.2549, Time: 12.43s, Avg(50): 12.51s
+2026-09-25 23:01:53 - INFO - PRINT: Epoch [ 442], Train Loss: 0.1013, Validation Loss: 0.2549, Time: 12.40s, Avg(50): 12.51s
+2026-09-25 23:02:06 - INFO - PRINT: Epoch [ 443], Train Loss: 0.1055, Validation Loss: 0.2549, Time: 12.43s, Avg(50): 12.51s
+2026-09-25 23:02:18 - INFO - PRINT: Epoch [ 444], Train Loss: 0.1063, Validation Loss: 0.2549, Time: 12.51s, Avg(50): 12.51s
+2026-09-25 23:02:31 - INFO - PRINT: Epoch [ 445], Train Loss: 0.1094, Validation Loss: 0.2549, Time: 12.50s, Avg(50): 12.51s
+2026-09-25 23:02:43 - INFO - PRINT: Epoch [ 446], Train Loss: 0.1486, Validation Loss: 0.2549, Time: 12.58s, Avg(50): 12.51s
+2026-09-25 23:02:56 - INFO - PRINT: Epoch [ 447], Train Loss: 0.1389, Validation Loss: 0.2549, Time: 12.46s, Avg(50): 12.51s
+2026-09-25 23:03:08 - INFO - PRINT: Epoch [ 448], Train Loss: 0.1387, Validation Loss: 0.2549, Time: 12.39s, Avg(50): 12.51s
+2026-09-25 23:03:20 - INFO - PRINT: Epoch [ 449], Train Loss: 0.1234, Validation Loss: 0.2549, Time: 12.41s, Avg(50): 12.51s
+2026-09-25 23:03:33 - INFO - PRINT: Epoch [ 450], Train Loss: 0.1155, Validation Loss: 0.2549, Time: 12.48s, Avg(50): 12.48s
+2026-09-25 23:03:45 - INFO - PRINT: Epoch [ 451], Train Loss: 0.1092, Validation Loss: 0.2549, Time: 12.47s, Avg(50): 12.48s
+2026-09-25 23:03:58 - INFO - PRINT: Epoch [ 452], Train Loss: 0.1051, Validation Loss: 0.2549, Time: 12.48s, Avg(50): 12.48s
+2026-09-25 23:04:10 - INFO - PRINT: Epoch [ 453], Train Loss: 0.1020, Validation Loss: 0.2549, Time: 12.46s, Avg(50): 12.48s
+2026-09-25 23:04:23 - INFO - PRINT: Epoch [ 454], Train Loss: 0.0999, Validation Loss: 0.2549, Time: 12.48s, Avg(50): 12.48s
+2026-09-25 23:04:35 - INFO - PRINT: Epoch [ 455], Train Loss: 0.0986, Validation Loss: 0.2549, Time: 12.49s, Avg(50): 12.48s
+2026-09-25 23:04:48 - INFO - PRINT: Epoch [ 456], Train Loss: 0.0973, Validation Loss: 0.2549, Time: 12.40s, Avg(50): 12.48s
+2026-09-25 23:05:00 - INFO - PRINT: Epoch [ 457], Train Loss: 0.0964, Validation Loss: 0.2549, Time: 12.49s, Avg(50): 12.48s
+2026-09-25 23:05:13 - INFO - PRINT: Epoch [ 458], Train Loss: 0.0958, Validation Loss: 0.2549, Time: 12.46s, Avg(50): 12.48s
+2026-09-25 23:05:25 - INFO - PRINT: Epoch [ 459], Train Loss: 0.0954, Validation Loss: 0.2549, Time: 12.47s, Avg(50): 12.48s
+2026-09-25 23:05:38 - INFO - PRINT: Epoch [ 460], Train Loss: 0.0949, Validation Loss: 0.2530, Time: 12.85s, Avg(50): 12.49s
+2026-09-25 23:05:50 - INFO - PRINT: Epoch [ 461], Train Loss: 0.0947, Validation Loss: 0.2530, Time: 12.53s, Avg(50): 12.49s
+2026-09-25 23:06:03 - INFO - PRINT: Epoch [ 462], Train Loss: 0.0943, Validation Loss: 0.2530, Time: 12.46s, Avg(50): 12.49s
+2026-09-25 23:06:15 - INFO - PRINT: Epoch [ 463], Train Loss: 0.0941, Validation Loss: 0.2530, Time: 12.52s, Avg(50): 12.49s
+2026-09-25 23:06:28 - INFO - PRINT: Epoch [ 464], Train Loss: 0.0939, Validation Loss: 0.2530, Time: 12.51s, Avg(50): 12.49s
+2026-09-25 23:06:40 - INFO - PRINT: Epoch [ 465], Train Loss: 0.0939, Validation Loss: 0.2530, Time: 12.45s, Avg(50): 12.49s
+2026-09-25 23:06:53 - INFO - PRINT: Epoch [ 466], Train Loss: 0.0936, Validation Loss: 0.2530, Time: 12.54s, Avg(50): 12.49s
+2026-09-25 23:07:05 - INFO - PRINT: Epoch [ 467], Train Loss: 0.0936, Validation Loss: 0.2530, Time: 12.44s, Avg(50): 12.49s
+2026-09-25 23:07:18 - INFO - PRINT: Epoch [ 468], Train Loss: 0.0936, Validation Loss: 0.2530, Time: 12.49s, Avg(50): 12.49s
+2026-09-25 23:07:30 - INFO - PRINT: Epoch [ 469], Train Loss: 0.0932, Validation Loss: 0.2530, Time: 12.44s, Avg(50): 12.49s
+2026-09-25 23:07:43 - INFO - PRINT: Epoch [ 470], Train Loss: 0.0935, Validation Loss: 0.2530, Time: 12.34s, Avg(50): 12.48s
+2026-09-25 23:07:55 - INFO - PRINT: Epoch [ 471], Train Loss: 0.0951, Validation Loss: 0.2530, Time: 12.51s, Avg(50): 12.48s
+2026-09-25 23:08:08 - INFO - PRINT: Epoch [ 472], Train Loss: 0.0941, Validation Loss: 0.2530, Time: 12.55s, Avg(50): 12.49s
+2026-09-25 23:08:20 - INFO - PRINT: Epoch [ 473], Train Loss: 0.0944, Validation Loss: 0.2530, Time: 12.47s, Avg(50): 12.49s
+2026-09-25 23:08:33 - INFO - PRINT: Epoch [ 474], Train Loss: 0.0937, Validation Loss: 0.2530, Time: 12.53s, Avg(50): 12.49s
+2026-09-25 23:08:45 - INFO - PRINT: Epoch [ 475], Train Loss: 0.0937, Validation Loss: 0.2530, Time: 12.46s, Avg(50): 12.49s
+2026-09-25 23:08:58 - INFO - PRINT: Epoch [ 476], Train Loss: 0.0937, Validation Loss: 0.2530, Time: 12.38s, Avg(50): 12.49s
+2026-09-25 23:09:10 - INFO - PRINT: Epoch [ 477], Train Loss: 0.0947, Validation Loss: 0.2530, Time: 12.46s, Avg(50): 12.49s
+2026-09-25 23:09:23 - INFO - PRINT: Epoch [ 478], Train Loss: 0.0936, Validation Loss: 0.2530, Time: 12.50s, Avg(50): 12.49s
+2026-09-25 23:09:35 - INFO - PRINT: Epoch [ 479], Train Loss: 0.0932, Validation Loss: 0.2530, Time: 12.37s, Avg(50): 12.48s
+2026-09-25 23:09:48 - INFO - PRINT: Epoch [ 480], Train Loss: 0.0941, Validation Loss: 0.2585, Time: 12.83s, Avg(50): 12.49s
+2026-09-25 23:10:00 - INFO - PRINT: Epoch [ 481], Train Loss: 0.0937, Validation Loss: 0.2585, Time: 12.40s, Avg(50): 12.49s
+2026-09-25 23:10:12 - INFO - PRINT: Epoch [ 482], Train Loss: 0.0934, Validation Loss: 0.2585, Time: 12.40s, Avg(50): 12.49s
+2026-09-25 23:10:25 - INFO - PRINT: Epoch [ 483], Train Loss: 0.0940, Validation Loss: 0.2585, Time: 12.47s, Avg(50): 12.49s
+2026-09-25 23:10:38 - INFO - PRINT: Epoch [ 484], Train Loss: 0.0937, Validation Loss: 0.2585, Time: 12.54s, Avg(50): 12.49s
+2026-09-25 23:10:50 - INFO - PRINT: Epoch [ 485], Train Loss: 0.0936, Validation Loss: 0.2585, Time: 12.42s, Avg(50): 12.49s
+2026-09-25 23:11:02 - INFO - PRINT: Epoch [ 486], Train Loss: 0.0939, Validation Loss: 0.2585, Time: 12.47s, Avg(50): 12.49s
+2026-09-25 23:11:15 - INFO - PRINT: Epoch [ 487], Train Loss: 0.0931, Validation Loss: 0.2585, Time: 12.49s, Avg(50): 12.49s
+2026-09-25 23:11:27 - INFO - PRINT: Epoch [ 488], Train Loss: 0.0937, Validation Loss: 0.2585, Time: 12.57s, Avg(50): 12.49s
+2026-09-25 23:11:40 - INFO - PRINT: Epoch [ 489], Train Loss: 0.0953, Validation Loss: 0.2585, Time: 12.41s, Avg(50): 12.49s
+2026-09-25 23:11:52 - INFO - PRINT: Epoch [ 490], Train Loss: 0.0944, Validation Loss: 0.2585, Time: 12.56s, Avg(50): 12.48s
+2026-09-25 23:12:05 - INFO - PRINT: Epoch [ 491], Train Loss: 0.0929, Validation Loss: 0.2585, Time: 12.49s, Avg(50): 12.48s
+2026-09-25 23:12:17 - INFO - PRINT: Epoch [ 492], Train Loss: 0.0931, Validation Loss: 0.2585, Time: 12.50s, Avg(50): 12.49s
+2026-09-25 23:12:30 - INFO - PRINT: Epoch [ 493], Train Loss: 0.0923, Validation Loss: 0.2585, Time: 12.51s, Avg(50): 12.49s
+2026-09-25 23:12:42 - INFO - PRINT: Epoch [ 494], Train Loss: 0.0942, Validation Loss: 0.2585, Time: 12.48s, Avg(50): 12.49s
+2026-09-25 23:12:55 - INFO - PRINT: Epoch [ 495], Train Loss: 0.0931, Validation Loss: 0.2585, Time: 12.52s, Avg(50): 12.49s
+2026-09-25 23:13:07 - INFO - PRINT: Epoch [ 496], Train Loss: 0.0926, Validation Loss: 0.2585, Time: 12.47s, Avg(50): 12.49s
+2026-09-25 23:13:20 - INFO - PRINT: Epoch [ 497], Train Loss: 0.0923, Validation Loss: 0.2585, Time: 12.44s, Avg(50): 12.49s
+2026-09-25 23:13:32 - INFO - PRINT: Epoch [ 498], Train Loss: 0.0936, Validation Loss: 0.2585, Time: 12.32s, Avg(50): 12.48s
+2026-09-25 23:13:45 - INFO - PRINT: Epoch [ 499], Train Loss: 0.0932, Validation Loss: 0.2585, Time: 12.50s, Avg(50): 12.49s
+2026-09-25 23:13:58 - INFO - PRINT: ----> Saving model from epoch 120 (val loss: 0.23149435222148895). Artisanal!
+2026-09-25 23:13:59 - INFO - PRINT: Epoch [ 500], Train Loss: 0.0917, Validation Loss: 0.2615, Time: 14.02s, Avg(50): 12.52s
+2026-09-25 23:14:11 - INFO - PRINT: Epoch [ 501], Train Loss: 0.0934, Validation Loss: 0.2615, Time: 12.47s, Avg(50): 12.52s
+2026-09-25 23:14:24 - INFO - PRINT: Epoch [ 502], Train Loss: 0.0922, Validation Loss: 0.2615, Time: 12.48s, Avg(50): 12.52s
+2026-09-25 23:14:36 - INFO - PRINT: Epoch [ 503], Train Loss: 0.0928, Validation Loss: 0.2615, Time: 12.52s, Avg(50): 12.52s
+2026-09-25 23:14:49 - INFO - PRINT: Epoch [ 504], Train Loss: 0.0938, Validation Loss: 0.2615, Time: 12.49s, Avg(50): 12.52s
+2026-09-25 23:15:01 - INFO - PRINT: Epoch [ 505], Train Loss: 0.0915, Validation Loss: 0.2615, Time: 12.49s, Avg(50): 12.52s
+2026-09-25 23:15:14 - INFO - PRINT: Epoch [ 506], Train Loss: 0.0924, Validation Loss: 0.2615, Time: 12.46s, Avg(50): 12.52s
+2026-09-25 23:15:26 - INFO - PRINT: Epoch [ 507], Train Loss: 0.0946, Validation Loss: 0.2615, Time: 12.53s, Avg(50): 12.52s
+2026-09-25 23:15:39 - INFO - PRINT: Epoch [ 508], Train Loss: 0.0927, Validation Loss: 0.2615, Time: 12.51s, Avg(50): 12.52s
+2026-09-25 23:15:51 - INFO - PRINT: Epoch [ 509], Train Loss: 0.0953, Validation Loss: 0.2615, Time: 12.49s, Avg(50): 12.52s
+2026-09-25 23:16:04 - INFO - PRINT: Epoch [ 510], Train Loss: 0.0936, Validation Loss: 0.2615, Time: 12.55s, Avg(50): 12.52s
+2026-09-25 23:16:16 - INFO - PRINT: Epoch [ 511], Train Loss: 0.0957, Validation Loss: 0.2615, Time: 12.45s, Avg(50): 12.51s
+2026-09-25 23:16:29 - INFO - PRINT: Epoch [ 512], Train Loss: 0.0949, Validation Loss: 0.2615, Time: 12.46s, Avg(50): 12.51s
+2026-09-25 23:16:41 - INFO - PRINT: Epoch [ 513], Train Loss: 0.0966, Validation Loss: 0.2615, Time: 12.41s, Avg(50): 12.51s
+2026-09-25 23:16:53 - INFO - PRINT: Epoch [ 514], Train Loss: 0.1200, Validation Loss: 0.2615, Time: 12.43s, Avg(50): 12.51s
+2026-09-25 23:17:06 - INFO - PRINT: Epoch [ 515], Train Loss: 0.1223, Validation Loss: 0.2615, Time: 12.43s, Avg(50): 12.51s
+2026-09-25 23:17:18 - INFO - PRINT: Epoch [ 516], Train Loss: 0.1122, Validation Loss: 0.2615, Time: 12.37s, Avg(50): 12.51s
+2026-09-25 23:17:31 - INFO - PRINT: Epoch [ 517], Train Loss: 0.1070, Validation Loss: 0.2615, Time: 12.42s, Avg(50): 12.51s
+2026-09-25 23:17:43 - INFO - PRINT: Epoch [ 518], Train Loss: 0.1018, Validation Loss: 0.2615, Time: 12.41s, Avg(50): 12.50s
+2026-09-25 23:17:55 - INFO - PRINT: Epoch [ 519], Train Loss: 0.0982, Validation Loss: 0.2615, Time: 12.39s, Avg(50): 12.50s
+2026-09-25 23:18:08 - INFO - PRINT: Epoch [ 520], Train Loss: 0.0955, Validation Loss: 0.2529, Time: 12.78s, Avg(50): 12.51s
+2026-09-25 23:18:21 - INFO - PRINT: Epoch [ 521], Train Loss: 0.0936, Validation Loss: 0.2529, Time: 12.48s, Avg(50): 12.51s
+2026-09-25 23:18:33 - INFO - PRINT: Epoch [ 522], Train Loss: 0.0922, Validation Loss: 0.2529, Time: 12.50s, Avg(50): 12.51s
+2026-09-25 23:18:46 - INFO - PRINT: Epoch [ 523], Train Loss: 0.0912, Validation Loss: 0.2529, Time: 12.40s, Avg(50): 12.51s
+2026-09-25 23:18:58 - INFO - PRINT: Epoch [ 524], Train Loss: 0.0904, Validation Loss: 0.2529, Time: 12.47s, Avg(50): 12.51s
+2026-09-25 23:19:11 - INFO - PRINT: Epoch [ 525], Train Loss: 0.0898, Validation Loss: 0.2529, Time: 12.47s, Avg(50): 12.51s
+2026-09-25 23:19:23 - INFO - PRINT: Epoch [ 526], Train Loss: 0.0894, Validation Loss: 0.2529, Time: 12.53s, Avg(50): 12.51s
+2026-09-25 23:19:36 - INFO - PRINT: Epoch [ 527], Train Loss: 0.0895, Validation Loss: 0.2529, Time: 12.43s, Avg(50): 12.51s
+2026-09-25 23:19:48 - INFO - PRINT: Epoch [ 528], Train Loss: 0.0907, Validation Loss: 0.2529, Time: 12.44s, Avg(50): 12.51s
+2026-09-25 23:20:00 - INFO - PRINT: Epoch [ 529], Train Loss: 0.0902, Validation Loss: 0.2529, Time: 12.48s, Avg(50): 12.51s
+2026-09-25 23:20:13 - INFO - PRINT: Epoch [ 530], Train Loss: 0.0890, Validation Loss: 0.2529, Time: 12.59s, Avg(50): 12.51s
+2026-09-25 23:20:26 - INFO - PRINT: Epoch [ 531], Train Loss: 0.0886, Validation Loss: 0.2529, Time: 12.60s, Avg(50): 12.51s
+2026-09-25 23:20:38 - INFO - PRINT: Epoch [ 532], Train Loss: 0.0888, Validation Loss: 0.2529, Time: 12.53s, Avg(50): 12.51s
+2026-09-25 23:20:51 - INFO - PRINT: Epoch [ 533], Train Loss: 0.0903, Validation Loss: 0.2529, Time: 12.51s, Avg(50): 12.51s
+2026-09-25 23:21:03 - INFO - PRINT: Epoch [ 534], Train Loss: 0.0913, Validation Loss: 0.2529, Time: 12.48s, Avg(50): 12.51s
+2026-09-25 23:21:16 - INFO - PRINT: Epoch [ 535], Train Loss: 0.0885, Validation Loss: 0.2529, Time: 12.45s, Avg(50): 12.51s
+2026-09-25 23:21:28 - INFO - PRINT: Epoch [ 536], Train Loss: 0.0896, Validation Loss: 0.2529, Time: 12.45s, Avg(50): 12.51s
+2026-09-25 23:21:40 - INFO - PRINT: Epoch [ 537], Train Loss: 0.0910, Validation Loss: 0.2529, Time: 12.41s, Avg(50): 12.51s
+2026-09-25 23:21:53 - INFO - PRINT: Epoch [ 538], Train Loss: 0.0883, Validation Loss: 0.2529, Time: 12.42s, Avg(50): 12.51s
+2026-09-25 23:22:05 - INFO - PRINT: Epoch [ 539], Train Loss: 0.0906, Validation Loss: 0.2529, Time: 12.51s, Avg(50): 12.51s
+2026-09-25 23:22:18 - INFO - PRINT: Epoch [ 540], Train Loss: 0.0901, Validation Loss: 0.2616, Time: 13.04s, Avg(50): 12.52s
+2026-09-25 23:22:31 - INFO - PRINT: Epoch [ 541], Train Loss: 0.0900, Validation Loss: 0.2616, Time: 12.52s, Avg(50): 12.52s
+2026-09-25 23:22:43 - INFO - PRINT: Epoch [ 542], Train Loss: 0.0909, Validation Loss: 0.2616, Time: 12.41s, Avg(50): 12.52s
+2026-09-25 23:22:56 - INFO - PRINT: Epoch [ 543], Train Loss: 0.0894, Validation Loss: 0.2616, Time: 12.48s, Avg(50): 12.52s
+2026-09-25 23:23:08 - INFO - PRINT: Epoch [ 544], Train Loss: 0.0905, Validation Loss: 0.2616, Time: 12.56s, Avg(50): 12.52s
+2026-09-25 23:23:21 - INFO - PRINT: Epoch [ 545], Train Loss: 0.0903, Validation Loss: 0.2616, Time: 12.54s, Avg(50): 12.52s
+2026-09-25 23:23:33 - INFO - PRINT: Epoch [ 546], Train Loss: 0.0902, Validation Loss: 0.2616, Time: 12.41s, Avg(50): 12.52s
+2026-09-25 23:23:46 - INFO - PRINT: Epoch [ 547], Train Loss: 0.0893, Validation Loss: 0.2616, Time: 12.47s, Avg(50): 12.52s
+2026-09-25 23:23:58 - INFO - PRINT: Epoch [ 548], Train Loss: 0.0889, Validation Loss: 0.2616, Time: 12.49s, Avg(50): 12.52s
+2026-09-25 23:24:11 - INFO - PRINT: Epoch [ 549], Train Loss: 0.0887, Validation Loss: 0.2616, Time: 12.53s, Avg(50): 12.52s
+2026-09-25 23:24:23 - INFO - PRINT: Epoch [ 550], Train Loss: 0.0883, Validation Loss: 0.2616, Time: 12.49s, Avg(50): 12.49s
+2026-09-25 23:24:36 - INFO - PRINT: Epoch [ 551], Train Loss: 0.0885, Validation Loss: 0.2616, Time: 12.39s, Avg(50): 12.49s
+2026-09-25 23:24:48 - INFO - PRINT: Epoch [ 552], Train Loss: 0.0896, Validation Loss: 0.2616, Time: 12.52s, Avg(50): 12.49s
+2026-09-25 23:25:01 - INFO - PRINT: Epoch [ 553], Train Loss: 0.0890, Validation Loss: 0.2616, Time: 12.44s, Avg(50): 12.49s
+2026-09-25 23:25:13 - INFO - PRINT: Epoch [ 554], Train Loss: 0.0873, Validation Loss: 0.2616, Time: 12.54s, Avg(50): 12.49s
+2026-09-25 23:25:26 - INFO - PRINT: Epoch [ 555], Train Loss: 0.0875, Validation Loss: 0.2616, Time: 12.41s, Avg(50): 12.49s
+2026-09-25 23:25:38 - INFO - PRINT: Epoch [ 556], Train Loss: 0.0905, Validation Loss: 0.2616, Time: 12.36s, Avg(50): 12.49s
+2026-09-25 23:25:50 - INFO - PRINT: Epoch [ 557], Train Loss: 0.0882, Validation Loss: 0.2616, Time: 12.33s, Avg(50): 12.48s
+2026-09-25 23:26:03 - INFO - PRINT: Epoch [ 558], Train Loss: 0.0884, Validation Loss: 0.2616, Time: 12.42s, Avg(50): 12.48s
+2026-09-25 23:26:15 - INFO - PRINT: Epoch [ 559], Train Loss: 0.0896, Validation Loss: 0.2616, Time: 12.48s, Avg(50): 12.48s
+2026-09-25 23:26:28 - INFO - PRINT: Epoch [ 560], Train Loss: 0.0868, Validation Loss: 0.2660, Time: 12.80s, Avg(50): 12.49s
+2026-09-25 23:26:40 - INFO - PRINT: Epoch [ 561], Train Loss: 0.0886, Validation Loss: 0.2660, Time: 12.43s, Avg(50): 12.49s
+2026-09-25 23:26:53 - INFO - PRINT: Epoch [ 562], Train Loss: 0.0895, Validation Loss: 0.2660, Time: 12.40s, Avg(50): 12.48s
+2026-09-25 23:27:05 - INFO - PRINT: Epoch [ 563], Train Loss: 0.0870, Validation Loss: 0.2660, Time: 12.47s, Avg(50): 12.49s
+2026-09-25 23:27:18 - INFO - PRINT: Epoch [ 564], Train Loss: 0.0886, Validation Loss: 0.2660, Time: 12.50s, Avg(50): 12.49s
+2026-09-25 23:27:30 - INFO - PRINT: Epoch [ 565], Train Loss: 0.0883, Validation Loss: 0.2660, Time: 12.42s, Avg(50): 12.49s
+2026-09-25 23:27:43 - INFO - PRINT: Epoch [ 566], Train Loss: 0.0885, Validation Loss: 0.2660, Time: 12.46s, Avg(50): 12.49s
+2026-09-25 23:27:55 - INFO - PRINT: Epoch [ 567], Train Loss: 0.0892, Validation Loss: 0.2660, Time: 12.44s, Avg(50): 12.49s
+2026-09-25 23:28:08 - INFO - PRINT: Epoch [ 568], Train Loss: 0.0876, Validation Loss: 0.2660, Time: 12.45s, Avg(50): 12.49s
+2026-09-25 23:28:20 - INFO - PRINT: Epoch [ 569], Train Loss: 0.0898, Validation Loss: 0.2660, Time: 12.49s, Avg(50): 12.49s
+2026-09-25 23:28:33 - INFO - PRINT: Epoch [ 570], Train Loss: 0.0886, Validation Loss: 0.2660, Time: 12.43s, Avg(50): 12.49s
+2026-09-25 23:28:45 - INFO - PRINT: Epoch [ 571], Train Loss: 0.0909, Validation Loss: 0.2660, Time: 12.43s, Avg(50): 12.48s
+2026-09-25 23:28:57 - INFO - PRINT: Epoch [ 572], Train Loss: 0.0899, Validation Loss: 0.2660, Time: 12.44s, Avg(50): 12.48s
+2026-09-25 23:29:10 - INFO - PRINT: Epoch [ 573], Train Loss: 0.0885, Validation Loss: 0.2660, Time: 12.46s, Avg(50): 12.48s
+2026-09-25 23:29:22 - INFO - PRINT: Epoch [ 574], Train Loss: 0.0878, Validation Loss: 0.2660, Time: 12.53s, Avg(50): 12.49s
+2026-09-25 23:29:35 - INFO - PRINT: Epoch [ 575], Train Loss: 0.0868, Validation Loss: 0.2660, Time: 12.45s, Avg(50): 12.48s
+2026-09-25 23:29:47 - INFO - PRINT: Epoch [ 576], Train Loss: 0.0880, Validation Loss: 0.2660, Time: 12.49s, Avg(50): 12.48s
+2026-09-25 23:30:00 - INFO - PRINT: Epoch [ 577], Train Loss: 0.0868, Validation Loss: 0.2660, Time: 12.48s, Avg(50): 12.49s
+2026-09-25 23:30:12 - INFO - PRINT: Epoch [ 578], Train Loss: 0.0860, Validation Loss: 0.2660, Time: 12.44s, Avg(50): 12.49s
+2026-09-25 23:30:25 - INFO - PRINT: Epoch [ 579], Train Loss: 0.0860, Validation Loss: 0.2660, Time: 12.48s, Avg(50): 12.49s
+2026-09-25 23:30:38 - INFO - PRINT: Epoch [ 580], Train Loss: 0.0857, Validation Loss: 0.2666, Time: 12.92s, Avg(50): 12.49s
+2026-09-25 23:30:50 - INFO - PRINT: Epoch [ 581], Train Loss: 0.0863, Validation Loss: 0.2666, Time: 12.50s, Avg(50): 12.49s
+2026-09-25 23:31:03 - INFO - PRINT: Epoch [ 582], Train Loss: 0.0878, Validation Loss: 0.2666, Time: 12.48s, Avg(50): 12.49s
+2026-09-25 23:31:15 - INFO - PRINT: Epoch [ 583], Train Loss: 0.0863, Validation Loss: 0.2666, Time: 12.49s, Avg(50): 12.49s
+2026-09-25 23:31:28 - INFO - PRINT: Epoch [ 584], Train Loss: 0.0855, Validation Loss: 0.2666, Time: 12.48s, Avg(50): 12.49s
+2026-09-25 23:31:40 - INFO - PRINT: Epoch [ 585], Train Loss: 0.0886, Validation Loss: 0.2666, Time: 12.34s, Avg(50): 12.49s
+2026-09-25 23:31:52 - INFO - PRINT: Epoch [ 586], Train Loss: 0.0865, Validation Loss: 0.2666, Time: 12.51s, Avg(50): 12.49s
+2026-09-25 23:32:05 - INFO - PRINT: Epoch [ 587], Train Loss: 0.0882, Validation Loss: 0.2666, Time: 12.45s, Avg(50): 12.49s
+2026-09-25 23:32:17 - INFO - PRINT: Epoch [ 588], Train Loss: 0.0870, Validation Loss: 0.2666, Time: 12.44s, Avg(50): 12.49s
+2026-09-25 23:32:30 - INFO - PRINT: Epoch [ 589], Train Loss: 0.0873, Validation Loss: 0.2666, Time: 12.35s, Avg(50): 12.49s
+2026-09-25 23:32:42 - INFO - PRINT: Epoch [ 590], Train Loss: 0.0881, Validation Loss: 0.2666, Time: 12.54s, Avg(50): 12.48s
+2026-09-25 23:32:55 - INFO - PRINT: Epoch [ 591], Train Loss: 0.0893, Validation Loss: 0.2666, Time: 12.50s, Avg(50): 12.48s
+2026-09-25 23:33:07 - INFO - PRINT: Epoch [ 592], Train Loss: 0.0883, Validation Loss: 0.2666, Time: 12.41s, Avg(50): 12.48s
+2026-09-25 23:33:20 - INFO - PRINT: Epoch [ 593], Train Loss: 0.0891, Validation Loss: 0.2666, Time: 12.48s, Avg(50): 12.48s
+2026-09-25 23:33:32 - INFO - PRINT: Epoch [ 594], Train Loss: 0.0876, Validation Loss: 0.2666, Time: 12.52s, Avg(50): 12.47s
+2026-09-25 23:33:45 - INFO - PRINT: Epoch [ 595], Train Loss: 0.0879, Validation Loss: 0.2666, Time: 12.47s, Avg(50): 12.47s
+2026-09-25 23:33:57 - INFO - PRINT: Epoch [ 596], Train Loss: 0.0864, Validation Loss: 0.2666, Time: 12.52s, Avg(50): 12.47s
+2026-09-25 23:34:10 - INFO - PRINT: Epoch [ 597], Train Loss: 0.0869, Validation Loss: 0.2666, Time: 12.46s, Avg(50): 12.47s
+2026-09-25 23:34:22 - INFO - PRINT: Epoch [ 598], Train Loss: 0.0861, Validation Loss: 0.2666, Time: 12.39s, Avg(50): 12.47s
+2026-09-25 23:34:35 - INFO - PRINT: Epoch [ 599], Train Loss: 0.0861, Validation Loss: 0.2666, Time: 12.53s, Avg(50): 12.47s
+2026-09-25 23:34:47 - INFO - PRINT: ----> Saving model from epoch 120 (val loss: 0.23149435222148895). Decadent!
+2026-09-25 23:34:49 - INFO - PRINT: Epoch [ 600], Train Loss: 0.0867, Validation Loss: 0.2591, Time: 14.13s, Avg(50): 12.51s
+2026-09-25 23:35:01 - INFO - PRINT: Epoch [ 601], Train Loss: 0.0870, Validation Loss: 0.2591, Time: 12.46s, Avg(50): 12.51s
+2026-09-25 23:35:13 - INFO - PRINT: Epoch [ 602], Train Loss: 0.0874, Validation Loss: 0.2591, Time: 12.38s, Avg(50): 12.50s
+2026-09-25 23:35:26 - INFO - PRINT: Epoch [ 603], Train Loss: 0.0869, Validation Loss: 0.2591, Time: 12.41s, Avg(50): 12.50s
+2026-09-25 23:35:38 - INFO - PRINT: Epoch [ 604], Train Loss: 0.0858, Validation Loss: 0.2591, Time: 12.48s, Avg(50): 12.50s
+2026-09-25 23:35:51 - INFO - PRINT: Epoch [ 605], Train Loss: 0.0865, Validation Loss: 0.2591, Time: 12.43s, Avg(50): 12.50s
+2026-09-25 23:36:03 - INFO - PRINT: Epoch [ 606], Train Loss: 0.0851, Validation Loss: 0.2591, Time: 12.42s, Avg(50): 12.50s
+2026-09-25 23:36:16 - INFO - PRINT: Epoch [ 607], Train Loss: 0.0858, Validation Loss: 0.2591, Time: 12.45s, Avg(50): 12.51s
+2026-09-25 23:36:28 - INFO - PRINT: Epoch [ 608], Train Loss: 0.0848, Validation Loss: 0.2591, Time: 12.40s, Avg(50): 12.51s
+2026-09-25 23:36:41 - INFO - PRINT: Epoch [ 609], Train Loss: 0.0838, Validation Loss: 0.2591, Time: 12.51s, Avg(50): 12.51s
+2026-09-25 23:36:53 - INFO - PRINT: Epoch [ 610], Train Loss: 0.0838, Validation Loss: 0.2591, Time: 12.40s, Avg(50): 12.50s
+2026-09-25 23:37:05 - INFO - PRINT: Epoch [ 611], Train Loss: 0.0845, Validation Loss: 0.2591, Time: 12.47s, Avg(50): 12.50s
+2026-09-25 23:37:18 - INFO - PRINT: Epoch [ 612], Train Loss: 0.0852, Validation Loss: 0.2591, Time: 12.50s, Avg(50): 12.50s
+2026-09-25 23:37:30 - INFO - PRINT: Epoch [ 613], Train Loss: 0.0847, Validation Loss: 0.2591, Time: 12.45s, Avg(50): 12.50s
+2026-09-25 23:37:43 - INFO - PRINT: Epoch [ 614], Train Loss: 0.0845, Validation Loss: 0.2591, Time: 12.42s, Avg(50): 12.50s
+2026-09-25 23:37:55 - INFO - PRINT: Epoch [ 615], Train Loss: 0.0859, Validation Loss: 0.2591, Time: 12.52s, Avg(50): 12.50s
+2026-09-25 23:38:08 - INFO - PRINT: Epoch [ 616], Train Loss: 0.0850, Validation Loss: 0.2591, Time: 12.47s, Avg(50): 12.50s
+2026-09-25 23:38:20 - INFO - PRINT: Epoch [ 617], Train Loss: 0.0848, Validation Loss: 0.2591, Time: 12.43s, Avg(50): 12.50s
+2026-09-25 23:38:33 - INFO - PRINT: Epoch [ 618], Train Loss: 0.0843, Validation Loss: 0.2591, Time: 12.49s, Avg(50): 12.50s
+2026-09-25 23:38:45 - INFO - PRINT: Epoch [ 619], Train Loss: 0.0845, Validation Loss: 0.2591, Time: 12.42s, Avg(50): 12.50s
+2026-09-25 23:38:58 - INFO - PRINT: Epoch [ 620], Train Loss: 0.0862, Validation Loss: 0.2574, Time: 12.84s, Avg(50): 12.51s
+2026-09-25 23:39:10 - INFO - PRINT: Epoch [ 621], Train Loss: 0.0860, Validation Loss: 0.2574, Time: 12.49s, Avg(50): 12.51s
+2026-09-25 23:39:23 - INFO - PRINT: Epoch [ 622], Train Loss: 0.0841, Validation Loss: 0.2574, Time: 12.49s, Avg(50): 12.51s
+2026-09-25 23:39:35 - INFO - PRINT: Epoch [ 623], Train Loss: 0.0860, Validation Loss: 0.2574, Time: 12.41s, Avg(50): 12.51s
+2026-09-25 23:39:48 - INFO - PRINT: Epoch [ 624], Train Loss: 0.0849, Validation Loss: 0.2574, Time: 12.49s, Avg(50): 12.51s
+2026-09-25 23:40:00 - INFO - PRINT: Epoch [ 625], Train Loss: 0.0841, Validation Loss: 0.2574, Time: 12.46s, Avg(50): 12.51s
+2026-09-25 23:40:13 - INFO - PRINT: Epoch [ 626], Train Loss: 0.0852, Validation Loss: 0.2574, Time: 12.44s, Avg(50): 12.51s
+2026-09-25 23:40:25 - INFO - PRINT: Epoch [ 627], Train Loss: 0.0842, Validation Loss: 0.2574, Time: 12.44s, Avg(50): 12.51s
+2026-09-25 23:40:38 - INFO - PRINT: Epoch [ 628], Train Loss: 0.0835, Validation Loss: 0.2574, Time: 12.61s, Avg(50): 12.51s
+2026-09-25 23:40:50 - INFO - PRINT: Epoch [ 629], Train Loss: 0.0839, Validation Loss: 0.2574, Time: 12.49s, Avg(50): 12.51s
+2026-09-25 23:41:03 - INFO - PRINT: Epoch [ 630], Train Loss: 0.0869, Validation Loss: 0.2574, Time: 12.49s, Avg(50): 12.50s
+2026-09-25 23:41:15 - INFO - PRINT: Epoch [ 631], Train Loss: 0.0840, Validation Loss: 0.2574, Time: 12.53s, Avg(50): 12.50s
+2026-09-25 23:41:28 - INFO - PRINT: Epoch [ 632], Train Loss: 0.0855, Validation Loss: 0.2574, Time: 12.49s, Avg(50): 12.50s
+2026-09-25 23:41:40 - INFO - PRINT: Epoch [ 633], Train Loss: 0.0849, Validation Loss: 0.2574, Time: 12.45s, Avg(50): 12.50s
+2026-09-25 23:41:53 - INFO - PRINT: Epoch [ 634], Train Loss: 0.0842, Validation Loss: 0.2574, Time: 12.42s, Avg(50): 12.50s
+2026-09-25 23:42:05 - INFO - PRINT: Epoch [ 635], Train Loss: 0.0853, Validation Loss: 0.2574, Time: 12.43s, Avg(50): 12.50s
+2026-09-25 23:42:18 - INFO - PRINT: Epoch [ 636], Train Loss: 0.0849, Validation Loss: 0.2574, Time: 12.43s, Avg(50): 12.50s
+2026-09-25 23:42:30 - INFO - PRINT: Epoch [ 637], Train Loss: 0.0862, Validation Loss: 0.2574, Time: 12.48s, Avg(50): 12.50s
+2026-09-25 23:42:43 - INFO - PRINT: Epoch [ 638], Train Loss: 0.0864, Validation Loss: 0.2574, Time: 12.49s, Avg(50): 12.50s
+2026-09-25 23:42:55 - INFO - PRINT: Epoch [ 639], Train Loss: 0.0860, Validation Loss: 0.2574, Time: 12.49s, Avg(50): 12.51s
+2026-09-25 23:43:08 - INFO - PRINT: Epoch [ 640], Train Loss: 0.0864, Validation Loss: 0.2637, Time: 12.77s, Avg(50): 12.51s
+2026-09-25 23:43:20 - INFO - PRINT: Epoch [ 641], Train Loss: 0.0837, Validation Loss: 0.2637, Time: 12.45s, Avg(50): 12.51s
+2026-09-25 23:43:33 - INFO - PRINT: Epoch [ 642], Train Loss: 0.0838, Validation Loss: 0.2637, Time: 12.45s, Avg(50): 12.51s
+2026-09-25 23:43:45 - INFO - PRINT: Epoch [ 643], Train Loss: 0.0835, Validation Loss: 0.2637, Time: 12.47s, Avg(50): 12.51s
+2026-09-25 23:43:58 - INFO - PRINT: Epoch [ 644], Train Loss: 0.0827, Validation Loss: 0.2637, Time: 12.46s, Avg(50): 12.51s
+2026-09-25 23:44:10 - INFO - PRINT: Epoch [ 645], Train Loss: 0.0838, Validation Loss: 0.2637, Time: 12.44s, Avg(50): 12.51s
+2026-09-25 23:44:23 - INFO - PRINT: Epoch [ 646], Train Loss: 0.0828, Validation Loss: 0.2637, Time: 12.45s, Avg(50): 12.51s
+2026-09-25 23:44:35 - INFO - PRINT: Epoch [ 647], Train Loss: 0.0818, Validation Loss: 0.2637, Time: 12.51s, Avg(50): 12.51s
+2026-09-25 23:44:48 - INFO - PRINT: Epoch [ 648], Train Loss: 0.0827, Validation Loss: 0.2637, Time: 12.52s, Avg(50): 12.51s
+2026-09-25 23:45:00 - INFO - PRINT: Epoch [ 649], Train Loss: 0.0841, Validation Loss: 0.2637, Time: 12.53s, Avg(50): 12.51s
+2026-09-25 23:45:13 - INFO - PRINT: Epoch [ 650], Train Loss: 0.0826, Validation Loss: 0.2637, Time: 12.45s, Avg(50): 12.48s
+2026-09-25 23:45:25 - INFO - PRINT: Epoch [ 651], Train Loss: 0.0822, Validation Loss: 0.2637, Time: 12.51s, Avg(50): 12.48s
+2026-09-25 23:45:37 - INFO - PRINT: Epoch [ 652], Train Loss: 0.0838, Validation Loss: 0.2637, Time: 12.46s, Avg(50): 12.48s
+2026-09-25 23:45:50 - INFO - PRINT: Epoch [ 653], Train Loss: 0.0848, Validation Loss: 0.2637, Time: 12.46s, Avg(50): 12.48s
+2026-09-25 23:46:02 - INFO - PRINT: Epoch [ 654], Train Loss: 0.0839, Validation Loss: 0.2637, Time: 12.45s, Avg(50): 12.48s
+2026-09-25 23:46:15 - INFO - PRINT: Epoch [ 655], Train Loss: 0.0866, Validation Loss: 0.2637, Time: 12.46s, Avg(50): 12.48s
+2026-09-25 23:46:27 - INFO - PRINT: Epoch [ 656], Train Loss: 0.0864, Validation Loss: 0.2637, Time: 12.50s, Avg(50): 12.48s
+2026-09-25 23:46:40 - INFO - PRINT: Epoch [ 657], Train Loss: 0.0849, Validation Loss: 0.2637, Time: 12.46s, Avg(50): 12.48s
+2026-09-25 23:46:52 - INFO - PRINT: Epoch [ 658], Train Loss: 0.0845, Validation Loss: 0.2637, Time: 12.46s, Avg(50): 12.48s
+2026-09-25 23:47:05 - INFO - PRINT: Epoch [ 659], Train Loss: 0.0842, Validation Loss: 0.2637, Time: 12.47s, Avg(50): 12.48s
+2026-09-25 23:47:18 - INFO - PRINT: Epoch [ 660], Train Loss: 0.0837, Validation Loss: 0.2643, Time: 12.83s, Avg(50): 12.49s
+2026-09-25 23:47:30 - INFO - PRINT: Epoch [ 661], Train Loss: 0.0833, Validation Loss: 0.2643, Time: 12.52s, Avg(50): 12.49s
+2026-09-25 23:47:43 - INFO - PRINT: Epoch [ 662], Train Loss: 0.0839, Validation Loss: 0.2643, Time: 12.43s, Avg(50): 12.49s
+2026-09-25 23:47:55 - INFO - PRINT: Epoch [ 663], Train Loss: 0.0830, Validation Loss: 0.2643, Time: 12.47s, Avg(50): 12.49s
+2026-09-25 23:48:08 - INFO - PRINT: Epoch [ 664], Train Loss: 0.0823, Validation Loss: 0.2643, Time: 12.48s, Avg(50): 12.49s
+2026-09-25 23:48:20 - INFO - PRINT: Epoch [ 665], Train Loss: 0.0820, Validation Loss: 0.2643, Time: 12.43s, Avg(50): 12.49s
+2026-09-25 23:48:32 - INFO - PRINT: Epoch [ 666], Train Loss: 0.0813, Validation Loss: 0.2643, Time: 12.39s, Avg(50): 12.49s
+2026-09-25 23:48:45 - INFO - PRINT: Epoch [ 667], Train Loss: 0.0818, Validation Loss: 0.2643, Time: 12.49s, Avg(50): 12.49s
+2026-09-25 23:48:57 - INFO - PRINT: Epoch [ 668], Train Loss: 0.0823, Validation Loss: 0.2643, Time: 12.52s, Avg(50): 12.49s
+2026-09-25 23:49:10 - INFO - PRINT: Epoch [ 669], Train Loss: 0.0813, Validation Loss: 0.2643, Time: 12.43s, Avg(50): 12.49s
+2026-09-25 23:49:22 - INFO - PRINT: Epoch [ 670], Train Loss: 0.0812, Validation Loss: 0.2643, Time: 12.44s, Avg(50): 12.48s
+2026-09-25 23:49:35 - INFO - PRINT: Epoch [ 671], Train Loss: 0.0810, Validation Loss: 0.2643, Time: 12.45s, Avg(50): 12.48s
+2026-09-25 23:49:47 - INFO - PRINT: Epoch [ 672], Train Loss: 0.0812, Validation Loss: 0.2643, Time: 12.50s, Avg(50): 12.48s
+2026-09-25 23:50:00 - INFO - PRINT: Epoch [ 673], Train Loss: 0.0844, Validation Loss: 0.2643, Time: 12.41s, Avg(50): 12.48s
+2026-09-25 23:50:12 - INFO - PRINT: Epoch [ 674], Train Loss: 0.0815, Validation Loss: 0.2643, Time: 12.47s, Avg(50): 12.48s
+2026-09-25 23:50:25 - INFO - PRINT: Epoch [ 675], Train Loss: 0.0832, Validation Loss: 0.2643, Time: 12.47s, Avg(50): 12.48s
+2026-09-25 23:50:37 - INFO - PRINT: Epoch [ 676], Train Loss: 0.0829, Validation Loss: 0.2643, Time: 12.44s, Avg(50): 12.48s
+2026-09-25 23:50:49 - INFO - PRINT: Epoch [ 677], Train Loss: 0.0812, Validation Loss: 0.2643, Time: 12.45s, Avg(50): 12.48s
+2026-09-25 23:51:02 - INFO - PRINT: Epoch [ 678], Train Loss: 0.0816, Validation Loss: 0.2643, Time: 12.50s, Avg(50): 12.48s
+2026-09-25 23:51:14 - INFO - PRINT: Epoch [ 679], Train Loss: 0.0823, Validation Loss: 0.2643, Time: 12.47s, Avg(50): 12.48s
+2026-09-25 23:51:27 - INFO - PRINT: Epoch [ 680], Train Loss: 0.0823, Validation Loss: 0.2687, Time: 12.91s, Avg(50): 12.49s
+2026-09-25 23:51:40 - INFO - PRINT: Epoch [ 681], Train Loss: 0.0808, Validation Loss: 0.2687, Time: 12.55s, Avg(50): 12.49s
+2026-09-25 23:51:52 - INFO - PRINT: Epoch [ 682], Train Loss: 0.0829, Validation Loss: 0.2687, Time: 12.51s, Avg(50): 12.49s
+2026-09-25 23:52:05 - INFO - PRINT: Epoch [ 683], Train Loss: 0.0819, Validation Loss: 0.2687, Time: 12.42s, Avg(50): 12.49s
+2026-09-25 23:52:17 - INFO - PRINT: Epoch [ 684], Train Loss: 0.0811, Validation Loss: 0.2687, Time: 12.46s, Avg(50): 12.49s
+2026-09-25 23:52:30 - INFO - PRINT: Epoch [ 685], Train Loss: 0.0828, Validation Loss: 0.2687, Time: 12.43s, Avg(50): 12.49s
+2026-09-25 23:52:42 - INFO - PRINT: Epoch [ 686], Train Loss: 0.0822, Validation Loss: 0.2687, Time: 12.52s, Avg(50): 12.49s
+2026-09-25 23:52:55 - INFO - PRINT: Epoch [ 687], Train Loss: 0.0827, Validation Loss: 0.2687, Time: 12.42s, Avg(50): 12.49s
+2026-09-25 23:53:07 - INFO - PRINT: Epoch [ 688], Train Loss: 0.0811, Validation Loss: 0.2687, Time: 12.46s, Avg(50): 12.49s
+2026-09-25 23:53:20 - INFO - PRINT: Epoch [ 689], Train Loss: 0.0817, Validation Loss: 0.2687, Time: 12.43s, Avg(50): 12.49s
+2026-09-25 23:53:32 - INFO - PRINT: Epoch [ 690], Train Loss: 0.0826, Validation Loss: 0.2687, Time: 12.50s, Avg(50): 12.48s
+2026-09-25 23:53:45 - INFO - PRINT: Epoch [ 691], Train Loss: 0.0810, Validation Loss: 0.2687, Time: 12.58s, Avg(50): 12.49s
+2026-09-25 23:53:57 - INFO - PRINT: Epoch [ 692], Train Loss: 0.0817, Validation Loss: 0.2687, Time: 12.45s, Avg(50): 12.49s
+2026-09-25 23:54:09 - INFO - PRINT: Epoch [ 693], Train Loss: 0.0819, Validation Loss: 0.2687, Time: 12.45s, Avg(50): 12.49s
+2026-09-25 23:54:22 - INFO - PRINT: Epoch [ 694], Train Loss: 0.0840, Validation Loss: 0.2687, Time: 12.56s, Avg(50): 12.49s
+2026-09-25 23:54:35 - INFO - PRINT: Epoch [ 695], Train Loss: 0.0851, Validation Loss: 0.2687, Time: 12.50s, Avg(50): 12.49s
+2026-09-25 23:54:47 - INFO - PRINT: Epoch [ 696], Train Loss: 0.0853, Validation Loss: 0.2687, Time: 12.49s, Avg(50): 12.49s
+2026-09-25 23:54:59 - INFO - PRINT: Epoch [ 697], Train Loss: 0.0915, Validation Loss: 0.2687, Time: 12.45s, Avg(50): 12.49s
+2026-09-25 23:55:12 - INFO - PRINT: Epoch [ 698], Train Loss: 0.0944, Validation Loss: 0.2687, Time: 12.44s, Avg(50): 12.49s
+2026-09-25 23:55:24 - INFO - PRINT: Epoch [ 699], Train Loss: 0.0922, Validation Loss: 0.2687, Time: 12.52s, Avg(50): 12.49s
+2026-09-25 23:55:37 - INFO - PRINT: ----> Saving model from epoch 120 (val loss: 0.23149435222148895). Fragrant!
+2026-09-25 23:55:38 - INFO - PRINT: Epoch [ 700], Train Loss: 0.0923, Validation Loss: 0.2593, Time: 13.91s, Avg(50): 12.52s
+2026-09-25 23:55:51 - INFO - PRINT: Epoch [ 701], Train Loss: 0.0882, Validation Loss: 0.2593, Time: 12.42s, Avg(50): 12.51s
+2026-09-25 23:56:03 - INFO - PRINT: Epoch [ 702], Train Loss: 0.0887, Validation Loss: 0.2593, Time: 12.48s, Avg(50): 12.52s
+2026-09-25 23:56:16 - INFO - PRINT: Epoch [ 703], Train Loss: 0.0857, Validation Loss: 0.2593, Time: 12.48s, Avg(50): 12.52s
+2026-09-25 23:56:28 - INFO - PRINT: Epoch [ 704], Train Loss: 0.0851, Validation Loss: 0.2593, Time: 12.39s, Avg(50): 12.51s
+2026-09-25 23:56:41 - INFO - PRINT: Epoch [ 705], Train Loss: 0.0826, Validation Loss: 0.2593, Time: 12.41s, Avg(50): 12.51s
+2026-09-25 23:56:53 - INFO - PRINT: Epoch [ 706], Train Loss: 0.0815, Validation Loss: 0.2593, Time: 12.46s, Avg(50): 12.51s
+2026-09-25 23:57:05 - INFO - PRINT: Epoch [ 707], Train Loss: 0.0807, Validation Loss: 0.2593, Time: 12.42s, Avg(50): 12.51s
+2026-09-25 23:57:18 - INFO - PRINT: Epoch [ 708], Train Loss: 0.0799, Validation Loss: 0.2593, Time: 12.42s, Avg(50): 12.51s
+2026-09-25 23:57:30 - INFO - PRINT: Epoch [ 709], Train Loss: 0.0793, Validation Loss: 0.2593, Time: 12.48s, Avg(50): 12.51s
+2026-09-25 23:57:43 - INFO - PRINT: Epoch [ 710], Train Loss: 0.0791, Validation Loss: 0.2593, Time: 12.49s, Avg(50): 12.50s
+2026-09-25 23:57:55 - INFO - PRINT: Epoch [ 711], Train Loss: 0.0787, Validation Loss: 0.2593, Time: 12.51s, Avg(50): 12.50s
+2026-09-25 23:58:08 - INFO - PRINT: Epoch [ 712], Train Loss: 0.0785, Validation Loss: 0.2593, Time: 12.38s, Avg(50): 12.50s
+2026-09-25 23:58:20 - INFO - PRINT: Epoch [ 713], Train Loss: 0.0790, Validation Loss: 0.2593, Time: 12.41s, Avg(50): 12.50s
+2026-09-25 23:58:32 - INFO - PRINT: Epoch [ 714], Train Loss: 0.0802, Validation Loss: 0.2593, Time: 12.37s, Avg(50): 12.50s
+2026-09-25 23:58:45 - INFO - PRINT: Epoch [ 715], Train Loss: 0.0797, Validation Loss: 0.2593, Time: 12.55s, Avg(50): 12.50s
+2026-09-25 23:58:58 - INFO - PRINT: Epoch [ 716], Train Loss: 0.0785, Validation Loss: 0.2593, Time: 12.49s, Avg(50): 12.50s
+2026-09-25 23:59:10 - INFO - PRINT: Epoch [ 717], Train Loss: 0.0785, Validation Loss: 0.2593, Time: 12.46s, Avg(50): 12.50s
+2026-09-25 23:59:22 - INFO - PRINT: Epoch [ 718], Train Loss: 0.0807, Validation Loss: 0.2593, Time: 12.45s, Avg(50): 12.50s
+2026-09-25 23:59:35 - INFO - PRINT: Epoch [ 719], Train Loss: 0.0792, Validation Loss: 0.2593, Time: 12.53s, Avg(50): 12.50s
+2026-09-25 23:59:48 - INFO - PRINT: Epoch [ 720], Train Loss: 0.0787, Validation Loss: 0.2673, Time: 12.83s, Avg(50): 12.51s
+2026-09-26 00:00:00 - INFO - PRINT: Epoch [ 721], Train Loss: 0.0794, Validation Loss: 0.2673, Time: 12.46s, Avg(50): 12.51s
+2026-09-26 00:00:13 - INFO - PRINT: Epoch [ 722], Train Loss: 0.0799, Validation Loss: 0.2673, Time: 12.51s, Avg(50): 12.51s
+2026-09-26 00:00:25 - INFO - PRINT: Epoch [ 723], Train Loss: 0.0794, Validation Loss: 0.2673, Time: 12.47s, Avg(50): 12.51s
+2026-09-26 00:00:38 - INFO - PRINT: Epoch [ 724], Train Loss: 0.0788, Validation Loss: 0.2673, Time: 12.49s, Avg(50): 12.51s
+2026-09-26 00:00:50 - INFO - PRINT: Epoch [ 725], Train Loss: 0.0790, Validation Loss: 0.2673, Time: 12.59s, Avg(50): 12.52s
+2026-09-26 00:01:03 - INFO - PRINT: Epoch [ 726], Train Loss: 0.0799, Validation Loss: 0.2673, Time: 12.50s, Avg(50): 12.52s
+2026-09-26 00:01:15 - INFO - PRINT: Epoch [ 727], Train Loss: 0.0803, Validation Loss: 0.2673, Time: 12.50s, Avg(50): 12.52s
+2026-09-26 00:01:28 - INFO - PRINT: Epoch [ 728], Train Loss: 0.0795, Validation Loss: 0.2673, Time: 12.48s, Avg(50): 12.52s
+2026-09-26 00:01:40 - INFO - PRINT: Epoch [ 729], Train Loss: 0.0784, Validation Loss: 0.2673, Time: 12.49s, Avg(50): 12.52s
+2026-09-26 00:01:53 - INFO - PRINT: Epoch [ 730], Train Loss: 0.0803, Validation Loss: 0.2673, Time: 12.44s, Avg(50): 12.51s
+2026-09-26 00:02:05 - INFO - PRINT: Epoch [ 731], Train Loss: 0.0805, Validation Loss: 0.2673, Time: 12.49s, Avg(50): 12.51s
+2026-09-26 00:02:18 - INFO - PRINT: Epoch [ 732], Train Loss: 0.0784, Validation Loss: 0.2673, Time: 12.43s, Avg(50): 12.51s
+2026-09-26 00:02:30 - INFO - PRINT: Epoch [ 733], Train Loss: 0.0804, Validation Loss: 0.2673, Time: 12.45s, Avg(50): 12.51s
+2026-09-26 00:02:43 - INFO - PRINT: Epoch [ 734], Train Loss: 0.0786, Validation Loss: 0.2673, Time: 12.43s, Avg(50): 12.51s
+2026-09-26 00:02:55 - INFO - PRINT: Epoch [ 735], Train Loss: 0.0788, Validation Loss: 0.2673, Time: 12.48s, Avg(50): 12.51s
+2026-09-26 00:03:08 - INFO - PRINT: Epoch [ 736], Train Loss: 0.0814, Validation Loss: 0.2673, Time: 12.54s, Avg(50): 12.51s
+2026-09-26 00:03:20 - INFO - PRINT: Epoch [ 737], Train Loss: 0.0799, Validation Loss: 0.2673, Time: 12.39s, Avg(50): 12.51s
+2026-09-26 00:03:32 - INFO - PRINT: Epoch [ 738], Train Loss: 0.0791, Validation Loss: 0.2673, Time: 12.47s, Avg(50): 12.51s
+2026-09-26 00:03:45 - INFO - PRINT: Epoch [ 739], Train Loss: 0.0800, Validation Loss: 0.2673, Time: 12.54s, Avg(50): 12.51s
+2026-09-26 00:03:58 - INFO - PRINT: Epoch [ 740], Train Loss: 0.0785, Validation Loss: 0.2718, Time: 12.87s, Avg(50): 12.52s
+2026-09-26 00:04:10 - INFO - PRINT: Epoch [ 741], Train Loss: 0.0781, Validation Loss: 0.2718, Time: 12.52s, Avg(50): 12.51s
+2026-09-26 00:04:23 - INFO - PRINT: Epoch [ 742], Train Loss: 0.0773, Validation Loss: 0.2718, Time: 12.34s, Avg(50): 12.51s
+2026-09-26 00:04:35 - INFO - PRINT: Epoch [ 743], Train Loss: 0.0781, Validation Loss: 0.2718, Time: 12.44s, Avg(50): 12.51s
+2026-09-26 00:04:48 - INFO - PRINT: Epoch [ 744], Train Loss: 0.0804, Validation Loss: 0.2718, Time: 12.45s, Avg(50): 12.51s
+2026-09-26 00:05:00 - INFO - PRINT: Epoch [ 745], Train Loss: 0.0797, Validation Loss: 0.2718, Time: 12.41s, Avg(50): 12.51s
+2026-09-26 00:05:14 - INFO - PRINT: Epoch [ 746], Train Loss: 0.0778, Validation Loss: 0.2718, Time: 14.05s, Avg(50): 12.54s
+2026-09-26 00:05:27 - INFO - PRINT: Epoch [ 747], Train Loss: 0.0775, Validation Loss: 0.2718, Time: 12.52s, Avg(50): 12.54s
+2026-09-26 00:05:39 - INFO - PRINT: Epoch [ 748], Train Loss: 0.0781, Validation Loss: 0.2718, Time: 12.51s, Avg(50): 12.54s
+2026-09-26 00:05:52 - INFO - PRINT: Epoch [ 749], Train Loss: 0.0799, Validation Loss: 0.2718, Time: 12.52s, Avg(50): 12.54s
+2026-09-26 00:06:04 - INFO - PRINT: Epoch [ 750], Train Loss: 0.0783, Validation Loss: 0.2718, Time: 12.46s, Avg(50): 12.51s
+2026-09-26 00:06:17 - INFO - PRINT: Epoch [ 751], Train Loss: 0.0778, Validation Loss: 0.2718, Time: 12.47s, Avg(50): 12.51s
+2026-09-26 00:06:29 - INFO - PRINT: Epoch [ 752], Train Loss: 0.0800, Validation Loss: 0.2718, Time: 12.50s, Avg(50): 12.51s
+2026-09-26 00:06:41 - INFO - PRINT: Epoch [ 753], Train Loss: 0.0781, Validation Loss: 0.2718, Time: 12.44s, Avg(50): 12.51s
+2026-09-26 00:06:54 - INFO - PRINT: Epoch [ 754], Train Loss: 0.0788, Validation Loss: 0.2718, Time: 12.49s, Avg(50): 12.52s
+2026-09-26 00:07:06 - INFO - PRINT: Epoch [ 755], Train Loss: 0.0795, Validation Loss: 0.2718, Time: 12.40s, Avg(50): 12.52s
+2026-09-26 00:07:19 - INFO - PRINT: Epoch [ 756], Train Loss: 0.0773, Validation Loss: 0.2718, Time: 12.43s, Avg(50): 12.51s
+2026-09-26 00:07:31 - INFO - PRINT: Epoch [ 757], Train Loss: 0.0796, Validation Loss: 0.2718, Time: 12.49s, Avg(50): 12.52s
+2026-09-26 00:07:44 - INFO - PRINT: Epoch [ 758], Train Loss: 0.0786, Validation Loss: 0.2718, Time: 12.49s, Avg(50): 12.52s
+2026-09-26 00:07:56 - INFO - PRINT: Epoch [ 759], Train Loss: 0.0782, Validation Loss: 0.2718, Time: 12.44s, Avg(50): 12.52s
+2026-09-26 00:08:09 - INFO - PRINT: Epoch [ 760], Train Loss: 0.0791, Validation Loss: 0.2707, Time: 12.92s, Avg(50): 12.53s
+2026-09-26 00:08:22 - INFO - PRINT: Epoch [ 761], Train Loss: 0.0774, Validation Loss: 0.2707, Time: 12.46s, Avg(50): 12.52s
+2026-09-26 00:08:34 - INFO - PRINT: Epoch [ 762], Train Loss: 0.0789, Validation Loss: 0.2707, Time: 12.50s, Avg(50): 12.53s
+2026-09-26 00:08:46 - INFO - PRINT: Epoch [ 763], Train Loss: 0.0792, Validation Loss: 0.2707, Time: 12.40s, Avg(50): 12.53s
+2026-09-26 00:08:59 - INFO - PRINT: Epoch [ 764], Train Loss: 0.0795, Validation Loss: 0.2707, Time: 12.49s, Avg(50): 12.53s
+2026-09-26 00:09:11 - INFO - PRINT: Epoch [ 765], Train Loss: 0.0815, Validation Loss: 0.2707, Time: 12.47s, Avg(50): 12.53s
+2026-09-26 00:09:24 - INFO - PRINT: Epoch [ 766], Train Loss: 0.0807, Validation Loss: 0.2707, Time: 12.39s, Avg(50): 12.53s
+2026-09-26 00:09:36 - INFO - PRINT: Epoch [ 767], Train Loss: 0.0797, Validation Loss: 0.2707, Time: 12.52s, Avg(50): 12.53s
+2026-09-26 00:09:49 - INFO - PRINT: Epoch [ 768], Train Loss: 0.0786, Validation Loss: 0.2707, Time: 12.46s, Avg(50): 12.53s
+2026-09-26 00:10:01 - INFO - PRINT: Epoch [ 769], Train Loss: 0.0781, Validation Loss: 0.2707, Time: 12.44s, Avg(50): 12.52s
+2026-09-26 00:10:14 - INFO - PRINT: Epoch [ 770], Train Loss: 0.0779, Validation Loss: 0.2707, Time: 12.40s, Avg(50): 12.52s
+2026-09-26 00:10:26 - INFO - PRINT: Epoch [ 771], Train Loss: 0.0769, Validation Loss: 0.2707, Time: 12.54s, Avg(50): 12.52s
+2026-09-26 00:10:39 - INFO - PRINT: Epoch [ 772], Train Loss: 0.0768, Validation Loss: 0.2707, Time: 12.49s, Avg(50): 12.52s
+2026-09-26 00:10:51 - INFO - PRINT: Epoch [ 773], Train Loss: 0.0769, Validation Loss: 0.2707, Time: 12.46s, Avg(50): 12.52s
+2026-09-26 00:11:04 - INFO - PRINT: Epoch [ 774], Train Loss: 0.0761, Validation Loss: 0.2707, Time: 12.42s, Avg(50): 12.52s
+2026-09-26 00:11:16 - INFO - PRINT: Epoch [ 775], Train Loss: 0.0762, Validation Loss: 0.2707, Time: 12.42s, Avg(50): 12.51s
+2026-09-26 00:11:28 - INFO - PRINT: Epoch [ 776], Train Loss: 0.0773, Validation Loss: 0.2707, Time: 12.47s, Avg(50): 12.51s
+2026-09-26 00:11:41 - INFO - PRINT: Epoch [ 777], Train Loss: 0.0785, Validation Loss: 0.2707, Time: 12.55s, Avg(50): 12.51s
+2026-09-26 00:11:53 - INFO - PRINT: Epoch [ 778], Train Loss: 0.0783, Validation Loss: 0.2707, Time: 12.45s, Avg(50): 12.51s
+2026-09-26 00:12:06 - INFO - PRINT: Epoch [ 779], Train Loss: 0.0768, Validation Loss: 0.2707, Time: 12.41s, Avg(50): 12.51s
+2026-09-26 00:12:19 - INFO - PRINT: Epoch [ 780], Train Loss: 0.0772, Validation Loss: 0.2810, Time: 12.85s, Avg(50): 12.52s
+2026-09-26 00:12:31 - INFO - PRINT: Epoch [ 781], Train Loss: 0.0781, Validation Loss: 0.2810, Time: 12.46s, Avg(50): 12.52s
+2026-09-26 00:12:44 - INFO - PRINT: Epoch [ 782], Train Loss: 0.0760, Validation Loss: 0.2810, Time: 12.52s, Avg(50): 12.52s
+2026-09-26 00:12:56 - INFO - PRINT: Epoch [ 783], Train Loss: 0.0775, Validation Loss: 0.2810, Time: 12.51s, Avg(50): 12.52s
+2026-09-26 00:13:09 - INFO - PRINT: Epoch [ 784], Train Loss: 0.0789, Validation Loss: 0.2810, Time: 12.47s, Avg(50): 12.52s
+2026-09-26 00:13:21 - INFO - PRINT: Epoch [ 785], Train Loss: 0.0775, Validation Loss: 0.2810, Time: 12.46s, Avg(50): 12.52s
+2026-09-26 00:13:34 - INFO - PRINT: Epoch [ 786], Train Loss: 0.0803, Validation Loss: 0.2810, Time: 12.42s, Avg(50): 12.52s
+2026-09-26 00:13:46 - INFO - PRINT: Epoch [ 787], Train Loss: 0.0773, Validation Loss: 0.2810, Time: 12.45s, Avg(50): 12.52s
+2026-09-26 00:13:58 - INFO - PRINT: Epoch [ 788], Train Loss: 0.0786, Validation Loss: 0.2810, Time: 12.45s, Avg(50): 12.52s
+2026-09-26 00:14:11 - INFO - PRINT: Epoch [ 789], Train Loss: 0.0769, Validation Loss: 0.2810, Time: 12.46s, Avg(50): 12.52s
+2026-09-26 00:14:23 - INFO - PRINT: Epoch [ 790], Train Loss: 0.0764, Validation Loss: 0.2810, Time: 12.45s, Avg(50): 12.51s
+2026-09-26 00:14:36 - INFO - PRINT: Epoch [ 791], Train Loss: 0.0764, Validation Loss: 0.2810, Time: 12.53s, Avg(50): 12.51s
+2026-09-26 00:14:48 - INFO - PRINT: Epoch [ 792], Train Loss: 0.0768, Validation Loss: 0.2810, Time: 12.34s, Avg(50): 12.51s
+2026-09-26 00:15:01 - INFO - PRINT: Epoch [ 793], Train Loss: 0.0754, Validation Loss: 0.2810, Time: 12.44s, Avg(50): 12.51s
+2026-09-26 00:15:13 - INFO - PRINT: Epoch [ 794], Train Loss: 0.0777, Validation Loss: 0.2810, Time: 12.52s, Avg(50): 12.51s
+2026-09-26 00:15:26 - INFO - PRINT: Epoch [ 795], Train Loss: 0.0782, Validation Loss: 0.2810, Time: 12.41s, Avg(50): 12.51s
+2026-09-26 00:15:38 - INFO - PRINT: Epoch [ 796], Train Loss: 0.0758, Validation Loss: 0.2810, Time: 12.49s, Avg(50): 12.48s
+2026-09-26 00:15:51 - INFO - PRINT: Epoch [ 797], Train Loss: 0.0777, Validation Loss: 0.2810, Time: 12.48s, Avg(50): 12.48s
+2026-09-26 00:16:03 - INFO - PRINT: Epoch [ 798], Train Loss: 0.0770, Validation Loss: 0.2810, Time: 12.54s, Avg(50): 12.48s
+2026-09-26 00:16:16 - INFO - PRINT: Epoch [ 799], Train Loss: 0.0758, Validation Loss: 0.2810, Time: 12.48s, Avg(50): 12.48s
+2026-09-26 00:16:28 - INFO - PRINT: ----> Saving model from epoch 120 (val loss: 0.23149435222148895). Appetizing!
+2026-09-26 00:16:30 - INFO - PRINT: Epoch [ 800], Train Loss: 0.0781, Validation Loss: 0.2712, Time: 13.96s, Avg(50): 12.51s
+2026-09-26 00:16:42 - INFO - PRINT: Epoch [ 801], Train Loss: 0.0766, Validation Loss: 0.2712, Time: 12.42s, Avg(50): 12.51s
+2026-09-26 00:16:54 - INFO - PRINT: Epoch [ 802], Train Loss: 0.0777, Validation Loss: 0.2712, Time: 12.52s, Avg(50): 12.51s
+2026-09-26 00:17:07 - INFO - PRINT: Epoch [ 803], Train Loss: 0.0761, Validation Loss: 0.2712, Time: 12.49s, Avg(50): 12.51s
+2026-09-26 00:17:20 - INFO - PRINT: Epoch [ 804], Train Loss: 0.0763, Validation Loss: 0.2712, Time: 12.56s, Avg(50): 12.51s
+2026-09-26 00:17:32 - INFO - PRINT: Epoch [ 805], Train Loss: 0.0760, Validation Loss: 0.2712, Time: 12.50s, Avg(50): 12.51s
+2026-09-26 00:17:44 - INFO - PRINT: Epoch [ 806], Train Loss: 0.0776, Validation Loss: 0.2712, Time: 12.44s, Avg(50): 12.51s
+2026-09-26 00:17:57 - INFO - PRINT: Epoch [ 807], Train Loss: 0.0757, Validation Loss: 0.2712, Time: 12.42s, Avg(50): 12.51s
+2026-09-26 00:18:09 - INFO - PRINT: Epoch [ 808], Train Loss: 0.0765, Validation Loss: 0.2712, Time: 12.50s, Avg(50): 12.51s
+2026-09-26 00:18:22 - INFO - PRINT: Epoch [ 809], Train Loss: 0.0762, Validation Loss: 0.2712, Time: 12.46s, Avg(50): 12.51s
+2026-09-26 00:18:34 - INFO - PRINT: Epoch [ 810], Train Loss: 0.0759, Validation Loss: 0.2712, Time: 12.40s, Avg(50): 12.50s
+2026-09-26 00:18:47 - INFO - PRINT: Epoch [ 811], Train Loss: 0.0755, Validation Loss: 0.2712, Time: 12.35s, Avg(50): 12.50s
+2026-09-26 00:18:59 - INFO - PRINT: Epoch [ 812], Train Loss: 0.0761, Validation Loss: 0.2712, Time: 12.40s, Avg(50): 12.50s
+2026-09-26 00:19:11 - INFO - PRINT: Epoch [ 813], Train Loss: 0.0777, Validation Loss: 0.2712, Time: 12.44s, Avg(50): 12.50s
+2026-09-26 00:19:24 - INFO - PRINT: Epoch [ 814], Train Loss: 0.0754, Validation Loss: 0.2712, Time: 12.41s, Avg(50): 12.50s
+2026-09-26 00:19:36 - INFO - PRINT: Epoch [ 815], Train Loss: 0.0767, Validation Loss: 0.2712, Time: 12.44s, Avg(50): 12.50s
+2026-09-26 00:19:49 - INFO - PRINT: Epoch [ 816], Train Loss: 0.0793, Validation Loss: 0.2712, Time: 12.48s, Avg(50): 12.50s
+2026-09-26 00:20:01 - INFO - PRINT: Epoch [ 817], Train Loss: 0.0766, Validation Loss: 0.2712, Time: 12.41s, Avg(50): 12.50s
+2026-09-26 00:20:14 - INFO - PRINT: Epoch [ 818], Train Loss: 0.0778, Validation Loss: 0.2712, Time: 12.42s, Avg(50): 12.50s
+2026-09-26 00:20:26 - INFO - PRINT: Epoch [ 819], Train Loss: 0.0771, Validation Loss: 0.2712, Time: 12.35s, Avg(50): 12.49s
+2026-09-26 00:20:39 - INFO - PRINT: Epoch [ 820], Train Loss: 0.0759, Validation Loss: 0.2711, Time: 12.84s, Avg(50): 12.50s
+2026-09-26 00:20:51 - INFO - PRINT: ----> Saving model from epoch 120 (val loss: 0.23149435222148895). Candy-like!
+2026-09-26 00:20:52 - INFO - PRINT: 
+
+=== Mouthwatering! Rich! Savory! EARLY STOPPING at epoch 821 (no improvement since 120) ===
+
+2026-09-26 00:20:53 - INFO - PRINT: ----> Running test eval on model from Epoch 120
+2026-09-26 00:20:53 - INFO - PRINT: WELCOME TO THE TEST OF EXPERIMENT: 26_09_25_21:29:22_moved_bison_nearwall_boxfilter_4x_sgs
+2026-09-26 00:21:05 - INFO - PRINT: default dtype: torch.float32
+2026-09-26 00:21:05 - INFO - PRINT: Train samples: 900
+2026-09-26 00:21:05 - INFO - PRINT: Val samples: 75
+2026-09-26 00:21:05 - INFO - PRINT: QC passed: all checks OK
+2026-09-26 00:21:05 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-09-26 00:21:06 - INFO - PRINT: After loading - inputs: torch.Size([900, 9, 14, 14, 14]), targets: torch.Size([900, 5, 14, 14, 14])
+2026-09-26 00:21:07 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-09-26 00:21:07 - INFO - PRINT: After loading - inputs: torch.Size([900, 9, 14, 14, 14]), targets: torch.Size([900, 5, 14, 14, 14])
+2026-09-26 00:21:08 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-09-26 00:21:08 - INFO - PRINT: After loading - inputs: torch.Size([900, 9, 14, 14, 14]), targets: torch.Size([900, 5, 14, 14, 14])
+2026-09-26 00:21:08 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-09-26 00:21:08 - INFO - PRINT: After loading - inputs: torch.Size([75, 9, 14, 14, 14]), targets: torch.Size([75, 5, 14, 14, 14])
+2026-09-26 00:21:09 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-09-26 00:21:09 - INFO - PRINT: After loading - inputs: torch.Size([75, 9, 14, 14, 14]), targets: torch.Size([75, 5, 14, 14, 14])
+2026-09-26 00:21:09 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-09-26 00:21:09 - INFO - PRINT: After loading - inputs: torch.Size([75, 9, 14, 14, 14]), targets: torch.Size([75, 5, 14, 14, 14])
+2026-09-26 00:21:09 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-09-26 00:21:09 - INFO - PRINT: After loading - inputs: torch.Size([75, 9, 14, 14, 14]), targets: torch.Size([75, 5, 14, 14, 14])
+2026-09-26 00:21:11 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-09-26 00:21:11 - INFO - PRINT: After loading - inputs: torch.Size([825, 9, 14, 14, 14]), targets: torch.Size([825, 5, 14, 14, 14])
+2026-09-26 00:21:13 - INFO - PRINT: Precompute eigenframe inputs: False
+2026-09-26 00:21:14 - INFO - PRINT: After loading - inputs: torch.Size([825, 9, 14, 14, 14]), targets: torch.Size([825, 5, 14, 14, 14])
+2026-09-26 00:21:16 - INFO - PRINT: Test Re1000_middle_train Loss (unstandardized, non-dimensional): 0.0006229966884065005
+2026-09-26 00:21:16 - INFO - PRINT: Test Re1000_middle_train Correlation: 0.8655024855861893
+2026-09-26 00:21:19 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.54 GiB is allocated by PyTorch, and 1.41 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:21:22 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.54 GiB is allocated by PyTorch, and 1.41 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:21:25 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.54 GiB is allocated by PyTorch, and 1.41 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:21:27 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.54 GiB is allocated by PyTorch, and 1.41 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:21:30 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.54 GiB is allocated by PyTorch, and 1.41 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:21:33 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.54 GiB is allocated by PyTorch, and 1.41 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:21:36 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.54 GiB is allocated by PyTorch, and 1.41 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:21:37 - INFO - PRINT: Equivariance error: 0.000312974356347695
+2026-09-26 00:21:37 - INFO - PRINT: Batch inputs: torch.Size([4, 9, 14, 14, 14])
+2026-09-26 00:21:37 - INFO - PRINT: equivariance error count: 4
+2026-09-26 00:21:37 - INFO - PRINT: equivariance error sum: 0.00125189742539078
+2026-09-26 00:21:37 - INFO - PRINT: Test Re1000_middle_train Equivariance Error: 0.000312974356347695 (relative: 0.00030048744520172477)
+2026-09-26 00:21:41 - INFO - PRINT: Test Re1000_nearwall_train Loss (unstandardized, non-dimensional): 0.0013388002891507413
+2026-09-26 00:21:41 - INFO - PRINT: Test Re1000_nearwall_train Correlation: 0.8307703794084995
+2026-09-26 00:21:44 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.54 GiB is allocated by PyTorch, and 1.41 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:21:46 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.54 GiB is allocated by PyTorch, and 1.41 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:21:49 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.54 GiB is allocated by PyTorch, and 1.41 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:21:52 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.54 GiB is allocated by PyTorch, and 1.41 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:21:55 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.54 GiB is allocated by PyTorch, and 1.41 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:21:58 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.54 GiB is allocated by PyTorch, and 1.41 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:22:01 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.54 GiB is allocated by PyTorch, and 1.41 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:22:01 - INFO - PRINT: Equivariance error: 0.00033051197533495724
+2026-09-26 00:22:01 - INFO - PRINT: Batch inputs: torch.Size([4, 9, 14, 14, 14])
+2026-09-26 00:22:01 - INFO - PRINT: equivariance error count: 4
+2026-09-26 00:22:01 - INFO - PRINT: equivariance error sum: 0.001322047901339829
+2026-09-26 00:22:01 - INFO - PRINT: Test Re1000_nearwall_train Equivariance Error: 0.00033051197533495724 (relative: 0.00029059473308734596)
+2026-09-26 00:22:03 - INFO - PRINT: Test Re1000_middle_val Loss (unstandardized, non-dimensional): 0.0006557908491231501
+2026-09-26 00:22:03 - INFO - PRINT: Test Re1000_middle_val Correlation: 0.8614821069400783
+2026-09-26 00:22:05 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 28.26 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 31.24 GiB is allocated by PyTorch, and 21.70 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:22:05 - INFO - PRINT: Test Re1000_middle_val Equivariance Error: nan (relative: nan)
+2026-09-26 00:22:07 - INFO - PRINT: Test Re1000_nearwall_val Loss (unstandardized, non-dimensional): 0.0017936169169843197
+2026-09-26 00:22:07 - INFO - PRINT: Test Re1000_nearwall_val Correlation: 0.7691301449410669
+2026-09-26 00:22:08 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 28.26 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 31.24 GiB is allocated by PyTorch, and 21.70 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:22:08 - INFO - PRINT: Test Re1000_nearwall_val Equivariance Error: nan (relative: nan)
+2026-09-26 00:22:10 - INFO - PRINT: Test Re1000_middle_test Loss (unstandardized, non-dimensional): 0.0006301677785813808
+2026-09-26 00:22:10 - INFO - PRINT: Test Re1000_middle_test Correlation: 0.8654595479688918
+2026-09-26 00:22:12 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 28.26 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 31.24 GiB is allocated by PyTorch, and 21.70 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:22:12 - INFO - PRINT: Test Re1000_middle_test Equivariance Error: nan (relative: nan)
+2026-09-26 00:22:14 - INFO - PRINT: Test Re1000_nearwall_test Loss (unstandardized, non-dimensional): 0.001680806977674365
+2026-09-26 00:22:14 - INFO - PRINT: Test Re1000_nearwall_test Correlation: 0.7726752081445138
+2026-09-26 00:22:15 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 28.26 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 31.24 GiB is allocated by PyTorch, and 21.70 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:22:15 - INFO - PRINT: Test Re1000_nearwall_test Equivariance Error: nan (relative: nan)
+2026-09-26 00:22:19 - INFO - PRINT: Test Re5200_middle Loss (unstandardized, non-dimensional): 0.0001613563516311291
+2026-09-26 00:22:19 - INFO - PRINT: Test Re5200_middle Correlation: 0.9291318272246435
+2026-09-26 00:22:22 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.55 GiB is allocated by PyTorch, and 1.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:22:25 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.55 GiB is allocated by PyTorch, and 1.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:22:28 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.55 GiB is allocated by PyTorch, and 1.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:22:31 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.55 GiB is allocated by PyTorch, and 1.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:22:34 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.55 GiB is allocated by PyTorch, and 1.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:22:36 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.55 GiB is allocated by PyTorch, and 1.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:22:47 - INFO - PRINT: Equivariance error: 0.00024140093591995537
+2026-09-26 00:22:47 - INFO - PRINT: Batch inputs: torch.Size([57, 9, 14, 14, 14])
+2026-09-26 00:22:47 - INFO - PRINT: equivariance error count: 57
+2026-09-26 00:22:47 - INFO - PRINT: equivariance error sum: 0.013759853347437456
+2026-09-26 00:22:47 - INFO - PRINT: Test Re5200_middle Equivariance Error: 0.00024140093591995537 (relative: 0.00030536437407135963)
+2026-09-26 00:22:51 - INFO - PRINT: Test Re5200_nearwall Loss (unstandardized, non-dimensional): 0.001828267256390642
+2026-09-26 00:22:51 - INFO - PRINT: Test Re5200_nearwall Correlation: 0.7625460003337698
+2026-09-26 00:22:54 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.55 GiB is allocated by PyTorch, and 1.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:22:56 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.55 GiB is allocated by PyTorch, and 1.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:22:59 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.55 GiB is allocated by PyTorch, and 1.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:23:02 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.55 GiB is allocated by PyTorch, and 1.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:23:05 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.55 GiB is allocated by PyTorch, and 1.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:23:08 - INFO - PRINT: Error in equivariance error calculation: CUDA out of memory. Tried to allocate 48.23 GiB. GPU 0 has a total capacity of 79.18 GiB of which 25.48 GiB is free. Including non-PyTorch memory, this process has 53.69 GiB memory in use. Of the allocated memory 51.55 GiB is allocated by PyTorch, and 1.39 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+2026-09-26 00:23:18 - INFO - PRINT: Equivariance error: 0.00034259678795933723
+2026-09-26 00:23:18 - INFO - PRINT: Batch inputs: torch.Size([57, 9, 14, 14, 14])
+2026-09-26 00:23:18 - INFO - PRINT: equivariance error count: 57
+2026-09-26 00:23:18 - INFO - PRINT: equivariance error sum: 0.019528016913682222
+2026-09-26 00:23:18 - INFO - PRINT: Test Re5200_nearwall Equivariance Error: 0.00034259678795933723 (relative: 0.0002985867322422564)
+2026-09-26 00:23:33 - INFO - PRINT: mult=     1  points=   205,800  per_point=1.0092 µs
+2026-09-26 00:23:58 - INFO - PRINT: mult=     2  points=   411,600  per_point=1.0326 µs
+2026-09-26 00:24:50 - INFO - PRINT: mult=     4  points=   823,200  per_point=1.0667 µs
+2026-09-26 00:26:33 - INFO - PRINT: mult=     8  points= 1,646,400  per_point=1.0432 µs
+2026-09-26 00:30:01 - INFO - PRINT: mult=    16  points= 3,292,800  per_point=1.0483 µs
+2026-09-26 00:30:01 - INFO - PRINT: OOM, stopping search.
+2026-09-26 00:30:01 - INFO - PRINT: 
+Best multiplier from search: 1
+2026-09-26 00:30:53 - INFO - PRINT: Final: multiplier=1, points=205,800, per_point=1.0032 µs, per_10M=10.0320 s

@@ -1,0 +1,4 @@
+base_config: configs/sweeps/base/pointwiseEigenFrame_middle_fs8_base.yaml
+
+sweep:
+  model.layers: [[64,64,64,64,64,64]]

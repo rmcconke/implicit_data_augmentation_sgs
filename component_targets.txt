@@ -1,0 +1,8 @@
+outputs/ESCNN_params/26_09_25_20:01:27_holy_osprey_nearwall_boxfilter_4x_sgs/
+outputs/CNNaug_params/26_09_25_19:40:40_secure_fish_nearwall_boxfilter_4x_sgs/
+outputs/pointwiseAug_params/26_09_25_20:39:15_intent_sole_nearwall_boxfilter_4x_sgs/
+outputs/pointwiseEigenFrame_params/26_09_25_19:38:23_meet_collie_nearwall_boxfilter_4x_sgs/
+outputs/table3_middle/26_09_25_23:23:16_moral_kiwi_middle_boxfilter_4x_sgs/
+outputs/table3_middle/26_09_25_23:41:02_choice_lynx_middle_boxfilter_4x_sgs/
+outputs/table3_middle/26_09_26_00:01:33_comic_possum_middle_boxfilter_4x_sgs/
+outputs/table3_middle/26_09_26_00:22:33_merry_condor_middle_boxfilter_4x_sgs/

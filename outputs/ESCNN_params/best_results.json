@@ -5,7 +5,7 @@
         "model_n_reg_repr": "64",
         "model_n_layers": "4"
     },
-    "val_loss": 0.0010413308627903,
+    "val_loss": 0.0017936169169843,
     "param_count": "2955456",
-    "model_barcode": "26_05_21_12:22:42_casual_duck_nearwall_boxfilter_4x_sgs"
+    "model_barcode": "26_09_25_21:29:22_moved_bison_nearwall_boxfilter_4x_sgs"
 }
