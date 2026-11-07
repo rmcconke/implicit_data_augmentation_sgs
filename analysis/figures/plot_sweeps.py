@@ -81,14 +81,14 @@ def plot_implicit_augmentation_frob():
     lw, size = psr.linewidth, 3
     c_nw, c_md = psr.c_nw, psr.c_md
     series = [
-        ('pointwiseNoAug_data',        'nearwall', c_nw, 'o', '--', 'Pointwise, no aug (NW)'),
-        ('pointwiseAug_data',          'nearwall', c_nw, 'o', '-',  'Pointwise, aug (NW)'),
-        ('CNNnoaug_data',              'nearwall', c_nw, 's', '--', 'CNN, no aug (NW)'),
-        ('CNNaug_data',                'nearwall', c_nw, 's', '-',  'CNN, aug (NW)'),
-        ('pointwiseNoAug_data_middle', 'middle',   c_md, 'o', '--', 'Pointwise, no aug (M)'),
-        ('pointwiseAug_data_middle',   'middle',   c_md, 'o', '-',  'Pointwise, aug (M)'),
-        ('CNNnoaug_data_middle',       'middle',   c_md, 's', '--', 'CNN, no aug (M)'),
-        ('CNNaug_data_middle',         'middle',   c_md, 's', '-',  'CNN, aug (M)'),
+        ('pointwiseNoAug_data',        'nearwall', c_nw, 'o', '--', 'MLP, no aug (near-wall)'),
+        ('pointwiseAug_data',          'nearwall', c_nw, 'o', '-',  'MLP, aug (near-wall)'),
+        ('CNNnoaug_data',              'nearwall', c_nw, 's', '--', 'CNN, no aug (near-wall)'),
+        ('CNNaug_data',                'nearwall', c_nw, 's', '-',  'CNN, aug (near-wall)'),
+        ('pointwiseNoAug_data_middle', 'middle',   c_md, 'o', '--', 'MLP, no aug (channel-center)'),
+        ('pointwiseAug_data_middle',   'middle',   c_md, 'o', '-',  'MLP, aug (channel-center)'),
+        ('CNNnoaug_data_middle',       'middle',   c_md, 's', '--', 'CNN, no aug (channel-center)'),
+        ('CNNaug_data_middle',         'middle',   c_md, 's', '-',  'CNN, aug (channel-center)'),
     ]
     fig, ax = plt.subplots(figsize=(6, 3))
     print('\n-- Fig 3 data: E_equiv (Frobenius, val set of training region)')
